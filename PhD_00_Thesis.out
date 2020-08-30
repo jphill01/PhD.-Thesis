@@ -1,0 +1,60 @@
+\BOOKMARK [0][-]{chapter*.5}{List of Tables}{}% 1
+\BOOKMARK [0][-]{chapter*.6}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Thesis Overview}{}% 3
+\BOOKMARK [1][-]{subsection.1.0.1}{Thesis Outline}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.0.2}{Thesis Objectives}{subsection.1.0.1}% 5
+\BOOKMARK [2][-]{subsection.1.0.3}{Thesis Statement}{subsection.1.0.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Incomplete estimates of genetic diversity within species: Implications for DNA barcoding}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Current Methods}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Methods to Assess Haplotype Variation}{section.2.2}% 10
+\BOOKMARK [3][-]{section*.7}{Haplotype Diversity}{subsection.2.2.1}% 11
+\BOOKMARK [3][-]{section*.8}{Haplotype Networks}{subsection.2.2.1}% 12
+\BOOKMARK [3][-]{section*.10}{Haplotype Accumulation Curves}{subsection.2.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.2.2}{Sampling Models for Genetic Diversity Prediction}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.3}{DNA Barcoding}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.4}{The Importance of Sampling to DNA Barcoding}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.5}{Consideration of Species' Life Histories}{section.2.2}% 17
+\BOOKMARK [1][-]{section.2.3}{Key Findings}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.3.1}{DNA Barcoding and Sample Size: Past Studies}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{Case Study: Phillips et al. \(2015\)}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.4.1}{Model Assumptions}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.2}{Mathematical Details}{section.2.4}% 22
+\BOOKMARK [2][-]{subsection.2.4.3}{Application to Ray-finned Fishes}{section.2.4}% 23
+\BOOKMARK [1][-]{section.2.5}{Future Prospects}{chapter.2}% 24
+\BOOKMARK [0][-]{chapter.3}{HACSim: An R package to estimate intraspecific sample sizes for genetic diversity assessment using haplotype accumulation curves}{}% 25
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.1.1}{Background}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.2}{Motivation}{section.3.1}% 28
+\BOOKMARK [1][-]{section.3.2}{Methods}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.2.1}{Haplotype Accumulation Curve Simulation Algorithm}{section.3.2}% 30
+\BOOKMARK [3][-]{section*.15}{Algorithm Functions}{subsection.3.2.1}% 31
+\BOOKMARK [3][-]{section*.17}{Algorithm Parameters}{subsection.3.2.1}% 32
+\BOOKMARK [3][-]{section*.19}{How Does HACSim Work?}{subsection.3.2.1}% 33
+\BOOKMARK [1][-]{section.3.3}{Results}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.1}{Application of HACSim to Hypothetical Species}{section.3.3}% 35
+\BOOKMARK [3][-]{section*.23}{Equal Haplotype Frequencies}{subsection.3.3.1}% 36
+\BOOKMARK [3][-]{section*.25}{Unequal Haplotype Frequencies}{subsection.3.3.1}% 37
+\BOOKMARK [2][-]{subsection.3.3.2}{Application of HACSim to Real Species}{section.3.3}% 38
+\BOOKMARK [3][-]{section*.28}{Lake Whitefish \(Coregonus clupeaformis\)}{subsection.3.3.2}% 39
+\BOOKMARK [3][-]{section*.32}{Deer tick \(Ixodes scapularis\)}{subsection.3.3.2}% 40
+\BOOKMARK [3][-]{section*.36}{Scalloped hammerhead \(Sphyrna lewini\)}{subsection.3.3.2}% 41
+\BOOKMARK [1][-]{section.3.4}{Discussion}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.4.1}{Initializing HACSim and Overall Algorithm Behaviour}{section.3.4}% 43
+\BOOKMARK [2][-]{subsection.3.4.2}{Additional Capabilities and Extending Functionality of HACSim}{section.3.4}% 44
+\BOOKMARK [2][-]{subsection.3.4.3}{Summary}{section.3.4}% 45
+\BOOKMARK [1][-]{section.3.5}{Conclusions}{chapter.3}% 46
+\BOOKMARK [0][-]{chapter.4}{}{}% 47
+\BOOKMARK [1][-]{section.4.1}{Abstract}{chapter.4}% 48
+\BOOKMARK [1][-]{section.4.2}{Introduction}{chapter.4}% 49
+\BOOKMARK [1][-]{section.4.3}{Methods}{chapter.4}% 50
+\BOOKMARK [1][-]{section.4.4}{Results}{chapter.4}% 51
+\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 52
+\BOOKMARK [0][-]{chapter.5}{}{}% 53
+\BOOKMARK [1][-]{section.5.1}{Abstract}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.2}{Introduction}{chapter.5}% 55
+\BOOKMARK [1][-]{section.5.3}{Methods}{chapter.5}% 56
+\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 58
+\BOOKMARK [0][-]{section.5.5}{References}{}% 59
+\BOOKMARK [0][-]{chapter*.43}{References}{}% 60

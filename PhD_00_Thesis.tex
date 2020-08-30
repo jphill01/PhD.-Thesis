@@ -1,0 +1,111 @@
+%	University of Guelph Ph.D. Thesis Template.                 
+% 	This is a modified version of the package shared here <http://danielgillis.wordpress.com/latex/>.  
+% 	The main modification is in its compatability with the Bibliography package natbib.
+% 	This version is also updated according to the requirements (page numbering, spacing, margins, cover page content, bibliography style etc.) of the Graduates Studies - University of Guelph,  April, 2013.
+   
+\documentclass[12pt]{uogthesis}
+\usepackage{latexsym}
+\usepackage{alltt}
+\usepackage{theorem}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{pdfsync}
+\usepackage{pdfpages}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{hyperref}
+\hypersetup{pdfborder = 0 0 0}
+\usepackage{bm} % for boldface fonts
+\usepackage{listings} % for code verbatim
+% Added packages:
+\usepackage{pgf}
+\usepackage{tikz}
+\usepackage{verbatim}
+\usetikzlibrary[arrows,backgrounds,trees,shapes,automata]
+\usetikzlibrary{positioning}
+\usepackage{fixltx2e}
+\usepackage[flushleft]{threeparttable}%
+\usepackage{multicol}
+\usepackage{adjustbox}
+\usepackage{rotating, rotfloat}
+\usepackage{array}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage[autostyle]{csquotes}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{tcolorbox}
+\usepackage{mathtools}
+\usepackage[none]{hyphenat}
+\usepackage{indentfirst}
+\usepackage[labelfont=bf]{caption}
+%
+\usepackage{times}
+%
+%\usepackage[round,authoryear]{natbib}
+\bibliographystyle{acm}  
+% 
+\makeatletter
+\let\@currsize\normalsize
+\makeatother
+\def\dsp{\def\baselinestretch{2.0}\large\normalsize}
+\def\ssp{\def\baselinestretch{1.0}\large\normalsize}          
+\dsp
+\def\newblock{\hskip .11em plus.33em minus.07em}
+%
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+
+\overfullrule 5pt
+\include{com}
+\setlength{\paperheight}{11in}
+%*****************************************************
+\begin{document}
+\lstset{language=C}
+%*******************  Front Matter  *******************
+\begin{frontmatter}
+	\include{PhD_01_TitlePage} % title, approval page, copyright page
+	\include{PhD_02_Abstract}
+	%\include{PhD_03_Dedication} % not usual in UoGuelph thesis
+	\include{PhD_04_Acknowledgements}
+	\include{PhD_05_TOC} % TOC, LOT, LOF
+\end{frontmatter}
+
+%*******************  Body  **************************
+
+\input{PhD_Chapter1} 
+ \clearpage
+
+
+\include{PhD_Chapter2} 
+ \clearpage
+
+
+\include{PhD_Chapter3} 
+ \clearpage
+ 
+\include{PhD_Chapter4} 
+ \clearpage
+ 
+\include{PhD_Chapter5} 
+ \clearpage
+ 
+\include{PhD_Chapter6} 
+ \clearpage
+
+ 
+%\include{PhD_References} 
+ \clearpage
+
+%*******************  Bibliography  ******************
+\addcontentsline{toc}{chapter}{References}
+\begin{spacing}{1}
+
+\bibliography{PhD_Bibliography}
+\end{spacing}
+\clearpage	
+%*******************  Appendices  *******************
+\end{document}

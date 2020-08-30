@@ -1,0 +1,60 @@
+\contentsline {chapter}{List of Tables}{vi}{chapter*.5}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.6}
+\contentsline {chapter}{\numberline {1}Thesis Overview}{1}{chapter.1}
+\contentsline {subsection}{\numberline {1.0.1}Thesis Outline}{1}{subsection.1.0.1}
+\contentsline {subsection}{\numberline {1.0.2}Thesis Objectives}{2}{subsection.1.0.2}
+\contentsline {subsection}{\numberline {1.0.3}Thesis Statement}{2}{subsection.1.0.3}
+\contentsline {chapter}{\numberline {2}Incomplete estimates of genetic diversity within species: Implications for DNA barcoding}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Current Methods}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Methods to Assess Haplotype Variation}{10}{subsection.2.2.1}
+\contentsline {subsubsection}{Haplotype Diversity}{10}{section*.7}
+\contentsline {subsubsection}{Haplotype Networks}{11}{section*.8}
+\contentsline {subsubsection}{Haplotype Accumulation Curves}{12}{section*.10}
+\contentsline {subsection}{\numberline {2.2.2}Sampling Models for Genetic Diversity Prediction}{14}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}DNA Barcoding}{16}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}The Importance of Sampling to DNA Barcoding}{18}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Consideration of Species' Life Histories}{22}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Key Findings}{23}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}DNA Barcoding and Sample Size: Past Studies}{23}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Case Study: Phillips \textit {et al.} (2015)}{30}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Model Assumptions}{30}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Mathematical Details}{32}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Application to Ray-finned Fishes}{35}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Future Prospects}{37}{section.2.5}
+\contentsline {chapter}{\numberline {3}{\tt HACSim}: An R package to estimate intraspecific sample sizes for genetic diversity assessment using haplotype accumulation curves\\}{43}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{46}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Background}{46}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Motivation}{50}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Methods}{51}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Haplotype Accumulation Curve Simulation Algorithm}{51}{subsection.3.2.1}
+\contentsline {subsubsection}{Algorithm Functions}{51}{section*.15}
+\contentsline {subsubsection}{Algorithm Parameters}{54}{section*.17}
+\contentsline {subsubsection}{How Does HACSim Work?}{58}{section*.19}
+\contentsline {section}{\numberline {3.3}Results}{66}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Application of {\tt HACSim} to Hypothetical Species}{67}{subsection.3.3.1}
+\contentsline {subsubsection}{Equal Haplotype Frequencies}{67}{section*.23}
+\contentsline {subsubsection}{Unequal Haplotype Frequencies}{69}{section*.25}
+\contentsline {subsection}{\numberline {3.3.2}Application of {\tt HACSim} to Real Species}{72}{subsection.3.3.2}
+\contentsline {subsubsection}{Lake Whitefish (\textit {Coregonus clupeaformis})}{72}{section*.28}
+\contentsline {subsubsection}{Deer tick (\textit {Ixodes scapularis})}{77}{section*.32}
+\contentsline {subsubsection}{Scalloped hammerhead (\textit {Sphyrna lewini})}{81}{section*.36}
+\contentsline {section}{\numberline {3.4}Discussion}{85}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Initializing {\tt HACSim} and Overall Algorithm Behaviour}{85}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Additional Capabilities and Extending Functionality of \tt {HACSim}}{87}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Summary}{90}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Conclusions}{94}{section.3.5}
+\contentsline {chapter}{\numberline {4}}{98}{chapter.4}
+\contentsline {section}{\numberline {4.1}Abstract}{98}{section.4.1}
+\contentsline {section}{\numberline {4.2}Introduction}{98}{section.4.2}
+\contentsline {section}{\numberline {4.3}Methods}{98}{section.4.3}
+\contentsline {section}{\numberline {4.4}Results}{98}{section.4.4}
+\contentsline {section}{\numberline {4.5}Discussion}{98}{section.4.5}
+\contentsline {chapter}{\numberline {5}}{99}{chapter.5}
+\contentsline {section}{\numberline {5.1}Abstract}{99}{section.5.1}
+\contentsline {section}{\numberline {5.2}Introduction}{99}{section.5.2}
+\contentsline {section}{\numberline {5.3}Methods}{99}{section.5.3}
+\contentsline {section}{\numberline {5.4}Results}{99}{section.5.4}
+\contentsline {section}{\numberline {5.5}Discussion}{99}{section.5.5}
+\contentsline {chapter}{References}{100}{section.5.5}
+\contentsline {chapter}{References}{100}{chapter*.43}

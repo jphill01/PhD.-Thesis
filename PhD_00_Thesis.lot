@@ -1,0 +1,6 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Parameters inputted (first 7) and outputted (last six) by {\tt HAC.sim()} and {\tt HAC.simrep()}, along with their definitions. \textbf {Range} refers to plausible values that each parameter can assume within the haplotype accumulation curve simulation algorithm. [ and ] indicate that a given value is included in the range interval; whereas, ( and ) indicate that a given value is excluded from the range interval. Simulation progress can be tracked through setting {\tt progress = TRUE} within {\tt HACHypothetical()} or {\tt HACReal()}. Users can optionally specify that a file be created containing all information outputted to the R console (via the argument {\tt filename}, which can be named as the user wishes).\relax }}{55}{table.caption.18}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
