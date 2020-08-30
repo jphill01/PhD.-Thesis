@@ -1,0 +1,6 @@
+Please note:
+PhD_00_Thesis.tex is the master file and calls in all the other complementary files to compile them in a single document.
+The package file uogthesis.cls should be kept in the same folder as the  rest of the files.
+
+Congratulations on being close to completion or having already defended your thesis!
+www.jmilla.com
