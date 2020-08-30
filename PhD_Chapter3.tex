@@ -1,0 +1,972 @@
+\linespread{1.0}
+
+\chapter{{\tt HACSim}: An R package to estimate intraspecific sample sizes for genetic diversity assessment using haplotype accumulation curves\\}
+%--------------------------------------------------------- Sec
+
+\title{\textbf{{\tt HACSim}: An R package to estimate intraspecific sample sizes for genetic diversity assessment using haplotype accumulation curves}}
+
+\noindent Jarrett D. Phillips$^{1}$, Steven H. French$^{1}$, Daniel J. Gillis$^1$ and Robert H. Hanner$^{2, 3}$ \\ $^1$School of Computer Science \\ $^2$Biodiversity Institute of Ontario \\ $^3$Department of Integrative Biology
+
+\vspace{\fill}
+
+\noindent Published in \textit{PeerJ Computer Science}
+
+\begin{abstract}
+
+Assessing levels of standing genetic variation within species requires a robust \\ sampling for the purpose of accurate specimen identification using molecular techniques such as DNA barcoding; however, statistical estimators for what constitutes a robust sample are currently lacking. Moreover, such estimates are needed because most species are currently represented by only one or a few sequences in existing databases, which we can safely assume are undersampled. Unfortunately, sample sizes of 5-10 specimens per species typically seen in DNA barcoding studies are often insufficient to adequately capture within-species genetic diversity.
+
+Here, we introduce a novel iterative extrapolation simulation algorithm of haplotype accumulation curves, called {\tt HACSim} (\textbf{H}aplotype \textbf{A}ccumulation \textbf{C}urve \textbf{Sim}ulator) that can be employed to calculate likely sample sizes needed to observe the full range of DNA barcode haplotype variation that exists for a species. Using uniform haplotype and non-uniform haplotype frequency distributions, the notion of sampling sufficiency $\theta$ (the sample size at which sampling accuracy is maximized and above which no new sampling information is likely to be gained) can be gleaned.
+
+{\tt HACSim} can be employed in two primary ways to estimate specimen sample sizes: (1) to simulate haplotype sampling in hypothetical species, and (2) to simulate \\ haplotype sampling in real species mined from public reference sequence databases like the Barcode of Life Data Systems (BOLD) or GenBank for any genomic marker of interest. While our algorithm is globally convergent, runtime is heavily dependent on initial sample sizes and skewness of the corresponding haplotype frequency distribution.
+
+\end{abstract}
+
+
+\section{Introduction}
+
+\subsection{Background}
+
+Earth is in the midst of its sixth mass extinction event and global biodiversity is \\ declining at an unprecedented rate \cite{ceballos2015accelerated}. It is therefore important that species genetic diversity be catalogued and preserved. One solution to address this mounting crisis in a systematic, yet rapid way is DNA barcoding \cite{hebert2003biological}. DNA barcoding relies on variability within a small gene fragment from standardized regions of the genome to identify species, based on the fact that most species exhibit a unique array of barcode haplotypes that are more similar to each other than those of other species (\textit{e.g.}, a barcode ``gap"). In animals, the DNA barcode region corresponds to a 648 bp fragment of the 5' terminus of the cytochrome \textit{c} oxidase subunit I (COI) mitochondrial marker \cite{hebert2003biological, hebert2003barcoding}. A critical problem since the inception of DNA barcoding involves determining appropriate sample sizes necessary to capture the majority of existing intraspecific haplotype variation for major animal taxa \cite{hebert2004identification, meyer2005dna, ward2005dna}. Taxon sample sizes currently employed in practice for rapid assignment of a species name to a specimen, have ranged anywhere from 1-15 \\ specimens per species \cite{goodall2012comparison, jin2012simple, matz2005likelihood, ross2008testing, yao2017evaluating}; however, oftentimes only 1-2 individuals are actually collected. This trend is clearly reflected within the Barcode of Life Data Systems (\href{http://www.boldsystems.org}{BOLD}) \cite{ratnasingham2007bold}, where an overwhelming number of taxa have only a single record and sequence. 
+
+A fitting comparison to the issue of adequacy of specimen sample sizes can be made to the challenge of determining suitable taxon distance thresholds for species separation on the basis of the DNA barcode gap \cite{meyer2005dna}. It has been widely demonstrated that certain taxonomic groups, such as Lepidoptera (butterflies/moths), are able to be readily separated into distinct clusters largely reflective of species boundaries derived using morphology \cite{candek2015dna}. However, adoption of a fixed limit of 2\% difference between maximum intraspecific distance and minimum interspecific (\textit{i.e}, nearest-neighbour) divergence is infeasible across all taxa \cite{collins2013seven, hebert2003barcoding}. Species divergence thresholds should be calculated from available sequence data obtained through deep sampling of taxa across their entire geographic ranges whenever possible \cite{young2017barcode}. There is a clear relationship between specimen sample sizes and observed barcoding gaps: sampling too few individuals can give the impression of taxon separation, when in fact none exists \cite{candek2015dna, dasmahapatra2010mitochondrial, hickerson2006dna, meyer2005dna, wiemers2007does}, inevitably leading to erroneous conclusions \cite{collins2013seven}. It is thus imperative that barcode gap analyses be based on adequate sample sizes to minimize the presence of false positives. Introducing greater statistical rigour into DNA barcoding appears to be the clear way forward in this respect \cite{candek2015dna, luo2015simulation, nielsen2006statistical, phillips2019incomplete}. The introduction of computational approaches for automated species delimitation such as Generalized Mixed Yule Coalescent (GMYC) \cite{fujisawa2013delimiting, monaghan2009accelerated, pons2006sequence}, Automatic Barcode Gap Discovery (ABGD) \cite{puillandre2011abgd} and Poisson Tree Processes (PTP; \cite{zhang2013general}) has greatly contributed to this endeavour in the form of web servers (\href{https://species.h-its.org/gmyc/}{GMYC}, \href{http://wwwabi.snv.jussieu.fr/public/abgd/abgdweb.html}{ABGD}, \href{https://species.h-its.org/ptp/}{PTP}) and R packages (GMYC: Species' LImits by Threshold Statistics, \href{https://r-forge.r-project.org/projects/splits/}{\tt splits} \cite{ezard2017splits}).
+
+Various statistical resampling and population genetic methods, in particular coalescent simulations, for the estimation of sample sizes, have been applied to Lepidoptera (Costa Rican skipper butterflies (\textit{Astraptes fulgerator})) \cite{zhang2010estimating} and European diving beetles (\textit{Agabus bipustulatus}) \cite{bergsten2012effect}. Using Wright's equilibrium island model \cite{wright1951genetical} and Kimura's stepping stone model \cite{kimura1964stepping} under varying effective population sizes and migration rates, Zhang \textit{et al.} \cite{zhang2010estimating} found that between 156-1985 specimens per species were necessary to observe 95\% of all estimated COI variation for simulated specimens of \textit{A. fulgerator}. Conversely, real species data showed that a sample size of 250-1188 individuals is probably needed to capture the majority of COI haplotype variation existing for this species \cite{zhang2010estimating}. A subsequent investigation carried out by Bergsten \textit{et al.}\cite{bergsten2012effect} found that a random sample of 250 individuals was required to uncover 95\% COI diversity in \textit{A. bipustulatus}; whereas, a much smaller sample size of 70 specimens was necessary when geographic separation between two randomly selected individuals was maximized. 
+
+Others have employed more general statistical approaches. Based on extensive \\ simulation experiments, through employing the Central Limit Theorem (CLT), Luo \textit{et al.} \cite{luo2015simulation} suggested that no fewer than 20 individuals per species be sampled. Conversely, using an estimator of sample size based on the Method of Moments, an approach to parameter estimation relying on the Weak Law of Large Numbers \cite{pearson1894contributions}, sample sizes ranging from 150-5400 individuals across 18 species of ray-finned fishes (Chordata: Actinopterygii) were found by Phillips \textit{et al.} \cite{phillips2015exploration}. 
+
+Haplotype accumulation curves paint a picture of observed standing genetic variation that exists at the species level as a function of expended sampling effort \cite{phillips2019incomplete, phillips2015exploration}. \\ Haplotype sampling completeness can then be gauged through measuring the slope of the curve, which gives an indication of the number of new haplotypes likely to be uncovered with additional specimens collected. For instance, a haplotype accumulation curve for a hypothetical species having a slope of 0.01 suggests that only one previously unseen haplotype will be captured for every 100 individuals found. This is strong evidence that the haplotype diversity for this species has been adequately sampled. Thus, further recovery of specimens of such species provide limited returns on the time and money invested to sequence them. Trends observed from generated haplotype accumulation curves for the 18 actinopterygian species assessed by Phillips \textit{et al.} \cite{phillips2015exploration}, which were far from reaching an asymptote, corroborated the finding that the majority of intraspecific haplotypes remain largely unsampled in Actinopterygii for even the best-represented species in BOLD. \\ Estimates obtained from each of these studies stand in sharp contrast to sample sizes typically reported within DNA barcoding studies. 
+
+Numerical optimization methods are required to obtain reasonable approximations to otherwise complex questions. Many such problems proceed via the iterative method, whereby an initial guess is used to produce a sequence of successively more precise (and hopefully more accurate) approximations. Such an approach is attractive, as resulting solutions can be made as precise as desired through specifying a given tolerance cutoff. However, in such cases, a closed-form expression for the function being optimized is known \textit{a priori}. In many instances, the general path (behaviour) of the search space being explored is the only information known, and not its underlying functional form. In this paper, we take a middle-ground approach that is an alternative to probing sampling completeness on the basis of haplotype accumulation curve slope measurement. To this end, iteration is applied to address the issue of relative sample size determination for DNA barcode haplotype sampling completeness, a technique suggested by Phillips \textit{et al.} \cite{phillips2019incomplete}. Given that specimen collection and processing is quite a laborious and costly endeavour \cite{cameron2006will, stein2014is}, the next most direct solution to an otherwise blind search strategy is to employ computational simulation that approximates specimen collection in the field. The main contribution of this work is the introduction of a new, easy-to-use R package implementing a novel statistical optimization algorithm to estimate sample sizes for assessment of genetic diversity within species based on saturation observed in haplotype accumulation curves. Here, we present a novel nonparametric stochastic (Monte Carlo) iterative extrapolation algorithm for the generation of haplotype accumulation curves based on the approach of \cite{phillips2015exploration}. Using the statistical environment R \cite{r2018language}, we examine the effect of altering species haplotype frequencies on the shape of resulting curves to inform on likely required sample sizes needed for adequate capture of within-species haplotype variation. Proof-of-concept of our method is illustrated through both hypothetical examples and real DNA sequence data.
+
+\subsection{Motivation}
+
+Consider $N$ DNA sequences that are randomly sampled for a given species of interest across its known geographic range, each of which correspond to a single specimen. \\ Suppose further that \textit{H}* of such sampled DNA sequences are unique (\textit{i.e.}, are distinct haplotypes). This scenario leads naturally to the following question: What is \textit{N}*, the estimated total number of DNA sequence haplotypes that exist for a species? Put another way, what sample size (number of specimens) is needed to capture the existing haplotype variation for a species? 
+
+The na{\"i}ve approach (adopted by Phillips \textit{et al.} \cite{phillips2015exploration}) would be to ignore relative frequencies of observed haplotypes; that is, assume that species haplotypes are equally probable in a species population. Thus, in the absence of any information, the best one can do is adopt a uniform distribution for the number of sampled haplotypes. Such a path leads to obtaining gross overestimates for sufficient sampling \cite{phillips2015exploration}. A much better approach uses all available haplotype data to arrive at plausible estimates of required taxon sample sizes. This latter method is explored here in detail.
+
+
+\section{Methods}
+
+\subsection{Haplotype Accumulation Curve Simulation Algorithm}
+
+\subsubsection{Algorithm Functions}
+
+Our algorithm, {\tt HACSim} (short for \textbf{H}aplotype \textbf{A}ccumulation \textbf{C}urve \textbf{Sim}ulator), \\ consisting of two user-defined R functions, {\tt HAC.sim()} and {\tt HAC.simrep()}, was \\ created to run simulations of haplotype accumulation curves based on user-supplied 
+\\ parameters. The simulation treats species haplotypes as distinct character labels relative to the number of individuals possessing a given haplotype. The usual convention in this regard is that Haplotype 1 is the most frequent, Haplotype 2 is the next most frequent, \textit{etc.} \cite{gwiazdowski2013phylogeographic}. A haplotype network represents this scheme succinctly (\textbf{Fig. 3.1}). 
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 1".png}
+
+\caption{Modified haplotype network from Phillips \textit{et al.} \cite{phillips2019incomplete}. Haplotypes are labelled according to their absolute frequencies such that the most frequent haplotype is labelled ``1", the second-most frequent haplotype is labelled ``2", \textit{etc}. and is meant to illustrate that much species locus variation consists of rare haplotypes at very low frequency (typically only represented by 1 or 2 specimens). Thus, species showing such patterns in their haplotype distributions are probably grossly under-respresented in public sequence databases like BOLD and GenBank.}
+
+\end{figure}
+
+
+\noindent Such an implementation closely mimics that seen in natural species populations, as each character label functions as a unique haplotype linked to a unique DNA barcode sequence. The algorithm then randomly samples species haplotype labels in an iterative fashion with \\ replacement until all unique haplotypes have been observed. This process continues until all species haplotypes have been sampled. The idea is that levels of species haplotypic variation that are currently catalogued in BOLD can serve as proxies for total haplotype diversity that may exist for a given species. This is a reasonable assumption given that, while estimators of expected diversity are known (\textit{e.g.}, Chao1 abundance) \cite{chao1984nonparametric}, the \\ frequencies of unseen haplotypes are not known \textit{a priori}. Further, assuming a species is sampled across its entire geographic range, haplotypes not yet encountered are presumed to occur at low frequencies (otherwise they would likely have already been sampled). 
+
+Because R is an interpreted programming language (\textit{i.e.}, code is run line-by-line), it is slow compared to faster alternatives which use compilation to convert programs into machine-readable format; as such, to optimize performance of the present algorithm in terms of runtime, computationally-intensive parts of the simulation code were written in the C++ programming language and integrated with R via the packages {\tt Rcpp} \cite{eddelbuettel2011} and {\tt RcppArmadillo} \cite{eddelbuettel2014}. This includes function code to carry out haplotype accumulation (via the function {\tt accumulate()}, which is not directly called by the user). A further reason for turning to C++ is because some R code (e.g. nested `for' loops) is not easily vectorized, nor can parallelization be employed for speed improvement due to \\ loop dependence. The rationale for employing R for the present work is clear: R is free, open-source software that it is gaining widespread use within the DNA barcoding community due to its ease-of-use and well-established user-contributed package repository (Comprehensive R Archive Network (CRAN)). As such, the creation and disemination of {\tt HACSim} as a R framework to assess levels of standing genetic variation within species is greatly facilitated.
+
+A similar approach to the novel one proposed here to automatically generate haplotype accumulation curves from DNA sequence data is implemented in the R package {\tt spider} (SPecies IDentity and Evolution in R; \cite{brown2012spider}) using the {\tt haploAccum()} function. However, the approach, which formed the basis of earlier work carried out by Phillips \textit{et al.} \cite{phillips2015exploration}, is quite restrictive in its functionality and, to our knowledge, is currently the only method available to generate haplotype accumulation curves in R because {\tt spider} generates \\ haplotype accumulation curves from DNA sequence alignments only and is not amenable to inclusion of numeric inputs for specimen and haplotype numbers. Thus, the method could not be easily extended to address our question. This was the primary reason for the proposal of a statistical model of sampling sufficiency by Phillips \textit{et al.} \cite{phillips2015exploration} and its extension described herein.
+
+
+\subsubsection{Algorithm Parameters}
+
+At present, the algorithm (consisting of {\tt HAC.sim() and HAC.simrep()}) takes 13 arguments as input (\textbf{Table 3.1}). 
+
+
+\begin{table}[H]
+
+\centering
+
+\caption{Parameters inputted (first 7) and outputted (last six) by {\tt HAC.sim()} and {\tt HAC.simrep()}, along with their definitions. \textbf{Range} refers to plausible values that each parameter can assume within the haplotype accumulation curve simulation algorithm. [ and ] indicate that a given value is included in the range interval; whereas, ( and  ) indicate that a given value is excluded from the range interval. Simulation progress can be tracked through setting {\tt progress = TRUE} within {\tt HACHypothetical()} or {\tt HACReal()}. Users can optionally specify that a file be created containing all information outputted to the R console (via the argument {\tt filename}, which can be named as the user wishes).} 
+
+\begin{tabular}{ccc} \hline
+
+\textbf{Parameter} & \textbf{Definition} & \textbf{Range} \\ \hline
+$N$ & total number of specimens/DNA sequences & (1, $\infty$) \\ 
+\textit{H}* & total number of unique haplotypes & (1, $N$] \\ 
+{\tt probs} & haplotype probability distribution vector & (0, 1) \\ 
+$p$ & proportion of haplotypes to recover & (0, 1] \\ 
+{\tt perms} & total number of permutations & (1, $\infty$)\\
+{\tt input.seqs} & analyze FASTA file of species DNA sequences & {\tt TRUE}, {\tt FALSE} \\  
+{\tt conf.level} & desired confidence level for confidence interval calculation & (0, 1) \\ 
+\textit{H} & cumulative mean number of haplotypes sampled & [1, $H^*$] \\ 
+$H^* - H$ & cumulative mean number of haplotypes not sampled & [0, $H^*$) \\ 
+$R = \frac{H}{H^*}$ & cumulative mean fraction of haplotypes sampled & (0, 1] \\ 
+$\frac{H^*-H}{H^*}$ & cumulative mean fraction of haplotypes not sampled & [0, 1) \\ 
+$N^*$ & mean specimen sample size corresponding to $H^*$  & [$N$, $\infty$) \\ 
+$N^*-N$ & mean number of individuals not sampled & [0, $N$] \\ 
+
+\end{tabular}
+
+\end{table}
+
+
+A user must first specify the number of observed specimens/DNA sequences ($N$) and the number of observed haplotypes (\textit{i.e.}, unique DNA sequences) (\textit{H}*) for a given species. Both $N$ and \textit{H}* must be greater than one. Clearly, $N$ must be greater than or equal to \textit{H}*.
+
+Next, the haplotype frequency distribution vector must be specified. The {\tt probs} \\ argument allows for the inclusion of both common and rare species haplotypes according to user interest (\textit{e.g.}, equally frequent haplotypes, or a single dominant haplotype). The resulting {\tt probs} vector must have a length equal to \textit{H}*. For example, if \textit{H}* = 4, {\tt probs} must contain four elements. The total probability of all unique haplotypes must sum to one.
+
+The user can optionally input the fraction of observed haplotypes to capture $p$. By default, $p$ = 0.95, mirroring the approach taken by both Zhang \textit{et al.} \cite{zhang2010estimating} and Bergsten \textit{et al.} \cite{bergsten2012effect} who computed intraspecific sample sizes needed to recover 95\% of all haplotype variation for a species. At this level, the generated haplotype accumulation curve reaches a slope close to zero and further sampling effort is unlikely to uncover any new haplotypes. However, a user may wish to obtain sample sizes corresponding to different haplotype recovery levels, \textit{e.g.}, $p$ = 0.99 (99\% of all estimated haplotypes found). In the latter scenario, it can be argued that 100\% of species haplotype variation is never actually \\ achieved, since with greater sampling effort, additional haplotypes are almost surely to be found; thus, a true asymptote is never reached. In any case, simulation completion times will vary depending on inputted parameter values, such as {\tt probs}, which controls the skewness of the observed haplotype frequency distribution. 
+
+The {\tt perms} argument is in place to ensure that haplotype accumulation curves ``smooth out" and tend to \textit{H}* asymptotically as the number of permutations (replications) is \\ increased. The effect of increasing the number of permutations is an increase in statistical accuracy and consequently, a reduction in variance. The proposed simulation algorithm outputs a mean haplotype accumulation curve that is the average of {\tt perms} generated \\ haplotype accumulation curves, where the order of individuals that are sampled is \\ randomized. Each of these {\tt perms} curves is a randomized step function (a sort of random walk), generated according to the number of haplotypes found. A permutation size of 1000 was used by Phillips \textit{et al.} \cite{phillips2015exploration} because smaller permutation sizes yielded non-smooth (noisy) curves. Permutation sizes larger than 1000 typically resulted in greater computation time, with no noticeable change in accumulation curve behaviour \cite{phillips2015exploration}. By default, {\tt perms} = 10000 (in contrast to Phillips \textit{et al.} \cite{phillips2015exploration}), which is comparable to the large number of replicates typically employed in statistical bootstrapping procedures needed to ensure accuracy of computed estimates \cite{efron1979boot}. Sometimes it will be necessary for users to sacrifice accuracy for speed in the presence of time constraints. This can be accomplished through decreasing {\tt perms}. Doing so however will result in only near-optimal solutions for \\ specimen sample sizes. In some cases, it may be necessary to increase {\tt perms} to further smooth out the curves (to ensure monotonicity), but this will increase algorithm runtime substantially.
+
+Should a user wish to analyze their own intraspecific COI DNA barcode sequence data (or sequence data from any single locus for that matter), setting {\tt input.seqs = TRUE} allows this (via the {\tt read.dna()} function in {\tt ape}). In such a case, a pop-up file window will prompt the user to select the formatted FASTA file of aligned/trimmed sequences to be read into R. When this occurs, arguments for $N$, \textit{H}* and {\tt probs} are set automatically by the algorithm via functions available in the R packages {\tt ape} (Analysis of Phylogenetics and Evolution) \cite{paradis2004ape} and {\tt pegas} (Population and Evolutionary Genetics Analysis System) \cite{paradis2010pegas}. Users must be aware however that the number of observed haplotypes treated by {\tt pegas} (via the {\tt haplotype()} function) may be overestimated if missing/ambiguous nucleotide data are present within the final alignment input file. Missing data are explicitly handled by the {\tt base.freq()} function in the {\tt ape} package. When this occurs, R will output a warning that such data are present within the alignment. Users should therefore consider removing sequences or sites comprising missing/ambiguous nucleotides. This step can be accomplished using external software such as MEGA (Molecular Evolutionary Genetics Analysis; \cite{kumar2016mega7}). The BARCODE standard \cite{hanner2009data} was developed to help identify high quality sequences and can be used as a quality filter if desired. Exclusion of \\ low-quality sequences also has the advantage of speeding up compution time of the \\ algorithm significantly.
+
+Options for confidence interval (CI) estimation and graphical display of haplotype \\ accumulation is also available via the argument {\tt conf.level}, which allows the user to specify the desired level of statistical confidence. CIs are computed from the sample $\frac{\alpha}{2}100\%$ and $(1-\frac{\alpha}{2})100\%$ quantiles of the haplotype accumulation curve distribution. The default is {\tt conf.level} = 0.95, corresponding to a confidence level of 95\%. High levels of statistical confidence (\textit{e.g.}, 99\%) will result in wider confidence intervals; whereas low confidence leads to narrower interval estimates.
+
+\subsubsection{How Does HACSim Work?}
+
+Haplotype labels are first randomly placed on a two-dimensional spatial grid of size \\ {\tt perms} $\times$ $N$ (read {\tt perms} rows by $N$ columns) according to their overall frequency of \\ occurrence (\textbf{Fig. 3.2}). 
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 2".png}
+
+\caption{Schematic of the {\tt HACSim} optimization algorithm (setup, initialization and iteration). Shown is a hypothetical example for a species mined from a biological sequence database like BOLD or GenBank with $N$ = 5 sampled specimens (DNA sequences) possessing \textit{H}* = 5 unique haplotypes. Each haplotype has an associated numeric ID from 1-\textit{H}* (here, 1-5). Haplotype labels are randomly assigned to cells on a two-dimensional spatial array (ARRAY) with {\tt perms} rows and $N$ columns.  All haplotypes occur with a frequency of 20\%, (\textit{i.e.}, {\tt probs} = (1/5, 1/5, 1/5, 1/5, 1/5)). Specimen and haplotype information is then fed into a black box to iteratively optimize the likely required sample size (\textit{N}*) needed to capture a proportion of at least {\tt p} haplotypes observed in the species sample.}
+
+\end{figure}
+
+
+\noindent The cumulative mean number of haplotypes is then computed along each column (\textit{i.e.}, for every specimen). If all \textit{H*} haplotypes are not observed, then the grid is expanded to a size of {\tt perms} $\times$ \textit{N}* and the observed haplotypes enumerated. Estimation of specimen sample sizes proceeds iteratively, in which the current value of \textit{N}* is used as a starting value to the next iteration (\textbf{Fig. 3.2}). An analogy here can be made to a game of golf: as one aims towards the hole and hits the ball, it gets closer and closer to the hole; however, one does not know the number of times to hit the ball before it lands in the hole. It is important to note that since sample sizes must be whole values, estimates of \textit{N}* found at each iteration are rounded up to the next whole number. Even though this approach is quite conservative, it ensures that estimates are adequately reflective of the population from which they were drawn. {\tt HAC.sim()}, which is called internally from {\tt HAC.simrep()}, performs a single iteration of haplotype accumulation for a given species. In the case of real species, resulting output reflects current levels of sampling effort found within BOLD (or another similar sequence repository such as \href{https://www.ncbi.nlm.nih.gov/genbank/}{GenBank}) for a given species. If the desired level of haplotype recovery is not reached, then {\tt HAC.simrep()} is called to perform successive iterations until the observed fraction of haplotypes captured ($R$) is at least $p$. This stopping criterion is the termination condition necessary to halt the algorithm as soon as a ``good enough" solution has been found. Such criteria are widely employed within numerical analysis. At each step of the algorithm, a dataset, in the form of a dataframe (called ``d") consisting of the mean number of haplotypes recovered (called {\tt means}), along with the estimated standard deviation ({\tt sd}) and the number of specimens sampled ({\tt specs}) is generated. The estimated required sample size (\textit{N}*) to recover a given proportion of observed species haplotypes corresponds to the endpoint of the accumulation curve. An indicator message is additionally outputted informing a user as to whether or not the desired level of haplotype recovery has been reached. The algorithm is depicted in \textbf{Fig. 3.3}. 
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 3".png}
+
+\caption{Iterative extrapolation algorithm pseudocode for the computation of taxon sampling sufficiency employed within {\tt HACSim}. A user must input $N$, \textit{H}* and {\tt probs} to run simulations. Other function arguments required by the algorithm have default values and are not necessary to be inputted unless the user wishes to alter set parameters.}
+
+\end{figure}
+
+
+\noindent In \textbf{Fig. 3.3}, all input parameters are known \textit{a priori} except $H_i$, which is the number of haplotypes found at each iteration of the algorithm, and $R_i = \frac{H_i}{H^*}$, which is the observed fraction of haplotype recovery at iteration $i$. The equation to compute \textit{N}*
+
+\begin{equation}
+N^*_{i+1} = N_i + \frac{N_i}{H_i}\left(H^* - H_i\right) = \frac{N_iH^*}{H_i} = \frac{N_i}{R_i}
+\end{equation}
+
+\vspace{5mm}
+
+\noindent is quite intuitive since as $H_i$ approaches \textit{H}*, $H^*-H_i$ approaches zero, $R_i = \frac{H_i}{H^*}$ approaches one, and consequently, $N_i$ approaches \textit{N}*. In the first part of the above equation, the quantity $\frac{N_i}{H_i}\left(H^* - H_i\right)$ is the amount by which the haplotype accumulation curve is \\ extrapolated, which incorporates random error and uncertainty regarding the true value of $\theta$ in the search space being explored. Nonparametric estimates formed from the above iterative method produce a convergent monotonically-increasing sequence, which becomes closer and closer to \textit{N}* as the number of iterations increase; that is,
+
+\begin{equation}
+N^*_1 \leq N^*_2 \leq ... \leq N^*_i \leq N^*_{i+1} \rightarrow N^*
+\end{equation} 
+
+\vspace{5mm}
+
+\noindent which is clearly a desirable property. Since haplotype accumulation curves are bounded below by one and bounded above by \textit{H}*, then the above sequence has a lower bound equal to the initial guess for specimen sampling sufficiency ($N$) and an upper bound of \textit{N}*.
+
+Along with the iterated haplotype accumulation curves and haplotype frequency \\ barplots, simulation output consists of the five initially proposed ``measures of sampling closeness", the estimate of $\theta$ (\textit{N}*) based on Phillips \textit{et al.}'s \cite{phillips2015exploration} sampling model, in addition to the number of additional samples needed to recover all estimated total haplotype variation for a given species ($N^*-N$; \textbf{Fig. 3.4}) (\textbf{Table 3.1}). 
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 4".png}
+
+\caption{Graphical depiction of the iterative extrapolation sampling model as described in detail herein. The figure is modified from Phillips \textit{et al.} \cite{phillips2019incomplete}. The \textit{x}-axis is meant to depict the number of specimens sampled, whereas the \textit{y}-axis is meant to convey the cumulative number of unique haplotypes uncovered for every additional individual that is randomly sampled. $N_i$ and $H_i$ refer respectively to specimen and haplotype numbers that are observed at each iteration ($i$) of {\tt HACSim} for a given species. \textit{N}* is the total sample size that is needed to capture all \textit{H}* haplotypes that exist for a species.}
+
+\end{figure}
+
+
+\noindent These five quantities are given as follows: (1) Mean number of haplotypes sampled: $H_i$, (2) Mean number of haplotypes not sampled: $H^*-H_i$, (3) Proportion of haplotypes sampled: $\dfrac{H_i}{H^*}$, (4) Proportion of haplotypes not sampled: $\dfrac{H^*-H_i}{H^*}$, (5) Mean number of individuals not sampled: $N^*-N_i = \frac{N_i}{H_i}\left(H^* - H_i\right)$ and are analogous to absolute and relative approximation error metrics seen in numerical analysis. It should be noted that the mean number of haplotypes captured at each iteration, $H_i$, will not necessary be increasing, even though estimates of the cumulative mean value of \textit{N}* are. It is easily seen above that $H_i$ approaches \textit{H*} with increasing number of iterations. Similarly, as the simulation progresses, $H^*-H_i$, $\dfrac{H^*-H_i}{H^*}$ and $N^*-N_i = \frac{N_i}{H_i}\left(H^* - H_i\right)$ all approach zero, while $\dfrac{H_i}{H^*}$ approaches one. The rate at which curves approach  \textit{H}* depends on inputs to both {\tt HAC.sim()} and {\tt HAC.simrep()}. Once the algorithm has converged to the desired level of haplotype recovery, a summary of findings is outputted consisting of (1) the initial guess ($N$) for sampling sufficiency; (2) the total number of iterations until convergence and simulation runtime (in seconds); (3) the final estimate (\textit{N}*) of sampling sufficiency, along with an approximate (1 $-$ $\alpha$)100\% confidence interval (see next paragraph); and, (4) the number of additional specimens required to be sampled ($N^* - N$) from the initial starting value. \noindent Iterations are automatically separated by a progress meter for easy visualization.
+
+An approximate symmetric (1 $-$ $\alpha$)100\% CI for $\theta$ is derived using the (first order) Delta Method \cite{casella2002statistical}. This approach relies on the asymptotic normality result of the CLT and employs a first-order Taylor series expansion around $\theta$ to arrive at an approximation of the variance (and corresponding standard error) of \textit{N}*. Such an approach is convenient since the sampling distribution of \textit{N}* would likely be difficult to compute exactly due to specimen sample sizes being highly taxon-dependent. An approximate (large sample) \\ (1 $-$ $\alpha$)100\% CI for $\theta$ is given by
+
+\begin{equation}
+N^* \pm z_{1-\frac{\alpha}{2}}\left(\frac{\hat{\sigma}_{H}}{H}\sqrt{N^*}\right)
+\end{equation}
+
+\vspace{5mm}
+
+\noindent where $z_{1-\frac{\alpha}{2}}$ denotes the appropriate critical value from the standard Normal distribution and $\hat{\sigma}_{H}$ is the estimated standard deviation of the mean number of haplotypes recovered at \textit{N}*. The interval produced by this approach is quite tight, shrinking as $H_i$ tends to \textit{H}*. By default, {\tt HACSim} computes 95\% confidence intervals for the abovementioned quantities. 
+
+It is important to consider how a confidence interval for $\theta$ should be interpreted. For instance, a 95\% CI for $\theta$ of ($L$, $U$), where $L$ and $U$ are the lower and upper endpoints of the confidence interval respectively, does \textit{not} mean that the true sampling sufficiency lies between ($L$, $U$) with 95\% probability. Instead, resulting confidence intervals for $\theta$ are themselves random and should be interpreted in the following way: with repeated sampling, one can be (1 $-$ $\alpha$)100\% confident that the true sampling sufficency for $p$\% haplotype recovery for a given species lies in the range ($L$, $U$) (1 $-$ $\alpha$)100\% of the time. That is, on average, (1 $-$ $\alpha$)100\% of constructed confidence intervals will contain $\theta$ (1 $-$ $\alpha$)100\% of the time. It should be noted however that as given computed confidence intervals are only approximate in the limit, desired nominal probability coverage may not be achieved. In other words, the proportion of times calculated (1 $-$ $\alpha$)100\% intervals actually contain $\theta$ may not be met.
+
+{\tt HACSim} has been implemented as an object-oriented framework to improve modularity and overall user-friendliness. Scenarios of hypothetical and real species are contained within helper functions which comprise all information necessary to run simulations \\ successfully without having to specify certain function arguments beforehand. To carry out simulations of sampling haplotypes from hypothetical species, the function \\ {\tt HACHypothetical()} must first be called. Similarly, haplotype sampling for real \\ species is handled by the function {\tt HACReal()}. In addition to all input parameters rquired by {\tt HAC.sim()} and {\tt HAC.simrep()} outlined in \textbf{Table 3.1}, both \\ {\tt HACHypothetical()} and {\tt HACReal()} take further arguments. Both functions take the optional argument {\tt filename} which is used to save results outputted to the R console to a CSV file. When either {\tt HACHypothetical()} or {\tt HACReal()} is invoked (\textit{i.e.}, assigned to a variable), an object herein called {\tt HACSObj} is created containing the 13 arguments employed by {\tt HACSim} in running simulations. Note the generated object can have any name the user desires. Further, all simulation variables are contained in an environment called `envr' that is hidden from the user. 
+
+
+\section{Results}
+
+Here, we outline some simple examples that highlight the overall functionality of \\ {\tt HACSim}. When the code below is run, outputted results will likely differ from those depicted here since our method is inherently stochastic. Hence, it should be stressed that there is not one single solution for the problem at hand, but rather multiple solutions \cite{spall2012stochastic}. This is in contrast to a completely deterministic model, where a given input always leads to the same unique output. To ensure reproducibility, the user can set a random seed value using the base R function {\tt set.seed()} prior to running {\tt HAC.simrep()}. It is important that a user set a working directory in R prior to running {\tt HACSim}, which will ensure all created files (`seqs.fas' and `output.csv') are stored in a single location for easy access and reference at a later time. In all scenarios, default parameters were unchanged ({\tt perms} = 10000, $p$ =  0.95).
+
+\subsection{Application of {\tt HACSim} to Hypothetical Species}
+
+\subsubsection{Equal Haplotype Frequencies}
+
+\textbf{Fig. 3.5} shows sample graphical output of the proposed haplotype accumulation curve simulation algorithm for a hypothetical species with   $N$ = 100 and \textit{H}* = 10. All haplotypes are assumed to occur with equal frequency (\textit{i.e.}, {\tt probs} = 0.10). Algorithm output is shown below. 
+
+\vspace{3mm}
+
+{\tt \scriptsize
+
+\vspace{2mm}
+
+{\noindent \#\# Set parameters for hypothetical species \#\#}
+
+\vspace{1mm}
+
+{\noindent > N <- 100 \# total number of sampled individuals} \\
+{> Hstar <- 10 \# total number of haplotypes} \\
+{> probs <- rep(1/Hstar, Hstar) \# equal haplotype frequency}
+
+\vspace{2mm}
+
+{\noindent \#\#\# Run simulations \#\#\#}
+
+\vspace{1mm}
+
+{\noindent > HACSObj <- HACHypothetical(N = N, Hstar = Hstar, probs = probs) \# call helper function}
+
+\vspace{1mm}
+
+{\noindent \# set seed here if desired, e.g., set.seed(12345)} \\
+{> HAC.simrep(HACSObj)} 
+
+\noindent Simulating haplotype accumulation...
+
+\vspace{2mm}
+ 
+\noindent |==============================================================================| 100\%
+  
+\vspace{3mm}
+ 
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled:  10 \\
+Mean number of haplotypes not sampled:  0 \\
+Proportion of haplotypes sampled:  1 \\
+Proportion of haplotypes not sampled:  0
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*:  100 \\
+Mean number of specimens not sampled:  0
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has been reached 
+
+\vspace{3mm}
+
+\noindent ---------- Finished. ----------
+        
+\noindent The initial guess for sampling sufficiency was N = 100 individuals
+ 
+\noindent The algorithm converged after 1 iterations and took 3.637 s
+ 
+\noindent The estimate of sampling sufficiency for p = 95\% haplotype recovery is N* = 100 \\ individuals ( 95\% CI: 100-100 )
+ 
+\noindent The number of additional specimens required to be sampled for p = 95\% haplotype recovery \\ is N* - N = 0 individuals 
+
+}
+
+\vspace{2mm}
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 5".png}
+
+\caption{Graphical output of {\tt HAC.sim()} for a hypothetical species with equal haplotype frequencies. \textbf{A}: Iterated haplotype accumulation curve. \textbf{B}: Corresponding haplotype frequency barplot. For the generated haplotype accumulation curve, the 95\% confidence interval for the number of unique haplotypes accumulated is depicted by gray error bars. Dashed lines depict the observed number of haplotypes (\textit{i.e.}, \textit{RH}*) and corresponding number of individuals sampled found at each iteration of the algorithm. The dotted line depicts the expected number of haplotypes for a given haplotype recovery level (here, $p$ = 95\%) (\textit{i.e.}, \textit{pH}*). In this example, $R$ = 100\% of the \textit{H}* = 10 estimated haplotypes have been recovered for this species based on a sample size of only $N$ = 100 specimens.}
+
+\end{figure}
+
+\vspace{2mm}
+
+Algorithm output shows that $R$ = 100\% of the \textit{H}* = 10 haplotypes are recovered from the random sampling of $N$ = 100 individuals, with lower and upper 95\% confidence limits of 100-100. No additional specimens need to be collected ($N^*-N$ = 0). Simulation results, consisting of the six ``measures of sampling closeness" computed at each iteration, can be optionally saved in a comma-separated value (CSV) file called `output.csv' (or another filename of the user's choosing). \textbf{Fig. 3.5} shows that when haplotypes are equally frequent in species populations, corresponding haplotype accumulation curves reach an asymptote very quickly. As sampling effort is increased, the confidence interval becomes narrower, thereby reflecting one's increased confidence in having likely sampled the majority of haplotype variation existing for a given species. Expected counts of the number of \\ specimens possessing a given haplotype can be found from running \\ {\tt max(envr\$d\$specs) * envr\$probs} in the R console once a simulation has \\ converged. However, real data suggest that haplotype frequencies are not equal.
+
+\subsubsection{Unequal Haplotype Frequencies}
+
+\textbf{Fig. 3.6} and \textbf{Fig. 3.7} show sample graphical output of the proposed haplotype \\ accumulation curve simulation algorithm for a hypothetical species with $N$ = 100 and \\ \textit{H}* = 10. All haplotypes occur with unequal frequency. Haplotypes 1-3 each have a frequency of 30\%, while the remaining seven haplotypes each occur with a frequency of \textit{c.} 1.4\%. 
+
+\vspace{3mm}
+
+{\tt \scriptsize
+
+\vspace{1mm}
+
+{\noindent \#\# Set parameters for hypothetical species \#\#}
+
+\vspace{1mm}
+
+{\noindent > N <- 100} \\
+{> Hstar <- 10} \\
+{> probs <- c(rep(0.30, 3), rep(0.10/7, 7)) \# three dominant haplotypes each with 30\% \\ frequency}
+
+\vspace{2mm}
+
+{\noindent \#\#\# Run simulations \#\#\#}
+
+\vspace{1mm}
+
+{\noindent > HACSObj <- HACHypothetical(N = N, Hstar = Hstar, probs = probs)}
+
+\vspace{1mm}
+
+{\noindent > HAC.simrep(HACSObj)} 
+
+\vspace{1mm}
+
+\noindent Simulating haplotype accumulation...
+
+\vspace{2mm}
+ 
+\noindent |==============================================================================| 100\%
+  
+\vspace{3mm}
+ 
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 8.3291 \\
+Mean number of haplotypes not sampled: 1.6709 \\
+Proportion of haplotypes sampled: 0.83291 \\
+Proportion of haplotypes not sampled: 0.16709  
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 120.061 \\
+Mean number of specimens not sampled: 20.06099
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached 
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 9.2999  \\
+Mean number of haplotypes not sampled: 0.7001 \\
+Proportion of haplotypes sampled: 0.92999 \\
+Proportion of haplotypes not sampled: 0.07001    
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 179.5718  \\
+Mean number of specimens not sampled: 12.57182 
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 9.5358 \\
+Mean number of haplotypes not sampled: 0.4642  \\
+Proportion of haplotypes sampled: 0.95358  \\
+Proportion of haplotypes not sampled: 0.04642   
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 188.7623 \\
+Mean number of specimens not sampled: 8.762348 
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has been reached
+
+\vspace{3mm}
+
+\noindent ---------- Finished. ----------
+        
+\noindent The initial guess for sampling sufficiency was N = 100 individuals
+ 
+\noindent The algorithm converged after 6 iterations and took 33.215 s 
+ 
+\noindent The estimate of sampling sufficiency for p = 95\% haplotype recovery is N* = 180 \\ individuals ( 95\% CI: 178.278-181.722)
+ 
+\noindent The number of additional specimens required to be sampled for p = 95\% haplotype recovery \\ is N* - N = 80 individuals}
+
+\vspace{2mm}
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 6".png}
+
+\caption{Initial graphical output of {\tt HAC.sim()} for a hypothetical species having three dominant haplotypes. In this example, initially, only $R$ = 83.3\% of the \textit{H}* = 10 estimated haplotypes have been recovered for this species based on a sample size of $N$ = 100 specimens.}
+
+\end{figure}
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 7".png}
+
+\caption{Final graphical output of {\tt HAC.sim()} for a hypothetical species having three dominant haplotypes. In this example, upon convergence, $R$ = 95.4\% of the \textit{H}* = 10 estimated haplotypes have been recovered for this species based on a sample size of $N$ = 180 specimens.}
+
+\end{figure}
+
+
+\vspace{2mm}
+
+Note that not all iterations are displayed above for the sake of brevity; only the first and last two iterations are given. With an initial guess of $N$ = 100, only $R$ = 83.3\% of all \\ \textit{H*} = 10 observed haplotypes are recovered. The value of \textit{N}* = 121 in the first iteration above serves as an improved initial guess of the true sampling sufficiency, which is an unknown quantity that is being estimated. This value is then fed back into the algorithm and the process is repeated until convergence is reached. 
+
+Using Equation (1), the improved sample size was calculated as \\ $N^* = 100 + \frac{100}{8.3291}\left(10 - 8.3291\right) = 120.061$. After one iteration, the curve has been \\ extrapolated by an additional $N^*-N_i$ = 20.06099 individuals. Upon convergence, $R$ = 95.4\% of all observed haplotypes are captured with a sample size of \textit{N}* = 180 specimens, with a 95\% CI of 178.278-181.722. Given that $N = 100$ individuals have already been sampled, the number of additional specimens required is $N^*-N$ = 80 individuals.  The user can verify that sample sizes close to that found by {\tt HACSim} are needed to capture 95\% of existing haplotype variation. Simply set $N$ = \textit{N}* = 180 and rerun the algorithm. The last iteration serves as a check to verify that the desired level of haplotype recovery has been achieved. The value of \textit{N}* = 188.7623 that is outputted at this step can be used as a good starting guess to extrapolate the curve to higher levels of haplotype recovery to save on the number of iterations required to reach convergence. To do this, one simply runs {\tt HACHypothetical()} with $N$ = 189.
+
+
+\subsection{Application of {\tt HACSim} to Real Species}
+
+Because the proposed iterative haplotype accumulation curve simulation algorithm \\ simply treats haplotypes as numeric labels, it is easily generalized to any biological taxa and genetic loci for which a large number of high-quality DNA sequence data records is available in public databases such as BOLD. In the following examples, {\tt HACSim} is employed to examine levels of standing genetic variation within animal species using 5'-COI.
+
+\subsubsection{Lake Whitefish (\textit{Coregonus clupeaformis})}
+
+An interesting case study on which to focus is that of Lake whitefish (\textit{Coregonus \\ clupeaformis}). Lake whitefish are a commercially, culturally, ecologically and \\ economically important group of salmonid fishes found throughout the Laurentian Great Lakes in Canada and the United States, particularly to the Saugeen Ojibway First Nation (SON) of Bruce Peninsula in Ontario, Canada, as well as non-indigenous fisheries \cite{ryan2014distribution}.
+
+The colonization of refugia during Pleistocene glaciation is thought to have resulted in high levels of cryptic species diversity in North American freshwater fishes \cite{april2013glacial, april2013metabolic, april2011genetic, hubert2008identifying}. \cite{overdyk2015extending} wished to investigate this hypothesis in larval Lake Huron lake whitefish. Despite limited levels of gene flow and likely formation of novel divergent haplotypes in this species, surprisingly, no evidence of deep evolutionary lineages was observed across the three major basins of Lake Huron despite marked differences in larval phenotype and adult fish spawning behaviour \cite{overdyk2015extending}. This may be the result of limited sampling of intraspecific genetic variation, in addition to presumed panmixia \cite{overdyk2015extending}. While lake whitefish represent one of the most well-studied fishes within BOLD, sampling effort for this species has nevertheless remained relatively static over the past few years. Thus, lake whitefish \\ represent an ideal species for further exploration using {\tt HACSim}. 
+
+In applying the developed algorithm to real species, sequence data preparation \\ methodology followed that which is outlined in Phillips \textit{et al.} \cite{phillips2015exploration}. Curation included the exclusion of specimens linked to GenBank entries, since those records without the BARCODE keyword designation lack appropriate metadata central to reference sequence library construction and management \cite{hanner2009data}. Our approach here was solely to assess \\ comprehensiveness of single genomic sequence databases rather than incorporating \\ sequence data from multiple repositories; thus, all DNA barcode sequences either \\ originating from, or submitted to GenBank were not considered further. As well, the presence of base ambiguities and gaps/indels within sequence alignments can lead to bias in estimate haplotype diversity for a given species.
+
+Currently (as of November 28, 2018), BOLD contains public (both barcode and \\ non-barcode) records for 262 \textit{C. clupeaformis} specimens collected from Lake Huron in \\ northern parts of Ontario, Canada and Michigan, USA. Of the barcode sequences, \\ $N$ = 235 are of high quality (full-length (652 bp) and comprise no missing and/or \\ ambiguous nucleotide bases). Haplotype analysis reveals that this species currently \\ comprises \textit{H}* = 15 unique COI haplotypes. Further, this species shows a highly-skewed haplotype frequency distribution, with a single dominant haplotype accounting for \textit{c.} 91.5\% (215/235) of all individuals (\textbf{Fig. 3.8}). 
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 8".png}
+
+\caption{Initial haplotype frequency distribution for $N$ = 235 high-quality lake whitefish (\textit{Coregonus clupeaformis}) COI barcode sequences obtained from BOLD. This species displays a highly-skewed pattern of observed haplotype variation, with Haplotype 1 accounting for \textit{c.} 91.5\% (215/235) of all sampled records.}
+
+\end{figure}
+
+
+\noindent The output of {\tt HACSim} is displayed below. 
+
+\vspace{3mm}
+
+{\tt \scriptsize
+
+{\noindent \#\#\# Run simulations \#\#\#}
+
+\vspace{1mm}
+
+{\noindent > HACSObj <- HACReal()}
+
+\vspace{1mm}
+
+{\noindent > HAC.simrep(HACSObj)} 
+
+\vspace{1mm}
+
+\noindent Simulating haplotype accumulation...
+
+\vspace{2mm}
+ 
+\noindent |==============================================================================| 100\%
+  
+\vspace{3mm}
+ 
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 11.0705  \\
+Mean number of haplotypes not sampled: 3.9295 \\
+Proportion of haplotypes sampled: 0.7380333 \\
+Proportion of haplotypes not sampled: 0.2619667   
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 318.4138 \\
+Mean number of specimens not sampled: 83.4138
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached 
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 13.8705  \\
+Mean number of haplotypes not sampled: 1.1295 \\
+Proportion of haplotypes sampled: 0.9247 \\
+Proportion of haplotypes not sampled: 0.0753    
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 603.439 \\
+Mean number of specimens not sampled: 45.43895
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 14.3708  \\
+Mean number of haplotypes not sampled: 0.6292  \\
+Proportion of haplotypes sampled:  0.9580533  \\
+Proportion of haplotypes not sampled: 0.04194667    
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 630.4451  \\
+Mean number of specimens not sampled: 26.44507
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has been reached
+
+\vspace{2mm}
+
+\noindent ---------- Finished. ----------
+        
+\noindent The initial guess for sampling sufficiency was N = 235 individuals
+ 
+\noindent The algorithm converged after 8 iterations and took 241.235 s 
+ 
+\noindent The estimate of sampling sufficiency for p = 95\% haplotype recovery is N* = 604 \\ individuals ( 95\% CI: 601.504-606.496 )
+
+\noindent The number of additional specimens required to be sampled for p = 95\% haplotype recovery \\ is N* - N = 369 individuals}
+
+\vspace{2mm}
+
+
+From the above output, it is clear that current specimen sample sizes found within BOLD for \textit{C. clupeaformis} are probably not sufficient to capture the majority of \\ within-species COI haplotype variation. An initial sample size of $N$ = 235 specimens corresponds to recovering only 73.8\% of all \textit{H}* = 15 unique haplotypes for this species (\textbf{Fig. 3.9}). 
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 9".png}
+
+\caption{Initial graphical output of {\tt HAC.sim()} for a real species (Lake whitefish, \textit{C. clupeaformis}) having a single dominant haplotype. In this example, initially, only $R$ = 73.8\% of the \textit{H}* = 15 estimated haplotypes for this species have been recovered based on a sample size of $N$ = 235 specimens. The haplotype frequency barplot is identical to that of \textbf{Fig. 8}.}
+
+\end{figure}
+
+
+\noindent A sample size of \textit{N}* = 604 individuals (95\% CI: 601.504-606.496) would likely be needed to observe 95\% of all existing genetic diversity for lake whitefish (\textbf{Fig. 3.10}). 
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 10".png}
+
+\caption{Final graphical output of {\tt HAC.sim()} for Lake whitefish (\textit{C. clupeaformis}) having a single dominant haplotype. Upon convergence, $R$ = 95.8\% of the \textit{H}* = 15 estimated haplotypes for this species have been uncovered with a sample size of $N$ = 604 specimens.}
+
+\end{figure}
+
+\noindent Since $N$ = 235 individuals have been sampled previously, only $N^*-N$ = 369 specimens remain to be collected.
+
+
+\subsubsection{Deer tick (\textit{Ixodes scapularis})}
+
+Ticks, particularly the hard-bodied ticks (Arachnida: Acari: Ixodida: Ixodidae), are well-known as vectors of various zoonotic diseases including Lyme disease \cite{ondrejicka2014status}. Apart from this defining characteristic, the morpohological identification of ticks at any lifestage, by even expert taxonomists, is notoriously difficult or sometimes even impossible \cite{ondrejicka2017dna}. Further, the presence of likely high cryptic species diversity in this group means that turning to molecular techniques such as DNA barcoding is often the only feasible option for reliable species diagnosis. Lyme-competent specimens can be accurately detected through employing a sensitive quantitative PCR (qPCR) procedure \cite{ondrejicka2017dna}. However, for such a workflow to be successful, wide coverage of within-species haplotype variation from across broad geographic ranges is paramount to better aid design of primer and probe sets for rapid species discrimination. Furthermore, the availability of large specimen sample sizes for tick species of medical and epidemiological relevance is necessary for accurately assessing the presence of the barcode gap.
+
+Notably, the deer tick (\textit{Ixodes scapularis}), native to Canada and the United States, is the primary carrier of \textit{Borrelia burgdorferi}, the bacterium responsible for causing Lyme disease in humans in these regions. Because of this, \textit{I. scapularis} has been the subject of intensive taxonomic study in recent years. For instance, in a recent DNA barcoding study of medically-relevant Canadian ticks, \cite{ondrejicka2017dna} found that out of eight specimens assessed for the presence of \textit{B. burgdorferi}, 50\% tested positive. However, as only exoskeletons and a single leg were examined for systemic infection, the reported infection rate may be a lower bound due to the fact that examined specimens may still harbour \textit{B. burgdorferi} in their gut. As such, this species is well-represented within BOLD and thus warrants further examination within the present study.
+
+As of August 27, 2019, 531 5'-COI DNA barcode sequences are accessble from \\ BOLD's Public Data Portal for this species. Of these, $N$ = 349 met criteria for high quality outlined in Phillips \textit{et al.} \cite{phillips2015exploration}. A 658 bp MUSCLE alignment comprised \textit{H}* = 83 unique haplotypes. Haplotype analysis revealed that Haplotypes 1-8 were represented by more than 10 specimens (range: 12-46; \textbf{Fig. 3.11}). 
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 11".png}
+
+\caption{Initial haplotype frequency distribution for $N$ = 349 high-quality deer tick (\textit{Ixodes scapularis}) COI barcode sequences obtained from BOLD. In this species, Haplotypes 1-8 account for \textit{c.} 51.3\% (179/349) of all sampled records.
+}
+
+\end{figure}
+
+
+\noindent Simulation output of {\tt HACSim} is depicted below.
+
+\vspace{3mm}
+
+{\tt \scriptsize
+
+{\noindent \#\#\# Run simulations \#\#\#}
+
+\vspace{1mm}
+
+{\noindent > HACSObj <- HACReal()}
+
+\vspace{1mm}
+
+{\noindent > HAC.simrep(HACSObj)} 
+
+\vspace{1mm}
+
+\noindent Simulating haplotype accumulation...
+
+\vspace{2mm}
+ 
+\noindent |==============================================================================| 100\%
+  
+\vspace{3mm}
+ 
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 65.3514  \\
+Mean number of haplotypes not sampled: 17.6486   \\
+Proportion of haplotypes sampled: 0.7873663 \\
+Proportion of haplotypes not sampled: 0.2126337   
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 443.2499  \\
+Mean number of specimens not sampled: 94.24988
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached 
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 78.3713 \\
+Mean number of haplotypes not sampled: 4.6287  \\
+Proportion of haplotypes sampled: 0.9442325  \\
+Proportion of haplotypes not sampled: 0.05576747     
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 802.7684  \\
+Mean number of specimens not sampled: 44.76836
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 79.2147  \\
+Mean number of haplotypes not sampled: 3.7853 \\
+Proportion of haplotypes sampled: 0.954394 \\
+Proportion of haplotypes not sampled: 0.04560602  
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 841.3716 \\
+Mean number of specimens not sampled: 38.37161 
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has been reached
+
+\vspace{2mm}
+
+\noindent ---------- Finished. ----------
+        
+\noindent The initial guess for sampling sufficiency was N = 349 individuals
+ 
+\noindent The algorithm converged after 8 iterations and took 1116.468 s 
+ 
+\noindent The estimate of sampling sufficiency for p = 95\% haplotype recovery is N* = 803 \\ individuals ( 95\% CI: 801.551-804.449 )
+
+\noindent The number of additional specimens required to be sampled for p = 95\% haplotype recovery \\ is N* - N = 454 individuals}
+
+\vspace{2mm}
+
+The above results clearly demonstrate the need for increased specimen sample sizes in deer ticks. With an initial sample size of $N$ = 349 individuals, only 78.7\% of all observed haplotypes are recovered for this species (\textbf{Fig. 3.12}). 
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 12".png}
+
+\caption{Initial graphical output of {\tt HAC.sim()} for a real species (Deer tick, \textit{I. scapularis}) having eight dominant haplotypes. In this example, initially, only $R$ = 78.7\% of the \textit{H}* = 83 estimated haplotypes for this species have been recovered based on a sample size of $N$ = 349 specimens. The haplotype frequency barplot is identical to that of \textbf{Fig. 3.11}.}
+
+\end{figure}
+
+
+\noindent \textit{N}* = 803 specimens (95\% CI: 801.551-804.449) is necessary to capture at least 95\% of standing haplotype variation for \textit{I. scapularis} (\textbf{Fig. 3.13}) . 
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 13".png}
+
+\caption{Final graphical output of {\tt HAC.sim()} for deer tick (\textit{I scapularis}) having eight dominant haplotypes. Upon convergence, $R$ = 95.4\% of the \textit{H}* = 83 estimated haplotypes for this species have been uncovered with a sample size of $N$ = 803 specimens.
+}
+
+\end{figure}
+
+\noindent Thus, a further \textit{N}* $-$ $N$ = 454 specimens are required to be collected.
+
+
+\subsubsection{Scalloped hammerhead (\textit{Sphyrna lewini})}
+
+Sharks (Chondrichthyes: Elasmobranchii: Selachimorpha) represent one of the most ancient extant lineages of fishes. Despite this, many shark species face immediate \\ extinction as a result of overexploitation, together with a unique life history \\ (\textit{e.g.}, K-selected, predominant viviparity, long gestation period, lengthy time to maturation) and migration behaviour \cite{naaum2016seafood}. A large part of the problem stems from the increasing consumer demand for, and illegal trade of, shark fins, meat and bycatch on the Asian market. The widespread, albeit lucrative practice of ``finning", whereby live sharks are definned and immediately released, has led to the rapid decline of once stable populations \cite{steinke2017dna}. As a result, numerous shark species are currently listed by the International Union for the Conservation of Nature (IUCN) and the Convention on International Trade in \\ Endangered Species of Wild Fauna and Flora (CITES). Interest in the molecular \\ identification of sharks through DNA barcoding is multifold. The COI reference sequence library for this group remains largely incomplete.  Further, many shark species exhibit high intraspecific distances within their barcodes, suggesting the possibility of cryptic species diversity. Instances of hybridization between sympatric species has also been documented.  As establishing species-level matches to partial specimens through morphology alone is difficult, and such a task becomes impossible once fins are processed and sold for \\ consumption or use in traditional medicine, DNA barcoding has paved a clear path forward for unequivocal diagnosis in most cases.   
+
+The endangered hammerheads (Family: Sphyrnidae) represent one of the most well-\\sampled groups of sharks within BOLD to date. Fins of the scalloped hammerhead \\ (\textit{Sphyrna lewini}) are especially highly prized within IUU (Illegal, Unregulated, \\ Unreported) fisheries due to their inclusion as the main ingredient in shark fin soup. 
+
+As of August 27, 2019, 327 \textit{S. lewini} specimens (sequenced at both barcode and non-\\barcode markers), collected from several Food and Agriculture Organization (FAO) \\ regions, including the United States, are available through BOLD's Public Data Portal. Of these, all high-quality records ($N$ = 171) were selected for alignment in MEGA7 and assessment via {\tt HACSim}. The final alignment was found to comprise \textit{H}* = 12 unique haplotypes, of which three were represented by 20 or more specimens (range: 28-70; \textbf{Fig. 3.14}).
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 14".png}
+
+\caption{Initial haplotype frequency distribution for $N$ = 171 high-quality scalloped hammerhead (\textit{Sphyrna lewini}) COI barcode sequences obtained from BOLD. In this species, Haplotypes 1-3 account for \textit{c.} 87.7\% (150/171) of all sampled records.}
+
+\end{figure}
+ 
+
+\noindent {\tt HACSim} results are displayed below.
+
+\vspace{3mm}
+
+{\tt \scriptsize
+
+{\noindent \#\#\# Run simulations \#\#\#}
+
+\vspace{1mm}
+
+{\noindent > HACSObj <- HACReal()}
+
+\vspace{1mm}
+
+{\noindent > HAC.simrep(HACSObj)} 
+
+\vspace{1mm}
+
+\noindent Simulating haplotype accumulation...
+
+\vspace{2mm}
+ 
+\noindent |==============================================================================| 100\%
+  
+\vspace{3mm}
+ 
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 9.9099  \\
+Mean number of haplotypes not sampled: 2.0901  \\
+Proportion of haplotypes sampled: 0.825825 \\
+Proportion of haplotypes not sampled: 0.174175     
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 207.0657  \\
+Mean number of specimens not sampled: 36.06566
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached 
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 11.3231  \\
+Mean number of haplotypes not sampled: 0.6769  \\
+Proportion of haplotypes sampled: 0.9435917  \\
+Proportion of haplotypes not sampled: 0.05640833      
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 413.3144 \\
+Mean number of specimens not sampled: 23.31438
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 11.4769  \\
+Mean number of haplotypes not sampled: 0.5231  \\
+Proportion of haplotypes sampled: 0.9564083 \\
+Proportion of haplotypes not sampled: 0.04359167    
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 432.8695 \\
+Mean number of specimens not sampled: 18.8695 
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has been reached
+
+\vspace{2mm}
+
+\noindent ---------- Finished. ----------
+        
+\noindent The initial guess for sampling sufficiency was N = 171 individuals
+ 
+\noindent The algorithm converged after 9 iterations and took 174.215 s 
+ 
+\noindent The estimate of sampling sufficiency for p = 95\% haplotype recovery is N* = 414 \\ individuals ( 95\% CI: 411.937-416.063 )
+
+\noindent The number of additional specimens required to be sampled for p = 95\% haplotype recovery is \\ N* - N = 243 individuals}
+
+\vspace{2mm}
+
+Simulation output suggests that only 82.6\% of all unique haplotypes for the scalloped \\ hammerhead have likely been recovered (\textbf{Fig. 15}) with a sample size of $N$ = 171. 
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 15".png}
+
+\caption{Initial graphical output of {\tt HAC.sim()} for a real species (Scalloped hammerhead, \textit{S. lewini}) having three dominant haplotypes. In this example, initially, only $R$ = 82.6\% of the \textit{H}* = 12 estimated haplotypes for this species have been recovered based on a sample size of $N$ = 171 specimens. The haplotype frequency barplot is identical to that of \textbf{Fig. 3.14}.}
+
+\end{figure}
+
+\noindent Further, {\tt HACSim} predicts that \textit{N}* =  414 individuals (95\% CI: 411.937-416.063) probably need to be randomly sampled to capture the majority of intraspecific genetic diversity within 5'-COI (\textbf{Fig. 3.16}). 
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 16".png}
+
+\caption{Final graphical output of {\tt HAC.sim()} for scalloped hammerhead (\textit{S. lewini}) having three dominant haplotypes. Upon convergence, $R$ = 95.6\% of the \textit{H}* = 12 estimated haplotypes for this species have been uncovered with a sample size of $N$ = 414 specimens.}
+
+\end{figure}
+
+
+\noindent Since 171 specimens have already been collected, this leaves an additional \textit{N}* $-$ $N$ = 243 individuals which await sampling.
+
+
+\section{Discussion}
+
+\subsection{Initializing {\tt HACSim} and Overall Algorithm Behaviour}
+
+The overall stochastic behaviour of {\tt HACSim} is highly dependent on the number of \\ permutations used upon algorithm initialization. Provided that the value assigned to the {\tt  perms} argument is set high enough, numerical results ouputted by {\tt HACSim} will be found to be quite consistent between consecutive runs whenever all remaining parameter values remain unchanged. It is crucial that {\tt perms} not be set to too low a value to prevent the algorithm from getting stuck at local maxima and returning suboptimal solutions. This is a common situation with popular optimization algorithms such as hill-climbing. Attention therfore must be paid to avoid making generalizations based on algorithm performance and obtained simulation results \cite{spall2012stochastic}.
+
+In applying the present method to simulated species data, it is important that selected simulation parameters are adequately reflective of those observed for real species. Thus, initial sample sizes should be chosen to cover a wide range of values based on those currently observed within BOLD. Such information can be gauged through examining species lists associated with BOLD records, which are readily accessible through Linnean search queries within the Taxonomy browser.
+
+As with any iterative numerical algorithm, selecting good starting guesses for \\ initialization is key. While {\tt HACSim} is globally convergent (\textit{i.e.}, convergence is guaranteed for any value of $N \geq$ \textit{H}*), a good strategy when simulating hypothetical species is to start the algorithm by setting $N$ = \textit{H}*. In this way, the observed fraction of haplotypes found, $R$, will not exceed the desired level of haplotype recovery $p$, and therefore lead to overestimation of likely required specimen sample sizes. Setting $N$ high enough will almost surely result in $R$ exceeding $p$. Thus, arbitrarily large values of $N$ may not be biologically meaningful or practical. However, in the case of hypothetical species \\ simulation, should initial sample sizes be set too high, such that $R > p$, a straightforward workaround is to observe where the dashed horizontal line intersects the final haplotype accumulation curve (\textit{i.e.}, not the line the touches the curve endpoint). The resulting value of $N$ at this point will correspond with $p$ quite closely. This can be seen in \textbf{Fig. 5}, where an eyeball guess just over \textit{N}* = 20 individuals is necessary to recover $p$ = 95\% haplotype variation. A more reliable estimate can be obtained through examining the dataframe ``d'' outputted once the algorithm has halted (via {\tt envr\$d}). In this situation, simply look in the row corresponding to $p$\textit{H}* $\geq$ 0.95(10) $\geq$ 9.5. The required sample size is the value given in the first column ({\tt specs}). This is accomplished via the R code \\ {\tt envr\$d[which(envr\$d\$means $>=$ envr\$p * envr\$Hstar), ][1, 1]}.
+
+The novelty of {\tt HACSim} is that it offers a systematic means of estimating likely \\ specimen sample sizes required to assess intraspecific haplotype diversity for taxa within large-scale genomic databases like GenBank and BOLD. Estimates of sufficient sampling suggested by our algorithm can be employed to assess barcode coverage within existing reference sequence libraries and campaign projects found in BOLD. While comparison of our method to already-established ones is not yet possible, we anticipate that {\tt HACSim} will nevertheless provide regulatory applications with an unprecedented view and greater understanding of the state of standing genetic diversity (or lack thereof) within species.    
+
+
+\subsection{Additional Capabilities and Extending Functionality of \tt{HACSim}}
+
+In this paper, we illustrate the application of haplotype accumulation curves to the broad assessment of species-level genetic variation. However, {\tt HACSim} is quite flexible in that one can easily explore likely required sample sizes at higher taxonomic levels (\textit{e.g.} order, family, genus) or specific geographic regions (\textit{e.g.}, salmonids of the Great Lakes) with ease. Such applicability will undoubtedly be of interest at larger scales (\textit{i.e.}. entire genomic sequence libraries). For instance, due to evidence of sampling bias in otherwise densely-sampled taxa housed in BOLD (\textit{e.g.}, Lepidoptera), D'Ercole \textit{et al}. (J. D'Ercole, 2019, unpublished data) wished to assess whether or not intraspecific haplotype variation within butterfly species remains unsampled. To test this, the authors employed {\tt HACSim} to examine sampling comprehensiveness for species comprising a large barcode reference library for North American butterflies spanning 814 species and 14623 specimens.
+
+We foresee use of {\tt HACSim} being widespread within the DNA barcoding community. As such, improvements to existing code in terms of further optimization and algorithm runtime, as well as implementation of new methods by experienced R programmers in the space of DNA-based taxonomic identification, seems bright.
+
+Potential extensions of our algorithm include support for the exploration of genetic variation at the Barcode Index Number (BIN) level \cite{ratnasingham2013dna}, as well as high-throughput sequencing (HTS) data for metabarcoding and environmental DNA (eDNA) applications. Such capabilities are likely to be challenging to implement at this stage until robust \\ operational taxonomic unit (OTU) clustering algorithms are developed (preferably in R). One promising tool in this regard for barcoding of bulk samples of real species and mock communities of known species composition is JAMP (\textbf{J}ust \textbf{A}nother \textbf{M}etabarcoding \\ \textbf{P}ipeline) devised for use in R by Elbrecht and colleagues \cite{elbrecht2018estimating}. JAMP includes a sequence read denoising tool that can be used to obtain haplotype numbers and frequency information (\textit{H}* and {\tt probs}). However, because JAMP relies on third-party software (particularly USEARCH \cite{edgar2010search} and VSEARCH \cite{rognes2016versatile}), it cannot be integrated within {\tt HACSim} itself and will thus have to be used externally. In extending {\tt HACSim} to next-generation space, two issues arise. First, it is not immediately clear how the argument $N$, is to be handled since multiple reads could be associated with single individuals. That is, unlike in traditional Sanger-based sequencing, there is not a one-to-one correspondence between specimen and sequence \cite{adams2019beyond, wares2015can}. Second, obtaining reliable haplotype information from noisy HTS datasets is challenging without first having strict quality filtering criteria in place to \\ minimize the occurrence of rare, low-copy sequence variants which may reflect artifacts stemming from the Polymerase Chain Reaction (PCR) amplification step or sequencing process \cite{braukmann2019metabarcoding, elbrecht2018estimating, turon2019metaphylogeography}. Turning to molecular population genetics theory might be the answer \cite{adams2019beyond}. Wares and Pappalardo \cite{wares2015can} suggest three different approaches to estimating the number of specimens of a species that may have contributed to a metabarcoding sample: (1) use of prior estimates of haplotype diversity, together with observed number of haplotypes; (2) usage of Ewens' sampling formula \cite{ewens1972sampling} along with estimates of Watterson's $\theta$ (not to be confused with the $\theta$ denoting true sampling sufficency herein) \cite{watterson1975segregating}, as well as total number of sampled haplotypes; and (3) employment of an estimate of $\theta$ and the number of observed variable sites ($S$) within a multiple sequence alignment. A direct solution we propose might be to use sequencing coverage/depth (\textit{i.e.}, the number of sequence reads) as a proxy for number of individuals. The outcome of this would be an estimate of the mean/total number of sequence reads required for maximal haplotype recovery. However, the use of read count as a stand-in for number of specimens sampled would require the unrealistic assumption that all individuals (\textit{i.e.}, both alive and dead) shed DNA into their environment at equal rates. The obvious issue with extending {\tt HACSim} to handle HTS data is computing power, as such data typically consists of millions of reads spanning multiple gigabytes of computer memory. 
+
+\subsection{Summary}
+
+Here, we introduced a new statistical approach to assess specimen sampling depth within species based on existing gene marker variation found in public sequence databanks such as BOLD and GenBank. {\tt HACSim} is both computationally efficient and easy to use. We show utility of our proposed algorithm through both hypothetical and real species genomic sequence data. For real species (here, lake whitefish, deer tick and scalloped hammerhead), results from {\tt HACSim} suggest that comprehensive sampling for species comprising large barcode libraries within BOLD, such as Actinopterygii, Arachnida and Elasmobranchii is far from complete. With the availability of {\tt HACSim}, appropriate \\ sampling guidelines based on the amount of potential error one is willing to tolerate can now be established. For the purpose of addressing basic questions in biodiversity science, the employment of small taxon sample sizes may be adequate; however, this is not the case for regulatory applications, where greater than 95\% coverage of intraspecific haplotype variation is needed to provide high confidence in sequence matches defensible in a court of law.      
+
+Of immediate interest is the application of our method to other ray-finned fishes, as well as other species from deeply inventoried taxonomic groups such as Elasmobranchii (\textit{e.g.} sharks), Insecta (\textit{e.g.} Lepidoptera, Culicidae (mosquitoes)), Arachnida (\textit{e.g.}, ticks) and Chiroptera (bats) that are of high conservation, medical and/or socioeconomic importance. Although we explicitly demonstrate the use of {\tt HACSim} through employing COI, it would be interesting to extend usage to other barcode markers such as the \\ ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) and maturase K \\ (matK) chloroplast genes for land plants, as well as the nuclear internal transcribed spacer (ITS) marker regions for fungi. The application of our method to non-barcode genes routinely employed in specimen identification like mitochondrial cytochrome \textit{b} (cyt\textit{b}) in birds for instance \cite{baker2009countering, lavinia2016calibrating}, nuclear rhodopsin (rho) for marine fishes \cite{hanner2011dna} or the \\ phosphoenolpyruvate carboxykinase (PEPCK) nuclear gene for bumblebees \cite{williams2015genes} is also likely to yield interesting results since sequencing numerous individuals at several different genomic markers can often reveal evolutionary patterns not otherwise seen from employing a single-gene approach (\textit{e.g.}, resolution of cryptic species or confirmation/revision of \\ established taxonomic placements) \cite{williams2015genes}. 
+
+While it is reasonable that {\tt HACSim} can be applied to genomic regions besides 5'-COI, careful consideration of varying rates of molecular evolution within rapidly-evolving gene markers and the effect on downsteam inferences is paramount, as is sequence quality. Previous work in plants (Genus: \textit{Taxus}) by Liu \textit{et al.} \cite{liu2012sampling} has found evidence of a \\ correlation between mutation rate and required specimen sampling depth: genes evolving at faster rates will likely require larger sample sizes to estimate haplotype diversity compared to \\ slowly-evolving genomic loci. We simply focused on 5'-COI because it is by far the most widely sequenced mitochondrial locus for specimen identification, owing to its desirable biological properties as a DNA barcode for animal taxa and because it has an associated data standard to help filter out poor-quality data. \cite{phillips2019incomplete}. However, it should be noted that species diagnosis using COI and other barcode markers is not without its challenges. While COI accumulates variation at an appreciable rate, certain taxonomic groups are not readily distinguished on the basis of their DNA barcodes (\textit{e.g.}, the so-called ``problem children'', such as Cnidaria, which tend to lack adequate sequence divergence \cite{bucklin2011dna}). Other taxa, like Mollusca, are known to harbour indel mutations \cite{layton2014patterns}. Introns within Fungi greatly complicate sequence alignment \cite{min2007assessing}. Thus, users of {\tt HACSim} must exercise caution in interpreting end results with other markers, particularly those which are not protein-coding.
+
+It is necessary to consider the importance of sampling sufficiency as it pertains to \\ the myriad regulatory applications of specimen identification  established using DNA \\ barcoding (\textit{e.g.}, combatting food fraud) in recent years. It since has become apparent that the success of such endeavours is complicated by the ever-evolving state of public reference sequence libraries such as those found within BOLD, in addition to the the inclusion of questionable sequences and lack of sufficent metadata for validation purposes in other genomic databases like GenBank (\textit{e.g.}, \cite{harris2003can}). Dynamic DNA-based identification systems may produce multiple conflicting hits to otherwise corresponding submissions over time. This unwanted behaviour has led to a number of regulatory agencies creating their own \textit{static} repositories populated with expertly-identified sequence records tied to known voucher specimens deemed fit-for-purpose for molecular species diagnosis and forensic compliance (\textit{e.g.} the United States Food and Drug Administration (USFDA)'s Reference Standard Sequence Library (\href{https://www.accessdata.fda.gov/scripts/fdcc/?set=seafood_barcode_data}{RSSL}) employed to identify unknown seafood samples from species of high socioeconomic value). While such a move has partially solved the problem of dynamism inherent in global sequence databases, there still remains the issue of low sample sizes that can greatly inflate the perception of barcode gaps between species. \\ Obtaining adequate representation of standing genetic variation, both within and between species, is therefore essential to mitigating false assignments using DNA barcodes. To this end, we propose the use of {\tt HACSim} to assess the degree of saturation of haplotype accumulation curves to aid regulatory scientists in rapidly and reliably projecting likely sufficient specimen sample sizes required for accurate matching of unknown queries to known Linnean names. 
+
+A defining characteristic of {\tt HACSim} is its convergence behaviour: the method \\ converges to the desired level of haplotype recovery $p$ for any initial guess $N$ specified by the user. Based on examples explored herein, it appears likely that already-sampled species within repositories like BOLD are far from being fully characterized on the basis of existing haplotype variation. In addition to this, it is important to consider the current limitations of our algorithm. We can think of only one: it must be stressed that appropriate sample size trajectories are not possible for species with only single representatives within public DNA sequence databases because haplotype accumulation is unachievable with only one DNA sequence and/or a single sampled haplotype. Hence, {\tt HACSim} can only be applied to species with at least two sampled specimens. Thus, application of our method to assess necessary sample sizes for full capture of extant haplotype variation in exceedingly rare or highly elusive taxa is not feasible. Despite this, we feel that {\tt HACSim} can greatly aid in accurate and rapid barcode library construction necessary to thoroughly appreciate the diversity of life on Earth.
+
+\section{Conclusions}
+
+Herein, a new, easy-to-use R package was presented that can be employed to estimate intraspecific sample sizes for studies of genetic diversity assessment, with a particular focus on animal DNA barcoding using the COI gene. {\tt HACSim} employs a novel nonparametric stochastic iterative extrapolation algorithm with good convergence properties to generate haplotype accumulation curves. Because our approach treats species' haplotypes as \\ numeric labels, any genomic locus can be targeted to probe levels of standing genetic variation within multicellular taxa. However, we stress that users must exercise care when dealing with sequence data from non-coding regions of the genome, since these are likely to comprise sequence artifacts such as indels and introns, which can both hinder successful sequence alignment and lead to overestimation of existing haplotype variation within \\ species. The application of our method to assess likely required sample sizes for both hypothetical and real species produced promising results. We argue the use of {\tt HACSim} will be of broad interest in both academic and industry settings, most notably, regulatory agencies such as the Canadian Food Inspection Agency (CFIA), Agriculture and Agri-Food Canada (AAFC), United States Department of Agriculture (USDA), Public Health Agency of Canada (PHAC) and the USFDA. While {\tt HACSim} is an ideal tool for the analysis of Sanger sequencing reads, an obvious next step is to extend usability to Next-Generation Sequencing (NGS), especially HTS applications. With these elements in place, even the full integration of {\tt HACSim} to assess comprehensiveness of taxon sampling within large sequence databases such as BOLD seems like a reality in the near future.
+
+
+% more sections
+
+\newpage
+
+\section*{Acknowledgments}
+
+We wish to greatly acknowledge the efforts of Rodger Gwiazdowski in providing \\ valuable edits to this manuscript. In addition, comments by Sarah (Sally) Adamowicz improved overall readablity and flow of the manuscript considerably. 
+
+This work was supported by a University of Guelph College of Physical and \\ Engineering Science (CPES) Graduate Excellence Entrance Scholarship awarded to JDP.
+
+The Dish With One Spoon Covenant speaks to our collective responsibility to steward and sustain the land and environment in which we live and work, so that all peoples, present and future, may benefit from the sustenance it provides. As we continue to strive to strengthen our relationships with and continue to learn from our Indigenous neighbours, we recognize the partnerships and knowledge that have guided the research conducted in our labs. We acknowledge that the University of Guelph resides in the ancestral and treaty lands of several Indigenous peoples, including the Attawandaron people and the Mississaugas of the Credit, and we recognize and honour our Anishinaabe, Haudenosaunee, and M{\'e}tis neighbours. We acknowledge that the work presented here has occurred on their traditional lands so that we might work to build lasting partnerships that respect, honour, and value the culture, traditions, and wisdom of those who have lived here since time immemorial.
+
+\section*{Author Contributions}
+
+JDP conducted the literature review and wrote the manuscript. DJG acted as an advisor in statistics. RHH acted as an advisor in DNA barcoding. All authors contributed to the revision of this manuscript and approved the final version. 
+
+\section*{Conflict of Interest}
+
+None declared.
+
