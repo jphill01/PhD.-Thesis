@@ -140,6 +140,11 @@
   morphological and geographical scales.
 \newblock {\em Molecular Ecology Resources 15}, 2 (2015), 268--277.
 
+\bibitem{carstens2013fail}
+{\sc Carstens, B., Pelletier, T., Reid, N., and Satler, J.}
+\newblock How to fail at species delimitation.
+\newblock {\em Molecular Ecology 22\/} (2013), 4369--4383.
+
 \bibitem{casella2002statistical}
 {\sc Casella, G., and Berger, R.}
 \newblock {\em Statistical {I}nference}.
@@ -314,6 +319,12 @@
 \newblock On the histogram as a density estimator: {${L}_2$} theory.
 \newblock {\em Z. Wahrscheinlichkeitstheorie verw. Gebiete 57\/} (1981),
   453--476.
+
+\bibitem{fujisawa2016rapid}
+{\sc Fujisawa, T., Aswad, A., and Barraclough, T.}
+\newblock A rapid and scalable method for multilocus species delimitation using
+  {B}ayesian model comparison and rooted triplets.
+\newblock {\em Systematic Biology 65}, 5 (2016), 759?771.
 
 \bibitem{fujisawa2013delimiting}
 {\sc Fujisawa, T., and Barraclough, T.}
@@ -1045,6 +1056,12 @@
 {\sc Tajima, F.}
 \newblock Evolutionary relationship of {DNA} sequences in finite populations.
 \newblock {\em Genetics 105}, 2 (1983), 437--460.
+
+\bibitem{taylor2012emergent}
+{\sc Taylor, H., and Harris, W.}
+\newblock An emergent science on the brink of irrelevance: a review of the past
+  8 years of {DNA} barcoding.
+\newblock {\em Molecular Ecology Resources 12}, 3 (2012), 377--388.
 
 \bibitem{templeton1992cladistic}
 {\sc Templeton, A.~R., Crandall, K.~A., and Sing, C.~F.}
