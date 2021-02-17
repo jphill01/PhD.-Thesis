@@ -44,17 +44,27 @@
 \BOOKMARK [2][-]{subsection.3.4.2}{Additional Capabilities and Extending Functionality of HACSim}{section.3.4}% 44
 \BOOKMARK [2][-]{subsection.3.4.3}{Summary}{section.3.4}% 45
 \BOOKMARK [1][-]{section.3.5}{Conclusions}{chapter.3}% 46
-\BOOKMARK [0][-]{chapter.4}{}{}% 47
-\BOOKMARK [1][-]{section.4.1}{Abstract}{chapter.4}% 48
-\BOOKMARK [1][-]{section.4.2}{Introduction}{chapter.4}% 49
-\BOOKMARK [1][-]{section.4.3}{Methods}{chapter.4}% 50
-\BOOKMARK [1][-]{section.4.4}{Results}{chapter.4}% 51
-\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 52
-\BOOKMARK [0][-]{chapter.5}{}{}% 53
-\BOOKMARK [1][-]{section.5.1}{Abstract}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.2}{Introduction}{chapter.5}% 55
-\BOOKMARK [1][-]{section.5.3}{Methods}{chapter.5}% 56
-\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 57
-\BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 58
-\BOOKMARK [0][-]{section.5.5}{References}{}% 59
-\BOOKMARK [0][-]{chapter*.43}{References}{}% 60
+\BOOKMARK [0][-]{chapter.4}{Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{}% 47
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.1.1}{DNA Barcoding: A Brief Tour}{section.4.1}% 49
+\BOOKMARK [2][-]{subsection.4.1.2}{DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{section.4.1}% 50
+\BOOKMARK [1][-]{section.4.2}{A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{chapter.4}% 51
+\BOOKMARK [1][-]{section.4.3}{Case Study: DNA Barcoding of Pacific Canada's \040Fishes}{chapter.4}% 52
+\BOOKMARK [1][-]{section.4.4}{Evidence for the Lack of Statistical Rigor in DNA \040Barcoding}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.4.1}{Improper Allocation of Specimen Sampling Effort}{section.4.4}% 54
+\BOOKMARK [3][-]{section*.43}{Estimating Intraspecific Specimen Sample Sizes with the R Package HACSim}{subsection.4.4.1}% 55
+\BOOKMARK [2][-]{subsection.4.4.2}{Failing to Properly Visualize Intraspecific and Interspecific \040Genetic Distances}{section.4.4}% 56
+\BOOKMARK [3][-]{section*.44}{Circumventing the Problem with Histograms and Dotplots for Barcode Gap Display}{subsection.4.4.2}% 57
+\BOOKMARK [2][-]{subsection.4.4.3}{Inconsistent, Inappropriate Use, or Absence of Inferential \040Statistical Procedures in DNA Barcoding}{section.4.4}% 58
+\BOOKMARK [3][-]{section*.48}{Framing the DNA Barcode Gap as a Statistical Hypothesis}{subsection.4.4.3}% 59
+\BOOKMARK [3][-]{section*.49}{The Use of Nonparametric Bootstrapping to Estimate the DNA Barcode Gap}{subsection.4.4.3}% 60
+\BOOKMARK [1][-]{section.4.5}{New Avenues for Estimating the DNA Barcode Gap}{chapter.4}% 61
+\BOOKMARK [1][-]{section.4.6}{Concluding Remarks}{chapter.4}% 62
+\BOOKMARK [0][-]{chapter.5}{}{}% 63
+\BOOKMARK [1][-]{section.5.1}{Abstract}{chapter.5}% 64
+\BOOKMARK [1][-]{section.5.2}{Introduction}{chapter.5}% 65
+\BOOKMARK [1][-]{section.5.3}{Methods}{chapter.5}% 66
+\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 67
+\BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 68
+\BOOKMARK [0][-]{section.5.5}{References}{}% 69
+\BOOKMARK [0][-]{chapter*.51}{References}{}% 70
