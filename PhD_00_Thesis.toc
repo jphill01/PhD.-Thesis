@@ -60,7 +60,7 @@
 \contentsline {subsubsection}{The Use of Nonparametric Bootstrapping to Estimate the DNA Barcode Gap}{132}{section*.49}
 \contentsline {section}{\numberline {4.5}New Avenues for Estimating the DNA Barcode Gap}{135}{section.4.5}
 \contentsline {section}{\numberline {4.6}Concluding Remarks}{138}{section.4.6}
-\contentsline {chapter}{\numberline {5}}{142}{chapter.5}
+\contentsline {chapter}{\numberline {5}Solving the genetic specimen sample size problem for DNA barcoding with a local search optimization algorithm}{142}{chapter.5}
 \contentsline {section}{\numberline {5.1}Abstract}{142}{section.5.1}
 \contentsline {section}{\numberline {5.2}Introduction}{142}{section.5.2}
 \contentsline {section}{\numberline {5.3}Methods}{142}{section.5.3}
