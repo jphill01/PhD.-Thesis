@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 APR 2021 01:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 APR 2021 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1077,7 +1077,11 @@ Package csquotes Warning: No multilingual support.
 LaTeX Warning: Label `eqn' multiply defined.
 
 ) (./PhD_Chapter3.aux) (./PhD_Chapter4.aux) (./PhD_Chapter5.aux)
-(./PhD_Chapter6.aux))
+(./PhD_Chapter6.aux
+
+LaTeX Warning: Label `sec:intro1' multiply defined.
+
+) (./PhD_Appendix.aux))
 \openout1 = `PhD_00_Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -1211,7 +1215,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 ])
 \openout2 = `PhD_04_Acknowledgements.aux'.
 
- (./PhD_04_Acknowledgements.tex [3
+ (./PhD_04_Acknowledgements.tex
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 9.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [3
 
 
 ])
@@ -1267,12 +1276,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 25.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (12.40341pt too wide) in paragraph at lines 25--25
+Overfull \hbox (12.40341pt too wide) in paragraph at lines 24--24
  [][][] [][]\OT1/pcr/m/n/12 HACSim\OT1/ptm/b/n/12 : An R pack-age to es-ti-mate
  in-traspe-cific sam-ple sizes for ge-netic di-ver-sity |
  []
@@ -1281,19 +1285,19 @@ Overfull \hbox (12.40341pt too wide) in paragraph at lines 25--25
 
 
 
-]
-Overfull \hbox (3.00757pt too wide) in paragraph at lines 55--55
+] [5]
+Overfull \hbox (3.00757pt too wide) in paragraph at lines 60--60
  [][][][] []\OT1/ptm/m/n/12 Es-ti-mat-ing In-traspe-cific Spec-i-men Sam-ple Si
 zes with the R Pack-age |
  []
 
 
-Overfull \hbox (15.68085pt too wide) in paragraph at lines 57--57
+Overfull \hbox (15.68085pt too wide) in paragraph at lines 62--62
  [][][][] []\OT1/ptm/m/n/12 Cir-cum-vent-ing the Prob-lem with His-tograms and 
 Dot-plots for Bar-code |
  []
 
-[5])
+)
 \tf@toc=\write8
 \openout8 = `PhD_00_Thesis.toc'.
 
@@ -1304,89 +1308,20 @@ Dot-plots for Bar-code |
  [7
 
 ] (./PhD_00_Thesis.lof
-LaTeX Font Info:    Calculating math sizes for size <1> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <1> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <0.7> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <0.5> on input line 4.
-
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <1> not available
-(Font)              size <5> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <1> not available
-(Font)              size <5> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <1> not available
-(Font)              size <5> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <1> not available
-(Font)              size <5> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 4.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 4.
-
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <1> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 4.
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <1> not available
-(Font)              size <5> substituted on input line 4.
-
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 4.
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 4.
-
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 4.
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 4.
-
-
-Overfull \hbox (11.70815pt too wide) in paragraph at lines 9--9
- [][][][] [][]\OT1/ptm/m/n/12 Graphical de-pic-tion of the it-er-a-tive ex-trap
--o-la-tion sam-pling model as de-scribed |
+Overfull \hbox (6.96811pt too wide) in paragraph at lines 3--3
+ \OT1/ptm/m/n/12 Tick marks in-di-cate the num-ber of mu-ta-tional dif-fer-ence
+s sep-a-rat-ing sam-pled |
  []
 
 [8
 
 ]
+Overfull \hbox (11.70815pt too wide) in paragraph at lines 9--9
+ [][][][] [][]\OT1/ptm/m/n/12 Graphical de-pic-tion of the it-er-a-tive ex-trap
+-o-la-tion sam-pling model as de-scribed |
+ []
+
+
 Overfull \hbox (41.6245pt too wide) in paragraph at lines 10--10
  \OT1/ptm/m/n/12 hap-lo-type fre-quen-cies. \OT1/ptm/b/n/12 A\OT1/ptm/m/n/12 : 
 It-er-ated hap-lo-type ac-cu-mu-la-tion curve. \OT1/ptm/b/n/12 B\OT1/ptm/m/n/12
@@ -1399,7 +1334,7 @@ Overfull \hbox (3.5848pt too wide) in paragraph at lines 10--10
 de-pict the ob-served |
  []
 
-
+[9]
 Overfull \hbox (16.23924pt too wide) in paragraph at lines 13--13
  [][][][] [][]\OT1/ptm/m/n/12 Initial hap-lo-type fre-quency dis-tri-bu-tion fo
 r $[][]\OML/lmm/m/it/12 N$ \OT1/ptm/m/n/12 = 235 high-quality lake white-fish |
@@ -1419,7 +1354,7 @@ sim() \OT1/ptm/m/n/12 for Lake white-fish (\OT1/ptm/m/it/12 C. clu-peaformis\OT
 1/ptm/m/n/12 ) |
  []
 
-[9]
+
 Overfull \hbox (7.55652pt too wide) in paragraph at lines 19--19
  \OT1/ptm/m/n/12 ham-mer-head (\OT1/ptm/m/it/12 Sphyrna lewini\OT1/ptm/m/n/12 )
  COI bar-code se-quences ob-tained from BOLD. |
@@ -1439,31 +1374,31 @@ T1/ptm/m/n/12 ) |
  []
 
 [10]
-Overfull \hbox (0.6082pt too wide) in paragraph at lines 24--24
+Overfull \hbox (0.6082pt too wide) in paragraph at lines 25--25
  [][][][] [][]\OT1/ptm/m/n/12 Half log-a-rithm dot-plot for the dis-play of spe
 cies' ge-netic dis-tances mod-i-fied |
  []
 
 
-Overfull \hbox (20.64815pt too wide) in paragraph at lines 25--25
+Overfull \hbox (20.64815pt too wide) in paragraph at lines 26--26
  [][][][] [][]\OT1/ptm/m/n/12 plot for the de-pic-tion of species' ge-netic dis
 -tances re-pro-duced with mod-i-fi-ca-tion |
  []
 
 
-Overfull \hbox (11.50378pt too wide) in paragraph at lines 25--25
+Overfull \hbox (11.50378pt too wide) in paragraph at lines 26--26
  \OT1/ptm/m/n/12 species can be eas-ily de-tected and the suc-cess/per-for-manc
 e of DNA bar-cod-ing |
  []
 
 
-Overfull \hbox (25.0521pt too wide) in paragraph at lines 25--25
+Overfull \hbox (25.0521pt too wide) in paragraph at lines 26--26
  \OT1/ptm/m/n/12 other more par-si-mo-nious nu-cleotide sub-sti-tu-tion mod-els
  (such as the un-cor-rected |
  []
 
 
-Overfull \hbox (12.77292pt too wide) in paragraph at lines 25--25
+Overfull \hbox (12.77292pt too wide) in paragraph at lines 26--26
  \OT1/ptm/m/n/12 species (Quad-rant I; min-i-mum in-ter-spe-cific dis-tance $[]
 []\OMS/lmsy/m/n/12 ^^@$ \OT1/ptm/m/n/12 max-i-mum in-traspe-cific |
  []
@@ -1472,7 +1407,7 @@ Overfull \hbox (12.77292pt too wide) in paragraph at lines 25--25
 \tf@lof=\write10
 \openout10 = `PhD_00_Thesis.lof'.
 
-) [11] (./PhD_Chapter1.tex
+) [11] [12] (./PhD_Chapter1.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
@@ -1492,22 +1427,10 @@ Chapter 2.
 
 
 
-]
-Overfull \hbox (2.16371pt too wide) in paragraph at lines 12--13
-[][][]\OT1/ptm/m/n/12 DNA bar-cod-ing has greatly ac-cel-er-ated the pace of sp
-ec-i-men iden-ti-fi-ca-tion to the species |
- []
-
-[4]
+] [4]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
- [5]
-Overfull \hbox (14.04684pt too wide) in paragraph at lines 23--24
-\OT1/ptm/m/n/12 as-says for in-stance. This is es-pe-cially the case if such to
-ols are to be con-tin-u-ously im-ple-mented|
- []
-
-[6] [7] [8] [9] [10] <"Network".png, id=728, 413.545pt x 425.59pt>
+ [5] [6] [7] [8] [9] [10] <"Network".png, id=762, 413.545pt x 425.59pt>
 File: "Network".png Graphic file (type png)
 
 <use "Network".png>
@@ -1522,13 +1445,11 @@ Missing character: There is no ™ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 160.
  [30] [31] [32] [33]
-<Graph.pdf, id=1034, 722.7pt x 542.025pt>
+<Graph.pdf, id=1066, 722.7pt x 542.025pt>
 File: Graph.pdf Graphic file (type pdf)
  <use Graph.pdf>
 Package pdftex.def Info: Graph.pdf used on input line 238.
 (pdftex.def)             Requested size: 346.89731pt x 260.16904pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 239.
  [34 <./Graph.pdf>]
 [35] [36] [37] [38] [39] [40] [41] [42]) [43]
 \openout2 = `PhD_Chapter3.aux'.
@@ -1545,7 +1466,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ] [45] [46] [47] [48] [49] [50] [51]
-<"Figure 1".png, id=1232, 34.14331pt x 34.14331pt>
+<"Figure 1".png, id=1265, 34.14331pt x 34.14331pt>
 File: "Figure 1".png Graphic file (type png)
  <use "Figure 1".png>
 Package pdftex.def Info: "Figure 1".png used on input line 60.
@@ -1556,40 +1477,40 @@ Overfull \hbox (27.65704pt too wide) in paragraph at lines 85--103
  [][][][] |
  []
 
-[55] [56] [57] [58] <"Figure 2".png, id=1290, 60.00371pt x 34.14331pt>
+[55] [56] [57] [58] <"Figure 2".png, id=1323, 60.00371pt x 34.14331pt>
 File: "Figure 2".png Graphic file (type png)
 
 <use "Figure 2".png>
 Package pdftex.def Info: "Figure 2".png used on input line 128.
 (pdftex.def)             Requested size: 346.89731pt x 197.4029pt.
  [59] [60 <./Figure 2.png>]
-<"Figure 3".png, id=1302, 154.18233pt x 61.90056pt>
+<"Figure 3".png, id=1335, 154.18233pt x 61.90056pt>
 File: "Figure 3".png Graphic file (type png)
  <use "Figure 3".png>
 Package pdftex.def Info: "Figure 3".png used on input line 142.
 (pdftex.def)             Requested size: 346.89731pt x 139.29382pt.
 
-[61] [62 <./Figure 3.png>] <"Figure 4".png, id=1315, 115.64464pt x 86.71768pt>
+[61] [62 <./Figure 3.png>] <"Figure 4".png, id=1348, 115.64464pt x 86.71768pt>
 File: "Figure 4".png Graphic file (type png)
 
 <use "Figure 4".png>
 Package pdftex.def Info: "Figure 4".png used on input line 174.
 (pdftex.def)             Requested size: 346.89731pt x 260.16827pt.
  [63] [64 <./Figure 4.png>] [65] [66] [67]
-<"Figure 5".png, id=1346, 151.77965pt x 86.71768pt>
+<"Figure 5".png, id=1380, 151.77965pt x 86.71768pt>
 File: "Figure 5".png Graphic file (type png)
  <use "Figure 5".png>
 Package pdftex.def Info: "Figure 5".png used on input line 282.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [68] [69 <./Figure 5.png>] [70]
-<"Figure 6".png, id=1361, 151.77965pt x 86.71768pt>
+<"Figure 6".png, id=1394, 151.77965pt x 86.71768pt>
 File: "Figure 6".png Graphic file (type png)
  <use "Figure 6".png>
 Package pdftex.def Info: "Figure 6".png used on input line 416.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-<"Figure 7".png, id=1362, 151.77965pt x 86.71768pt>
+<"Figure 7".png, id=1395, 151.77965pt x 86.71768pt>
 File: "Figure 7".png Graphic file (type png)
  <use "Figure 7".png>
 Package pdftex.def Info: "Figure 7".png used on input line 427.
@@ -1599,59 +1520,59 @@ Package pdftex.def Info: "Figure 7".png used on input line 427.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 445.
  [73] [74]
-<"Figure 8".png, id=1397, 151.77965pt x 86.71768pt>
+<"Figure 8".png, id=1431, 151.77965pt x 86.71768pt>
 File: "Figure 8".png Graphic file (type png)
  <use "Figure 8".png>
 Package pdftex.def Info: "Figure 8".png used on input line 460.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[75 <./Figure 8.png>] <"Figure 9".png, id=1404, 151.77965pt x 86.71768pt>
+[75 <./Figure 8.png>] <"Figure 9".png, id=1437, 151.77965pt x 86.71768pt>
 File: "Figure 9".png Graphic file (type png)
 
 <use "Figure 9".png>
 Package pdftex.def Info: "Figure 9".png used on input line 581.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
- [76] <"Figure 10".png, id=1409, 151.77965pt x 86.71768pt>
+ [76] <"Figure 10".png, id=1442, 151.77965pt x 86.71768pt>
 File: "Figure 10".png Graphic file (type png)
 
 <use "Figure 10".png>
 Package pdftex.def Info: "Figure 10".png used on input line 594.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [77 <./Figure 9.png>] [78 <./Figure 10.png>]
-<"Figure 11".png, id=1427, 151.77965pt x 86.71768pt>
+<"Figure 11".png, id=1460, 151.77965pt x 86.71768pt>
 File: "Figure 11".png Graphic file (type png)
  <use "Figure 11".png>
 Package pdftex.def Info: "Figure 11".png used on input line 616.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [79] [80 <./Figure 11.png>]
-<"Figure 12".png, id=1438, 151.77965pt x 86.71768pt>
+<"Figure 12".png, id=1471, 151.77965pt x 86.71768pt>
 File: "Figure 12".png Graphic file (type png)
  <use "Figure 12".png>
 Package pdftex.def Info: "Figure 12".png used on input line 736.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[81 <./Figure 12.png>] <"Figure 13".png, id=1444, 151.77965pt x 86.71768pt>
+[81 <./Figure 12.png>] <"Figure 13".png, id=1477, 151.77965pt x 86.71768pt>
 File: "Figure 13".png Graphic file (type png)
 
 <use "Figure 13".png>
 Package pdftex.def Info: "Figure 13".png used on input line 749.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [82 <./Figure 13.png>]
-<"Figure 14".png, id=1453, 151.77965pt x 86.71768pt>
+<"Figure 14".png, id=1486, 151.77965pt x 86.71768pt>
 File: "Figure 14".png Graphic file (type png)
  <use "Figure 14".png>
 Package pdftex.def Info: "Figure 14".png used on input line 772.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [83] [84 <./Figure 14.png>]
-<"Figure 15".png, id=1464, 151.77965pt x 86.71768pt>
+<"Figure 15".png, id=1497, 151.77965pt x 86.71768pt>
 File: "Figure 15".png Graphic file (type png)
  <use "Figure 15".png>
 Package pdftex.def Info: "Figure 15".png used on input line 891.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[85 <./Figure 15.png>] <"Figure 16".png, id=1470, 151.77965pt x 86.71768pt>
+[85 <./Figure 15.png>] <"Figure 16".png, id=1504, 151.77965pt x 86.71768pt>
 File: "Figure 16".png Graphic file (type png)
 
 <use "Figure 16".png>
@@ -1663,66 +1584,76 @@ Package pdftex.def Info: "Figure 16".png used on input line 903.
 
  (./PhD_Chapter4.tex
 Chapter 4.
-[99
+) [99
 
 
 
 
-] [100] [101] [102]
+]
+\openout2 = `PhD_Chapter5.aux'.
 
-LaTeX Warning: Citation `shehata2018dna' on page 103 undefined on input line 30
+ (./PhD_Chapter5.tex
+Chapter 5.
+[100
+
+
+
+
+] [101] [102] [103]
+
+LaTeX Warning: Citation `shehata2018dna' on page 104 undefined on input line 30
 .
 
-[103] [104] [105] [106] [107] [108] [109] [110]
+[104] [105] [106] [107] [108] [109] [110] [111]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 53.
 
-[111] [112]
+[112] [113]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 61.
 
-[113] [114] [115] [116] [117]
+[114] [115] [116] [117] [118]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 86.
 
-[118]
+[119]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
- [119] [120] [121]
+ [120] [121] [122]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 17.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 17".pdf, id=1784, 442.65375pt x 361.35pt>
+<"Figure 17".pdf, id=1822, 442.65375pt x 361.35pt>
 File: "Figure 17".pdf Graphic file (type pdf)
  <use "Figure 17".pdf>
 Package pdftex.def Info: "Figure 17".pdf used on input line 103.
 (pdftex.def)             Requested size: 346.89731pt x 283.19722pt.
 
-[122 <./Figure 17.pdf>]
+[123 <./Figure 17.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 18.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 18".pdf, id=1800, 604.50844pt x 402.00188pt>
+<"Figure 18".pdf, id=1837, 604.50844pt x 402.00188pt>
 File: "Figure 18".pdf Graphic file (type pdf)
  <use "Figure 18".pdf>
 Package pdftex.def Info: "Figure 18".pdf used on input line 115.
 (pdftex.def)             Requested size: 346.89731pt x 230.68922pt.
 
-[123] [124 <./Figure 18.pdf>]
+[124] [125 <./Figure 18.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 19.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 19".pdf, id=1821, 591.71063pt x 515.67656pt>
+<"Figure 19".pdf, id=1857, 591.71063pt x 515.67656pt>
 File: "Figure 19".pdf Graphic file (type pdf)
  <use "Figure 19".pdf>
 Package pdftex.def Info: "Figure 19".pdf used on input line 128.
 (pdftex.def)             Requested size: 346.89731pt x 302.3266pt.
 
 Underfull \hbox (badness 1436) in paragraph at lines 130--130
-[][][]\OT1/ptm/b/n/12 Figure 4.3: |\OT1/ptm/m/n/12 plot for the de-pic-tion of 
+[][][]\OT1/ptm/b/n/12 Figure 5.3: |\OT1/ptm/m/n/12 plot for the de-pic-tion of 
 species' ge-netic dis-tances re-pro-duced with
  []
 
@@ -1738,29 +1669,40 @@ Underfull \hbox (badness 1448) in paragraph at lines 130--130
 ic dis-tance $[][]\OMS/lmsy/m/n/12 ^^@$ \OT1/ptm/m/n/12 max-i-mum
  []
 
-[125]
+[126]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 138.
 
 
-LaTeX Warning: Citation `' on page 126 undefined on input line 140.
+LaTeX Warning: Citation `' on page 127 undefined on input line 140.
 
-[126 <./Figure 19.pdf>] [127] [128] [129] [130] [131] [132] [133] [134]
-[135] [136] [137] [138] [139] [140]) [141]
-\openout2 = `PhD_Chapter5.aux'.
+[127 <./Figure 19.pdf>] [128] [129] [130] [131] [132] [133] [134] [135]
+[136] [137] [138] [139] [140] [141]) [142]
+\openout2 = `PhD_Chapter6.aux'.
 
- (./PhD_Chapter5.tex
-Chapter 5.
-) [142
+ (./PhD_Chapter6.tex
+Chapter 6.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
+
+) [143
 
 
 
 
 ]
-\openout2 = `PhD_Chapter6.aux'.
+\openout2 = `PhD_Appendix.aux'.
 
- (./PhD_Chapter6.tex) (./PhD_00_Thesis.bbl
+ (./PhD_Appendix.tex
+Chapter 7.
+) [144
+
+
+
+
+] (./PhD_00_Thesis.bbl
 Underfull \hbox (badness 2351) in paragraph at lines 41--46
 [][][]\OT1/ptm/m/sc/12 April, J., May-den, R. L., Han-ner, R. H., and Bernatche
 z, L.
@@ -1772,10 +1714,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 53--58
 i-ca-tion meth-ods.  \OT1/ptm/m/it/12 BMC
  []
 
-[143
-
-
-
+[145
 
 
 
@@ -1791,13 +1730,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--126
 [][][]\OT1/ptm/m/sc/12 Brown, S. D., Collins, R. A., Boyer, S., Lefort, M.-C.,
  []
 
-[144]
+[146]
 Underfull \hbox (badness 2150) in paragraph at lines 199--203
 [][][]\OT1/ptm/m/sc/12 Collins, R., Boykin, L., Cruick-shank, R., and Arm-stron
 g, K.
  []
 
-[145] [146] [147]
+[147] [148] [149]
 Underfull \hbox (badness 3601) in paragraph at lines 400--405
 [][][]\OT1/ptm/m/sc/12 Hale, M. L., Burg, T. M., and Steeves, T. E.  \OT1/ptm/m
 /n/12 Sam-pling for
@@ -1809,7 +1748,7 @@ Underfull \hbox (badness 2818) in paragraph at lines 422--427
 /m/n/12 Con-clu-sion:
  []
 
-[148] [149]
+[150] [151]
 Underfull \hbox (badness 1789) in paragraph at lines 543--548
 [][][]\OT1/ptm/m/sc/12 Jin, Q., He, L.-J., and Zhang, A.-B.  \OT1/ptm/m/n/12 A 
 sim-ple 2D non-parametric
@@ -1821,13 +1760,13 @@ Underfull \hbox (badness 1902) in paragraph at lines 579--583
 ef-er-ence databases.
  []
 
-[150]
+[152]
 Underfull \hbox (badness 1215) in paragraph at lines 602--606
 [][][]\OT1/ptm/m/sc/12 Lavinia, P., Kerr, K., Tubaro, P., Hebert, P., and Li-jt
 -maer, D.
  []
 
-[151] [152]
+[153] [154]
 Underfull \hbox (badness 4531) in paragraph at lines 731--737
 [][][]\OT1/ptm/m/sc/12 Mutanen, M., Kivel[]a, S. M., Vos, R. A., Dooren-weerd, 
 C.,
@@ -1839,7 +1778,7 @@ Underfull \hbox (badness 2932) in paragraph at lines 731--737
 van
  []
 
-[153]
+[155]
 Underfull \hbox (badness 3965) in paragraph at lines 807--811
 [][][]\OT1/ptm/m/sc/12 Paradis, E.  \OT1/ptm/m/n/12 pe-gas: an R pack-age for p
 op-u-la-tion ge-net-ics with an
@@ -1851,7 +1790,7 @@ Underfull \hbox (badness 1377) in paragraph at lines 859--864
 an-ner,
  []
 
-[154] [155]
+[156] [157]
 Underfull \hbox (badness 1184) in paragraph at lines 1018--1021
 [][][]\OT1/ptm/m/sc/12 Steinke, D., and Han-ner, R.  \OT1/ptm/m/n/12 The FISH-B
 OL col-lab-o-ra-tors' pro-to-col.
@@ -1859,7 +1798,7 @@ OL col-lab-o-ra-tors' pro-to-col.
 
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-[156] [157]
+[158] [159]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -1869,27 +1808,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 1145--1150
 mor-phol-ogy
  []
 
-[158]
+[160]
 Underfull \hbox (badness 1152) in paragraph at lines 1189--1192
 \OT1/ptm/m/n/12 Es-ti-mat-ing sam-ple sizes for DNA bar-cod-ing.  \OT1/ptm/m/it
 /12 Molec-u-lar Phy-lo-ge-net-ics and
  []
 
-) [159]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
+) [161]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
  (./PhD_00_Thesis.aux (./PhD_01_TitlePage.aux) (./PhD_02_Abstract.aux)
 (./PhD_04_Acknowledgements.aux) (./PhD_05_TOC.aux) (./PhD_Chapter2.aux)
 (./PhD_Chapter3.aux) (./PhD_Chapter4.aux) (./PhD_Chapter5.aux)
-(./PhD_Chapter6.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+(./PhD_Chapter6.aux) (./PhD_Appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
 Package rerunfilecheck Info: File `PhD_00_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A1F589CB6FF5452AFA1A016DC76B3E57;5909.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 4.5pt have occurred.
+(rerunfilecheck)             Checksum: 3DCDBA02E1E337D6B1E73CF0A1891EBA;5987.
 
 
 LaTeX Warning: There were undefined references.
@@ -1897,41 +1832,39 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 26923 strings out of 493014
- 526211 string characters out of 6133351
- 653933 words of memory out of 5000000
- 29283 multiletter control sequences out of 15000+600000
- 80335 words of font info for 127 fonts, out of 8000000 for 9000
+ 26884 strings out of 493014
+ 525657 string characters out of 6133351
+ 656487 words of memory out of 5000000
+ 29237 multiletter control sequences out of 15000+600000
+ 56654 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,19n,92p,6749b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
-16/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-d
-ist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
+16/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/f
+onts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
 vips/lm/lm-mathex.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
-lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/lm/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times
-/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.p
-fb>
-Output written on PhD_00_Thesis.pdf (170 pages, 25088651 bytes).
+lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
+m/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on PhD_00_Thesis.pdf (173 pages, 25085562 bytes).
 PDF statistics:
- 2228 PDF objects out of 2487 (max. 8388607)
- 1960 compressed objects within 20 object streams
- 491 named destinations out of 1000 (max. 500000)
- 678 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2264 PDF objects out of 2487 (max. 8388607)
+ 1995 compressed objects within 20 object streams
+ 498 named destinations out of 1000 (max. 500000)
+ 694 words of extra memory for PDF output out of 10000 (max. 10000000)
 
