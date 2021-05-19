@@ -1,5 +1,5 @@
-\contentsline {chapter}{List of Tables}{vii}{chapter*.9}
-\contentsline {chapter}{List of Figures}{viii}{chapter*.10}
+\contentsline {chapter}{List of Tables}{vii}{chapter*.3}
+\contentsline {chapter}{List of Figures}{viii}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {subsection}{\numberline {1.0.1}Thesis Overview}{1}{subsection.1.0.1}
 \contentsline {subsection}{\numberline {1.0.2}Thesis Statement}{2}{subsection.1.0.2}
@@ -7,9 +7,9 @@
 \contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Current Methods}{10}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Methods to Assess Haplotype Variation}{10}{subsection.2.2.1}
-\contentsline {subsubsection}{Haplotype Diversity}{10}{section*.11}
-\contentsline {subsubsection}{Haplotype Networks}{11}{section*.12}
-\contentsline {subsubsection}{Haplotype Accumulation Curves}{12}{section*.14}
+\contentsline {subsubsection}{Haplotype Diversity}{10}{section*.5}
+\contentsline {subsubsection}{Haplotype Networks}{11}{section*.6}
+\contentsline {subsubsection}{Haplotype Accumulation Curves}{12}{section*.8}
 \contentsline {subsection}{\numberline {2.2.2}Sampling Models for Genetic Diversity Prediction}{14}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}DNA Barcoding}{16}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}The Importance of Sampling to DNA Barcoding}{18}{subsection.2.2.4}
@@ -27,17 +27,17 @@
 \contentsline {subsection}{\numberline {3.1.2}Motivation}{51}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Methods}{52}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Haplotype Accumulation Curve Simulation Algorithm}{52}{subsection.3.2.1}
-\contentsline {subsubsection}{Algorithm Functions}{52}{section*.19}
-\contentsline {subsubsection}{Algorithm Parameters}{55}{section*.21}
-\contentsline {subsubsection}{How Does HACSim Work?}{59}{section*.23}
+\contentsline {subsubsection}{Algorithm Functions}{52}{section*.13}
+\contentsline {subsubsection}{Algorithm Parameters}{55}{section*.15}
+\contentsline {subsubsection}{How Does HACSim Work?}{59}{section*.17}
 \contentsline {section}{\numberline {3.3}Results}{67}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Application of {\tt HACSim} to Hypothetical Species}{68}{subsection.3.3.1}
-\contentsline {subsubsection}{Equal Haplotype Frequencies}{68}{section*.27}
-\contentsline {subsubsection}{Unequal Haplotype Frequencies}{70}{section*.29}
+\contentsline {subsubsection}{Equal Haplotype Frequencies}{68}{section*.21}
+\contentsline {subsubsection}{Unequal Haplotype Frequencies}{70}{section*.23}
 \contentsline {subsection}{\numberline {3.3.2}Application of {\tt HACSim} to Real Species}{73}{subsection.3.3.2}
-\contentsline {subsubsection}{Lake Whitefish (\textit {Coregonus clupeaformis})}{73}{section*.32}
-\contentsline {subsubsection}{Deer tick (\textit {Ixodes scapularis})}{78}{section*.36}
-\contentsline {subsubsection}{Scalloped hammerhead (\textit {Sphyrna lewini})}{82}{section*.40}
+\contentsline {subsubsection}{Lake Whitefish (\textit {Coregonus clupeaformis})}{73}{section*.26}
+\contentsline {subsubsection}{Deer tick (\textit {Ixodes scapularis})}{78}{section*.30}
+\contentsline {subsubsection}{Scalloped hammerhead (\textit {Sphyrna lewini})}{82}{section*.34}
 \contentsline {section}{\numberline {3.4}Discussion}{86}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Initializing {\tt HACSim} and Overall Algorithm Behaviour}{86}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Additional Capabilities and Extending Functionality of \tt {HACSim}}{88}{subsection.3.4.2}
@@ -50,23 +50,8 @@
 \contentsline {section}{\numberline {4.4}Results}{99}{section.4.4}
 \contentsline {section}{\numberline {4.5}Discussion}{99}{section.4.5}
 \contentsline {chapter}{\numberline {5}Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{100}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{103}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}DNA Barcoding: A Brief Tour}{103}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{105}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{109}{section.5.2}
-\contentsline {section}{\numberline {5.3}Case Study: DNA Barcoding of Pacific Canada's \\ Fishes}{112}{section.5.3}
-\contentsline {section}{\numberline {5.4}Evidence for the Lack of Statistical Rigor in DNA \\ Barcoding}{115}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Improper Allocation of Specimen Sampling Effort}{116}{subsection.5.4.1}
-\contentsline {subsubsection}{Estimating Intraspecific Specimen Sample Sizes with the R Package {\tt HACSim}}{118}{section*.47}
-\contentsline {subsection}{\numberline {5.4.2}Failing to Properly Visualize Intraspecific and Interspecific \\ Genetic Distances}{119}{subsection.5.4.2}
-\contentsline {subsubsection}{Circumventing the Problem with Histograms and Dotplots for Barcode Gap Display}{120}{section*.48}
-\contentsline {subsection}{\numberline {5.4.3}Inconsistent, Inappropriate Use, or Absence of Inferential \\ Statistical Procedures in DNA Barcoding}{128}{subsection.5.4.3}
-\contentsline {subsubsection}{Framing the DNA Barcode Gap as a Statistical Hypothesis}{131}{section*.52}
-\contentsline {subsubsection}{The Use of Nonparametric Bootstrapping to Estimate the DNA Barcode Gap}{133}{section*.53}
-\contentsline {section}{\numberline {5.5}New Avenues for Estimating the DNA Barcode Gap}{136}{section.5.5}
-\contentsline {section}{\numberline {5.6}Concluding Remarks}{139}{section.5.6}
-\contentsline {chapter}{\numberline {6}Conclusion}{143}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Thesis Summary}{143}{subsection.6.0.1}
-\contentsline {chapter}{\numberline {7}Appendix}{144}{chapter.7}
-\contentsline {chapter}{References}{145}{chapter.7}
-\contentsline {chapter}{References}{145}{chapter*.55}
+\contentsline {chapter}{\numberline {6}Conclusion}{101}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}Thesis Summary}{101}{subsection.6.0.1}
+\contentsline {chapter}{\numberline {7}Appendix}{102}{chapter.7}
+\contentsline {chapter}{References}{103}{chapter.7}
+\contentsline {chapter}{References}{103}{chapter*.41}
