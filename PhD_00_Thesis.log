@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 MAY 2021 14:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 JUN 2021 19:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,6 +309,9 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
@@ -1069,7 +1072,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
 Package csquotes Warning: No multilingual support.
-(csquotes)                Cannot enable multilingual quotes on input line 66.
+(csquotes)                Cannot enable multilingual quotes on input line 67.
 
 (./PhD_00_Thesis.aux (./PhD_01_TitlePage.aux) (./PhD_02_Abstract.aux)
 (./PhD_04_Acknowledgements.aux) (./PhD_05_TOC.aux) (./PhD_Chapter2.aux
@@ -1084,21 +1087,21 @@ LaTeX Warning: Label `sec:intro1' multiply defined.
 ) (./PhD_Appendix.aux))
 \openout1 = `PhD_00_Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 67.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1150,13 +1153,9 @@ Configuring pdfsync
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring OFF on input line 66.
+Package hyperref Info: Link coloring OFF on input line 67.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1166,9 +1165,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count185
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
 
 (./PhD_00_Thesis.out) (./PhD_00_Thesis.out)
 \@outlinefile=\write7
@@ -1190,13 +1189,13 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 
 
 (./PhD_01_TitlePage.tex)
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 71.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
  [1
 
 
@@ -1285,15 +1284,15 @@ Overfull \hbox (12.40341pt too wide) in paragraph at lines 24--24
 
 
 
-] [5])
+])
 \tf@toc=\write8
 \openout8 = `PhD_00_Thesis.toc'.
 
- [6] (./PhD_00_Thesis.lot)
+ [5] (./PhD_00_Thesis.lot)
 \tf@lot=\write9
 \openout9 = `PhD_00_Thesis.lot'.
 
- [7
+ [6
 
 ] (./PhD_00_Thesis.lof
 Overfull \hbox (6.96811pt too wide) in paragraph at lines 3--3
@@ -1301,7 +1300,7 @@ Overfull \hbox (6.96811pt too wide) in paragraph at lines 3--3
 s sep-a-rat-ing sam-pled |
  []
 
-[8
+[7
 
 ]
 Overfull \hbox (11.70815pt too wide) in paragraph at lines 9--9
@@ -1322,7 +1321,7 @@ Overfull \hbox (3.5848pt too wide) in paragraph at lines 10--10
 de-pict the ob-served |
  []
 
-[9]
+[8]
 Overfull \hbox (16.23924pt too wide) in paragraph at lines 13--13
  [][][][] [][]\OT1/ptm/m/n/12 Initial hap-lo-type fre-quency dis-tri-bu-tion fo
 r $[][]\OML/lmm/m/it/12 N$ \OT1/ptm/m/n/12 = 235 high-quality lake white-fish |
@@ -1365,7 +1364,7 @@ T1/ptm/m/n/12 ) |
 \tf@lof=\write10
 \openout10 = `PhD_00_Thesis.lof'.
 
-) [10] [11] (./PhD_Chapter1.tex
+) [9] [10] (./PhD_Chapter1.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
@@ -1389,7 +1388,7 @@ Chapter 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
  [6] [7] [8] [9] [10] [11]
-<"Network".png, id=619, 413.545pt x 425.59pt>
+<"Network".png, id=611, 413.545pt x 425.59pt>
 File: "Network".png Graphic file (type png)
  <use "Network".png>
 Package pdftex.def Info: "Network".png used on input line 96.
@@ -1403,7 +1402,7 @@ Missing character: There is no ™ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 214.
  [31] [32] [33] [34]
-<Graph.pdf, id=925, 722.7pt x 542.025pt>
+<Graph.pdf, id=917, 722.7pt x 542.025pt>
 File: Graph.pdf Graphic file (type pdf)
  <use Graph.pdf>
 Package pdftex.def Info: Graph.pdf used on input line 302.
@@ -1423,117 +1422,117 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ] [46] [47] [48] [49] [50] [51] [52] [53]
-<"Figure 1".png, id=1130, 34.14331pt x 34.14331pt>
+<"Figure 1".png, id=1121, 34.14331pt x 34.14331pt>
 File: "Figure 1".png Graphic file (type png)
  <use "Figure 1".png>
 Package pdftex.def Info: "Figure 1".png used on input line 80.
 (pdftex.def)             Requested size: 346.89731pt x 347.0821pt.
 
-[54 <./Figure 1.png>] [55]
-Overfull \hbox (27.65704pt too wide) in paragraph at lines 110--128
- [][][][] |
- []
+[54 <./Figure 1.png>] [55] [56] [57
 
-[56] [57] [58] [59] <"Figure 2".png, id=1183, 60.00371pt x 34.14331pt>
+] [58
+
+] [59] [60]
+<"Figure 2".png, id=1180, 60.00371pt x 34.14331pt>
 File: "Figure 2".png Graphic file (type png)
-
-<use "Figure 2".png>
-Package pdftex.def Info: "Figure 2".png used on input line 166.
+ <use "Figure 2".png>
+Package pdftex.def Info: "Figure 2".png used on input line 169.
 (pdftex.def)             Requested size: 346.89731pt x 197.4029pt.
- [60] [61 <./Figure 2.png>]
-<"Figure 3".png, id=1195, 154.18233pt x 61.90056pt>
+
+[61 <./Figure 2.png>] [62] <"Figure 3".png, id=1191, 154.18233pt x 61.90056pt>
 File: "Figure 3".png Graphic file (type png)
- <use "Figure 3".png>
-Package pdftex.def Info: "Figure 3".png used on input line 180.
+
+<use "Figure 3".png>
+Package pdftex.def Info: "Figure 3".png used on input line 183.
 (pdftex.def)             Requested size: 346.89731pt x 139.29382pt.
-
-[62] [63 <./Figure 3.png>] <"Figure 4".png, id=1208, 115.64464pt x 86.71768pt>
+ [63 <./Figure 3.png>]
+<"Figure 4".png, id=1200, 115.64464pt x 86.71768pt>
 File: "Figure 4".png Graphic file (type png)
-
-<use "Figure 4".png>
-Package pdftex.def Info: "Figure 4".png used on input line 214.
+ <use "Figure 4".png>
+Package pdftex.def Info: "Figure 4".png used on input line 217.
 (pdftex.def)             Requested size: 346.89731pt x 260.16827pt.
- [64] [65 <./Figure 4.png>] [66] [67] [68]
-<"Figure 5".png, id=1240, 151.77965pt x 86.71768pt>
+
+[64] [65 <./Figure 4.png>] [66] [67] [68]
+<"Figure 5".png, id=1231, 151.77965pt x 86.71768pt>
 File: "Figure 5".png Graphic file (type png)
  <use "Figure 5".png>
-Package pdftex.def Info: "Figure 5".png used on input line 331.
+Package pdftex.def Info: "Figure 5".png used on input line 334.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [69] [70 <./Figure 5.png>] [71]
-<"Figure 6".png, id=1254, 151.77965pt x 86.71768pt>
+<"Figure 6".png, id=1246, 151.77965pt x 86.71768pt>
 File: "Figure 6".png Graphic file (type png)
  <use "Figure 6".png>
-Package pdftex.def Info: "Figure 6".png used on input line 467.
+Package pdftex.def Info: "Figure 6".png used on input line 470.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-<"Figure 7".png, id=1255, 151.77965pt x 86.71768pt>
+<"Figure 7".png, id=1247, 151.77965pt x 86.71768pt>
 File: "Figure 7".png Graphic file (type png)
  <use "Figure 7".png>
-Package pdftex.def Info: "Figure 7".png used on input line 478.
+Package pdftex.def Info: "Figure 7".png used on input line 481.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [72 <./Figure 6.png>] [73 <./Figure 7.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 501.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 504.
  [74] [75]
-<"Figure 8".png, id=1291, 151.77965pt x 86.71768pt>
+<"Figure 8".png, id=1283, 151.77965pt x 86.71768pt>
 File: "Figure 8".png Graphic file (type png)
  <use "Figure 8".png>
-Package pdftex.def Info: "Figure 8".png used on input line 522.
+Package pdftex.def Info: "Figure 8".png used on input line 525.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[76] [77 <./Figure 8.png>] <"Figure 9".png, id=1301, 151.77965pt x 86.71768pt>
+[76] [77 <./Figure 8.png>] <"Figure 9".png, id=1293, 151.77965pt x 86.71768pt>
 File: "Figure 9".png Graphic file (type png)
 
 <use "Figure 9".png>
-Package pdftex.def Info: "Figure 9".png used on input line 643.
+Package pdftex.def Info: "Figure 9".png used on input line 646.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
- [78] <"Figure 10".png, id=1306, 151.77965pt x 86.71768pt>
+ [78] <"Figure 10".png, id=1298, 151.77965pt x 86.71768pt>
 File: "Figure 10".png Graphic file (type png)
 
 <use "Figure 10".png>
-Package pdftex.def Info: "Figure 10".png used on input line 656.
+Package pdftex.def Info: "Figure 10".png used on input line 659.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [79 <./Figure 9.png>] [80 <./Figure 10.png>]
-<"Figure 11".png, id=1325, 151.77965pt x 86.71768pt>
+<"Figure 11".png, id=1316, 151.77965pt x 86.71768pt>
 File: "Figure 11".png Graphic file (type png)
  <use "Figure 11".png>
-Package pdftex.def Info: "Figure 11".png used on input line 683.
+Package pdftex.def Info: "Figure 11".png used on input line 686.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [81] [82 <./Figure 11.png>]
-<"Figure 12".png, id=1335, 151.77965pt x 86.71768pt>
+<"Figure 12".png, id=1327, 151.77965pt x 86.71768pt>
 File: "Figure 12".png Graphic file (type png)
  <use "Figure 12".png>
-Package pdftex.def Info: "Figure 12".png used on input line 803.
+Package pdftex.def Info: "Figure 12".png used on input line 806.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[83] <"Figure 13".png, id=1340, 151.77965pt x 86.71768pt>
+[83] <"Figure 13".png, id=1332, 151.77965pt x 86.71768pt>
 File: "Figure 13".png Graphic file (type png)
 
 <use "Figure 13".png>
-Package pdftex.def Info: "Figure 13".png used on input line 816.
+Package pdftex.def Info: "Figure 13".png used on input line 819.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [84 <./Figure 12.png> <./Figure 13.png>] [85]
-<"Figure 14".png, id=1355, 151.77965pt x 86.71768pt>
+<"Figure 14".png, id=1347, 151.77965pt x 86.71768pt>
 File: "Figure 14".png Graphic file (type png)
  <use "Figure 14".png>
-Package pdftex.def Info: "Figure 14".png used on input line 844.
+Package pdftex.def Info: "Figure 14".png used on input line 847.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [86] [87 <./Figure 14.png>]
-<"Figure 15".png, id=1366, 151.77965pt x 86.71768pt>
+<"Figure 15".png, id=1358, 151.77965pt x 86.71768pt>
 File: "Figure 15".png Graphic file (type png)
  <use "Figure 15".png>
-Package pdftex.def Info: "Figure 15".png used on input line 963.
+Package pdftex.def Info: "Figure 15".png used on input line 966.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[88 <./Figure 15.png>] <"Figure 16".png, id=1372, 151.77965pt x 86.71768pt>
+[88 <./Figure 15.png>] <"Figure 16".png, id=1364, 151.77965pt x 86.71768pt>
 File: "Figure 16".png Graphic file (type png)
 
 <use "Figure 16".png>
-Package pdftex.def Info: "Figure 16".png used on input line 975.
+Package pdftex.def Info: "Figure 16".png used on input line 978.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [89 <./Figure 16.png>] [90] [91] [92] [93] [94] [95]
 [96] [97] [98] [99] [100]) [101]
@@ -1570,12 +1569,12 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 
 
-]) [105]
+] [105]) [106]
 \openout2 = `PhD_Appendix.aux'.
 
  (./PhD_Appendix.tex
 Chapter 7.
-) [106
+) [107
 
 
 
@@ -1592,7 +1591,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 53--58
 i-ca-tion meth-ods.  \OT1/ptm/m/it/12 BMC
  []
 
-[107
+[108
 
 
 
@@ -1608,13 +1607,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--126
 [][][]\OT1/ptm/m/sc/12 Brown, S. D., Collins, R. A., Boyer, S., Lefort, M.-C.,
  []
 
-[108]
+[109]
 Underfull \hbox (badness 2150) in paragraph at lines 199--203
 [][][]\OT1/ptm/m/sc/12 Collins, R., Boykin, L., Cruick-shank, R., and Arm-stron
 g, K.
  []
 
-[109] [110] [111]
+[110] [111] [112]
 Underfull \hbox (badness 3601) in paragraph at lines 400--405
 [][][]\OT1/ptm/m/sc/12 Hale, M. L., Burg, T. M., and Steeves, T. E.  \OT1/ptm/m
 /n/12 Sam-pling for
@@ -1626,7 +1625,7 @@ Underfull \hbox (badness 2818) in paragraph at lines 422--427
 /m/n/12 Con-clu-sion:
  []
 
-[112] [113]
+[113] [114]
 Underfull \hbox (badness 1789) in paragraph at lines 543--548
 [][][]\OT1/ptm/m/sc/12 Jin, Q., He, L.-J., and Zhang, A.-B.  \OT1/ptm/m/n/12 A 
 sim-ple 2D non-parametric
@@ -1638,13 +1637,13 @@ Underfull \hbox (badness 1902) in paragraph at lines 579--583
 ef-er-ence databases.
  []
 
-[114]
+[115]
 Underfull \hbox (badness 1215) in paragraph at lines 602--606
 [][][]\OT1/ptm/m/sc/12 Lavinia, P., Kerr, K., Tubaro, P., Hebert, P., and Li-jt
 -maer, D.
  []
 
-[115] [116]
+[116] [117]
 Underfull \hbox (badness 4531) in paragraph at lines 731--737
 [][][]\OT1/ptm/m/sc/12 Mutanen, M., Kivel[]a, S. M., Vos, R. A., Dooren-weerd, 
 C.,
@@ -1656,7 +1655,7 @@ Underfull \hbox (badness 2932) in paragraph at lines 731--737
 van
  []
 
-[117]
+[118]
 Underfull \hbox (badness 3965) in paragraph at lines 807--811
 [][][]\OT1/ptm/m/sc/12 Paradis, E.  \OT1/ptm/m/n/12 pe-gas: an R pack-age for p
 op-u-la-tion ge-net-ics with an
@@ -1668,7 +1667,7 @@ Underfull \hbox (badness 1377) in paragraph at lines 859--864
 an-ner,
  []
 
-[118] [119]
+[119] [120]
 Underfull \hbox (badness 1184) in paragraph at lines 1018--1021
 [][][]\OT1/ptm/m/sc/12 Steinke, D., and Han-ner, R.  \OT1/ptm/m/n/12 The FISH-B
 OL col-lab-o-ra-tors' pro-to-col.
@@ -1676,7 +1675,7 @@ OL col-lab-o-ra-tors' pro-to-col.
 
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-[120] [121]
+[121] [122]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -1686,37 +1685,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 1145--1150
 mor-phol-ogy
  []
 
-[122]
+[123]
 Underfull \hbox (badness 1152) in paragraph at lines 1189--1192
 \OT1/ptm/m/n/12 Es-ti-mat-ing sam-ple sizes for DNA bar-cod-ing.  \OT1/ptm/m/it
 /12 Molec-u-lar Phy-lo-ge-net-ics and
  []
 
-) [123]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+) [124]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (./PhD_00_Thesis.aux (./PhD_01_TitlePage.aux) (./PhD_02_Abstract.aux)
 (./PhD_04_Acknowledgements.aux) (./PhD_05_TOC.aux) (./PhD_Chapter2.aux)
 (./PhD_Chapter3.aux) (./PhD_Chapter4.aux) (./PhD_Chapter5.aux)
 (./PhD_Chapter6.aux) (./PhD_Appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `PhD_00_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E6EDBD109D3F39DC9F58875E681EECE6;4360.
+(rerunfilecheck)             Checksum: 9486499EE24971F6A00A06BD576DC58C;4314.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
  26762 strings out of 493014
- 524230 string characters out of 6133351
- 648505 words of memory out of 5000000
+ 524231 string characters out of 6133351
+ 648583 words of memory out of 5000000
  29192 multiletter control sequences out of 15000+600000
  49202 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,19n,92p,6746b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,92p,6746b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/f
@@ -1736,10 +1735,10 @@ ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on PhD_00_Thesis.pdf (134 pages, 24723807 bytes).
+Output written on PhD_00_Thesis.pdf (134 pages, 24724740 bytes).
 PDF statistics:
- 1777 PDF objects out of 2073 (max. 8388607)
- 1564 compressed objects within 16 object streams
+ 1773 PDF objects out of 2073 (max. 8388607)
+ 1560 compressed objects within 16 object streams
  434 named destinations out of 1000 (max. 500000)
- 559 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 551 words of extra memory for PDF output out of 10000 (max. 10000000)
 
