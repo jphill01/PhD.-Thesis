@@ -1,5 +1,5 @@
-\contentsline {chapter}{List of Tables}{vi}{chapter*.3}
-\contentsline {chapter}{List of Figures}{vii}{chapter*.4}
+\contentsline {chapter}{List of Tables}{vii}{chapter*.2}
+\contentsline {chapter}{List of Figures}{viii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {subsection}{\numberline {1.0.1}Thesis Overview}{1}{subsection.1.0.1}
 \contentsline {subsection}{\numberline {1.0.2}Thesis Statement}{2}{subsection.1.0.2}
@@ -7,9 +7,9 @@
 \contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}
 \contentsline {section}{\numberline {2.2}Current Methods}{11}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Methods to Assess Haplotype Variation}{11}{subsection.2.2.1}
-\contentsline {subsubsection}{Haplotype Diversity}{11}{section*.5}
-\contentsline {subsubsection}{Haplotype Networks}{12}{section*.6}
-\contentsline {subsubsection}{Haplotype Accumulation Curves}{13}{section*.8}
+\contentsline {subsubsection}{Haplotype Diversity}{11}{section*.4}
+\contentsline {subsubsection}{Haplotype Networks}{12}{section*.5}
+\contentsline {subsubsection}{Haplotype Accumulation Curves}{13}{section*.7}
 \contentsline {subsection}{\numberline {2.2.2}Sampling Models for Genetic Diversity Prediction}{15}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}DNA Barcoding}{17}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}The Importance of Sampling to DNA Barcoding}{19}{subsection.2.2.4}
@@ -27,17 +27,17 @@
 \contentsline {subsection}{\numberline {3.1.2}Motivation}{52}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Methods}{53}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Haplotype Accumulation Curve Simulation Algorithm}{53}{subsection.3.2.1}
-\contentsline {subsubsection}{Algorithm Functions}{53}{section*.13}
-\contentsline {subsubsection}{Algorithm Parameters}{56}{section*.15}
-\contentsline {subsubsection}{How Does HACSim Work?}{61}{section*.17}
+\contentsline {subsubsection}{Algorithm Functions}{53}{section*.12}
+\contentsline {subsubsection}{Algorithm Parameters}{56}{section*.14}
+\contentsline {subsubsection}{How Does HACSim Work?}{61}{section*.16}
 \contentsline {section}{\numberline {3.3}Results}{68}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Application of {\tt HACSim} to Hypothetical Species}{69}{subsection.3.3.1}
-\contentsline {subsubsection}{Equal Haplotype Frequencies}{69}{section*.21}
-\contentsline {subsubsection}{Unequal Haplotype Frequencies}{71}{section*.23}
+\contentsline {subsubsection}{Equal Haplotype Frequencies}{69}{section*.20}
+\contentsline {subsubsection}{Unequal Haplotype Frequencies}{71}{section*.22}
 \contentsline {subsection}{\numberline {3.3.2}Application of {\tt HACSim} to Real Species}{74}{subsection.3.3.2}
-\contentsline {subsubsection}{Lake Whitefish (\textit {Coregonus clupeaformis})}{74}{section*.26}
-\contentsline {subsubsection}{Deer tick (\textit {Ixodes scapularis})}{80}{section*.30}
-\contentsline {subsubsection}{Scalloped hammerhead (\textit {Sphyrna lewini})}{85}{section*.34}
+\contentsline {subsubsection}{Lake Whitefish (\textit {Coregonus clupeaformis})}{74}{section*.25}
+\contentsline {subsubsection}{Deer tick (\textit {Ixodes scapularis})}{80}{section*.29}
+\contentsline {subsubsection}{Scalloped hammerhead (\textit {Sphyrna lewini})}{85}{section*.33}
 \contentsline {section}{\numberline {3.4}Discussion}{89}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Initializing {\tt HACSim} and Overall Algorithm Behaviour}{89}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Additional Capabilities and Extending Functionality of \tt {HACSim}}{91}{subsection.3.4.2}
@@ -53,4 +53,4 @@
 \contentsline {chapter}{\numberline {6}Conclusion}{104}{chapter.6}
 \contentsline {subsection}{\numberline {6.0.1}Thesis Summary}{104}{subsection.6.0.1}
 \contentsline {chapter}{\numberline {7}Appendix}{107}{chapter.7}
-\contentsline {chapter}{References}{108}{chapter*.41}
+\contentsline {chapter}{References}{108}{chapter*.40}
