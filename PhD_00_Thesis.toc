@@ -21,7 +21,7 @@
 \contentsline {subsection}{\numberline {2.4.2}Mathematical Details}{33}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Application to Ray-finned Fishes}{37}{subsection.2.4.3}
 \contentsline {section}{\numberline {2.5}Future Prospects}{39}{section.2.5}
-\contentsline {chapter}{\numberline {3}{\tt HACSim}: An R package to estimate intraspecific sample sizes for genetic diversity assessment using haplotype accumulation curves\\}{45}{chapter.3}
+\contentsline {chapter}{\numberline {3}{\tt HACSim}: An R package to estimate intraspecific sample sizes for genetic diversity assessment using haplotype accumulation curves}{45}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{48}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Background}{48}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Motivation}{52}{subsection.3.1.2}
