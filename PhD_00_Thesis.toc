@@ -1,5 +1,5 @@
-\contentsline {chapter}{List of Tables}{vii}{chapter*.2}
-\contentsline {chapter}{List of Figures}{viii}{chapter*.3}
+\contentsline {chapter}{List of Tables}{viii}{chapter*.2}
+\contentsline {chapter}{List of Figures}{ix}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {subsection}{\numberline {1.0.1}Thesis Overview}{1}{subsection.1.0.1}
 \contentsline {subsection}{\numberline {1.0.2}Thesis Statement}{2}{subsection.1.0.2}
@@ -52,5 +52,6 @@
 \contentsline {chapter}{\numberline {5}Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{103}{chapter.5}
 \contentsline {chapter}{\numberline {6}Conclusion}{104}{chapter.6}
 \contentsline {subsection}{\numberline {6.0.1}Thesis Summary}{104}{subsection.6.0.1}
-\contentsline {chapter}{\numberline {7}Appendix}{107}{chapter.7}
-\contentsline {chapter}{References}{108}{chapter*.40}
+\contentsline {chapter}{References}{107}{chapter*.40}
+\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{124}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{125}{appendix.B}
