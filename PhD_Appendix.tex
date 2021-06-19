@@ -15,6 +15,57 @@ Internal R code for {\tt HACSim} can be found at https://github.com/jphill01/HAC
 
 Supplemental information can be found at https://github.com/jphill01/\\PhD-Thesis-Appendix.
 
+\chapter{Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta$) \\ (Equation 3.3)}
+
+The Delta Method permits the approximation of the distribution of a function of a random variable provided said random variable is asymptotically normal.
+
+Using the univariate Delta Method, an approximate large-sample (asympototic) \\ confidence interval for specimen sampling sufficiency ($\theta$) based on the Central Limit \\ Theorem (CLT) can be derived.  
+
+For a single parameter of interest, the Delta Method states that
+
+\begin{equation}
+\sqrt{n}(g(X_n) - g(\mu)) \rightarrow_d \mathcal{N}(0, [g'(\mu)]^2\sigma^2).
+\end{equation}
+
+\noindent where $n$ is the number of observations and $g(X_n)$ is a function of independent and \\ identically distributed (iid) random variables $X_1,...,X_n$ with finite variance $\sigma^2$ approximating some unknown parameter $\mu$. 
+
+Writing Equation (3.1) as a function of $H_i$ gives
+
+\begin{equation}
+g(H_i) = \frac{N_iH^*}{H_i}
+\end{equation}
+
+\noindent where both $N_i$ and \textit{H}* are constants and $H_i$ is the random variable of interest. 
+
+Now, differentiating the above expression with respect to $H_i$ and factoring the \\ denominator leads to
+
+\begin{equation}
+g'(H_i) = \frac{-N_iH^*}{H_i^2} = \frac{-1}{H_i}\frac{N_iH^*}{H_i} = \frac{-N^*_{i+1}}{H_i}.
+\end{equation}
+
+By the Delta Method, the estimated variance of \textit{N}* is given by
+
+\begin{equation}
+\widehat{Var}[N^*_{i+1}] = [g'(H_i)]^2\hat{\sigma}^2_{H_i} = \left(\frac{N^*_{i+1}}{H_i}\right)^2\hat{\sigma}^2_{H_i}.
+\end{equation}
+
+\noindent and its corresponding standard deviation and standard error are respectively
+
+\begin{equation}
+\widehat{SD}[N^*_{i+1}] = \sqrt{\widehat{Var}[N^*_{i+1}]} = \frac{\hat{\sigma}_{H_i}}{H_i}N^*_{i+1}
+\end{equation}
+
+\noindent and
+
+\begin{equation}
+\widehat{SE}[N^*_{i+1}] = \frac{\widehat{SD}[N^*_{i+1}]}{\sqrt{N^*_{i+1}}} = \frac{\hat{\sigma}_{H_i}}{H_i}\sqrt{N^*_{i+1}}
+\end{equation}
+
+Finally, a symmetric CI for $\theta$ can be constructed, leading to Equation (3.3).
+
+\begin{equation}
+N^*_{i+1} \pm z_{1-\frac{\alpha}{2}}\widehat{SE}[N^*_{i+1}] = N^*_{i+1} \pm z_{1-\frac{\alpha}{2}}\left(\frac{\hat{\sigma}_{H_i}}{H_i}\sqrt{N^*_{i+1}}\right)
+\end{equation}
 
 % more sections
 

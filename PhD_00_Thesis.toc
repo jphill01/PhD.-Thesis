@@ -55,3 +55,4 @@
 \contentsline {chapter}{References}{107}{chapter*.40}
 \contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{124}{appendix.A}
 \contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{125}{appendix.B}
+\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{126}{appendix.C}
