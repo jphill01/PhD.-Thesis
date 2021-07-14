@@ -9,188 +9,50 @@ A level-1 auxiliary file: PhD_05_TOC.aux
 A level-1 auxiliary file: PhD_Chapter2.aux
 A level-1 auxiliary file: PhD_Chapter3.aux
 A level-1 auxiliary file: PhD_Chapter4.aux
-Case mismatch error between cite keys shehata2018dna and Shehata2018dna
----line 12 of file PhD_Chapter4.aux
- : \citation{shehata2018dna
- :                         }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: PhD_Chapter5.aux
 A level-1 auxiliary file: PhD_Chapter6.aux
+A level-1 auxiliary file: PhD_Appendix.aux
 Database file #1: PhD_Bibliography.bib
-Repeated entry---line 1560 of file PhD_Bibliography.bib
- : @article{april2011genetic
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1601 of file PhD_Bibliography.bib
- : @article{bergsten2012effect
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1630 of file PhD_Bibliography.bib
- : @article{bucklin2011dna
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1639 of file PhD_Bibliography.bib
- : @article{cameron2006will
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1679 of file PhD_Bibliography.bib
- : @article{chao1984nonparametric
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1689 of file PhD_Bibliography.bib
- : @article{collins2013seven
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1700 of file PhD_Bibliography.bib
- : @article{dasmahapatra2010mitochondrial
- :                                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1803 of file PhD_Bibliography.bib
- : @article{goodall2012comparison
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1825 of file PhD_Bibliography.bib
- : @article{hanner2009data
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1831 of file PhD_Bibliography.bib
- : @article{hanner2011dna
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1853 of file PhD_Bibliography.bib
- : @article{hebert2003biological
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1864 of file PhD_Bibliography.bib
- : @article{hebert2003barcoding
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1875 of file PhD_Bibliography.bib
- : @article{hebert2004identification
- :                                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1886 of file PhD_Bibliography.bib
- : @article{hickerson2006dna
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1908 of file PhD_Bibliography.bib
- : @article{jin2012simple
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1919 of file PhD_Bibliography.bib
- : @article{kimura1964stepping
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1957 of file PhD_Bibliography.bib
- : @article{liu2012sampling
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1968 of file PhD_Bibliography.bib
- : @article{luo2015simulation
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1979 of file PhD_Bibliography.bib
- : @article{matz2005likelihood
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1990 of file PhD_Bibliography.bib
- : @article{meyer2005dna
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2011 of file PhD_Bibliography.bib
- : @article{monaghan2009accelerated
- :                                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2104 of file PhD_Bibliography.bib
- : @article{pearson1894contributions
- :                                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2114 of file PhD_Bibliography.bib
- : @article{phillips2015exploration
- :                                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2141 of file PhD_Bibliography.bib
- : @article{pons2006sequence
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2151 of file PhD_Bibliography.bib
- : @article{puillandre2011abgd
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2178 of file PhD_Bibliography.bib
- : @article{ratnasingham2007bold
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2189 of file PhD_Bibliography.bib
- : @article{ratnasingham2013dna
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2219 of file PhD_Bibliography.bib
- : @article{ross2008testing
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2298 of file PhD_Bibliography.bib
- : @article{ward2005dna
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2309 of file PhD_Bibliography.bib
- : @article{wares2015can
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2359 of file PhD_Bibliography.bib
- : @article{wright1951genetical
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2370 of file PhD_Bibliography.bib
- : @article{yao2017evaluating
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2391 of file PhD_Bibliography.bib
- : @article{zhang2010estimating
- :                             ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for ""
 Warning--empty journal in hanner2009data
-Warning--empty publisher in spouge2012practical
-You've used 202 entries,
+You've used 160 entries,
             2253 wiz_defined-function locations,
-            1584 strings with 41495 characters,
-and the built_in function-call counts, 71430 in all, are:
-= -- 6785
-> -- 3916
+            1385 strings with 34707 characters,
+and the built_in function-call counts, 56734 in all, are:
+= -- 5414
+> -- 3104
 < -- 0
-+ -- 1636
-- -- 1401
-* -- 6514
-:= -- 11992
-add.period$ -- 608
-call.type$ -- 202
-change.case$ -- 1288
++ -- 1295
+- -- 1111
+* -- 5178
+:= -- 9516
+add.period$ -- 482
+call.type$ -- 160
+change.case$ -- 1018
 chr.to.int$ -- 0
-cite$ -- 204
-duplicate$ -- 1862
-empty$ -- 5291
-format.name$ -- 1401
-if$ -- 14323
+cite$ -- 161
+duplicate$ -- 1479
+empty$ -- 4196
+format.name$ -- 1111
+if$ -- 11349
 int.to.chr$ -- 0
-int.to.str$ -- 202
-missing$ -- 204
-newline$ -- 1012
-num.names$ -- 410
-pop$ -- 951
+int.to.str$ -- 160
+missing$ -- 160
+newline$ -- 802
+num.names$ -- 324
+pop$ -- 755
 preamble$ -- 1
-purify$ -- 1091
+purify$ -- 863
 quote$ -- 0
-skip$ -- 1040
+skip$ -- 828
 stack$ -- 0
-substring$ -- 5007
-swap$ -- 403
+substring$ -- 4012
+swap$ -- 321
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 796
-warning$ -- 2
-while$ -- 661
-width$ -- 205
-write$ -- 2022
-(There were 34 error messages)
+type$ -- 632
+warning$ -- 1
+while$ -- 535
+width$ -- 163
+write$ -- 1603
+(There was 1 warning)
