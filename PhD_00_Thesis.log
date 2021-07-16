@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 JUL 2021 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 JUL 2021 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1064,6 +1064,13 @@ Package caption Info: threeparttable package is loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+)
 \@input{com.aux}
 \openout2 = `com.aux'.
 
@@ -1072,7 +1079,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
 Package csquotes Warning: No multilingual support.
-(csquotes)                Cannot enable multilingual quotes on input line 69.
+(csquotes)                Cannot enable multilingual quotes on input line 71.
 
 (./PhD_00_Thesis.aux (./PhD_01_TitlePage.aux) (./PhD_02_Abstract.aux)
 (./PhD_04_Acknowledgements.aux) (./PhD_05_TOC.aux) (./PhD_Chapter2.aux
@@ -1087,21 +1094,21 @@ LaTeX Warning: Label `sec:intro1' multiply defined.
 ) (./PhD_Appendix.aux))
 \openout1 = `PhD_00_Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 71.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1155,7 +1162,7 @@ Configuring pdfsync
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring OFF on input line 69.
+Package hyperref Info: Link coloring OFF on input line 71.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1165,9 +1172,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count185
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
 
 (./PhD_00_Thesis.out) (./PhD_00_Thesis.out)
 \@outlinefile=\write7
@@ -1189,13 +1196,13 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 
 
 (./PhD_01_TitlePage.tex)
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 75.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
  [1
 
 
@@ -1287,19 +1294,43 @@ Overfull \hbox (12.40341pt too wide) in paragraph at lines 24--24
 \tf@toc=\write8
 \openout8 = `PhD_00_Thesis.toc'.
 
- [7] (./PhD_00_Thesis.lot)
+ [7] (./PhD_00_Thesis.lot
+Overfull \hbox (35.49269pt too wide) in paragraph at lines 6--6
+ \OT1/ptm/m/n/12 de-picted in con-fi-dence in-ter-val plots found within \OT1/p
+tm/b/n/12 Fig-ures 15-23 \OT1/ptm/m/n/12 and Sup-ple-men-tal |
+ []
+
+
+Overfull \hbox (16.68872pt too wide) in paragraph at lines 8--8
+ \OT1/ptm/m/n/12 level for com-par-i-son of pop-u-la-tion size \OT1/ptm/m/it/12
+ ver-sus \OT1/ptm/m/n/12 hap-lo-type fre-quency dis-tri-bu-tion |
+ []
+
+
+Overfull \hbox (16.68872pt too wide) in paragraph at lines 9--9
+ \OT1/ptm/m/n/12 level for com-par-i-son of pop-u-la-tion size \OT1/ptm/m/it/12
+ ver-sus \OT1/ptm/m/n/12 hap-lo-type fre-quency dis-tri-bu-tion |
+ []
+
+[8
+
+]
+Overfull \hbox (27.57092pt too wide) in paragraph at lines 12--12
+ \OT1/ptm/m/n/12 hy-po-thet-i-cal species across all as-sessed pop-u-la-tion si
+zes. Cal-cu-lated prob-a-bil-i-ties |
+ []
+
+)
 \tf@lot=\write9
 \openout9 = `PhD_00_Thesis.lot'.
 
- [8
-
-] (./PhD_00_Thesis.lof
+ [9] (./PhD_00_Thesis.lof
 Overfull \hbox (6.96811pt too wide) in paragraph at lines 3--3
  \OT1/ptm/m/n/12 Tick marks in-di-cate the num-ber of mu-ta-tional dif-fer-ence
 s sep-a-rat-ing sam-pled |
  []
 
-[9
+[10
 
 ]
 Overfull \hbox (11.70815pt too wide) in paragraph at lines 9--9
@@ -1320,7 +1351,7 @@ Overfull \hbox (3.5848pt too wide) in paragraph at lines 10--10
 de-pict the ob-served |
  []
 
-[10]
+[11]
 Overfull \hbox (16.23924pt too wide) in paragraph at lines 13--13
  [][][][] [][]\OT1/ptm/m/n/12 Initial hap-lo-type fre-quency dis-tri-bu-tion fo
 r $[][]\OML/lmm/m/it/12 N$ \OT1/ptm/m/n/12 = 235 high-quality lake white-fish |
@@ -1359,11 +1390,143 @@ sim() \OT1/ptm/m/n/12 for scal-loped ham-mer-head (\OT1/ptm/m/it/12 S. lewini\O
 T1/ptm/m/n/12 ) |
  []
 
+[12]
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 35--35
+ [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
+ pro-por-tion of ob-served hap-lo-types |
+ []
+
+
+Overfull \hbox (13.6643pt too wide) in paragraph at lines 35--35
+ \OT1/ptm/m/n/12 cap-tured for Sce-nario II (1 dom-i-nant hap-lo-type) with 95%
+ con-fi-dence in-ter-vals |
+ []
+
+
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 35--35
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
+ []
+
+[13]
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 36--36
+ [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
+ pro-por-tion of ob-served hap-lo-types |
+ []
+
+
+Overfull \hbox (3.42795pt too wide) in paragraph at lines 36--36
+ \OT1/ptm/m/n/12 lo-cated lo-cal op-tima is dis-played as a solid red hor-i-zon
+-tal line. The thick-ness |
+ []
+
+
+Overfull \hbox (1.0298pt too wide) in paragraph at lines 36--36
+ \OT1/ptm/m/n/12 of dis-played grey er-ror bars is a con-struct of \OT1/pcr/m/n
+/12 ggplot2 \OT1/ptm/m/n/12 based on the num-ber |
+ []
+
+
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 37--37
+ [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
+ pro-por-tion of ob-served hap-lo-types |
+ []
+
+
+Overfull \hbox (3.42795pt too wide) in paragraph at lines 37--37
+ \OT1/ptm/m/n/12 lo-cated lo-cal op-tima is dis-played as a solid red hor-i-zon
+-tal line. The thick-ness |
+ []
+
+
+Overfull \hbox (1.0298pt too wide) in paragraph at lines 37--37
+ \OT1/ptm/m/n/12 of dis-played grey er-ror bars is a con-struct of \OT1/pcr/m/n
+/12 ggplot2 \OT1/ptm/m/n/12 based on the num-ber |
+ []
+
+
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 38--38
+ [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
+ pro-por-tion of ob-served hap-lo-types |
+ []
+
+
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 38--38
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
+ []
+
+
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 39--39
+ [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
+ pro-por-tion of ob-served hap-lo-types |
+ []
+
+
+Overfull \hbox (4.28078pt too wide) in paragraph at lines 39--39
+ \OT1/ptm/m/n/12 cap-tured for Lake white-fish (\OT1/ptm/m/it/12 C. clu-peaform
+is\OT1/ptm/m/n/12 ) with 95% con-fi-dence in-ter-vals |
+ []
+
+
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 39--39
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
+ []
+
+
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 40--40
+ [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
+ pro-por-tion of ob-served hap-lo-types |
+ []
+
+
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 40--40
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
+ []
+
+
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 41--41
+ [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
+ pro-por-tion of ob-served hap-lo-types |
+ []
+
+
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 41--41
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
+ []
+
+[14]
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 42--42
+ [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
+ pro-por-tion of ob-served hap-lo-types |
+ []
+
+
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 42--42
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
+ []
+
+
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 43--43
+ [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
+ pro-por-tion of ob-served hap-lo-types |
+ []
+
+
+Overfull \hbox (3.42795pt too wide) in paragraph at lines 43--43
+ \OT1/ptm/m/n/12 lo-cated lo-cal op-tima is dis-played as a solid red hor-i-zon
+-tal line. The thick-ness |
+ []
+
 )
 \tf@lof=\write10
 \openout10 = `PhD_00_Thesis.lof'.
 
-) [11] [12] (./PhD_Chapter1.tex
+) [15] (./PhD_Chapter1.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
@@ -1387,7 +1550,7 @@ Chapter 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
  [6] [7] [8] [9] [10] [11]
-<"Network".png, id=702, 413.545pt x 425.59pt>
+<"Network".png, id=865, 413.545pt x 425.59pt>
 File: "Network".png Graphic file (type png)
  <use "Network".png>
 Package pdftex.def Info: "Network".png used on input line 96.
@@ -1401,7 +1564,7 @@ Missing character: There is no ™ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 214.
  [31] [32] [33] [34]
-<Graph.pdf, id=1008, 722.7pt x 542.025pt>
+<Graph.pdf, id=1172, 722.7pt x 542.025pt>
 File: Graph.pdf Graphic file (type pdf)
  <use Graph.pdf>
 Package pdftex.def Info: Graph.pdf used on input line 302.
@@ -1417,7 +1580,7 @@ Chapter 3.
 
 
 ] [46] [47] [48] [49] [50] [51] [52] [53]
-<"Figure 1".png, id=1211, 34.14331pt x 34.14331pt>
+<"Figure 1".png, id=1375, 34.14331pt x 34.14331pt>
 File: "Figure 1".png Graphic file (type png)
  <use "Figure 1".png>
 Package pdftex.def Info: "Figure 1".png used on input line 80.
@@ -1428,40 +1591,40 @@ Package pdftex.def Info: "Figure 1".png used on input line 80.
 ] [58
 
 ] [59] [60]
-<"Figure 2".png, id=1269, 60.00371pt x 34.14331pt>
+<"Figure 2".png, id=1434, 60.00371pt x 34.14331pt>
 File: "Figure 2".png Graphic file (type png)
  <use "Figure 2".png>
 Package pdftex.def Info: "Figure 2".png used on input line 169.
 (pdftex.def)             Requested size: 346.89731pt x 197.4029pt.
 
-[61 <./Figure 2.png>] [62] <"Figure 3".png, id=1282, 154.18233pt x 61.90056pt>
+[61 <./Figure 2.png>] [62] <"Figure 3".png, id=1445, 154.18233pt x 61.90056pt>
 File: "Figure 3".png Graphic file (type png)
 
 <use "Figure 3".png>
 Package pdftex.def Info: "Figure 3".png used on input line 183.
 (pdftex.def)             Requested size: 346.89731pt x 139.29382pt.
  [63 <./Figure 3.png>]
-<"Figure 4".png, id=1290, 115.64464pt x 86.71768pt>
+<"Figure 4".png, id=1453, 115.64464pt x 86.71768pt>
 File: "Figure 4".png Graphic file (type png)
  <use "Figure 4".png>
 Package pdftex.def Info: "Figure 4".png used on input line 217.
 (pdftex.def)             Requested size: 346.89731pt x 260.16827pt.
 
 [64] [65 <./Figure 4.png>] [66] [67] [68]
-<"Figure 5".png, id=1322, 151.77965pt x 86.71768pt>
+<"Figure 5".png, id=1485, 151.77965pt x 86.71768pt>
 File: "Figure 5".png Graphic file (type png)
  <use "Figure 5".png>
 Package pdftex.def Info: "Figure 5".png used on input line 334.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [69] [70 <./Figure 5.png>] [71]
-<"Figure 6".png, id=1336, 151.77965pt x 86.71768pt>
+<"Figure 6".png, id=1500, 151.77965pt x 86.71768pt>
 File: "Figure 6".png Graphic file (type png)
  <use "Figure 6".png>
 Package pdftex.def Info: "Figure 6".png used on input line 470.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-<"Figure 7".png, id=1337, 151.77965pt x 86.71768pt>
+<"Figure 7".png, id=1501, 151.77965pt x 86.71768pt>
 File: "Figure 7".png Graphic file (type png)
  <use "Figure 7".png>
 Package pdftex.def Info: "Figure 7".png used on input line 481.
@@ -1471,59 +1634,59 @@ Package pdftex.def Info: "Figure 7".png used on input line 481.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 504.
  [74] [75]
-<"Figure 8".png, id=1372, 151.77965pt x 86.71768pt>
+<"Figure 8".png, id=1535, 151.77965pt x 86.71768pt>
 File: "Figure 8".png Graphic file (type png)
  <use "Figure 8".png>
 Package pdftex.def Info: "Figure 8".png used on input line 525.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[76] [77 <./Figure 8.png>] <"Figure 9".png, id=1382, 151.77965pt x 86.71768pt>
+[76] [77 <./Figure 8.png>] <"Figure 9".png, id=1547, 151.77965pt x 86.71768pt>
 File: "Figure 9".png Graphic file (type png)
 
 <use "Figure 9".png>
 Package pdftex.def Info: "Figure 9".png used on input line 646.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
- [78] <"Figure 10".png, id=1387, 151.77965pt x 86.71768pt>
+ [78] <"Figure 10".png, id=1552, 151.77965pt x 86.71768pt>
 File: "Figure 10".png Graphic file (type png)
 
 <use "Figure 10".png>
 Package pdftex.def Info: "Figure 10".png used on input line 659.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [79 <./Figure 9.png>] [80 <./Figure 10.png>]
-<"Figure 11".png, id=1406, 151.77965pt x 86.71768pt>
+<"Figure 11".png, id=1570, 151.77965pt x 86.71768pt>
 File: "Figure 11".png Graphic file (type png)
  <use "Figure 11".png>
 Package pdftex.def Info: "Figure 11".png used on input line 686.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [81] [82 <./Figure 11.png>]
-<"Figure 12".png, id=1417, 151.77965pt x 86.71768pt>
+<"Figure 12".png, id=1581, 151.77965pt x 86.71768pt>
 File: "Figure 12".png Graphic file (type png)
  <use "Figure 12".png>
 Package pdftex.def Info: "Figure 12".png used on input line 806.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[83] <"Figure 13".png, id=1422, 151.77965pt x 86.71768pt>
+[83] <"Figure 13".png, id=1586, 151.77965pt x 86.71768pt>
 File: "Figure 13".png Graphic file (type png)
 
 <use "Figure 13".png>
 Package pdftex.def Info: "Figure 13".png used on input line 819.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [84 <./Figure 12.png> <./Figure 13.png>] [85]
-<"Figure 14".png, id=1438, 151.77965pt x 86.71768pt>
+<"Figure 14".png, id=1601, 151.77965pt x 86.71768pt>
 File: "Figure 14".png Graphic file (type png)
  <use "Figure 14".png>
 Package pdftex.def Info: "Figure 14".png used on input line 847.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [86] [87 <./Figure 14.png>]
-<"Figure 15".png, id=1448, 151.77965pt x 86.71768pt>
+<"Figure 15".png, id=1611, 151.77965pt x 86.71768pt>
 File: "Figure 15".png Graphic file (type png)
  <use "Figure 15".png>
 Package pdftex.def Info: "Figure 15".png used on input line 966.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[88 <./Figure 15.png>] <"Figure 16".png, id=1454, 151.77965pt x 86.71768pt>
+[88 <./Figure 15.png>] <"Figure 16".png, id=1618, 151.77965pt x 86.71768pt>
 File: "Figure 16".png Graphic file (type png)
 
 <use "Figure 16".png>
@@ -1549,21 +1712,9 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
  [103] [104] [105] [106]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 38.
-
-Overfull \hbox (1.41228pt too wide) in paragraph at lines 40--41
-\OT1/ptm/m/n/12 and real species based on a species' hap-lo-type fre-quency dis
--tri-bu-tion (\OT1/pcr/m/n/12 probs\OT1/ptm/m/n/12 ), rep-re-sent-ing|
- []
-
-
-Overfull \hbox (20.31085pt too wide) in paragraph at lines 40--41
-\OT1/ptm/m/n/12 sam-ple size es-ti-mates by in-creas-ing or de-creas-ing the sm
-ooth-ness of the gen-er-ated ac-cu-mu-la-tion|
- []
-
-[107] [108] [109] [110]
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 63.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 37.
+ [107] [108] [109] [110]
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 62.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmtt.fd
@@ -1571,30 +1722,175 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [111] [112]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 70.
+(hyperref)                removing `\\' on input line 69.
 
 [113] [114] [115] [116]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 97.
+(amsmath)                 on input line 96.
 
 [117] [118]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no — in font ptmr7t!
  [119] [120]
-Overfull \hbox (2.27608pt too wide) in paragraph at lines 143--144
-\OT1/ptm/m/n/12 abovementioned species is given in the be-low sub-sec-tions. In
--for-ma-tion on species ex-am-ined|
+Overfull \hbox (8.16747pt too wide) in paragraph at lines 142--143
+\OT1/ptm/m/n/12 ac-cu-rate iden-ti-fi-ca-tions through con-tribut-ing to the co
+n-struc-tion of bar-code ref-er-ence li-braries|
  []
 
 [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132]
-[133] [134] [135] [136] [137] [138] [139]) [140] [141]
+[133] [134] [135] [136] [137] [138]
+<"Fig. 1".png, id=1951, 702.625pt x 501.875pt>
+File: "Fig. 1".png Graphic file (type png)
+ <use "Fig. 1".png>
+Package pdftex.def Info: "Fig. 1".png used on input line 266.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [139]
+<"Fig. 2".png, id=1960, 702.625pt x 501.875pt>
+File: "Fig. 2".png Graphic file (type png)
+ <use "Fig. 2".png>
+Package pdftex.def Info: "Fig. 2".png used on input line 276.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [140 <./Fig. 1.png>] <"Fig. 3".png, id=1966, 702.625pt x 501.875pt>
+File: "Fig. 3".png Graphic file (type png)
+ <use "Fig. 3".png>
+Package pdftex.def Info: "Fig. 3".png used on input line 287.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+
+<"Fig. 4".png, id=1967, 702.625pt x 501.875pt>
+File: "Fig. 4".png Graphic file (type png)
+ <use "Fig. 4".png>
+Package pdftex.def Info: "Fig. 4".png used on input line 298.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [141 <./Fig. 2.png> <./Fig. 3.png>] <"Fig. 5".png, id=1974, 702.625pt x 501.87
+5pt>
+File: "Fig. 5".png Graphic file (type png)
+
+<use "Fig. 5".png>
+Package pdftex.def Info: "Fig. 5".png used on input line 309.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ <"Fig. 6".png, id=1975, 702.625pt x 501.875pt>
+File: "Fig. 6".png Graphic file (type png)
+
+<use "Fig. 6".png>
+Package pdftex.def Info: "Fig. 6".png used on input line 320.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [142 <./Fig. 4.png> <./Fig. 5.png>]
+<"Fig. 8".png, id=1983, 702.625pt x 501.875pt>
+File: "Fig. 8".png Graphic file (type png)
+ <use "Fig. 8".png>
+Package pdftex.def Info: "Fig. 8".png used on input line 331.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+
+<"Fig. 9".png, id=1984, 702.625pt x 501.875pt>
+File: "Fig. 9".png Graphic file (type png)
+ <use "Fig. 9".png>
+Package pdftex.def Info: "Fig. 9".png used on input line 342.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [143 <./Fig. 6.png> <./Fig. 8.png>] <"Fig. 10".png, id=1991, 702.625pt x 501.8
+75pt>
+File: "Fig. 10".png Graphic file (type png)
+
+<use "Fig. 10".png>
+Package pdftex.def Info: "Fig. 10".png used on input line 353.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ <"Fig. 11".png, id=1992, 702.625pt x 501.875pt>
+File: "Fig. 11".png Graphic file (type png)
+
+<use "Fig. 11".png>
+Package pdftex.def Info: "Fig. 11".png used on input line 364.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [144 <./Fig. 9.png> <./Fig. 10.png>]
+<"Fig. 13".png, id=1999, 702.625pt x 501.875pt>
+File: "Fig. 13".png Graphic file (type png)
+ <use "Fig. 13".png>
+Package pdftex.def Info: "Fig. 13".png used on input line 375.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+
+<"Fig. 14".png, id=2000, 702.625pt x 501.875pt>
+File: "Fig. 14".png Graphic file (type png)
+ <use "Fig. 14".png>
+Package pdftex.def Info: "Fig. 14".png used on input line 386.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [145 <./Fig. 11.png> <./Fig. 13.png>] <"Fig. 15".png, id=2007, 702.625pt x 501
+.875pt>
+File: "Fig. 15".png Graphic file (type png)
+
+<use "Fig. 15".png>
+Package pdftex.def Info: "Fig. 15".png used on input line 397.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [146 <./Fig. 14.png>]
+<"Fig. 16".png, id=2013, 702.625pt x 501.875pt>
+File: "Fig. 16".png Graphic file (type png)
+ <use "Fig. 16".png>
+Package pdftex.def Info: "Fig. 16".png used on input line 407.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [147 <./Fig. 15.png>] <"Fig. 17".png, id=2019, 702.625pt x 501.875pt>
+File: "Fig. 17".png Graphic file (type png)
+ <use "Fig. 17".png>
+Package pdftex.def Info: "Fig. 17".png used on input line 417.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+
+[148 <./Fig. 16.png>] <"Fig. 18".png, id=2026, 702.625pt x 501.875pt>
+File: "Fig. 18".png Graphic file (type png)
+
+<use "Fig. 18".png>
+Package pdftex.def Info: "Fig. 18".png used on input line 427.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [149 <./Fig. 17.png>]
+<"Fig. 19".png, id=2032, 702.625pt x 501.875pt>
+File: "Fig. 19".png Graphic file (type png)
+ <use "Fig. 19".png>
+Package pdftex.def Info: "Fig. 19".png used on input line 437.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [150 <./Fig. 18.png>] <"Fig. 20".png, id=2038, 702.625pt x 501.875pt>
+File: "Fig. 20".png Graphic file (type png)
+ <use "Fig. 20".png>
+Package pdftex.def Info: "Fig. 20".png used on input line 447.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+
+[151 <./Fig. 19.png>] <"Fig. 21".png, id=2044, 702.625pt x 501.875pt>
+File: "Fig. 21".png Graphic file (type png)
+
+<use "Fig. 21".png>
+Package pdftex.def Info: "Fig. 21".png used on input line 457.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [152 <./Fig. 20.png>]
+<"Fig. 22".png, id=2050, 702.625pt x 501.875pt>
+File: "Fig. 22".png Graphic file (type png)
+ <use "Fig. 22".png>
+Package pdftex.def Info: "Fig. 22".png used on input line 467.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+ [153 <./Fig. 21.png>] <"Fig. 23".png, id=2056, 702.625pt x 501.875pt>
+File: "Fig. 23".png Graphic file (type png)
+ <use "Fig. 23".png>
+Package pdftex.def Info: "Fig. 23".png used on input line 477.
+(pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
+
+[154 <./Fig. 22.png>] [155 <./Fig. 23.png>] [156] [157
+
+] [158
+
+] [159] [160
+
+]
+[161
+
+
+] [162
+
+
+] [163
+
+
+])
 \openout2 = `PhD_Chapter5.aux'.
 
  (./PhD_Chapter5.tex
 Chapter 5.
-) [142
+) [164
+
 
 
 
@@ -1608,12 +1904,12 @@ Chapter 6.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 5.
 
-[143
+[165
 
 
 
 
-] [144]) [145] (./PhD_00_Thesis.bbl
+] [166]) [167] (./PhD_00_Thesis.bbl
 Underfull \hbox (badness 2351) in paragraph at lines 29--34
 [][][]\OT1/ptm/m/sc/12 April, J., May-den, R. L., Han-ner, R. H., and Bernatche
 z, L.
@@ -1625,7 +1921,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 41--46
 i-ca-tion meth-ods.  \OT1/ptm/m/it/12 BMC
  []
 
-[146
+[168
 
 
 
@@ -1641,7 +1937,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--107
 [][][]\OT1/ptm/m/sc/12 Brown, S. D., Collins, R. A., Boyer, S., Lefort, M.-C.,
  []
 
-[147] [148] [149]
+[169] [170] [171]
 Underfull \hbox (badness 1210) in paragraph at lines 284--288
 [][][]\OT1/ptm/m/sc/12 Foottit, R., Maw, H., Von Dohlen, D., and Hebert, P.  \O
 T1/ptm/m/n/12 Species
@@ -1653,13 +1949,13 @@ Underfull \hbox (badness 3601) in paragraph at lines 338--343
 /n/12 Sam-pling for
  []
 
-[150]
+[172]
 Underfull \hbox (badness 2818) in paragraph at lines 360--365
 [][][]\OT1/ptm/m/sc/12 Hanner, R. H., Naaum, A. M., and Shivji, M. S.  \OT1/ptm
 /m/n/12 Con-clu-sion:
  []
 
-[151]
+[173]
 Underfull \hbox (badness 1789) in paragraph at lines 458--463
 [][][]\OT1/ptm/m/sc/12 Jin, Q., He, L.-J., and Zhang, A.-B.  \OT1/ptm/m/n/12 A 
 sim-ple 2D non-parametric
@@ -1671,7 +1967,7 @@ Underfull \hbox (badness 1215) in paragraph at lines 488--492
 -maer, D.
  []
 
-[152] [153]
+[174] [175]
 Underfull \hbox (badness 4531) in paragraph at lines 587--593
 [][][]\OT1/ptm/m/sc/12 Mutanen, M., Kivel[]a, S. M., Vos, R. A., Dooren-weerd, 
 C.,
@@ -1683,7 +1979,7 @@ Underfull \hbox (badness 2932) in paragraph at lines 587--593
 van
  []
 
-[154]
+[176]
 Underfull \hbox (badness 3965) in paragraph at lines 656--660
 [][][]\OT1/ptm/m/sc/12 Paradis, E.  \OT1/ptm/m/n/12 pe-gas: an R pack-age for p
 op-u-la-tion ge-net-ics with an
@@ -1695,7 +1991,7 @@ Underfull \hbox (badness 1377) in paragraph at lines 703--708
 an-ner,
  []
 
-[155] [156]
+[177] [178]
 Underfull \hbox (badness 1184) in paragraph at lines 802--805
 [][][]\OT1/ptm/m/sc/12 Steinke, D., and Han-ner, R.  \OT1/ptm/m/n/12 The FISH-B
 OL col-lab-o-ra-tors' pro-to-col.
@@ -1703,7 +1999,7 @@ OL col-lab-o-ra-tors' pro-to-col.
 
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-[157]
+[179]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -1713,24 +2009,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 901--906
 mor-phol-ogy
  []
 
-[158]
+[180]
 Underfull \hbox (badness 1152) in paragraph at lines 953--956
 \OT1/ptm/m/n/12 Es-ti-mat-ing sam-ple sizes for DNA bar-cod-ing.  \OT1/ptm/m/it
 /12 Molec-u-lar Phy-lo-ge-net-ics and
  []
 
-) [159]
+) [181]
 \openout2 = `PhD_Appendix.aux'.
 
  (./PhD_Appendix.tex
 Appendix A.
-[160
+[182
 
 
 
 ]
 Appendix B.
-[161
+[183
 
 ]
 Appendix C.
@@ -1756,36 +2052,30 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 18.
-[162
+[184
 
-] [163]) [164]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+] [185]) [186]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
  (./PhD_00_Thesis.aux (./PhD_01_TitlePage.aux)
 (./PhD_02_Abstract.aux) (./PhD_04_Acknowledgements.aux) (./PhD_05_TOC.aux)
 (./PhD_Chapter2.aux) (./PhD_Chapter3.aux) (./PhD_Chapter4.aux)
 (./PhD_Chapter5.aux) (./PhD_Chapter6.aux) (./PhD_Appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package rerunfilecheck Info: File `PhD_00_Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 35C4BA16141A9E6BDEC59E04C946FE1C;5719.
 
-
-Package rerunfilecheck Warning: File `PhD_00_Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `PhD_00_Thesis.out':
-(rerunfilecheck)             Before: 2B7425228F1D8D2D7977D0C085088F1C;5729
-(rerunfilecheck)             After:  FADAF9F693287E8E1F929D4D0B9C1CFD;5719.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
  ) 
 Here is how much of TeX's memory you used:
- 26842 strings out of 493014
- 524746 string characters out of 6133351
- 646809 words of memory out of 5000000
- 29234 multiletter control sequences out of 15000+600000
+ 27043 strings out of 493014
+ 528458 string characters out of 6133351
+ 660218 words of memory out of 5000000
+ 29397 multiletter control sequences out of 15000+600000
  59361 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,19n,92p,6746b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1810,10 +2100,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on PhD_00_Thesis.pdf (176 pages, 24822465 bytes).
+Output written on PhD_00_Thesis.pdf (201 pages, 25388786 bytes).
 PDF statistics:
- 2074 PDF objects out of 2487 (max. 8388607)
- 1815 compressed objects within 19 object streams
- 468 named destinations out of 1000 (max. 500000)
- 679 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2384 PDF objects out of 2487 (max. 8388607)
+ 2056 compressed objects within 21 object streams
+ 522 named destinations out of 1000 (max. 500000)
+ 784 words of extra memory for PDF output out of 10000 (max. 10000000)
 

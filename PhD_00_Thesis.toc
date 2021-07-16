@@ -1,5 +1,5 @@
 \contentsline {chapter}{List of Tables}{viii}{chapter*.2}
-\contentsline {chapter}{List of Figures}{ix}{chapter*.3}
+\contentsline {chapter}{List of Figures}{x}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {subsection}{\numberline {1.0.1}Thesis Overview}{1}{subsection.1.0.1}
 \contentsline {subsection}{\numberline {1.0.2}Thesis Statement}{2}{subsection.1.0.2}
@@ -54,7 +54,7 @@
 \contentsline {section}{\numberline {4.2}Methods}{119}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Hypothetical Species}{120}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Real Species}{121}{subsection.4.2.2}
-\contentsline {subsubsection}{Pea aphid (\textit {Acyrthosiphon pisum})}{123}{section*.42}
+\contentsline {subsubsection}{Pea aphid (\textit {Acyrthosiphon pisum})}{122}{section*.42}
 \contentsline {subsubsection}{Common mosquito (\textit {Culex pipiens})}{123}{section*.43}
 \contentsline {subsubsection}{Gypsy Moth (\textit {Lymantria dispar})}{124}{section*.44}
 \contentsline {subsection}{\numberline {4.2.3}Simulation Study}{125}{subsection.4.2.3}
@@ -63,10 +63,10 @@
 \contentsline {subsection}{\numberline {4.3.1}Effect of Population Size}{129}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Algorithm Runtimes}{133}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}Conclusion}{134}{section.4.4}
-\contentsline {chapter}{\numberline {5}Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{142}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{143}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Thesis Summary}{143}{subsection.6.0.1}
-\contentsline {chapter}{References}{146}{chapter*.49}
-\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{160}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{161}{appendix.B}
-\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{162}{appendix.C}
+\contentsline {chapter}{\numberline {5}Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{164}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{165}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}Thesis Summary}{165}{subsection.6.0.1}
+\contentsline {chapter}{References}{168}{chapter*.78}
+\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{182}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{183}{appendix.B}
+\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{184}{appendix.C}
