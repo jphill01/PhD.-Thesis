@@ -1,18 +1,21 @@
 \linespread{1.0}
 
-\chapter{Introduction}
+\chapter{General Introduction}
 %--------------------------------------------------------- Sec
 \subsection{Thesis Overview} \label{sec:intro1}
 
 This thesis outlines a novel statistical framework for assessment of COI DNA barcode haplotype sampling completeness. Much of the work presented herein reflects a spin-off of research completed at the Master's level in bioinformatics.
 
-\vspace{5mm}
-
-Chapter 2 consists of an in-depth literature review of studies conducted to date \\ pertaining to sample size estimation for DNA barcoding, as well as the need for further research in this area. A case study assessing haplotype diversity in the ray-finned fishes \cite{phillips2015exploration} provides motivation for subsequent work presented and examined in the present thesis. 
+Robust estimation of adequate specimen sample sizes for DNA-based species \\ identification of animal taxa through DNA barcoding is central to timely biodiversity \\ conservation and management. However, this problem is fraught with myriad challenges including species rarity and project costs. Further, because species show remarkable \\ genomic marker variation within and among taxa, along with differing evolutionary and life histories, knowing how many specimens of a given species likely need to be collected to observe the majority of existing genetic diversity present within animal species is a difficult question to answer. While practical sample sizes for DNA barcoding typically range from 5-10 specimens per species, anywhere from a single individual to hundreds of specimens may be targeted. Unfortunately, little work has been done to determine optimal sampling depths in a statistically rigorous manner. 
 
 \vspace{5mm}
 
-Chapter 3 details a novel stochastic optimization algorithm called {\tt HACSim} (short for \textbf{H}aplotype \textbf{A}ccumulation \textbf{C}urve \textbf{Sim}ulator) that is programmed in the R Statistical \\ Environment \cite{r2018language}. {\tt HACSim} can be employed to calculate likely required specimen \\ sample sizes needed to capture a given fraction of genetic diversity within species based on iteratively extrapoling species' haplotype accumulation curves. {\tt HACSim} is applied to various vertebrate and invertebrate taxa of recent interest within the DNA barcoding literature, primarily fishes and arthropods of conservation, medical, and forensic/regulatory \\ importance.
+In Chapter 2, existing literature on sample size determination for DNA barcoding is first reviewed. Here, evidence points to a large knowledge gap in statistical and computational methods currently available for this task. Specifically, too much focus has been placed on inflexible parametric models rather than generalized flexible ones. Further this work finds that efforts have been improperly delegated to sampling as many species as possible, rather than maximizing the number of specimens collected. A case study on ray-finned fishes clearly highlights this shortcoming, along with the need for approaches which incorporate more species-level information. 
+
+\vspace{5mm}
+
+Chapter 3 details a novel nonparametric stochastic local search optimization algorithm in the R statistical programming language to better address the need for improved sampling strategies for DNA barcoding initiatives. The method, available as an R package for global use, employs easily obtainable genomic information from a sample of previously-collected species-specific DNA sequences and is tested on a variety of hypothetical and real species mined from the Barcode of Life Data Systems (BOLD). The approach is found to work well for a number of relevant species, consistently suggesting that hundreds to thousands of specimens are needed to be randomly sampled across their geographic and ecologic ranges to be confident that much species-level genomic variation has been sufficiently captured.  
+
 
 \vspace{5mm}
 
@@ -30,9 +33,30 @@ Through the development of a novel stochastic simulation algorithm for the gener
 
 \vspace{5mm}
 
-Such a framework will be valuable in hopefully promoting a greater degree of statistical thoroughness in future DNA barcoding studies. 
+Such a framework will be valuable in promoting a greater degree of statistical \\ thoroughness in future DNA barcoding studies. 
 
+\vspace{5mm}
 
 \subsection{Statement of Contributions}
   
 All chapters presented in this thesis are original and were the sole effort of JDP, \\ including review of the primary literature, conceptualization of ideas, implementation of code, design of experiments and writing of individual manuscripts. All other others either assisted directly with writing of code and/or running of experiments or participated in the editing of final manuscripts versions.
+
+The following articles are published, under review or in preparation
+
+\begin{itemize}
+
+\item Phillips, J.D., Gillis, D.J. and Hanner, R.H. (2019). Incomplete estimates of genetic diversity within species: Implications for DNA barcoding. \textit{Ecology and Evolution}, \textbf{9}(5): 2996-3010. 
+
+\vspace{1mm}
+
+\item Phillips, J.D., French, S.H., Hanner, R.H. and Gillis, D.J. (2020). HACSim: An R package to estimate intraspecific sample sizes for genetic diversity assessment using haplotype accumulation curves. \textit{PeerJ Computer Science}, \textbf{6}(192): 1-37.
+
+\vspace{1mm}
+
+\item Phillips, J.D., Bootsma, S.E., Hanner, R.H. and Gillis, D.J. (\textit{In preparation}). \\ Solving the genetic specimen sample size problem for DNA barcoding with a local search optimization algorithm.
+
+\vspace{1mm}
+
+\item Phillips, J.D., Gillis, D.J. and Hanner, R.H. (\textit{In preparation}). Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap.
+
+\end{itemize} 
