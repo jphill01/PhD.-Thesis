@@ -3,6 +3,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {subsection}{\numberline {1.0.1}Thesis Overview}{1}{subsection.1.0.1}
 \contentsline {subsection}{\numberline {1.0.2}Thesis Statement}{2}{subsection.1.0.2}
+\contentsline {subsection}{\numberline {1.0.3}Statement of Contributions}{3}{subsection.1.0.3}
 \contentsline {chapter}{\numberline {2}Incomplete estimates of genetic diversity within species: Implications for DNA barcoding}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}
 \contentsline {section}{\numberline {2.2}Current Methods}{11}{section.2.2}
