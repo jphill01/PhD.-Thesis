@@ -2,19 +2,32 @@
 
 \chapter{General Introduction}
 %--------------------------------------------------------- Sec
+
+\subsection{The Problem}
+
+Biodiversity loss currently threatens the diversity of life on Earth. It is estimated by the United Nations Convention on Biological Diversity (CBD) in their Global Biodiversity Outlook report that, of the estimated eight miliion species known, over one million animal and plant species currently face risk of extinction in the next few decades due solely to increased anthropogenic activities. This revelation is made all the more real since the majority of species still await discovery and formal description. 
+
+\vspace{5mm}
+
+Through traditional means of morphological identification, taxonomists have \\ painstakingly managed to categorize just over 1 million species in the last 250 years alone. DNA barcoding \cite{hebert2003biological, hebert2003barcoding}, proposed nealy 20 years ago in 2003 as a viable solution to the taxonomic impediment, has since revolutionized the way Linnean taxonomy is done. The premise of DNA barcoding is quite straightforward. The technique proposes to make accurate and rapid species diagnoses through leveraging easily obtained genetic variation seen in short molecular DNA gene regions collected from unknown specimens of interest. In animals, DNA barcoding specifically employs the cytochrome \textit{c.} oxidase subunit I (COI) gene found in the cell's mitochondria, which is highly abundant and found in all animal species. Further, while DNA barcoding's primary goal is to facilitate the acceleration of specimen identification and species discovery, a number of uses and applications outside of biodiversity science have been brought forth. In particular, government regulatory bodies worldwide such as the Canadian Food Inspection Agency and Agriculture and Agri-Food Canada to name a few have harness the true power DNA barcoding has to offer in the combatting of systemic seafood fraud, as well as in the monitoring the impacts and spread of invasive species on natural ecosystems.
+
+\vspace{5mm}
+
+Robust estimation of adequate specimen sample sizes for DNA-based species \\ identification of animal taxa through DNA barcoding is central to timely biodiversity \\ conservation and management. However, this problem is fraught with myriad challenges including species rarity and project costs. Further, because species show remarkable \\ genomic marker variation and rates of molecular evolution within and among taxa, along with differing evolutionary and life histories, knowing how many specimens of a given species likely need to be collected to observe the majority of existing genetic diversity present within animal species of interest to biodiversity researchers and regulatory scientists is a difficult question to answer. While practical sample sizes for DNA barcoding typically range from 5-10 specimens per species, anywhere from a single individual to hundreds of specimens may be targeted depending on the study. Unfortunately, little work has been done to determine optimal sampling depths in a statistically rigorous manner. 
+
+\vspace{5mm}
+
 \subsection{Thesis Overview} \label{sec:intro1}
 
 This thesis outlines a novel statistical framework for assessment of COI DNA barcode haplotype sampling completeness. Much of the work presented herein reflects a spin-off of research completed at the Master's level in bioinformatics.
 
-Robust estimation of adequate specimen sample sizes for DNA-based species \\ identification of animal taxa through DNA barcoding is central to timely biodiversity \\ conservation and management. However, this problem is fraught with myriad challenges including species rarity and project costs. Further, because species show remarkable \\ genomic marker variation within and among taxa, along with differing evolutionary and life histories, knowing how many specimens of a given species likely need to be collected to observe the majority of existing genetic diversity present within animal species is a difficult question to answer. While practical sample sizes for DNA barcoding typically range from 5-10 specimens per species, anywhere from a single individual to hundreds of specimens may be targeted. Unfortunately, little work has been done to determine optimal sampling depths in a statistically rigorous manner. 
+\vspace{5mm}
+
+In Chapter 2, existing literature on sample size determination for DNA barcoding is first reviewed. Here, evidence points to a large knowledge gap in statistical and computational methods currently available for this task. Specifically, too much focus has been placed on inflexible parametric models rather than generalized flexible ones. Further this work finds that efforts have been improperly delegated to sampling as many species as possible, rather than maximizing the number of specimens collected. A case study on ray-finned fishes retrieved from the Barcode of Life Data Systems \cite{ratnasingham2007bold} clearly highlights this shortcoming, along with the need the development for approaches which incorporate more species-level information. 
 
 \vspace{5mm}
 
-In Chapter 2, existing literature on sample size determination for DNA barcoding is first reviewed. Here, evidence points to a large knowledge gap in statistical and computational methods currently available for this task. Specifically, too much focus has been placed on inflexible parametric models rather than generalized flexible ones. Further this work finds that efforts have been improperly delegated to sampling as many species as possible, rather than maximizing the number of specimens collected. A case study on ray-finned fishes clearly highlights this shortcoming, along with the need for approaches which incorporate more species-level information. 
-
-\vspace{5mm}
-
-Chapter 3 details a novel nonparametric stochastic local search optimization algorithm in the R statistical programming language to better address the need for improved sampling strategies for DNA barcoding initiatives. The method, available as an R package for global use, employs easily obtainable genomic information from a sample of previously-collected species-specific DNA sequences and is tested on a variety of hypothetical and real species mined from the Barcode of Life Data Systems (BOLD). The approach is found to work well for a number of relevant species, consistently suggesting that hundreds to thousands of specimens are needed to be randomly sampled across their geographic and ecologic ranges to be confident that much species-level genomic variation has been sufficiently captured.  
+Chapter 3 builds on fundamental concepts of evolutinary biology and statistics \\ introduced and outlined in Chapter 2 through detailing a novel nonparametric stochastic local search optimization algorithm in the R statistical programming language to better address the need for improved sampling strategies for DNA barcoding initiatives. The method, called {tt HACSim} (short for \textbf{H}aplotype \textbf{A}ccumulation \textbf{C}urve \textbf{Sim}ulator) available as an R package for global use, employs easily obtainable genomic information from a sample of previously-assembled species-specific DNA sequence alignments and is tested on a variety of hypothetical and real species mined from the Barcode of Life Data Systems (BOLD). Specifically, the method employs interation and randomness to extrapolate \\ species' haplotype accumulation curves toward an asymptote to assess where such curves may reach an asymptote and level off. The approach is found to work well for a number of relevant species, consistently suggesting that hundreds to thousands of specimens are actually needed to be randomly sampled across their geographic and ecologic ranges to be confident that much species-level genomic variation has been sufficiently captured.  
 
 
 \vspace{5mm}
@@ -39,7 +52,9 @@ Such a framework will be valuable in promoting a greater degree of statistical \
 
 \subsection{Statement of Contributions}
   
-All chapters presented in this thesis are original and were the sole effort of JDP, \\ including review of the primary literature, conceptualization of ideas, implementation of code, design of experiments and writing of individual manuscripts. All other others either assisted directly with writing of code and/or running of experiments or participated in the editing of final manuscripts versions.
+All chapters presented in this thesis are original and were the sole effort of JDP, \\ including review of the primary literature, conceptualization of ideas, implementation of code, design of experiments and writing of individual manuscripts. All other others either assisted directly with writing of code and/or running of experiments or participated in the editing of final manuscript versions.
+
+\vspace{5mm}
 
 The following articles are published, under review or in preparation
 
