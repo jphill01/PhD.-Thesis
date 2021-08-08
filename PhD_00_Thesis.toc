@@ -66,9 +66,9 @@
 \contentsline {subsection}{\numberline {4.3.2}Algorithm Runtimes}{138}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}Conclusion}{139}{section.4.4}
 \contentsline {chapter}{\numberline {5}Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{169}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{170}{chapter.6}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Directions}{170}{chapter.6}
 \contentsline {subsection}{\numberline {6.0.1}Thesis Summary}{170}{subsection.6.0.1}
-\contentsline {chapter}{References}{173}{chapter*.78}
-\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{187}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{188}{appendix.B}
-\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{189}{appendix.C}
+\contentsline {chapter}{References}{174}{chapter*.78}
+\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{188}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{189}{appendix.B}
+\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{190}{appendix.C}
