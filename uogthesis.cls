@@ -188,6 +188,7 @@
 % Other English words that need replacement can be found in the macros
 % supporting the title and approval pages.
 %
+%
 % \tableofcontents:
 \def\contentsname{Table of Contents}
 %                 ~~~~~~~~
