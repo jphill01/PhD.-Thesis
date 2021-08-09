@@ -9,7 +9,7 @@ Biodiversity loss currently threatens the diversity of life on Earth. It is esti
 
 \vspace{5mm}
 
-Through traditional means of morphological identification, taxonomists have \\ painstakingly managed to categorize just over 1 million species in the last 250 years alone. DNA barcoding \cite{hebert2003biological, hebert2003barcoding}, proposed nealy 20 years ago in 2003 as a viable solution to the taxonomic impediment, has since revolutionized the way Linnean taxonomy is done. The premise of DNA barcoding is quite straightforward. The technique proposes to make accurate and rapid species diagnoses through leveraging easily obtained genetic variation seen in short molecular DNA gene regions collected from unknown specimens of interest. In animals, DNA barcoding specifically employs the cytochrome \textit{c.} oxidase subunit I (COI) gene found in the cell's mitochondria, which is highly abundant and found in all animal species. Further, while DNA barcoding's primary goal is to facilitate the acceleration of specimen identification and species discovery, a number of uses and applications outside of biodiversity science have been brought forth. In particular, government regulatory bodies worldwide such as the Canadian Food Inspection Agency and Agriculture and Agri-Food Canada to name a few have harness the true power DNA barcoding has to offer in the combatting of systemic seafood fraud, as well as in the monitoring the impacts and spread of invasive species on natural ecosystems.
+Through traditional means of morphological identification, taxonomists have \\ painstakingly managed to categorize just over 1 million species in the last 250 years alone. DNA barcoding \cite{hebert2003biological, hebert2003barcoding}, proposed nearly 20 years ago in 2003 as a viable solution to the taxonomic impediment, has since revolutionized the way Linnean taxonomy is done. The premise of DNA barcoding is quite straightforward. The technique proposes to make accurate and rapid species diagnoses through leveraging easily obtained genetic variation seen in short molecular DNA gene regions collected from unknown specimens of interest. In animals, DNA barcoding specifically employs the cytochrome \textit{c} oxidase subunit I (COI) gene found in the mitochondria of cells, which is highly abundant and found in all animal species. Further, while DNA barcoding's primary goal is to facilitate the acceleration of specimen identification and species discovery, a number of uses and applications outside of biodiversity science have been brought forth. In particular, government regulatory bodies worldwide such as the Canadian Food Inspection Agency and Agriculture and Agri-Food Canada to name a few have harnessed the true power DNA barcoding has to offer in the combatting of systemic seafood fraud, as well as in the monitoring the impacts and spread of invasive species on natural ecosystems.
 
 \vspace{5mm}
 
@@ -19,7 +19,7 @@ Robust estimation of adequate specimen sample sizes for DNA-based species \\ ide
 
 \subsection{Thesis Overview} \label{sec:intro1}
 
-This thesis outlines a novel statistical framework for assessment of COI DNA barcode haplotype sampling completeness. Much of the work presented herein reflects a spin-off of research completed at the Master's level in bioinformatics.
+This thesis outlines a novel statistical framework for assessment of COI DNA barcode haplotype sampling completeness. Much of the work presented herein reflects a spin-off of research completed at the Master's level in bioinformatics.  
 
 \vspace{5mm}
 
@@ -32,21 +32,18 @@ Chapter 3 builds on fundamental concepts of evolutinary biology and statistics \
 
 \vspace{5mm}
 
-Chapter 4 extends elements discussed in Chapter 3 through delving further into the useability and applicability of {\tt HACSim} via a detailed statistical simulation study to assess both the validity and overall performance of {\tt HACSim} and its utility for assessing \\ intraspecific sampling completeness within DNA barcoding studies for a variety of species mined from the Barcode of Life Data Systems (BOLD) \cite{ratnasingham2007bold}.
+Chapter 4 extends elements discussed in Chapter 3 through delving further into the useability and applicability of {\tt HACSim} via a detailed statistical simulation study to assess both the validity and overall performance of {\tt HACSim} and its utility for assessing \\ intraspecific sampling completeness within DNA barcoding studies for a variety of species mined from the Barcode of Life Data Systems (BOLD) \cite{ratnasingham2007bold}. {\tt HACSim} is deonstrated to possess good statistical properties, including high consistency between successive 
+\\ algorithm runs and high coverage probabilities for desired capture of intraspecfic haplotype variation.
 
 \vspace{5mm}
 
-Finally, in Chapter 5, it is argued that DNA barcoding is currently lacking in statistical rigor and that better statistical methods are necessary to more accurately assess standing genetic variation at the species level. Proposed approaches are illustrated through a case study focussing on Pacific fishes of Canada \cite{steinke2009dna}.
+Finally, in Chapter 5, it is argued that DNA barcoding is currently lacking in statistical rigor and that better statistical methods are necessary to more accurately assess standing genetic variation at the species level when it comes to estimating the DNA barcode gap. The use {\tt HACSim} is suggested to address the problem of improper allocation of specimen sampling effort. Kernel density estimation plots, along with quadrant plots, are advocated for in place of traditional histograms to more easily detect outlier and problematic taxa that reflect potential failures of DNA barcoding. Hypothesis testing, in addition to \\ nonparametric bootstrapping are recommended to place DNA barcoding and barcode gap analyses on firmer statistical ground through estimation of confidence intervals of \\ intraspecific and interspecific genetic distances. All proposed approaches are illustrated through a case study focussing on Pacific fishes of Canada \cite{steinke2009dna}.
 
 \vspace{5mm}
 
 \subsection{Thesis Statement}
 
-Through the development of a novel stochastic simulation algorithm for the generation of haplotype accumulation curves, the current research will provide a framework that can be employed to determine plausible specimen sample sizes sufficient to quantify levels of haplotypic sampling completeness within species under both uniform and non-uniform haplotype frequency distributions.
-
-\vspace{5mm}
-
-Such a framework will be valuable in promoting a greater degree of statistical \\ thoroughness in future DNA barcoding studies. 
+Through the development of a novel stochastic simulation algorithm for the generation of haplotype accumulation curves, the current research will provide a framework that can be employed to determine plausible specimen sample sizes sufficient to quantify levels of haplotypic sampling completeness within species under both uniform and non-uniform haplotype frequency distributions. Such a framework will be valuable in promoting a greater degree of statistical \\ thoroughness in future DNA barcoding studies. 
 
 \vspace{5mm}
 

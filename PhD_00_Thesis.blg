@@ -3,6 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PhD_00_Thesis.aux
 The style file: acm.bst
 A level-1 auxiliary file: PhD_01_TitlePage.aux
+A level-1 auxiliary file: Contributions.aux
 A level-1 auxiliary file: PhD_02_Abstract.aux
 A level-1 auxiliary file: PhD_04_Acknowledgements.aux
 A level-1 auxiliary file: PhD_05_TOC.aux
@@ -14,45 +15,46 @@ A level-1 auxiliary file: PhD_Chapter6.aux
 A level-1 auxiliary file: PhD_Appendix.aux
 Database file #1: PhD_Bibliography.bib
 Warning--empty journal in hanner2009data
-You've used 160 entries,
+Warning--empty publisher in spouge2012practical
+You've used 217 entries,
             2253 wiz_defined-function locations,
-            1385 strings with 34707 characters,
-and the built_in function-call counts, 56734 in all, are:
-= -- 5414
-> -- 3104
+            1654 strings with 43813 characters,
+and the built_in function-call counts, 76338 in all, are:
+= -- 7254
+> -- 4136
 < -- 0
-+ -- 1295
-- -- 1111
-* -- 5178
-:= -- 9516
-add.period$ -- 482
-call.type$ -- 160
-change.case$ -- 1018
++ -- 1729
+- -- 1477
+* -- 6938
+:= -- 12801
+add.period$ -- 654
+call.type$ -- 217
+change.case$ -- 1370
 chr.to.int$ -- 0
-cite$ -- 161
-duplicate$ -- 1479
-empty$ -- 4196
-format.name$ -- 1111
-if$ -- 11349
+cite$ -- 219
+duplicate$ -- 2005
+empty$ -- 5698
+format.name$ -- 1477
+if$ -- 15338
 int.to.chr$ -- 0
-int.to.str$ -- 160
-missing$ -- 160
-newline$ -- 802
-num.names$ -- 324
-pop$ -- 755
+int.to.str$ -- 217
+missing$ -- 218
+newline$ -- 1087
+num.names$ -- 440
+pop$ -- 1012
 preamble$ -- 1
-purify$ -- 863
+purify$ -- 1159
 quote$ -- 0
-skip$ -- 828
+skip$ -- 1121
 stack$ -- 0
-substring$ -- 4012
-swap$ -- 321
+substring$ -- 5381
+swap$ -- 434
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 632
-warning$ -- 1
-while$ -- 535
-width$ -- 163
-write$ -- 1603
-(There was 1 warning)
+type$ -- 856
+warning$ -- 2
+while$ -- 704
+width$ -- 220
+write$ -- 2173
+(There were 2 warnings)

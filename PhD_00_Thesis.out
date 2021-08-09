@@ -23,7 +23,7 @@
 \BOOKMARK [2][-]{subsection.2.4.2}{Mathematical Details}{section.2.4}% 23
 \BOOKMARK [2][-]{subsection.2.4.3}{Application to Ray-finned Fishes}{section.2.4}% 24
 \BOOKMARK [1][-]{section.2.5}{Future Prospects}{chapter.2}% 25
-\BOOKMARK [0][-]{chapter.3}{HACSim: An R package to estimate intraspecific sample sizes for genetic diversity assessment using haplotype accumulation curves}{}% 26
+\BOOKMARK [0][-]{chapter.3}{HACSim: An R package to estimate intraspecific sample sizes for genetic \040diversity assessment using haplotype accumulation curves}{}% 26
 \BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 27
 \BOOKMARK [2][-]{subsection.3.1.1}{Background}{section.3.1}% 28
 \BOOKMARK [2][-]{subsection.3.1.2}{Motivation}{section.3.1}% 29
@@ -66,9 +66,25 @@
 \BOOKMARK [2][-]{subsection.4.3.2}{Algorithm Runtimes}{section.4.3}% 66
 \BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 67
 \BOOKMARK [0][-]{chapter.5}{Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{}% 68
-\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Directions}{}% 69
-\BOOKMARK [1][-]{subsection.6.0.1}{Thesis Summary}{chapter.6}% 70
-\BOOKMARK [0][-]{chapter*.78}{References}{}% 71
-\BOOKMARK [0][-]{appendix.A}{Additional Information Accompanying Chapter 3}{}% 72
-\BOOKMARK [0][-]{appendix.B}{Additional Information Accompanying Chapter 4}{}% 73
-\BOOKMARK [0][-]{appendix.C}{Derivation of Approximate Confidence Interval for Sampling Sufficiency \(\) \040\(Equation 3.3\)}{}% 74
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.1.1}{DNA Barcoding: Historical Development}{section.5.1}% 70
+\BOOKMARK [2][-]{subsection.5.1.2}{DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{section.5.1}% 71
+\BOOKMARK [1][-]{section.5.2}{A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{chapter.5}% 72
+\BOOKMARK [1][-]{section.5.3}{Case Study: DNA Barcoding of Pacific Canada's Fishes}{chapter.5}% 73
+\BOOKMARK [1][-]{section.5.4}{Evidence for the Lack of Statistical Rigor in DNA Barcoding}{chapter.5}% 74
+\BOOKMARK [2][-]{subsection.5.4.1}{Improper Allocation of Specimen Sampling Effort}{section.5.4}% 75
+\BOOKMARK [3][-]{section*.78}{Estimating Intraspecific Specimen Sample Sizes with the R Package \040HACSim}{subsection.5.4.1}% 76
+\BOOKMARK [2][-]{subsection.5.4.2}{Failing to Properly Visualize Intraspecific and Interspecific \040Genetic Distances}{section.5.4}% 77
+\BOOKMARK [3][-]{section*.79}{Circumventing the Problem with Histograms and Dotplots for Barcode Gap Display}{subsection.5.4.2}% 78
+\BOOKMARK [2][-]{subsection.5.4.3}{Inconsistent, Inappropriate Use, or Absence of Inferential \040Statistical Procedures in DNA Barcoding}{section.5.4}% 79
+\BOOKMARK [3][-]{section*.83}{Framing the DNA Barcode Gap as a Statistical Hypothesis}{subsection.5.4.3}% 80
+\BOOKMARK [3][-]{section*.84}{The Use of Nonparametric Bootstrapping to Estimate the DNA Barcode Gap}{subsection.5.4.3}% 81
+\BOOKMARK [1][-]{section.5.5}{Critically Evaluating the Concept of the DNA \040Barcode Gap in Conservation and Regulatory \040Contexts}{chapter.5}% 82
+\BOOKMARK [1][-]{section.5.6}{New Avenues for Estimating the DNA Barcode Gap}{chapter.5}% 83
+\BOOKMARK [1][-]{section.5.7}{Discussion and Concluding Remarks}{chapter.5}% 84
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Directions}{}% 85
+\BOOKMARK [1][-]{subsection.6.0.1}{Thesis Summary}{chapter.6}% 86
+\BOOKMARK [0][-]{chapter*.89}{References}{}% 87
+\BOOKMARK [0][-]{appendix.A}{Additional Information Accompanying Chapter 3}{}% 88
+\BOOKMARK [0][-]{appendix.B}{Additional Information Accompanying Chapter 4}{}% 89
+\BOOKMARK [0][-]{appendix.C}{Derivation of Approximate Confidence Interval for Sampling Sufficiency \(\) \040\(Equation 3.3\)}{}% 90

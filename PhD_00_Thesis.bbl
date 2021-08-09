@@ -13,6 +13,12 @@
 \newblock {\em Journal of the Royal Statistical Society: Series D (The
   Statistician) 46}, 2 (1997), 261--283.
 
+\bibitem{ahrens2016rarity}
+{\sc Ahrens, D., Fujisawa, T., Krammer, H.-J., Eberle, J., Fabrizi, S., and
+  Vogler, A.}
+\newblock Rarity and incomplete sampling in {DNA}-based species delimitation.
+\newblock {\em Systematic Biology 65}, 3 (2016), 478--494.
+
 \bibitem{april2013glacial}
 {\sc April, J., Hanner, R.~H., Dion-C{\^o}t{\'e}, A.-M., and Bernatchez, L.}
 \newblock Glacial cycles as an allopatric speciation pump in north-eastern
@@ -58,6 +64,13 @@
   birds.
 \newblock {\em Molecular Ecology Resources\/} (2009), 257--268.
 
+\bibitem{barbera2019epang}
+{\sc Barbera, P., Kozlov, A., Czech, L., Morel, B., Darriba, D., Flouri, T.,
+  and Stamatakis, A.}
+\newblock {EPA}-ng: Massively parallel evolutionary placement of genetic
+  sequences.
+\newblock {\em Systematic Biology\/} (2019), 365--369.
+
 \bibitem{becker2011five}
 {\sc Becker, S., Hanner, R., and Steinke, D.}
 \newblock Five years of {FISH-BOL}: brief status report.
@@ -91,6 +104,12 @@
   taxon richness to estimate realistic upper limits in regional species
   richness.
 \newblock {\em Ecology and Evolution 8}, 1 (2017), 405--415.
+
+\bibitem{bickel1997resampling}
+{\sc Bickel, P., G{\"o}tze, F., and van Zwet, W.}
+\newblock Resampling fewer than $n$ observations: Gains, losses, and remedies
+  for losses.
+\newblock {\em Statistica Sinica 7\/} (1997), 1--31.
 
 \bibitem{braukmann2019metabarcoding}
 {\sc Braukmann, T., Ivanova, N., Prosser, S., Elbrecht, V., Steinke, D.,
@@ -126,6 +145,11 @@
   morphological and geographical scales.
 \newblock {\em Molecular Ecology Resources 15}, 2 (2015), 268--277.
 
+\bibitem{carstens2013fail}
+{\sc Carstens, B., Pelletier, T., Reid, N., and Satler, J.}
+\newblock How to fail at species delimitation.
+\newblock {\em Molecular Ecology 22\/} (2013), 4369--4383.
+
 \bibitem{casella2002statistical}
 {\sc Casella, G., and Berger, R.}
 \newblock {\em Statistical {I}nference}.
@@ -149,6 +173,12 @@
   of {A}thetis lepigone ({L}epidoptera: {N}octuidae) in {C}hina.
 \newblock {\em Mitochondrial DNA Part A 28}, 6 (1984), 826--834.
 
+\bibitem{chernick2007bootstrap}
+{\sc Chernick, M.}
+\newblock {\em Bootstrap {M}ethods: {A} {G}uide for {P}ractitioners and
+  {R}esearchers}.
+\newblock Wiley, 2007.
+
 \bibitem{chernick2011bootstrap}
 {\sc Chernick, M., and LaBudde, R.}
 \newblock {\em Bootstrap Methods with Applications to {R}}.
@@ -171,6 +201,11 @@
 \newblock Neotropical bats: estimating species diversity with {DNA} barcodes.
 \newblock {\em PLOS ONE 6}, 7 (2011), e22648.
 
+\bibitem{clement2000tcs}
+{\sc Clement, M., Posada, D., and Crandall, K.~A.}
+\newblock {TCS}: a computer program to estimate gene genealogies.
+\newblock {\em Molecular Ecology 9}, 10 (2000), 1657--1659.
+
 \bibitem{cohen1990things}
 {\sc Cohen, J.}
 \newblock Things {I} have learned (so far).
@@ -180,6 +215,12 @@
 {\sc Collins, R., and Cruickshank, R.}
 \newblock The seven deadly sins of {DNA} barcoding.
 \newblock {\em Molecular Ecology Resources 13}, 6 (2013), 969--975.
+
+\bibitem{collins2014known}
+{\sc Collins, R., and Cruickshank, R.}
+\newblock Known knowns, known unknowns, unknown unknowns and unknown knowns in
+  {DNA} barcoding: {A} comment on {D}owton et al.
+\newblock {\em Systematic Biology 63}, 6 (2014), 1005--1009.
 
 \bibitem{costa2015conservation}
 {\sc da~Costa, L.~S., Corneleo, N.~S., and Stefenon, V.~M.}
@@ -195,11 +236,28 @@
   some that are not.
 \newblock {\em Molecular Ecology Resources 10}, 2 (2010), 264--273.
 
+\bibitem{dellicour2015delimiting}
+{\sc Dellicour, S., and Flot, J.-F.}
+\newblock Delimiting species-poor data sets using single molecular markers: {A}
+  study of barcode gaps, haplowebs and {GMYC}.
+\newblock {\em Systematic Biology 64}, 6 (2015), 900--908.
+
 \bibitem{dengler2009function}
 {\sc Dengler, J.}
 \newblock Which function describes the species--area relationship best? a
   review and empirical evaluation.
 \newblock {\em Journal of Biogeography 36}, 4 (2009), 728--744.
+
+\bibitem{dequeiroz2007species}
+{\sc DeQueiroz, K.}
+\newblock Species concepts and species delimitation.
+\newblock {\em Systematic Biology 56}, 6 (2007), 879--886.
+
+\bibitem{desalle2006species}
+{\sc DeSalle, R.}
+\newblock Species discovery versus species identification in {DNA} barcoding
+  efforts: {R}esponse to {R}ubinoff.
+\newblock {\em Conservation Biology 20}, 5 (2006), 1545--1547.
 
 \bibitem{deWaard2010towards}
 {\sc DeWaard, J., Mitchell, A., Keena, M., Gopurenko, D., Boykin, L.,
@@ -237,6 +295,23 @@
   populations and its contributions to invasion.
 \newblock {\em Molecular Ecology 24}, 9 (2015), 2095--2111.
 
+\bibitem{doorenweerd2020highly}
+{\sc Doorenweerd, C., San~Jose, M., Barr, N., Leblanc, L., and Rubinoff, D.}
+\newblock Highly variable {COI} haplotype diversity between three species of
+  invasive pest fruit fly reflects remarkably incongruent demographic
+  histories.
+\newblock {\em Scientific Reports 10}, 1 (2020), 1--10.
+
+\bibitem{drummond2007beast}
+{\sc Drummond, A., and Rambaut, A.}
+\newblock {BEAST}: Bayesian evolutionary analysis by sampling trees.
+\newblock {\em BMC Evolutionary Biology 7}, 214 (2007), 1--8.
+
+\bibitem{eberle2020plea}
+{\sc Eberle, J., Ahrens, D., Mayer, C., Niehuis, O., and Mishof, B.}
+\newblock A plea for standardized nuclear markers in metazoan {DNA} taxonomy.
+\newblock {\em Trends in Ecology and Evoloution 35}, 4 (2020), 336--345.
+
 \bibitem{eddelbuettel2011}
 {\sc Eddelbuettel, D., and Fran\c{c}ois, R.}
 \newblock {Rcpp}: Seamless {R} and {C++} integration.
@@ -259,6 +334,11 @@
 \newblock Bootstrap methods: Another look at the jackknife.
 \newblock {\em The Annals of Statistics\/} (1979), 1--26.
 
+\bibitem{efron1996bootstrap}
+{\sc Efron, B., Halloran, E., and Holmes, S.}
+\newblock Bootstrap confidence levels for phylogenetic trees.
+\newblock {\em PNAS 93}, 23 (1996), 13429--13434.
+
 \bibitem{elbrecht2018estimating}
 {\sc Elbrecht, V., Vamos, E.~E., Steinke, D., and Leese, F.}
 \newblock Estimating intraspecific genetic diversity from community {DNA}
@@ -280,11 +360,34 @@
 \newblock The evolutionary advantage of recombination.
 \newblock {\em Genetics 78}, 2 (1974), 737--756.
 
+\bibitem{felenstein1985confidence}
+{\sc Felenstein, J.}
+\newblock Confidence {L}imits on {P}hylogenies: {A}n {A}pproach {U}sing the
+  {B}ootstrap.
+\newblock {\em Evolution 39}, 4 (1985), 783--791.
+
+\bibitem{fieberg2020resampling}
+{\sc Fieberg, J., Vitense, K., and Johnson, D.}
+\newblock Resampling-based methods for biologists.
+\newblock {\em PeerJ 8\/} (2020), e9089.
+
 \bibitem{foottit2008species}
 {\sc Foottit, R., Maw, H., Von~Dohlen, D., and Hebert, P.}
 \newblock Species identification of aphids ({I}nsecta: {H}emiptera:
   {A}phididae) through {DNA} barcodes.
 \newblock {\em Molecular Ecology Resources 8\/} (2008), 1189--1201.
+
+\bibitem{freedman1981on}
+{\sc Freedman, D., and Diaconis, P.}
+\newblock On the histogram as a density estimator: {${L}_2$} theory.
+\newblock {\em Z. Wahrscheinlichkeitstheorie verw. Gebiete 57\/} (1981),
+  453--476.
+
+\bibitem{fujisawa2016rapid}
+{\sc Fujisawa, T., Aswad, A., and Barraclough, T.}
+\newblock A rapid and scalable method for multilocus species delimitation using
+  {B}ayesian model comparison and rooted triplets.
+\newblock {\em Systematic Biology 65}, 5 (2016), 759?771.
 
 \bibitem{fujisawa2013delimiting}
 {\sc Fujisawa, T., and Barraclough, T.}
@@ -319,6 +422,29 @@
   namaycush}) strains stocked into {L}ake {O}ntario.
 \newblock {\em Canadian Journal of Fisheries and Aquatic Sciences 50}, 11
   (1993), 2397--2403.
+
+\bibitem{grimm2006standard}
+{\sc Grimm, V., Berger, U., Bastiansen, F., Eliassen, S., Ginot, V., Giske, J.,
+  Goss-Custard, J., Grand, T., Heinz, S., Huse, G., Huth, A., Jepsen, J.,
+  J{\o}rgensen, C., Mooij, W., M{\"u}ller, B., Pe'er, G., Piou, C., Railsback,
+  S., Robbins, A., Robbins, M., Rossmanith, E., R{\"u}ger, N., Strand, E.,
+  Souissi, S., Stillman, R., Vab{\o}, R., Visser, U., and DeAngelis, D.}
+\newblock A standard protocol for describing individual-based and agent-based
+  models.
+\newblock {\em Ecological Modelling 198}, 1 (2006), 115--126.
+
+\bibitem{grimm2010odd}
+{\sc Grimm, V., Berger, U., DeAngelis, D., Polhill, J., Giske, J., and
+  Railsback, S.}
+\newblock The {ODD} protocol: A review and first update.
+\newblock {\em Ecological Modelling 221}, 23 (2010), 2760--2768.
+
+\bibitem{grummer2014species}
+{\sc Grummer, J., Jr., B.~R., and Reeder, T.}
+\newblock Species delimitation uaing {B}ayes factors: Simulations and
+  applications to the \textit{{S}celoporus scalaris} species group ({S}quamata:
+  {P}hrynosomatidae.
+\newblock {\em Systematic Biology 63}, 2 (2014), 119--133.
 
 \bibitem{gwiazdowski2013phylogeographic}
 {\sc Gwiazdowski, R.~A., Elkinton, J.~S., Dewaard, J.~R., and Sremac, M.}
@@ -412,11 +538,29 @@
 \newblock Identification of birds through {DNA} barcodes.
 \newblock {\em PLOS Biology 2}, 10 (2004), e312.
 
+\bibitem{heled2010bayesian}
+{\sc Heled, J., and Drummond, A.}
+\newblock Bayesian inference of species trees from multilocus data.
+\newblock {\em Molecular Biology and Evolution 27}, 3 (2010), 570--580.
+
 \bibitem{hickerson2006dna}
 {\sc Hickerson, M.~J., Meyer, C.~P., and Moritz, C.}
 \newblock {DNA} barcoding will often fail to discover new animal species over
   broad parameter space.
 \newblock {\em Systematic Biology 55}, 5 (2006), 729--739.
+
+\bibitem{hobern2020bioscan}
+{\sc Hobern, D.}
+\newblock {BIOSCAN}: {DNA} barcoding to accelerate taxonomy and biogeography
+  for conservation and sustainability.
+\newblock {\em Genome\/} (2020), 1--4.
+
+\bibitem{hobern2019bioscan}
+{\sc Hobern, D., and Hebert, P.}
+\newblock {BIOSCAN} - revealing eukaryote diversity, dynamics, and
+  interactions.
+\newblock {\em Biodiversity Information Science and Standards 3\/} (2019),
+  e37333.
 
 \bibitem{holt2007experimental}
 {\sc Holt, J.~A., Stoneberg~Holt, S.~D., and Bure{\v{s}}, P.}
@@ -442,6 +586,11 @@
 \newblock Identifying {C}anadian freshwater fishes through {DNA} barcodes.
 \newblock {\em PLOS ONE 3}, 6 (2008), e2490.
 
+\bibitem{huelsenbeck2001mrbayes}
+{\sc Huelsenbeck, J., and Ronquist, F.}
+\newblock {MRBAYES}: Bayesian inference of phylogenetic trees.
+\newblock {\em Bioinformatics 17}, 8 (2001), 754--755.
+
 \bibitem{huemer2014testing}
 {\sc Huemer, P., Mutanen, M., Sefc, K.~M., and Hebert, P.~D.}
 \newblock Testing {DNA} barcode performance in 1000 species of {E}uropean
@@ -453,6 +602,11 @@
 \newblock Environmental {DNA} (e{DNA}) {S}ampling {I}mproves {O}ccurrence and
   {D}etection {E}stimates of {I}nvasive {B}urmese {P}ythons.
 \newblock {\em PLOS ONE 10}, 4 (2015), e0121655.
+
+\bibitem{hyndman1995problem}
+{\sc Hyndman, R.}
+\newblock The problem with {S}turges rule for constructing histograms.
+\newblock Unpublished, 1995.
 
 \bibitem{jin2012simple}
 {\sc Jin, Q., He, L.-J., and Zhang, A.-B.}
@@ -466,6 +620,25 @@
 \newblock Haplotype networks can be misleading in the presence of missing data.
 \newblock {\em Systematic Biology 56}, 5 (2007), 857--862.
 
+\bibitem{jones2017algorithmic}
+{\sc Jones, G.}
+\newblock Algorithmic improvements to species delimitation and phylogeny
+  estimation under the multispecies coalescent.
+\newblock {\em Journal of Mathematical Biology 74\/} (2017), 447--467.
+
+\bibitem{kapli2017multirate}
+{\sc Kapli, P., Lutteropp, S., Zhang, J., Kobert, K., Pavlidis, P., Stamatakis,
+  A., and Flouri, T.}
+\newblock Multi-rate {P}oisson tree processes for single-locus species
+  delimitation under maximum likelihood and {M}arkov chain {M}onte {C}arlo.
+\newblock {\em Bioinformatics 33}, 11 (2017), 1630--1638.
+
+\bibitem{kekkonen2014dna}
+{\sc Kekkonen, M., and Hebert, P.}
+\newblock {DNA} barcode-based delineation of putative species: efficient start
+  for taxonomic workflows.
+\newblock {\em Molecular Ecology Resources 14\/} (2014), 706--714.
+
 \bibitem{kimura1964stepping}
 {\sc Kimura, M., and Weiss, G.}
 \newblock The stepping stone model of population structure and the decrease of
@@ -478,11 +651,28 @@
 \newblock {\em Stochastic Processes and their Applications 13}, 3 (1982),
   235--248.
 
+\bibitem{kolter2020plant}
+{\sc Kolter, A., and Gemeinholzer, B.}
+\newblock Plant {DNA} barcoding necessitates marker-specific efforts to
+  establish more comprehensive reference databases.
+\newblock {\em Genome\/} (2020).
+
+\bibitem{koroiva2018estimating}
+{\sc Koroiva, R., and Kvist, S.}
+\newblock Estimating the {DNA} barcoding gap in a global dataset of cox1
+  sequences for {O}donata: {C}lose, but no cigar.
+\newblock {\em Mitochondrial DNA 29}, 5 (2018), 765--771.
+
 \bibitem{kumar2016mega7}
 {\sc Kumar, S., Stecher, G., and Tamura, K.}
 \newblock {MEGA7}: Molecular evolutionary genetics analysis version 7.0 for
   bigger datasets.
 \newblock {\em Molecular Biology and Evolution\/} (2016), 1870--1874.
+
+\bibitem{kvist2017does}
+{\sc Kvist, S.}
+\newblock Does a global barcoding gap exist in {A}nnelida?
+\newblock {\em Mitochondrial {DNA} Part A\/} (2017), 2241--2252.
 
 \bibitem{lavinia2016calibrating}
 {\sc Lavinia, P., Kerr, K., Tubaro, P., Hebert, P., and Lijtmaer, D.}
@@ -511,6 +701,11 @@
   lichen-forming ascomycete {X}anthoria parietina.
 \newblock {\em The Lichenologist 41}, 05 (2009), 529--535.
 
+\bibitem{lindley2000philosophy}
+{\sc Lindley, D.}
+\newblock The philiosophy of statistics.
+\newblock {\em The Statistician 49}, 3 (2000), 293--337.
+
 \bibitem{liu2012sampling}
 {\sc Liu, J., Provan, J., Gao, L.-M., and Li, D.-Z.}
 \newblock Sampling strategy and potential utility of indels for {DNA} barcoding
@@ -535,12 +730,31 @@
 \newblock A simulation study of sample size for {DNA} barcoding.
 \newblock {\em Ecology and Evolution 5}, 24 (2015), 5869--5879.
 
+\bibitem{martin2020figures}
+{\sc Martin, M., Dani{\"e}ls, P., D, E., and Spouge, J.}
+\newblock Figures of merit and statistics for detecting faulty species
+  identification with {DNA} barcodes: {A} case study in {R}amaria and related
+  fungal genera.
+\newblock {\em PLOS ONE 15}, 8 (2020), e0237507.
+
 \bibitem{matz2005likelihood}
 {\sc Matz, M.~V., and Nielsen, R.}
 \newblock A likelihood ratio test for species membership based on {DNA}
   sequence data.
 \newblock {\em Philosophical Transactions of the Royal Society of London B:
   Biological Sciences 360}, 1462 (2005), 1969--1974.
+
+\bibitem{meier2006dna}
+{\sc Meier, R., Shiyang, K., Vaidya, G., and Ng, P.}
+\newblock {DNA} barcoding and taxonomy in {D}iptera: A tale of high
+  intraspecific variability and low identification success.
+\newblock {\em Systematic Biology 55}, 5 (2006), 715--728.
+
+\bibitem{meier2008use}
+{\sc Meier, R., Zhang, G., and Ali, F.}
+\newblock The use of mean instead of smallest interspecific distances
+  exaggerates the size of the ``barcoding gap" and leads to misidentification.
+\newblock {\em Systematic Biology 57}, 5 (2008), 809--813.
 
 \bibitem{meyer2005dna}
 {\sc Meyer, C.~P., and Paulay, G.}
@@ -553,6 +767,11 @@
 \newblock Optimization and validation of a cost-effective protocol for
   biosurveillance of invasive alien species.
 \newblock {\em Ecology and Evolution\/} (2021), 1--16.
+
+\bibitem{miller2007dna}
+{\sc Miller, S.}
+\newblock {DNA} barcoding and the renaissance of taxonomy.
+\newblock {\em PNAS 104}, 12 (2007), 4775--4776.
 
 \bibitem{min2007assessing}
 {\sc Min, X., and Hickey, D.}
@@ -669,6 +888,11 @@
   life.
 \newblock {\em Trends in Ecology \& Evolution 27}, 2 (2012), 94--103.
 
+\bibitem{parzen1962estimation}
+{\sc Parzen, E.}
+\newblock On estimation of a probability density function and mode.
+\newblock {\em The Annals of Mathematical Statistics 33}, 3 (1962), 1065--1076.
+
 \bibitem{pearson1894contributions}
 {\sc Pearson, K.}
 \newblock Contributions to the mathematical theory of evolution.
@@ -706,6 +930,11 @@
   ray--finned fishes ({C}hordata: {A}ctinopterygii).
 \newblock {\em DNA Barcodes 3}, 1 (2015), 66--73.
 
+\bibitem{politis1999subsampling}
+{\sc Politis, D., Romano, J., and Wolf, M.}
+\newblock {\em Subsampling}.
+\newblock Springer, 1999.
+
 \bibitem{pons2006sequence}
 {\sc Pons, J., Barraclough, T., Gomez-Zurita, et~al.}
 \newblock Sequence-based species delimitation for the {DNA} taxonomy of
@@ -717,6 +946,11 @@
 \newblock The effects of sample size on population genetic diversity estimates
   in song sparrows {M}elospiza melodia.
 \newblock {\em Journal of Avian Biology 39\/} (2008), 252--256.
+
+\bibitem{puillandre2021asap}
+{\sc Puillandre, N., Brouillet, S., and Achaz, G.}
+\newblock {ASAP}: assemble species by automatic partitioning.
+\newblock {\em Molecular Ecology Resources 21}, 2 (2021), 609--620.
 
 \bibitem{puillandre2011abgd}
 {\sc Puillandre, N., Lambert, A., and Brouillet, S.}
@@ -741,6 +975,13 @@
   {N}umber ({BIN}) system.
 \newblock {\em PLOS ONE 8}, 7 (2013), e66213.
 
+\bibitem{reid2012phylogenetic}
+{\sc Reid, N., and Carstens, B.}
+\newblock Phylogenetic estimation error can decrease the accuracy of species
+  delimitation: a {B}ayesian implementation of the general mixed
+  yule-coalescent model.
+\newblock {\em BMC Evolutionary Biology 12\/} (2012), 196.
+
 \bibitem{rognes2016versatile}
 {\sc Rognes, T., Flouri, T., Nichols, B., Quince, C., and Mah\'{e}, F.}
 \newblock {VSEARCH}: a versatile open source tool for metagenomics.
@@ -751,6 +992,11 @@
 \newblock Genealogical trees, coalecent theory and the analysis of genetic
   polymorphisms.
 \newblock {\em Nature Genetics Reviews 3\/} (2002), 380--390.
+
+\bibitem{rosenblatt1956remarks}
+{\sc Rosenblatt, M.}
+\newblock Remarks on some nonparametric estimates of a density function.
+\newblock {\em The Annals of Mathematical Statistics 27}, 3 (1956), 832--837.
 
 \bibitem{ross2008testing}
 {\sc Ross, H.~A., Murugan, S., and Li, W. L.~S.}
@@ -764,6 +1010,24 @@
   clupeaformis) in {S}tokes {B}ay, {L}ake {H}uron.
 \newblock {\em Journal of Great Lakes Research 40\/} (2014), 755--762.
 
+\bibitem{scott1979optimal}
+{\sc Scott, D.}
+\newblock On optimal and data-based histograms.
+\newblock {\em Biometrika 66}, 3 (1979), 605--610.
+
+\bibitem{scrucca2016mclust}
+{\sc Scrucca, L., Fop, M., Murphy, T., and Raftery, A.}
+\newblock Mclust 5: clustering, classification and density estimation using
+  {G}aussian finite mixture models.
+\newblock {\em The R Journal 8\/} (2016), 205--233.
+
+\bibitem{serrao2014calibrating}
+{\sc Serrao, N., Steinke, D., and Hanner, R.}
+\newblock Calibrating snakehead diversity with {DNA} barcodes: Expanding
+  taxonomic coverage to enable identification of potential and established
+  invasive species.
+\newblock {\em PLOS ONE 9}, 6 (2014), e99546.
+
 \bibitem{Shehata2018dna}
 {\sc Shehata, H., Naaum, A., Garduno, R., and Hanner, R.}
 \newblock {DNA} barcoding as a regulatory tool for seafood authentication in
@@ -776,12 +1040,25 @@
   problems.
 \newblock {\em PLOS ONE 7}, 5 (2012), e36514.
 
+\bibitem{sonet2013adhoc}
+{\sc Sonet, G., Jordaens, K., Nagy, Z.~T., Breman, F.~C., {De Meyer}, M.,
+  Backeljau, T., and Virgilio, M.}
+\newblock Adhoc: an {R} package to calculate ad hoc distance thresholds for
+  {DNA} barcoding identification.
+\newblock {\em Zookeys 365\/} (2013), 329--336.
+
 \bibitem{spall2012stochastic}
 {\sc Spall, J.~C.}
 \newblock Stochastic {O}ptimization.
 \newblock In {\em Handbook of Computational Statistics: {C}oncepts and
   {M}ethods}, J.~E. Gentle, W.~K. H{\"a}rdle, and Y.~Mori, Eds., 2~ed.
   Springer, 2012.
+
+\bibitem{spouge2012practical}
+{\sc Spouge, J., and Mari{\~n}o-Ramirez, L.}
+\newblock The practical evaluation of {DNA} barcode efficacy.
+\newblock In {\em DNA Barcodes: Methods and Protocols}, W.~Kress and
+  D.~Erickson, Eds., 1~ed. 2012.
 
 \bibitem{stein2014is}
 {\sc Stein, E.~D., Martinez, M.~C., Stiles, S., Miller, P.~E., and Zakharov,
@@ -808,6 +1085,12 @@
 \newblock {DNA} barcoding of {P}acific {C}anada'€™s fishes.
 \newblock {\em Marine Biology 156}, 12 (2009), 2641--2647.
 
+\bibitem{steinke2009barcoding}
+{\sc Steinke, D., Zemlak, T.~S., and Hebert, P.~D.}
+\newblock Barcoding {N}emo: {DNA}-based identifications for the ornamental fish
+  trade.
+\newblock {\em PLOS One 4}, 7 (2009), e6300.
+
 \bibitem{stoeckle2012frequency}
 {\sc Stoeckle, M.~Y., and Kerr, K.~C.}
 \newblock Frequency matrix approach demonstrates high sequence quality in avian
@@ -823,6 +1106,23 @@
 {\sc Strohm, J.~H., Gwiazdowski, R.~A., and Hanner, R.}
 \newblock Mitogenome metadata: current trends and proposed standards.
 \newblock {\em Mitochondrial DNA Part A 27}, 5 (2016), 3263--3269.
+
+\bibitem{sturges1926choice}
+{\sc Sturges, H.}
+\newblock The choice of a class interval.
+\newblock {\em Journal of the American Statistical Association 21\/} (1926),
+  65--66.
+
+\bibitem{tajima1983evolutionary}
+{\sc Tajima, F.}
+\newblock Evolutionary relationship of {DNA} sequences in finite populations.
+\newblock {\em Genetics 105}, 2 (1983), 437--460.
+
+\bibitem{taylor2012emergent}
+{\sc Taylor, H., and Harris, W.}
+\newblock An emergent science on the brink of irrelevance: a review of the past
+  8 years of {DNA} barcoding.
+\newblock {\em Molecular Ecology Resources 12}, 3 (2012), 377--388.
 
 \bibitem{templeton1992cladistic}
 {\sc Templeton, A.~R., Crandall, K.~A., and Sing, C.~F.}
@@ -849,6 +1149,12 @@
   the chaff.
 \newblock {\em bioRxiv\/} (2019).
 
+\bibitem{vanvelzen2012dna}
+{\sc van Velzen, R., Weitschek, E., Felici, G., and Bakker, F.}
+\newblock {DNA} barcoding of recently diverged species: {R}elative performance
+  of matching methods.
+\newblock {\em PLOS ONE 7}, 1 (2012), e30490.
+
 \bibitem{ward2009campaign}
 {\sc Ward, R.~D., Hanner, R., and Hebert, P.~D.}
 \newblock The campaign to {DNA} barcode all fishes, {FISH-BOL}.
@@ -865,6 +1171,11 @@
 \newblock Can {T}heory {I}mprove the {S}cope of {Q}uantitative {M}etazoan
   {M}etabarcoding?
 \newblock {\em Diversity 8}, 1 (2015), 1.
+
+\bibitem{wasserstein2019moving}
+{\sc Wasserstein, R., Schirm, A., and Lazr, N.}
+\newblock Moving to a world beyond ``p $\mathbf{<}$ 0.05".
+\newblock {\em The American Statistician 73}, 51 (2019), 1--19.
 
 \bibitem{watterson1975segregating}
 {\sc Watterson, G.}
@@ -890,6 +1201,11 @@
   coverage and quality of reference {DNA} barcodes for plants.
 \newblock {\em Scientific Reports 7\/} (2017), 46040.
 
+\bibitem{will2005perils}
+{\sc Will, K., Mishler, B., and Wheeler, Q.}
+\newblock The perils of {DNA} barcoding and the need for integrative taxonomy.
+\newblock {\em Systematic Biology 54}, 5 (2005), 844--851.
+
 \bibitem{williams2015genes}
 {\sc Williams, P., Byvaltsev, A., Cederberg, B., Berezin, M., {\O}degaard, F.,
   Rasmussen, C., Richardson, L., Huang, J., Sheffield, C., and Williams, S.}
@@ -914,6 +1230,12 @@
 {\sc Wright, S.}
 \newblock The genetical structure of populations.
 \newblock {\em Annals of Eugenics 15}, 1 (1951), 323--354.
+
+\bibitem{yang2012bayesian}
+{\sc Yang, Z., and Rannala, B.}
+\newblock Bayesian species delimitation using multilocus sequence data.
+\newblock {\em Proceedings of the National Academy of Sciences 107\/} (2012),
+  9264--9269.
 
 \bibitem{yao2017evaluating}
 {\sc Yao, Peng-Cheng, G., Hai-Yan, W., Ya-Nan, Zhang, J.-H., Chen, X.-Y., and
@@ -949,10 +1271,24 @@
   {N}orth {A}merican populations of invasive insect species.
 \newblock {\em European Journal of Entomology 115\/} (2018), 718--728.
 
+\bibitem{zhang2016barcoding}
+{\sc Zhang, A., Hao, M., Yang, C., and Shi, Z.}
+\newblock Barcoding{R}: an integrated {R} package for species identification
+  using {DNA} barcodes.
+\newblock {\em Methods in Ecology and Evolution\/} (2016), 1--8.
+
 \bibitem{zhang2010estimating}
 {\sc Zhang, A.-B., He, L.-J., Crozier, R.~H., Muster, C., and Zhu, C.-D.}
 \newblock Estimating sample sizes for {DNA} barcoding.
 \newblock {\em Molecular Phylogenetics and Evolution 54}, 3 (2010), 1035--1039.
+
+\bibitem{zhang2017species}
+{\sc Zhang, H.-G., Lv, M.-H., Yi, W.-B., Zhu, W.-B., and Bu, W.-J.}
+\newblock Species diversity can be overestimated by a fixed empirical
+  threshold: insights from {DNA} barcoding of the genus {C}letus ({H}emiptera:
+  {C}oreidae) and the meta-analysis of {COI} data from previous
+  phylogeographical studies.
+\newblock {\em Molecular Ecology Resources 17\/} (2017), 314--323.
 
 \bibitem{zhang2013general}
 {\sc Zhang, J., Kapli, P., Pavlidis, P., and Stamatakis, P.}
