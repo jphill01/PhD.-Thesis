@@ -1,5 +1,11 @@
 \begin{thebibliography}{100}
 
+\bibitem{abdo2007step}
+{\sc Abdo, Z., and Golding, G.}
+\newblock A step toward barcoding life: a model-based, decision-theoretic
+  method to assign genes to preexisting species groups.
+\newblock {\em Systematic Biology 56}, 1 (2007), 44--56.
+
 \bibitem{adams2019beyond}
 {\sc Adams, C., Knapp, M., Gemmell, N., Jeunen, G.-J., Bunce, M., Lamare, M.,
   and Taylor, H.}
@@ -110,6 +116,24 @@
 \newblock Resampling fewer than $n$ observations: Gains, losses, and remedies
   for losses.
 \newblock {\em Statistica Sinica 7\/} (1997), 1--31.
+
+\bibitem{bickel2008choice}
+{\sc Bickel, P., and Sakov, A.}
+\newblock On the choice of $m$ in the $m$-out-of-$n$ bootstrap and confidence
+  bounds for extrema.
+\newblock {\em Statistica Sinica 18\/} (2008), 967--985.
+
+\bibitem{birky2013species}
+{\sc Birky, C.~J.}
+\newblock Species detection and identification in sexual organisms using
+  population genetic theory and {DNA} sequences.
+\newblock {\em PLOS One 8}, 1 (2013), e52544.
+
+\bibitem{birky2010using}
+{\sc Birky, C.~J., Adams, J., Gemmel, M., and Perry, J.}
+\newblock Using population genetic theory and {DNA} sequences for species
+  detection and identification in asexual organisms.
+\newblock {\em PLOS One 5}, 5 (2010), e10609.
 
 \bibitem{braukmann2019metabarcoding}
 {\sc Braukmann, T., Ivanova, N., Prosser, S., Elbrecht, V., Steinke, D.,
@@ -242,6 +266,11 @@
   study of barcode gaps, haplowebs and {GMYC}.
 \newblock {\em Systematic Biology 64}, 6 (2015), 900--908.
 
+\bibitem{dellicour2018hitchhiker}
+{\sc Dellicour, S., and Flot, J.-F.}
+\newblock The hitchhiker's guide to single-locus species delimitation.
+\newblock {\em Molecular Ecology Resources 18}, 6 (2018), 1234--1246.
+
 \bibitem{dengler2009function}
 {\sc Dengler, J.}
 \newblock Which function describes the species--area relationship best? a
@@ -258,6 +287,11 @@
 \newblock Species discovery versus species identification in {DNA} barcoding
   efforts: {R}esponse to {R}ubinoff.
 \newblock {\em Conservation Biology 20}, 5 (2006), 1545--1547.
+
+\bibitem{desalle2019review}
+{\sc DeSalle, R., and Goldstein, P.}
+\newblock Review and interpretation of trends in {DNA} barcoding.
+\newblock {\em Frontiers in Ecology and Evolution 7}, 302 (2019), 1--11.
 
 \bibitem{deWaard2010towards}
 {\sc DeWaard, J., Mitchell, A., Keena, M., Gopurenko, D., Boykin, L.,
@@ -402,6 +436,12 @@
   consequences, with insights from animal mitochondrial {DNA}.
 \newblock {\em Annual Review of Ecology, Evolution, and Systematics 34}, 1
   (2003), 397--423.
+
+\bibitem{good2003common}
+{\sc Good, P., and Hardin, J.}
+\newblock {\em Common {E}rrors in {S}tatistics ({A}nd {H}ow to {A}void
+  {T}hem)}.
+\newblock John Wiley \& Sons, Inc., 2003.
 
 \bibitem{goodall2012comparison}
 {\sc Goodall-Copestake, W., Tarling, G., and Murphy, E.}
@@ -685,6 +725,14 @@
 \newblock Patterns of {DNA} barcode variation in {C}anadian marine molluscs.
 \newblock {\em PLOS ONE 9}, 4 (2014), e95003.
 
+\bibitem{lee2019towards}
+{\sc Lee, T., Anderson, S., Tran-Nguyen, L., Sallam, N., Le~Ru, B., Conlong,
+  D., Powell, K., Ward, A., and Mitchell, A.}
+\newblock Towards a global {DNA} barcode reference library for quarantine
+  identifications of lepidopteran stemborers, with an emphasis on sugarcane
+  pests.
+\newblock {\em Scientific Reports 9\/} (2019), 7039.
+
 \bibitem{leigh2015popart}
 {\sc Leigh, J.~W., and Bryant, D.}
 \newblock {POPART}: full-feature software for haplotype network construction.
@@ -719,6 +767,12 @@
   et al. (2006).
 \newblock {\em Systematic Biology 58}, 4 (2009), 439--442.
 
+\bibitem{lou2010assigning}
+{\sc Lou, M., and Golding, G.}
+\newblock Assigning sequences to species in the absence of large interspecific
+  differences.
+\newblock {\em Molecular Phylogenetics and Evolution 58\/} (2010), 187--194.
+
 \bibitem{lou2012effect}
 {\sc Lou, M., and Golding, G.~B.}
 \newblock The effect of sampling from subdivided populations on species
@@ -729,6 +783,18 @@
 {\sc Luo, A., Lan, H., Ling, C., Zhang, A.-B., Shi, L., Ho, S.~Y., and Zhu, C.}
 \newblock A simulation study of sample size for {DNA} barcoding.
 \newblock {\em Ecology and Evolution 5}, 24 (2015), 5869--5879.
+
+\bibitem{luo2018comparison}
+{\sc Luo, A., Ling, C., Ho, S., and Zhu, C.-D.}
+\newblock Comparison of methods for molecular species delimitation across a
+  range of speciation scenarios.
+\newblock {\em Systematic Biology 67}, 5 (2018), 830--846.
+
+\bibitem{madden2019using}
+{\sc Madden, M., Young, R., Brown, J., Miller, S., Frewin, A., and Hanner, R.}
+\newblock Using {DNA} barcoding to improve invasive pest identification at
+  {U.S.} ports-of-entry.
+\newblock {\em PLOS ONE 14}, 9 (2019), e0222291.
 
 \bibitem{martin2020figures}
 {\sc Martin, M., Dani{\"e}ls, P., D, E., and Spouge, J.}
@@ -809,6 +875,13 @@
 \newblock Species-level para-and polyphyly in {DNA} barcode gene trees: strong
   operational bias in {E}uropean {L}epidoptera.
 \newblock {\em Systematic Biology 65}, 6 (2016), 1024--1040.
+
+\bibitem{naaum2018complementary}
+{\sc Naaum, A., Shehata, H., Chen, S., Li, J., Tabujara, N., Awmack, D.,
+  Lutze-Wallace, C., and Hanner, R.}
+\newblock Complementary molecular methods detect undeclared species in sausage
+  products at retail markets in {C}anada.
+\newblock {\em Food Control 84\/} (2018), 339--344.
 
 \bibitem{naaum2015standards}
 {\sc Naaum, A.~M., St~Jaques, J., Warner, K., Santschi, L., Imondi, R., and
@@ -1027,6 +1100,19 @@
   taxonomic coverage to enable identification of potential and established
   invasive species.
 \newblock {\em PLOS ONE 9}, 6 (2014), e99546.
+
+\bibitem{shehata2019survey}
+{\sc Shehata, H., Bourque, D., Steinke, D., Chen, S., and Hanner, R.}
+\newblock Survey of mislabelling across finfish supply chain reveals
+  mislabelling both outside and within {C}anada.
+\newblock {\em Food Research International 121\/} (2019), 723--729.
+
+\bibitem{shehata2019revisiting}
+{\sc Shehata, H., Naaum, A., Chen, S., Murphy, T., Li, J., Shannon, K., Awmack,
+  D., Locas, A., and Hanner, R.}
+\newblock Re-visiting the occurrence of undeclared species in sausage products
+  sold in {C}anada.
+\newblock {\em Food Research International 122\/} (2019), 593--598.
 
 \bibitem{Shehata2018dna}
 {\sc Shehata, H., Naaum, A., Garduno, R., and Hanner, R.}
@@ -1281,6 +1367,13 @@
 {\sc Zhang, A.-B., He, L.-J., Crozier, R.~H., Muster, C., and Zhu, C.-D.}
 \newblock Estimating sample sizes for {DNA} barcoding.
 \newblock {\em Molecular Phylogenetics and Evolution 54}, 3 (2010), 1035--1039.
+
+\bibitem{zhang2012fuzzy}
+{\sc Zhang, A.-B., Muster, C., Zhu, C.-D., Crozier, R., Wan, P., Feng, J., and
+  Ward, R.}
+\newblock A fuzzy-set-theory-based approach to analyse species membership in
+  {DNA} barcoding.
+\newblock {\em Molecular Ecology 21}, 8 (2012), 1848--1863.
 
 \bibitem{zhang2017species}
 {\sc Zhang, H.-G., Lv, M.-H., Yi, W.-B., Zhu, W.-B., and Bu, W.-J.}

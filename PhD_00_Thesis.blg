@@ -11,50 +11,56 @@ A level-1 auxiliary file: PhD_Chapter2.aux
 A level-1 auxiliary file: PhD_Chapter3.aux
 A level-1 auxiliary file: PhD_Chapter4.aux
 A level-1 auxiliary file: PhD_Chapter5.aux
+Case mismatch error between cite keys shehata2018dna and Shehata2018dna
+---line 14 of file PhD_Chapter5.aux
+ : \citation{shehata2018dna
+ :                         }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: PhD_Chapter6.aux
 A level-1 auxiliary file: PhD_Appendix.aux
+Reallocated field_info (elt_size=4) to 10336 items from 5000.
 Database file #1: PhD_Bibliography.bib
 Warning--empty journal in hanner2009data
 Warning--empty publisher in spouge2012practical
-You've used 217 entries,
+You've used 232 entries,
             2253 wiz_defined-function locations,
-            1654 strings with 43813 characters,
-and the built_in function-call counts, 76338 in all, are:
-= -- 7254
-> -- 4136
+            1720 strings with 46461 characters,
+and the built_in function-call counts, 82008 in all, are:
+= -- 7770
+> -- 4491
 < -- 0
-+ -- 1729
-- -- 1477
-* -- 6938
-:= -- 12801
-add.period$ -- 654
-call.type$ -- 217
-change.case$ -- 1370
++ -- 1877
+- -- 1607
+* -- 7467
+:= -- 13764
+add.period$ -- 699
+call.type$ -- 232
+change.case$ -- 1479
 chr.to.int$ -- 0
-cite$ -- 219
-duplicate$ -- 2005
-empty$ -- 5698
-format.name$ -- 1477
-if$ -- 15338
+cite$ -- 234
+duplicate$ -- 2144
+empty$ -- 6094
+format.name$ -- 1607
+if$ -- 16471
 int.to.chr$ -- 0
-int.to.str$ -- 217
-missing$ -- 218
-newline$ -- 1087
-num.names$ -- 440
-pop$ -- 1012
+int.to.str$ -- 232
+missing$ -- 234
+newline$ -- 1162
+num.names$ -- 470
+pop$ -- 1098
 preamble$ -- 1
-purify$ -- 1159
+purify$ -- 1254
 quote$ -- 0
-skip$ -- 1121
+skip$ -- 1197
 stack$ -- 0
-substring$ -- 5381
-swap$ -- 434
+substring$ -- 5738
+swap$ -- 464
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 856
+type$ -- 914
 warning$ -- 2
-while$ -- 704
-width$ -- 220
-write$ -- 2173
-(There were 2 warnings)
+while$ -- 748
+width$ -- 235
+write$ -- 2323
+(There was 1 error message)
