@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {1.0.1}The Problem}{1}{subsection.1.0.1}
 \contentsline {subsection}{\numberline {1.0.2}Thesis Overview}{3}{subsection.1.0.2}
 \contentsline {subsection}{\numberline {1.0.3}Thesis Statement}{5}{subsection.1.0.3}
-\contentsline {subsection}{\numberline {1.0.4}Statement of Contributions}{5}{subsection.1.0.4}
+\contentsline {subsection}{\numberline {1.0.4}Statement of Contributions}{6}{subsection.1.0.4}
 \contentsline {chapter}{\numberline {2}Incomplete estimates of genetic diversity within species: Implications for DNA barcoding}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Current Methods}{14}{section.2.2}
@@ -69,22 +69,22 @@
 \contentsline {section}{\numberline {5.1}Introduction}{172}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}DNA Barcoding: Historical Development}{172}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{175}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{179}{section.5.2}
+\contentsline {section}{\numberline {5.2}A Need to Improve and Maintain Statistical Rigor in DNA Barcoding \\ Studies}{179}{section.5.2}
 \contentsline {section}{\numberline {5.3}Case Study: DNA Barcoding of Pacific Canada's \\ Fishes}{182}{section.5.3}
 \contentsline {section}{\numberline {5.4}Evidence for the Lack of Statistical Rigor in DNA \\ Barcoding}{185}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Improper Allocation of Specimen Sampling Effort}{186}{subsection.5.4.1}
 \contentsline {subsubsection}{Estimating Intraspecific Specimen Sample Sizes with the R Package {\tt HACSim}}{188}{section*.78}
 \contentsline {subsection}{\numberline {5.4.2}Failing to Properly Visualize Intraspecific and Interspecific \\ Genetic Distances}{190}{subsection.5.4.2}
-\contentsline {subsubsection}{Circumventing the Problem with Histograms and Dotplots for Barcode Gap Display}{190}{section*.79}
+\contentsline {subsubsection}{Circumventing the Problem with Histograms and Dotplots for Barcode Gap Display}{191}{section*.79}
 \contentsline {subsection}{\numberline {5.4.3}Inconsistent, Inappropriate Use, or Absence of Inferential \\ Statistical Procedures in DNA Barcoding}{200}{subsection.5.4.3}
 \contentsline {subsubsection}{Framing the DNA Barcode Gap as a Statistical Hypothesis}{205}{section*.83}
 \contentsline {subsubsection}{The Use of Nonparametric Bootstrapping to Estimate the DNA Barcode Gap}{207}{section*.84}
 \contentsline {section}{\numberline {5.5}Critically Evaluating the Concept of the DNA \\ Barcode Gap in Conservation and Regulatory \\ Contexts}{210}{section.5.5}
 \contentsline {section}{\numberline {5.6}New Avenues for Estimating the DNA Barcode Gap}{214}{section.5.6}
-\contentsline {section}{\numberline {5.7}Discussion and Concluding Remarks}{217}{section.5.7}
-\contentsline {chapter}{\numberline {6}Conclusion and Future Directions}{223}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Thesis Summary}{223}{subsection.6.0.1}
-\contentsline {chapter}{References}{227}{chapter*.89}
-\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{247}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{248}{appendix.B}
-\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{249}{appendix.C}
+\contentsline {section}{\numberline {5.7}Discussion and Concluding Remarks}{218}{section.5.7}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Directions}{224}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}Thesis Summary}{224}{subsection.6.0.1}
+\contentsline {chapter}{References}{228}{chapter*.89}
+\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{248}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{249}{appendix.B}
+\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{250}{appendix.C}
