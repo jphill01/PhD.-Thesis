@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 AUG 2021 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 AUG 2021 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1579,19 +1579,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 [1
 
 
-]
-Overfull \hbox (11.16388pt too wide) in paragraph at lines 18--19
-[][][]\OT1/ptm/m/n/12 The ma-jor-ity of stud-ies con-ducted to date on es-ti-ma
-t-ing sam-ple sizes from DNA bar-cod-ing|
- []
-
-
-Overfull \hbox (27.07895pt too wide) in paragraph at lines 18--19
-\OT1/ptm/m/n/12 have em-ployed so-phis-ti-cated para-met-ric sta-tis-ti-cal mod
--els hav-ing strong un-der-ly-ing as-sump-tions.|
- []
-
-[2] [3] [4] [5]) [6]
+] [2] [3] [4] [5]) [6]
 \openout2 = `PhD_Chapter2.aux'.
 
  (./PhD_Chapter2.tex
@@ -2020,22 +2008,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 224.
 
-[210] [211] [212] [213] [214] [215]
-
-LaTeX Warning: Citation `G10KCOS2009genome' on page 216 undefined on input line
- 273.
-
-
-LaTeX Warning: Citation `koepfli2015genome' on page 216 undefined on input line
- 273.
-
-
-Overfull \hbox (8.26437pt too wide) in paragraph at lines 273--274
-\OT1/ptm/m/n/12 community-at-large to forgo ac-com-plish-ing goals ``the right 
-way" at the ex-pence of up-hold-ing|
- []
-
-[216] [217] [218] [219] [220] [221] [222]) [223]
+[210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221]
+[222]) [223]
 \openout2 = `PhD_Chapter6.aux'.
 
  (./PhD_Chapter6.tex
@@ -2083,98 +2057,97 @@ Underfull \hbox (badness 1210) in paragraph at lines 409--413
 T1/ptm/m/n/12 Species
  []
 
-[233]
-Underfull \hbox (badness 3601) in paragraph at lines 504--509
+[233] [234]
+Underfull \hbox (badness 3601) in paragraph at lines 510--515
 [][][]\OT1/ptm/m/sc/12 Hale, M. L., Burg, T. M., and Steeves, T. E.  \OT1/ptm/m
 /n/12 Sam-pling for
  []
 
-[234]
-Underfull \hbox (badness 2818) in paragraph at lines 526--531
+
+Underfull \hbox (badness 2818) in paragraph at lines 532--537
 [][][]\OT1/ptm/m/sc/12 Hanner, R. H., Naaum, A. M., and Shivji, M. S.  \OT1/ptm
 /m/n/12 Con-clu-sion:
  []
 
-[235]
-Underfull \hbox (badness 1789) in paragraph at lines 652--657
+[235] [236]
+Underfull \hbox (badness 1789) in paragraph at lines 658--663
 [][][]\OT1/ptm/m/sc/12 Jin, Q., He, L.-J., and Zhang, A.-B.  \OT1/ptm/m/n/12 A 
 sim-ple 2D non-parametric
  []
 
-[236]
-Underfull \hbox (badness 3601) in paragraph at lines 670--675
+
+Underfull \hbox (badness 3601) in paragraph at lines 676--681
 [][][]\OT1/ptm/m/sc/12 Kapli, P., Lut-teropp, S., Zhang, J., Kobert, K., Pavlid
 is, P.,
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 670--675
+Underfull \hbox (badness 1024) in paragraph at lines 676--681
 \OT1/ptm/m/sc/12 Sta-matakis, A., and Flouri, T.  \OT1/ptm/m/n/12 Multi-rate Po
 is-son tree pro-cesses for
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 695--699
+Underfull \hbox (badness 1902) in paragraph at lines 707--711
 \OT1/ptm/m/n/12 marker-specific ef-forts to es-tab-lish more com-pre-hen-sive r
 ef-er-ence databases.
  []
 
-
-Underfull \hbox (badness 1215) in paragraph at lines 718--722
+[237]
+Underfull \hbox (badness 1215) in paragraph at lines 730--734
 [][][]\OT1/ptm/m/sc/12 Lavinia, P., Kerr, K., Tubaro, P., Hebert, P., and Li-jt
 -maer, D.
  []
 
-[237] [238]
-Underfull \hbox (badness 4531) in paragraph at lines 872--878
+[238] [239]
+Underfull \hbox (badness 4531) in paragraph at lines 884--890
 [][][]\OT1/ptm/m/sc/12 Mutanen, M., Kivel[]a, S. M., Vos, R. A., Dooren-weerd, 
 C.,
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 872--878
+Underfull \hbox (badness 2932) in paragraph at lines 884--890
 \OT1/ptm/m/sc/12 Rat-nas-ing-ham, S., Haus-mann, A., Hue-mer, P., Dinc[]a, V., 
 van
  []
 
-[239]
-Underfull \hbox (badness 3965) in paragraph at lines 948--952
+[240]
+Underfull \hbox (badness 3965) in paragraph at lines 960--964
 [][][]\OT1/ptm/m/sc/12 Paradis, E.  \OT1/ptm/m/n/12 pe-gas: an R pack-age for p
 op-u-la-tion ge-net-ics with an
  []
 
-[240]
-Underfull \hbox (badness 1377) in paragraph at lines 1000--1005
+
+Underfull \hbox (badness 1377) in paragraph at lines 1012--1017
 [][][]\OT1/ptm/m/sc/12 Phillips, J. D., Gwiaz-dowski, R. A., Ashlock, D., and H
 an-ner,
  []
 
-[241] [242]
-Underfull \hbox (badness 1184) in paragraph at lines 1165--1168
+[241] [242] [243]
+Underfull \hbox (badness 1184) in paragraph at lines 1177--1180
 [][][]\OT1/ptm/m/sc/12 Steinke, D., and Han-ner, R.  \OT1/ptm/m/n/12 The FISH-B
 OL col-lab-o-ra-tors' pro-to-col.
  []
 
-[243]
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
- [244]
+[244] [245]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1308
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1320
 \OT1/ptm/m/n/12 Men-daci-bom-bus re-vised from species gene co-a-les-cents and 
 mor-phol-ogy
  []
 
-[245]
-Underfull \hbox (badness 1152) in paragraph at lines 1367--1370
+[246]
+Underfull \hbox (badness 1152) in paragraph at lines 1379--1382
 \OT1/ptm/m/n/12 Es-ti-mat-ing sam-ple sizes for DNA bar-cod-ing.  \OT1/ptm/m/it
 /12 Molec-u-lar Phy-lo-ge-net-ics and
  []
 
-[246]) [247]
+) [247]
 \openout2 = `PhD_Appendix.aux'.
 
  (./PhD_Appendix.tex
@@ -2235,13 +2208,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
- 27358 strings out of 493014
- 533439 string characters out of 6133351
- 676786 words of memory out of 5000000
+ 27360 strings out of 493014
+ 533483 string characters out of 6133351
+ 676868 words of memory out of 5000000
  29529 multiletter control sequences out of 15000+600000
  84792 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,19n,92p,6749b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,92p,6749b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/loca
 l/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016
 /texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dis
@@ -2263,10 +2236,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on PhD_00_Thesis.pdf (269 pages, 25728728 bytes).
+Output written on PhD_00_Thesis.pdf (269 pages, 25729489 bytes).
 PDF statistics:
- 3137 PDF objects out of 3580 (max. 8388607)
- 2725 compressed objects within 28 object streams
- 687 named destinations out of 1000 (max. 500000)
+ 3141 PDF objects out of 3580 (max. 8388607)
+ 2729 compressed objects within 28 object streams
+ 689 named destinations out of 1000 (max. 500000)
  943 words of extra memory for PDF output out of 10000 (max. 10000000)
 

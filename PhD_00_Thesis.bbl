@@ -437,6 +437,12 @@
 \newblock {\em Annual Review of Ecology, Evolution, and Systematics 34}, 1
   (2003), 397--423.
 
+\bibitem{G10KCOS2009genome}
+{\sc G10KCOS}.
+\newblock Genome 10k: A proposal to obtain whole-genome sequence for 10?000
+  vertebrate species.
+\newblock {\em Journal of Heredity 100}, 6 (2009), 659--674.
+
 \bibitem{good2003common}
 {\sc Good, P., and Hardin, J.}
 \newblock {\em Common {E}rrors in {S}tatistics ({A}nd {H}ow to {A}void
@@ -690,6 +696,12 @@
 \newblock The coalescent.
 \newblock {\em Stochastic Processes and their Applications 13}, 3 (1982),
   235--248.
+
+\bibitem{koepfli2015genome}
+{\sc Koepfli, K.-P., Paten, B., the Genome 10K Community~of Scientists, and
+  O'Brien, S.}
+\newblock The genome 10k project: A way forward.
+\newblock {\em Annual Review of Animal Biosciences 3\/} (2015), 57--111.
 
 \bibitem{kolter2020plant}
 {\sc Kolter, A., and Gemeinholzer, B.}
