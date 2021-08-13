@@ -38,8 +38,8 @@
 \BOOKMARK [3][-]{section*.22}{Unequal Haplotype Frequencies}{subsection.3.3.1}% 38
 \BOOKMARK [2][-]{subsection.3.3.2}{Application of HACSim to Real Species}{section.3.3}% 39
 \BOOKMARK [3][-]{section*.25}{Lake Whitefish \(Coregonus clupeaformis\)}{subsection.3.3.2}% 40
-\BOOKMARK [3][-]{section*.29}{Deer tick \(Ixodes scapularis\)}{subsection.3.3.2}% 41
-\BOOKMARK [3][-]{section*.33}{Scalloped hammerhead \(Sphyrna lewini\)}{subsection.3.3.2}% 42
+\BOOKMARK [3][-]{section*.29}{Deer Tick \(Ixodes scapularis\)}{subsection.3.3.2}% 41
+\BOOKMARK [3][-]{section*.33}{Scalloped Hammerhead \(Sphyrna lewini\)}{subsection.3.3.2}% 42
 \BOOKMARK [1][-]{section.3.4}{Discussion}{chapter.3}% 43
 \BOOKMARK [2][-]{subsection.3.4.1}{Initializing HACSim and Overall Algorithm Behaviour}{section.3.4}% 44
 \BOOKMARK [2][-]{subsection.3.4.2}{Additional Capabilities and Extending Functionality of HACSim}{section.3.4}% 45
@@ -56,8 +56,8 @@
 \BOOKMARK [1][-]{section.4.2}{Methods}{chapter.4}% 56
 \BOOKMARK [2][-]{subsection.4.2.1}{Hypothetical Species}{section.4.2}% 57
 \BOOKMARK [2][-]{subsection.4.2.2}{Real Species}{section.4.2}% 58
-\BOOKMARK [3][-]{section*.42}{Pea aphid \(Acyrthosiphon pisum\)}{subsection.4.2.2}% 59
-\BOOKMARK [3][-]{section*.43}{Common mosquito \(Culex pipiens\)}{subsection.4.2.2}% 60
+\BOOKMARK [3][-]{section*.42}{Pea Aphid \(Acyrthosiphon pisum\)}{subsection.4.2.2}% 59
+\BOOKMARK [3][-]{section*.43}{Common Mosquito \(Culex pipiens\)}{subsection.4.2.2}% 60
 \BOOKMARK [3][-]{section*.44}{Gypsy Moth \(Lymantria dispar\)}{subsection.4.2.2}% 61
 \BOOKMARK [2][-]{subsection.4.2.3}{Simulation Study}{section.4.2}% 62
 \BOOKMARK [2][-]{subsection.4.2.4}{Statistical Analysis}{section.4.2}% 63
@@ -69,7 +69,7 @@
 \BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 69
 \BOOKMARK [2][-]{subsection.5.1.1}{DNA Barcoding: Historical Development}{section.5.1}% 70
 \BOOKMARK [2][-]{subsection.5.1.2}{DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{section.5.1}% 71
-\BOOKMARK [1][-]{section.5.2}{A Need to Improve and Maintain Statistical Rigor in DNA Barcoding \040Studies}{chapter.5}% 72
+\BOOKMARK [1][-]{section.5.2}{A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{chapter.5}% 72
 \BOOKMARK [1][-]{section.5.3}{Case Study: DNA Barcoding of Pacific Canada's \040Fishes}{chapter.5}% 73
 \BOOKMARK [1][-]{section.5.4}{Evidence for the Lack of Statistical Rigor in DNA \040Barcoding}{chapter.5}% 74
 \BOOKMARK [2][-]{subsection.5.4.1}{Improper Allocation of Specimen Sampling Effort}{section.5.4}% 75

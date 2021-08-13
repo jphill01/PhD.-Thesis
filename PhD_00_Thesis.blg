@@ -18,49 +18,48 @@ Case mismatch error between cite keys shehata2018dna and Shehata2018dna
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: PhD_Chapter6.aux
 A level-1 auxiliary file: PhD_Appendix.aux
-Reallocated field_info (elt_size=4) to 10382 items from 5000.
+Reallocated field_info (elt_size=4) to 10428 items from 5000.
 Database file #1: PhD_Bibliography.bib
 Warning--empty journal in hanner2009data
-Warning--empty publisher in spouge2012practical
-You've used 234 entries,
+You've used 236 entries,
             2253 wiz_defined-function locations,
-            1732 strings with 46794 characters,
-and the built_in function-call counts, 82656 in all, are:
-= -- 7832
-> -- 4520
+            1742 strings with 47129 characters,
+and the built_in function-call counts, 83332 in all, are:
+= -- 7898
+> -- 4554
 < -- 0
-+ -- 1890
-- -- 1617
-* -- 7524
-:= -- 13871
-add.period$ -- 705
-call.type$ -- 234
-change.case$ -- 1490
++ -- 1904
+- -- 1629
+* -- 7581
+:= -- 13985
+add.period$ -- 711
+call.type$ -- 236
+change.case$ -- 1502
 chr.to.int$ -- 0
-cite$ -- 236
-duplicate$ -- 2162
-empty$ -- 6147
-format.name$ -- 1617
-if$ -- 16605
+cite$ -- 237
+duplicate$ -- 2180
+empty$ -- 6200
+format.name$ -- 1629
+if$ -- 16746
 int.to.chr$ -- 0
-int.to.str$ -- 234
-missing$ -- 236
-newline$ -- 1172
-num.names$ -- 474
-pop$ -- 1105
+int.to.str$ -- 236
+missing$ -- 238
+newline$ -- 1182
+num.names$ -- 478
+pop$ -- 1112
 preamble$ -- 1
-purify$ -- 1263
+purify$ -- 1273
 quote$ -- 0
-skip$ -- 1207
+skip$ -- 1217
 stack$ -- 0
-substring$ -- 5788
-swap$ -- 468
+substring$ -- 5837
+swap$ -- 472
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 922
-warning$ -- 2
-while$ -- 754
-width$ -- 237
-write$ -- 2343
+type$ -- 930
+warning$ -- 1
+while$ -- 760
+width$ -- 239
+write$ -- 2364
 (There was 1 error message)

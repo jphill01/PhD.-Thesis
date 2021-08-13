@@ -235,6 +235,11 @@
 \newblock Things {I} have learned (so far).
 \newblock {\em American Psychologist 45}, 12 (1990), 1304.
 
+\bibitem{coissac2016barcodes}
+{\sc Coissac, E., Hollingsworth, P., Lavergne, S., and Taberlet, P.}
+\newblock From barcodes to genomes: extending the concep of dna barcoding.
+\newblock {\em Molecular Ecology 25\/} (2016), 1423--1428.
+
 \bibitem{collins2013seven}
 {\sc Collins, R., and Cruickshank, R.}
 \newblock The seven deadly sins of {DNA} barcoding.
@@ -1156,7 +1161,7 @@
 {\sc Spouge, J., and Mari{\~n}o-Ramirez, L.}
 \newblock The practical evaluation of {DNA} barcode efficacy.
 \newblock In {\em DNA Barcodes: Methods and Protocols}, W.~Kress and
-  D.~Erickson, Eds., 1~ed. 2012.
+  D.~Erickson, Eds., 1~ed. Springer, 2012.
 
 \bibitem{stein2014is}
 {\sc Stein, E.~D., Martinez, M.~C., Stiles, S., Miller, P.~E., and Zakharov,
@@ -1234,6 +1239,12 @@
 \newblock Species-accumulation curves and taxonomic surrogates: an integrated
   approach for estimation of regional species richnesss.
 \newblock {\em Diversity and Distributions 20\/} (2014), 356--368.
+
+\bibitem{thomsen2015environmental}
+{\sc Thomsen, P., and Willersley, E.}
+\newblock Environmental dna ? an emerging tool in conservation for monitoring
+  past and present biodiversity.
+\newblock {\em Biological Conservation 183\/} (2015), 4--18.
 
 \bibitem{tjorve2003shapes}
 {\sc Tj{\o}rve, E.}
