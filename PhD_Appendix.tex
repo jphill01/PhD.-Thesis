@@ -29,7 +29,7 @@ For a single parameter of interest, the Delta Method states that
 
 \noindent where $n$ is the number of observations and $g(X_n)$ is a function of independent and \\ identically distributed (iid) random variables $X_1,...,X_n$ with finite variance $\sigma^2$ \\ approximating some unknown parameter $\mu$.
 
-For the problem at hand, both $N_i$ and \textit{H}* are constants and $H_i$ is the random variable of interest.  
+For the problem at hand, both $N_i$ and \textit{H}* are constants and $H_i$ is the random variable of interest. In reality, $N_i$ is likely not constant, but is treated as such according to the constant population size assumption implicit in {\tt HACSim}'s underlying model discussed in detail within Chapter 4. For simulation of real species, $N_0$, the initial guess of likely required specimen sample size used to initialize {\tt HACSim}, is known \textit{a priori} since it is equal to the number of specimens/DNA sequences present in the filtered multiple sequence alignment required as input. In addition, the decision to treat $N_i$ as constant avoids the need to use the multivariate Delta Method, which would otherwise require evaluation of several partial derivatives, thus making the mathematics quite cumbersome and tedious.  
 
 Writing Equation (3.1) as a function of $H_i$ gives
 
