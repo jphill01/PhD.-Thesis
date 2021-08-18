@@ -791,9 +791,9 @@ by\par
 %                 \def'd to a number like 2 or 1.7
 
 \def\@pnumwidth{1.55em}
-\def\@tocrmarg {2.55em}
+\def\@tocrmarg {2em}
 \def\@dotsep{4.5}
-\setcounter{tocdepth}{4}
+\setcounter{tocdepth}{2}
 
 
 % TABLEOFCONTENTS
