@@ -1,3 +1,5 @@
+\contentsline {chapter}{Abstract}{ii}{Doc-Start}
+\contentsline {chapter}{Acknowledgements}{iv}{Doc-Start}
 \contentsline {chapter}{List of Tables}{viii}{chapter*.2}
 \contentsline {chapter}{List of Figures}{x}{chapter*.3}
 \contentsline {chapter}{\numberline {1}General Introduction}{1}{chapter.1}
@@ -6,6 +8,7 @@
 \contentsline {subsection}{\numberline {1.0.3}Thesis Statement}{5}{subsection.1.0.3}
 \contentsline {subsection}{\numberline {1.0.4}Statement of Contributions}{6}{subsection.1.0.4}
 \contentsline {chapter}{\numberline {2}Incomplete estimates of genetic diversity within species: Implications for DNA barcoding}{7}{chapter.2}
+\contentsline {chapter}{Abstract}{8}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Current Methods}{14}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Methods to Assess Haplotype Variation}{14}{subsection.2.2.1}
@@ -24,6 +27,7 @@
 \contentsline {subsection}{\numberline {2.4.3}Application to Ray-finned Fishes}{40}{subsection.2.4.3}
 \contentsline {section}{\numberline {2.5}Future Prospects}{42}{section.2.5}
 \contentsline {chapter}{\numberline {3}{\tt HACSim}: An R package to estimate intraspecific sample sizes for genetic \\ diversity assessment using haplotype accumulation curves}{48}{chapter.3}
+\contentsline {chapter}{Abstract}{49}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{51}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Background}{51}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Motivation}{55}{subsection.3.1.2}
@@ -46,6 +50,7 @@
 \contentsline {subsection}{\numberline {3.4.3}Summary}{97}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Conclusions}{101}{section.3.5}
 \contentsline {chapter}{\numberline {4}Solving the genetic specimen sample size problem for DNA barcoding with a local search optimization algorithm}{105}{chapter.4}
+\contentsline {chapter}{Abstract}{106}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{108}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Background}{108}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Phillips \textit {et al.}'s (2020) Haplotype Sampling Model}{111}{subsection.4.1.2}
@@ -66,6 +71,7 @@
 \contentsline {subsection}{\numberline {4.3.2}Algorithm Runtimes}{138}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}Conclusion}{139}{section.4.4}
 \contentsline {chapter}{\numberline {5}Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{170}{chapter.5}
+\contentsline {chapter}{Abstract}{171}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{173}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}DNA Barcoding: Historical Development}{173}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{176}{subsection.5.1.2}
