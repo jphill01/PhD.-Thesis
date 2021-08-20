@@ -433,7 +433,7 @@ by\par
 { \abstractname \par} %\large \bfseries
 %\bfseries \abstractname \par
 \end{center} 
-%\addcontentsline{toc}{chapter}{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
 }
 \def\endabstract{\par\vfill\null\end{alwayssingle} }
 
@@ -459,7 +459,7 @@ by\par
 \fmfont
 { \acknowledgename}%\large \bfseries 
 \end{center}
-%\addcontentsline{toc}{chapter}{Acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements}
 }
 {\end{alwayssingle}}
 
@@ -855,7 +855,7 @@ by\par
    {\ssp\@starttoc{lof}}\if@restonecol
     \twocolumn\fi}
 
-\def\l@figure{\@dottedtocline{1}{1.5em}{2.3em}}
+\def\l@figure{\@dottedtocline{1}{1.5em}{2.5em}}
 
 % LIST OF TABLES
 %
