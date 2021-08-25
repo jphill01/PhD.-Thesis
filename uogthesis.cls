@@ -791,7 +791,7 @@ by\par
 %                 \def'd to a number like 2 or 1.7
 
 \def\@pnumwidth{1.55em}
-\def\@tocrmarg {2em}
+\def\@tocrmarg {2.55em}
 \def\@dotsep{4.5}
 \setcounter{tocdepth}{2}
 
@@ -855,7 +855,7 @@ by\par
    {\ssp\@starttoc{lof}}\if@restonecol
     \twocolumn\fi}
 
-\def\l@figure{\@dottedtocline{1}{1.5em}{2.5em}}
+\def\l@figure{\@dottedtocline{1}{1.5em}{2.3em}}
 
 % LIST OF TABLES
 %
