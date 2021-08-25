@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 AUG 2021 00:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 AUG 2021 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1290,38 +1290,30 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-] [6])
+] [6]
+Overfull \hbox (0.30804pt too wide) in paragraph at lines 88--88
+ [][][][] [][]\OT1/ptm/m/n/12 Critically Eval-u-at-ing the Con-cept of the DNA 
+Bar-code Gap in Con-ser-va-tion |
+ []
+
+)
 \tf@toc=\write8
 \openout8 = `PhD_00_Thesis.toc'.
 
-
-[7] (./PhD_00_Thesis.lot
-Overfull \hbox (17.1704pt too wide) in paragraph at lines 4--4
- \OT1/pcr/m/n/12 progress = TRUE \OT1/ptm/m/n/12 within \OT1/pcr/m/n/12 HACHypo
-thetical() \OT1/ptm/m/n/12 or \OT1/pcr/m/n/12 HACReal()\OT1/ptm/m/n/12 . Users 
-|
- []
-
-
-Overfull \hbox (12.74004pt too wide) in paragraph at lines 4--4
- \OT1/ptm/m/n/12 can op-tion-ally spec-ify that a file be cre-ated con-tain-ing
- all in-for-ma-tion out-putted |
- []
-
-
-Overfull \hbox (11.68498pt too wide) in paragraph at lines 7--7
+ [7] (./PhD_00_Thesis.lot
+Overfull \hbox (15.88506pt too wide) in paragraph at lines 7--7
  \OT1/ptm/m/n/12 con-fi-dence in-ter-val plots found within \OT1/ptm/b/n/12 Fig
 -ures 4.16-4.21 \OT1/ptm/m/n/12 and the Sup-ple-men-tal |
  []
 
 
-Overfull \hbox (12.48865pt too wide) in paragraph at lines 8--8
+Overfull \hbox (16.68872pt too wide) in paragraph at lines 8--8
  \OT1/ptm/m/n/12 level for com-par-i-son of pop-u-la-tion size \OT1/ptm/m/it/12
  ver-sus \OT1/ptm/m/n/12 hap-lo-type fre-quency dis-tri-bu-tion |
  []
 
 
-Overfull \hbox (12.48865pt too wide) in paragraph at lines 9--9
+Overfull \hbox (16.68872pt too wide) in paragraph at lines 9--9
  \OT1/ptm/m/n/12 level for com-par-i-son of pop-u-la-tion size \OT1/ptm/m/it/12
  ver-sus \OT1/ptm/m/n/12 hap-lo-type fre-quency dis-tri-bu-tion |
  []
@@ -1329,7 +1321,7 @@ Overfull \hbox (12.48865pt too wide) in paragraph at lines 9--9
 [8
 
 ]
-Overfull \hbox (23.37085pt too wide) in paragraph at lines 12--12
+Overfull \hbox (27.57092pt too wide) in paragraph at lines 12--12
  \OT1/ptm/m/n/12 hy-po-thet-i-cal species across all as-sessed pop-u-la-tion si
 zes. Cal-cu-lated prob-a-bil-i-ties |
  []
@@ -1339,161 +1331,229 @@ zes. Cal-cu-lated prob-a-bil-i-ties |
 \openout9 = `PhD_00_Thesis.lot'.
 
  [9] (./PhD_00_Thesis.lof
-Overfull \hbox (25.31618pt too wide) in paragraph at lines 3--3
- [][][][] [][]\OT1/ptm/m/n/12 Longfin dam-selfish (\OT1/ptm/m/it/12 Ste-gastes 
-di-en-caeus\OT1/ptm/m/n/12 ) TCS [[]] hap-lo-type net-work de-pict-ing |
+Overfull \hbox (6.96811pt too wide) in paragraph at lines 3--3
+ \OT1/ptm/m/n/12 Tick marks in-di-cate the num-ber of mu-ta-tional dif-fer-ence
+s sep-a-rat-ing sam-pled |
  []
 
 [10
 
 ]
-Overfull \hbox (7.50807pt too wide) in paragraph at lines 9--9
+Overfull \hbox (11.70815pt too wide) in paragraph at lines 9--9
  [][][][] [][]\OT1/ptm/m/n/12 Graphical de-pic-tion of the it-er-a-tive ex-trap
 -o-la-tion sam-pling model as de-scribed |
  []
 
 
-Overfull \hbox (21.86108pt too wide) in paragraph at lines 10--10
- [][][][] [][]\OT1/ptm/m/n/12 Graphical out-put of \OT1/pcr/m/n/12 HAC.sim() \O
-T1/ptm/m/n/12 for a hy-po-thet-i-cal species with equal hap-lo-type |
+Overfull \hbox (41.6245pt too wide) in paragraph at lines 10--10
+ \OT1/ptm/m/n/12 hap-lo-type fre-quen-cies. \OT1/ptm/b/n/12 A\OT1/ptm/m/n/12 : 
+It-er-ated hap-lo-type ac-cu-mu-la-tion curve. \OT1/ptm/b/n/12 B\OT1/ptm/m/n/12
+ : Cor-re-spond-ing |
+ []
+
+
+Overfull \hbox (3.5848pt too wide) in paragraph at lines 10--10
+ \OT1/ptm/m/n/12 ac-cu-mu-lated is de-picted by gray er-ror bars. Dashed lines 
+de-pict the ob-served |
  []
 
 [11]
-Overfull \hbox (12.03917pt too wide) in paragraph at lines 13--13
+Overfull \hbox (16.23924pt too wide) in paragraph at lines 13--13
  [][][][] [][]\OT1/ptm/m/n/12 Initial hap-lo-type fre-quency dis-tri-bu-tion fo
 r $[][]\OML/lmm/m/it/12 N$ \OT1/ptm/m/n/12 = 235 high-quality lake white-fish |
 
  []
 
 
-Overfull \hbox (8.93655pt too wide) in paragraph at lines 13--13
+Overfull \hbox (13.13663pt too wide) in paragraph at lines 13--13
  \OT1/ptm/m/n/12 This species dis-plays a highly-skewed pat-tern of ob-served h
 ap-lo-type vari-a-tion, |
  []
 
 
-Overfull \hbox (0.53186pt too wide) in paragraph at lines 17--17
- \OT1/ptm/m/n/12 been re-cov-ered based on a sam-ple size of $[][]\OML/lmm/m/it
-/12 N$ \OT1/ptm/m/n/12 = 349 spec-i-mens. The hap-lo-type |
+Overfull \hbox (1.41333pt too wide) in paragraph at lines 15--15
+ [][][][] [][]\OT1/ptm/m/n/12 Final graph-i-cal out-put of \OT1/pcr/m/n/12 HAC.
+sim() \OT1/ptm/m/n/12 for Lake white-fish (\OT1/ptm/m/it/12 C. clu-peaformis\OT
+1/ptm/m/n/12 ) |
  []
 
 
-Overfull \hbox (3.35645pt too wide) in paragraph at lines 19--19
+Overfull \hbox (7.55652pt too wide) in paragraph at lines 19--19
  \OT1/ptm/m/n/12 ham-mer-head (\OT1/ptm/m/it/12 Sphyrna lewini\OT1/ptm/m/n/12 )
  COI bar-code se-quences ob-tained from BOLD. |
  []
 
 
-Overfull \hbox (2.68506pt too wide) in paragraph at lines 19--19
- \OT1/ptm/m/n/12 In this species, Hap-lo-types 1-3 ac-count for \OT1/ptm/m/it/1
-2 c. \OT1/ptm/m/n/12 87.7% (150/171) of all sam-pled |
- []
-
-
-Overfull \hbox (28.23262pt too wide) in paragraph at lines 20--20
+Overfull \hbox (32.4327pt too wide) in paragraph at lines 20--20
  [][][][] [][]\OT1/ptm/m/n/12 Initial graph-i-cal out-put of \OT1/pcr/m/n/12 HA
 C.sim() \OT1/ptm/m/n/12 for a real species (Scal-loped ham-mer-head, |
  []
 
 
-Overfull \hbox (1.13727pt too wide) in paragraph at lines 21--21
+Overfull \hbox (5.33734pt too wide) in paragraph at lines 21--21
  [][][][] [][]\OT1/ptm/m/n/12 Final graph-i-cal out-put of \OT1/pcr/m/n/12 HAC.
 sim() \OT1/ptm/m/n/12 for scal-loped ham-mer-head (\OT1/ptm/m/it/12 S. lewini\O
 T1/ptm/m/n/12 ) |
  []
 
 [12]
-Overfull \hbox (14.27672pt too wide) in paragraph at lines 35--35
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 35--35
  [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
  pro-por-tion of ob-served hap-lo-types |
  []
 
 
-Overfull \hbox (9.46423pt too wide) in paragraph at lines 35--35
+Overfull \hbox (13.6643pt too wide) in paragraph at lines 35--35
  \OT1/ptm/m/n/12 cap-tured for Sce-nario II (1 dom-i-nant hap-lo-type) with 95%
  con-fi-dence in-ter-vals |
  []
 
+
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 35--35
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
+ []
+
 [13]
-Overfull \hbox (14.27672pt too wide) in paragraph at lines 36--36
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 36--36
  [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
  pro-por-tion of ob-served hap-lo-types |
  []
 
 
-Overfull \hbox (14.27672pt too wide) in paragraph at lines 37--37
+Overfull \hbox (3.42795pt too wide) in paragraph at lines 36--36
+ \OT1/ptm/m/n/12 lo-cated lo-cal op-tima is dis-played as a solid red hor-i-zon
+-tal line. The thick-ness |
+ []
+
+
+Overfull \hbox (1.0298pt too wide) in paragraph at lines 36--36
+ \OT1/ptm/m/n/12 of dis-played grey er-ror bars is a con-struct of \OT1/pcr/m/n
+/12 ggplot2 \OT1/ptm/m/n/12 based on the num-ber |
+ []
+
+
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 37--37
  [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
  pro-por-tion of ob-served hap-lo-types |
  []
 
 
-Overfull \hbox (14.27672pt too wide) in paragraph at lines 38--38
+Overfull \hbox (3.42795pt too wide) in paragraph at lines 37--37
+ \OT1/ptm/m/n/12 lo-cated lo-cal op-tima is dis-played as a solid red hor-i-zon
+-tal line. The thick-ness |
+ []
+
+
+Overfull \hbox (1.0298pt too wide) in paragraph at lines 37--37
+ \OT1/ptm/m/n/12 of dis-played grey er-ror bars is a con-struct of \OT1/pcr/m/n
+/12 ggplot2 \OT1/ptm/m/n/12 based on the num-ber |
+ []
+
+
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 38--38
  [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
  pro-por-tion of ob-served hap-lo-types |
  []
 
 
-Overfull \hbox (19.02907pt too wide) in paragraph at lines 38--38
- \OT1/ptm/m/n/12 cap-tured for Pea aphid (\OT1/ptm/m/it/12 A. pisum\OT1/ptm/m/n
-/12 ) with 95% con-fi-dence in-ter-vals for a pop-u-la-tion |
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 38--38
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
  []
 
 
-Overfull \hbox (14.27672pt too wide) in paragraph at lines 39--39
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 39--39
  [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
  pro-por-tion of ob-served hap-lo-types |
  []
 
 
-Overfull \hbox (14.27672pt too wide) in paragraph at lines 40--40
+Overfull \hbox (4.28078pt too wide) in paragraph at lines 39--39
+ \OT1/ptm/m/n/12 cap-tured for Lake white-fish (\OT1/ptm/m/it/12 C. clu-peaform
+is\OT1/ptm/m/n/12 ) with 95% con-fi-dence in-ter-vals |
+ []
+
+
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 39--39
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
+ []
+
+
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 40--40
  [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
  pro-por-tion of ob-served hap-lo-types |
  []
 
 
-Overfull \hbox (14.27672pt too wide) in paragraph at lines 41--41
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 40--40
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
+ []
+
+
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 41--41
  [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
  pro-por-tion of ob-served hap-lo-types |
+ []
+
+
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 41--41
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
  []
 
 [14]
-Overfull \hbox (14.27672pt too wide) in paragraph at lines 42--42
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 42--42
  [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
  pro-por-tion of ob-served hap-lo-types |
  []
 
 
-Overfull \hbox (14.27672pt too wide) in paragraph at lines 43--43
+Overfull \hbox (1.43625pt too wide) in paragraph at lines 42--42
+ \OT1/ptm/m/n/12 op-tima is dis-played as a solid red hor-i-zon-tal line. The t
+hick-ness of dis-played |
+ []
+
+
+Overfull \hbox (18.47679pt too wide) in paragraph at lines 43--43
  [][][][] [][]\OT1/ptm/m/n/12 Plot show-ing all lo-cated lo-cal op-tima and the
  pro-por-tion of ob-served hap-lo-types |
  []
 
 
-Overfull \hbox (0.48799pt too wide) in paragraph at lines 45--45
- \OT1/ptm/m/n/12 through their DNA bar-codes. Most species as-sessed here (146 
-of 152 species |
+Overfull \hbox (3.42795pt too wide) in paragraph at lines 43--43
+ \OT1/ptm/m/n/12 lo-cated lo-cal op-tima is dis-played as a solid red hor-i-zon
+-tal line. The thick-ness |
  []
 
 
-Overfull \hbox (15.81165pt too wide) in paragraph at lines 45--45
- \OT1/ptm/m/n/12 lim-ited sam-pling of within-species hap-lo-type vari-a-tion. 
-The species \OT1/ptm/m/it/12 Cy-clothone |
+Overfull \hbox (9.42761pt too wide) in paragraph at lines 45--45
+ \OT1/ptm/m/n/12 ge-netic dis-tance ex-ceeds the max-i-mum in-traspe-cific ge-n
+etic dis-tance. De-spite |
  []
 
 
-Overfull \hbox (0.17702pt too wide) in paragraph at lines 47--47
+Overfull \hbox (0.6082pt too wide) in paragraph at lines 46--46
+ [][][][] [][]\OT1/ptm/m/n/12 Half log-a-rithm dot-plot for the dis-play of spe
+cies' ge-netic dis-tances mod-i-fied |
+ []
+
+
+Overfull \hbox (4.37709pt too wide) in paragraph at lines 47--47
  \OT1/ptm/m/n/12 with mod-i-fi-ca-tion from Hu-bert and Han-ner [[]]. Such plot
 s are in-for-ma-tive |
  []
 
 
-Overfull \hbox (24.27219pt too wide) in paragraph at lines 47--47
+Overfull \hbox (28.47226pt too wide) in paragraph at lines 47--47
  \OT1/ptm/m/n/12 into four mu-tu-ally ex-clu-sive groups (la-belled I-IV) based
  on ob-served mag-ni-tudes |
  []
 
 
-Overfull \hbox (8.57285pt too wide) in paragraph at lines 47--47
+Overfull \hbox (12.77292pt too wide) in paragraph at lines 47--47
  \OT1/ptm/m/n/12 species (Quad-rant I; min-i-mum in-ter-spe-cific dis-tance $[]
 []\OMS/lmsy/m/n/12 ^^@$ \OT1/ptm/m/n/12 max-i-mum in-traspe-cific |
  []
@@ -1526,7 +1586,7 @@ Chapter 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
  [9] [10] [11] [12] [13] [14]
-<"Network".png, id=963, 413.545pt x 425.59pt>
+<"Network".png, id=965, 413.545pt x 425.59pt>
 File: "Network".png Graphic file (type png)
  <use "Network".png>
 Package pdftex.def Info: "Network".png used on input line 96.
@@ -1540,7 +1600,7 @@ Missing character: There is no ™ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 214.
  [34] [35] [36] [37]
-<Graph.pdf, id=1264, 722.7pt x 542.025pt>
+<Graph.pdf, id=1266, 722.7pt x 542.025pt>
 File: Graph.pdf Graphic file (type pdf)
  <use Graph.pdf>
 Package pdftex.def Info: Graph.pdf used on input line 302.
@@ -1560,7 +1620,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ] [49] [50] [51] [52] [53] [54] [55] [56]
-<"Figure 1".png, id=1468, 34.14331pt x 34.14331pt>
+<"Figure 1".png, id=1470, 34.14331pt x 34.14331pt>
 File: "Figure 1".png Graphic file (type png)
  <use "Figure 1".png>
 Package pdftex.def Info: "Figure 1".png used on input line 80.
@@ -1571,40 +1631,40 @@ Package pdftex.def Info: "Figure 1".png used on input line 80.
 ] [61
 
 ] [62] [63]
-<"Figure 2".png, id=1529, 60.00371pt x 34.14331pt>
+<"Figure 2".png, id=1531, 60.00371pt x 34.14331pt>
 File: "Figure 2".png Graphic file (type png)
  <use "Figure 2".png>
 Package pdftex.def Info: "Figure 2".png used on input line 169.
 (pdftex.def)             Requested size: 346.89731pt x 197.4029pt.
 
-[64 <./Figure 2.png>] [65] <"Figure 3".png, id=1541, 154.18233pt x 61.90056pt>
+[64 <./Figure 2.png>] [65] <"Figure 3".png, id=1543, 154.18233pt x 61.90056pt>
 File: "Figure 3".png Graphic file (type png)
 
 <use "Figure 3".png>
 Package pdftex.def Info: "Figure 3".png used on input line 183.
 (pdftex.def)             Requested size: 346.89731pt x 139.29382pt.
  [66 <./Figure 3.png>]
-<"Figure 4".png, id=1549, 115.64464pt x 86.71768pt>
+<"Figure 4".png, id=1551, 115.64464pt x 86.71768pt>
 File: "Figure 4".png Graphic file (type png)
  <use "Figure 4".png>
 Package pdftex.def Info: "Figure 4".png used on input line 217.
 (pdftex.def)             Requested size: 346.89731pt x 260.16827pt.
 
 [67] [68 <./Figure 4.png>] [69] [70] [71]
-<"Figure 5".png, id=1581, 151.77965pt x 86.71768pt>
+<"Figure 5".png, id=1583, 151.77965pt x 86.71768pt>
 File: "Figure 5".png Graphic file (type png)
  <use "Figure 5".png>
 Package pdftex.def Info: "Figure 5".png used on input line 334.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [72] [73 <./Figure 5.png>] [74]
-<"Figure 6".png, id=1597, 151.77965pt x 86.71768pt>
+<"Figure 6".png, id=1599, 151.77965pt x 86.71768pt>
 File: "Figure 6".png Graphic file (type png)
  <use "Figure 6".png>
 Package pdftex.def Info: "Figure 6".png used on input line 470.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-<"Figure 7".png, id=1598, 151.77965pt x 86.71768pt>
+<"Figure 7".png, id=1600, 151.77965pt x 86.71768pt>
 File: "Figure 7".png Graphic file (type png)
  <use "Figure 7".png>
 Package pdftex.def Info: "Figure 7".png used on input line 481.
@@ -1614,59 +1674,59 @@ Package pdftex.def Info: "Figure 7".png used on input line 481.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 504.
  [77] [78]
-<"Figure 8".png, id=1634, 151.77965pt x 86.71768pt>
+<"Figure 8".png, id=1636, 151.77965pt x 86.71768pt>
 File: "Figure 8".png Graphic file (type png)
  <use "Figure 8".png>
 Package pdftex.def Info: "Figure 8".png used on input line 525.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[79] [80 <./Figure 8.png>] <"Figure 9".png, id=1644, 151.77965pt x 86.71768pt>
+[79] [80 <./Figure 8.png>] <"Figure 9".png, id=1646, 151.77965pt x 86.71768pt>
 File: "Figure 9".png Graphic file (type png)
 
 <use "Figure 9".png>
 Package pdftex.def Info: "Figure 9".png used on input line 646.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
- [81] <"Figure 10".png, id=1650, 151.77965pt x 86.71768pt>
+ [81] <"Figure 10".png, id=1652, 151.77965pt x 86.71768pt>
 File: "Figure 10".png Graphic file (type png)
 
 <use "Figure 10".png>
 Package pdftex.def Info: "Figure 10".png used on input line 659.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [82 <./Figure 9.png>] [83 <./Figure 10.png>]
-<"Figure 11".png, id=1670, 151.77965pt x 86.71768pt>
+<"Figure 11".png, id=1672, 151.77965pt x 86.71768pt>
 File: "Figure 11".png Graphic file (type png)
  <use "Figure 11".png>
 Package pdftex.def Info: "Figure 11".png used on input line 686.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [84] [85 <./Figure 11.png>]
-<"Figure 12".png, id=1680, 151.77965pt x 86.71768pt>
+<"Figure 12".png, id=1682, 151.77965pt x 86.71768pt>
 File: "Figure 12".png Graphic file (type png)
  <use "Figure 12".png>
 Package pdftex.def Info: "Figure 12".png used on input line 806.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[86] <"Figure 13".png, id=1685, 151.77965pt x 86.71768pt>
+[86] <"Figure 13".png, id=1687, 151.77965pt x 86.71768pt>
 File: "Figure 13".png Graphic file (type png)
 
 <use "Figure 13".png>
 Package pdftex.def Info: "Figure 13".png used on input line 819.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [87 <./Figure 12.png> <./Figure 13.png>] [88]
-<"Figure 14".png, id=1702, 151.77965pt x 86.71768pt>
+<"Figure 14".png, id=1704, 151.77965pt x 86.71768pt>
 File: "Figure 14".png Graphic file (type png)
  <use "Figure 14".png>
 Package pdftex.def Info: "Figure 14".png used on input line 847.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [89] [90 <./Figure 14.png>]
-<"Figure 15".png, id=1712, 151.77965pt x 86.71768pt>
+<"Figure 15".png, id=1714, 151.77965pt x 86.71768pt>
 File: "Figure 15".png Graphic file (type png)
  <use "Figure 15".png>
 Package pdftex.def Info: "Figure 15".png used on input line 966.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[91 <./Figure 15.png>] <"Figure 16".png, id=1718, 151.77965pt x 86.71768pt>
+[91 <./Figure 15.png>] <"Figure 16".png, id=1720, 151.77965pt x 86.71768pt>
 File: "Figure 16".png Graphic file (type png)
 
 <use "Figure 16".png>
@@ -1715,79 +1775,79 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no — in font ptmr7t!
  [123] [124] [125] [126] [127] [128] [129] [130] [131] [132]
 [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143] [144]
-[145] <"Fig. 1".png, id=2076, 702.625pt x 501.875pt>
+[145] <"Fig. 1".png, id=2078, 702.625pt x 501.875pt>
 File: "Fig. 1".png Graphic file (type png)
  <use "Fig. 1".png>
 Package pdftex.def Info: "Fig. 1".png used on input line 381.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-<"Fig. 2".png, id=2077, 702.625pt x 501.875pt>
+<"Fig. 2".png, id=2079, 702.625pt x 501.875pt>
 File: "Fig. 2".png Graphic file (type png)
  <use "Fig. 2".png>
 Package pdftex.def Info: "Fig. 2".png used on input line 391.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [146 <./Fig. 1.png>] <"Fig. 3".png, id=2083, 702.625pt x 501.875pt>
+ [146 <./Fig. 1.png>] <"Fig. 3".png, id=2085, 702.625pt x 501.875pt>
 File: "Fig. 3".png Graphic file (type png)
  <use "Fig. 3".png>
 Package pdftex.def Info: "Fig. 3".png used on input line 402.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-<"Fig. 4".png, id=2084, 702.625pt x 501.875pt>
+<"Fig. 4".png, id=2086, 702.625pt x 501.875pt>
 File: "Fig. 4".png Graphic file (type png)
  <use "Fig. 4".png>
 Package pdftex.def Info: "Fig. 4".png used on input line 413.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [147 <./Fig. 2.png> <./Fig. 3.png>] <"Fig. 5".png, id=2092, 702.625pt x 501.87
+ [147 <./Fig. 2.png> <./Fig. 3.png>] <"Fig. 5".png, id=2094, 702.625pt x 501.87
 5pt>
 File: "Fig. 5".png Graphic file (type png)
 
 <use "Fig. 5".png>
 Package pdftex.def Info: "Fig. 5".png used on input line 424.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- <"Fig. 6".png, id=2093, 702.625pt x 501.875pt>
+ <"Fig. 6".png, id=2095, 702.625pt x 501.875pt>
 File: "Fig. 6".png Graphic file (type png)
 
 <use "Fig. 6".png>
 Package pdftex.def Info: "Fig. 6".png used on input line 435.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [148 <./Fig. 4.png> <./Fig. 5.png>]
-<"Fig. 8".png, id=2100, 702.625pt x 501.875pt>
+<"Fig. 8".png, id=2102, 702.625pt x 501.875pt>
 File: "Fig. 8".png Graphic file (type png)
  <use "Fig. 8".png>
 Package pdftex.def Info: "Fig. 8".png used on input line 446.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-<"Fig. 9".png, id=2101, 702.625pt x 501.875pt>
+<"Fig. 9".png, id=2103, 702.625pt x 501.875pt>
 File: "Fig. 9".png Graphic file (type png)
  <use "Fig. 9".png>
 Package pdftex.def Info: "Fig. 9".png used on input line 457.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [149 <./Fig. 6.png> <./Fig. 8.png>] <"Fig. 10".png, id=2108, 702.625pt x 501.8
+ [149 <./Fig. 6.png> <./Fig. 8.png>] <"Fig. 10".png, id=2110, 702.625pt x 501.8
 75pt>
 File: "Fig. 10".png Graphic file (type png)
 
 <use "Fig. 10".png>
 Package pdftex.def Info: "Fig. 10".png used on input line 468.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- <"Fig. 11".png, id=2109, 702.625pt x 501.875pt>
+ <"Fig. 11".png, id=2111, 702.625pt x 501.875pt>
 File: "Fig. 11".png Graphic file (type png)
 
 <use "Fig. 11".png>
 Package pdftex.def Info: "Fig. 11".png used on input line 479.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [150 <./Fig. 9.png> <./Fig. 10.png>]
-<"Fig. 13".png, id=2116, 702.625pt x 501.875pt>
+<"Fig. 13".png, id=2118, 702.625pt x 501.875pt>
 File: "Fig. 13".png Graphic file (type png)
  <use "Fig. 13".png>
 Package pdftex.def Info: "Fig. 13".png used on input line 490.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-<"Fig. 14".png, id=2117, 702.625pt x 501.875pt>
+<"Fig. 14".png, id=2119, 702.625pt x 501.875pt>
 File: "Fig. 14".png Graphic file (type png)
  <use "Fig. 14".png>
 Package pdftex.def Info: "Fig. 14".png used on input line 501.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [151 <./Fig. 11.png> <./Fig. 13.png>] <"Fig. 15".png, id=2124, 702.625pt x 501
+ [151 <./Fig. 11.png> <./Fig. 13.png>] <"Fig. 15".png, id=2126, 702.625pt x 501
 .875pt>
 File: "Fig. 15".png Graphic file (type png)
 
@@ -1795,48 +1855,48 @@ File: "Fig. 15".png Graphic file (type png)
 Package pdftex.def Info: "Fig. 15".png used on input line 512.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [152 <./Fig. 14.png>]
-<"Fig. 16".png, id=2130, 702.625pt x 501.875pt>
+<"Fig. 16".png, id=2132, 702.625pt x 501.875pt>
 File: "Fig. 16".png Graphic file (type png)
  <use "Fig. 16".png>
 Package pdftex.def Info: "Fig. 16".png used on input line 522.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [153 <./Fig. 15.png>] <"Fig. 17".png, id=2137, 702.625pt x 501.875pt>
+ [153 <./Fig. 15.png>] <"Fig. 17".png, id=2139, 702.625pt x 501.875pt>
 File: "Fig. 17".png Graphic file (type png)
  <use "Fig. 17".png>
 Package pdftex.def Info: "Fig. 17".png used on input line 532.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-[154 <./Fig. 16.png>] <"Fig. 18".png, id=2143, 702.625pt x 501.875pt>
+[154 <./Fig. 16.png>] <"Fig. 18".png, id=2145, 702.625pt x 501.875pt>
 File: "Fig. 18".png Graphic file (type png)
 
 <use "Fig. 18".png>
 Package pdftex.def Info: "Fig. 18".png used on input line 542.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [155 <./Fig. 17.png>]
-<"Fig. 19".png, id=2149, 702.625pt x 501.875pt>
+<"Fig. 19".png, id=2151, 702.625pt x 501.875pt>
 File: "Fig. 19".png Graphic file (type png)
  <use "Fig. 19".png>
 Package pdftex.def Info: "Fig. 19".png used on input line 552.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [156 <./Fig. 18.png>] <"Fig. 20".png, id=2155, 702.625pt x 501.875pt>
+ [156 <./Fig. 18.png>] <"Fig. 20".png, id=2157, 702.625pt x 501.875pt>
 File: "Fig. 20".png Graphic file (type png)
  <use "Fig. 20".png>
 Package pdftex.def Info: "Fig. 20".png used on input line 562.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-[157 <./Fig. 19.png>] <"Fig. 21".png, id=2161, 702.625pt x 501.875pt>
+[157 <./Fig. 19.png>] <"Fig. 21".png, id=2163, 702.625pt x 501.875pt>
 File: "Fig. 21".png Graphic file (type png)
 
 <use "Fig. 21".png>
 Package pdftex.def Info: "Fig. 21".png used on input line 572.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [158 <./Fig. 20.png>]
-<"Fig. 22".png, id=2167, 702.625pt x 501.875pt>
+<"Fig. 22".png, id=2169, 702.625pt x 501.875pt>
 File: "Fig. 22".png Graphic file (type png)
  <use "Fig. 22".png>
 Package pdftex.def Info: "Fig. 22".png used on input line 582.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [159 <./Fig. 21.png>] <"Fig. 23".png, id=2174, 702.625pt x 501.875pt>
+ [159 <./Fig. 21.png>] <"Fig. 23".png, id=2176, 702.625pt x 501.875pt>
 File: "Fig. 23".png Graphic file (type png)
  <use "Fig. 23".png>
 Package pdftex.def Info: "Fig. 23".png used on input line 592.
@@ -1891,21 +1951,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
-[191] [192] [193] [194] <"Figure 1".jpg, id=2451, 702.625pt x 501.875pt>
+[191] [192] [193] [194] <"Figure 1".jpg, id=2453, 702.625pt x 501.875pt>
 File: "Figure 1".jpg Graphic file (type jpg)
 
 <use "Figure 1".jpg>
 Package pdftex.def Info: "Figure 1".jpg used on input line 129.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [195] [196 <./Figure 1.jpg>]
-<"Figure 2".jpg, id=2471, 1679.27374pt x 1117.17375pt>
+<"Figure 2".jpg, id=2473, 1679.27374pt x 1117.17375pt>
 File: "Figure 2".jpg Graphic file (type jpg)
  <use "Figure 2".jpg>
 Package pdftex.def Info: "Figure 2".jpg used on input line 144.
 (pdftex.def)             Requested size: 346.89731pt x 230.77791pt.
 
 [197] [198 <./Figure 2.jpg>]
-<"Figure 3".jpg, id=2487, 788.9475pt x 687.56876pt>
+<"Figure 3".jpg, id=2489, 788.9475pt x 687.56876pt>
 File: "Figure 3".jpg Graphic file (type jpg)
  <use "Figure 3".jpg>
 Package pdftex.def Info: "Figure 3".jpg used on input line 158.
@@ -2021,19 +2081,19 @@ van
  []
 
 [242]
-Underfull \hbox (badness 3965) in paragraph at lines 965--969
+Underfull \hbox (badness 3965) in paragraph at lines 969--973
 [][][]\OT1/ptm/m/sc/12 Paradis, E.  \OT1/ptm/m/n/12 pe-gas: an R pack-age for p
 op-u-la-tion ge-net-ics with an
  []
 
 [243]
-Underfull \hbox (badness 1377) in paragraph at lines 1017--1022
+Underfull \hbox (badness 1377) in paragraph at lines 1021--1026
 [][][]\OT1/ptm/m/sc/12 Phillips, J. D., Gwiaz-dowski, R. A., Ashlock, D., and H
 an-ner,
  []
 
 [244] [245]
-Underfull \hbox (badness 1184) in paragraph at lines 1182--1185
+Underfull \hbox (badness 1184) in paragraph at lines 1186--1189
 [][][]\OT1/ptm/m/sc/12 Steinke, D., and Han-ner, R.  \OT1/ptm/m/n/12 The FISH-B
 OL col-lab-o-ra-tors' pro-to-col.
  []
@@ -2045,13 +2105,13 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1331
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1335
 \OT1/ptm/m/n/12 Men-daci-bom-bus re-vised from species gene co-a-les-cents and 
 mor-phol-ogy
  []
 
 [248]
-Underfull \hbox (badness 1152) in paragraph at lines 1390--1393
+Underfull \hbox (badness 1152) in paragraph at lines 1394--1397
 \OT1/ptm/m/n/12 Es-ti-mat-ing sam-ple sizes for DNA bar-cod-ing.  \OT1/ptm/m/it
 /12 Molec-u-lar Phy-lo-ge-net-ics and
  []
@@ -2117,10 +2177,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 27347 strings out of 493014
- 533352 string characters out of 6133351
- 677020 words of memory out of 5000000
- 29512 multiletter control sequences out of 15000+600000
+ 27349 strings out of 493014
+ 533385 string characters out of 6133351
+ 675748 words of memory out of 5000000
+ 29513 multiletter control sequences out of 15000+600000
  84792 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,19n,92p,6752b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2145,10 +2205,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on PhD_00_Thesis.pdf (271 pages, 25731517 bytes).
+Output written on PhD_00_Thesis.pdf (271 pages, 25731774 bytes).
 PDF statistics:
- 3101 PDF objects out of 3580 (max. 8388607)
- 2688 compressed objects within 27 object streams
- 693 named destinations out of 1000 (max. 500000)
+ 3103 PDF objects out of 3580 (max. 8388607)
+ 2690 compressed objects within 27 object streams
+ 694 named destinations out of 1000 (max. 500000)
  831 words of extra memory for PDF output out of 10000 (max. 10000000)
 
