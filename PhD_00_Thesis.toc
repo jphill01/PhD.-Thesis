@@ -67,7 +67,7 @@
 \contentsline {subsection}{\numberline {4.2.3}Simulation Study}{129}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}Statistical Analysis}{131}{subsection.4.2.4}
 \contentsline {section}{\numberline {4.3}Results and Discussion}{133}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Effect of Population Size}{133}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Effect of Population Size}{134}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Algorithm Runtimes}{138}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}Conclusion}{139}{section.4.4}
 \contentsline {chapter}{\numberline {5}Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{170}{chapter.5}
@@ -89,7 +89,7 @@
 \contentsline {section}{\numberline {5.6}New Avenues for Estimating the DNA Barcode Gap}{215}{section.5.6}
 \contentsline {section}{\numberline {5.7}Discussion and Concluding Remarks}{220}{section.5.7}
 \contentsline {chapter}{\numberline {6}Conclusion and Future Directions}{226}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Thesis Summary}{226}{subsection.6.0.1}
+\contentsline {section}{\numberline {6.1}Thesis Summary}{226}{section.6.1}
 \contentsline {chapter}{References}{230}{chapter*.89}
 \contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{250}{appendix.A}
 \contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{251}{appendix.B}
