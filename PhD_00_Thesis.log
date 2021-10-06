@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 OCT 2021 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 OCT 2021 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1079,7 +1079,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
 Package csquotes Warning: No multilingual support.
-(csquotes)                Cannot enable multilingual quotes on input line 72.
+(csquotes)                Cannot enable multilingual quotes on input line 73.
 
 (./PhD_00_Thesis.aux (./PhD_01_TitlePage.aux) (./Contributions.aux)
 (./PhD_02_Abstract.aux) (./PhD_04_Acknowledgements.aux) (./PhD_05_TOC.aux)
@@ -1095,21 +1095,21 @@ LaTeX Warning: Label `sec:intro1' multiply defined.
 ) (./PhD_Appendix.aux))
 \openout1 = `PhD_00_Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 73.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1163,7 +1163,7 @@ Configuring pdfsync
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring OFF on input line 72.
+Package hyperref Info: Link coloring OFF on input line 73.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1173,9 +1173,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count185
 )
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
 
 (./PhD_00_Thesis.out) (./PhD_00_Thesis.out)
 \@outlinefile=\write7
@@ -1197,13 +1197,13 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 
 
 (./PhD_01_TitlePage.tex)
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 77.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
  [1
 
 
@@ -1368,7 +1368,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 
 
 ] [12] [13] [14] [15] [16] [17] [18] [19] [20]
-<"Network".png, id=788, 413.545pt x 425.59pt>
+<"Network".png, id=793, 413.545pt x 425.59pt>
 File: "Network".png Graphic file (type png)
  <use "Network".png>
 Package pdftex.def Info: "Network".png used on input line 110.
@@ -1382,7 +1382,7 @@ Missing character: There is no ™ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 228.
  [40] [41] [42] [43]
-<Graph.pdf, id=1089, 722.7pt x 542.025pt>
+<Graph.pdf, id=1094, 722.7pt x 542.025pt>
 File: Graph.pdf Graphic file (type pdf)
  <use Graph.pdf>
 Package pdftex.def Info: Graph.pdf used on input line 316.
@@ -1402,7 +1402,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ] [55] [56] [57] [58] [59] [60] [61] [62] [63]
-<"Figure 1".png, id=1299, 34.14331pt x 34.14331pt>
+<"Figure 1".png, id=1304, 34.14331pt x 34.14331pt>
 File: "Figure 1".png Graphic file (type png)
  <use "Figure 1".png>
 Package pdftex.def Info: "Figure 1".png used on input line 93.
@@ -1413,40 +1413,40 @@ Package pdftex.def Info: "Figure 1".png used on input line 93.
 ] [68
 
 ] [69] [70]
-<"Figure 2".png, id=1360, 60.00371pt x 34.14331pt>
+<"Figure 2".png, id=1365, 60.00371pt x 34.14331pt>
 File: "Figure 2".png Graphic file (type png)
  <use "Figure 2".png>
 Package pdftex.def Info: "Figure 2".png used on input line 182.
 (pdftex.def)             Requested size: 346.89731pt x 197.4029pt.
 
-[71 <./Figure 2.png>] [72] <"Figure 3".png, id=1372, 154.18233pt x 61.90056pt>
+[71 <./Figure 2.png>] [72] <"Figure 3".png, id=1377, 154.18233pt x 61.90056pt>
 File: "Figure 3".png Graphic file (type png)
 
 <use "Figure 3".png>
 Package pdftex.def Info: "Figure 3".png used on input line 196.
 (pdftex.def)             Requested size: 346.89731pt x 139.29382pt.
  [73 <./Figure 3.png>]
-<"Figure 4".png, id=1380, 115.64464pt x 86.71768pt>
+<"Figure 4".png, id=1385, 115.64464pt x 86.71768pt>
 File: "Figure 4".png Graphic file (type png)
  <use "Figure 4".png>
 Package pdftex.def Info: "Figure 4".png used on input line 230.
 (pdftex.def)             Requested size: 346.89731pt x 260.16827pt.
 
 [74] [75 <./Figure 4.png>] [76] [77] [78]
-<"Figure 5".png, id=1411, 151.77965pt x 86.71768pt>
+<"Figure 5".png, id=1416, 151.77965pt x 86.71768pt>
 File: "Figure 5".png Graphic file (type png)
  <use "Figure 5".png>
 Package pdftex.def Info: "Figure 5".png used on input line 347.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [79] [80 <./Figure 5.png>] [81]
-<"Figure 6".png, id=1428, 151.77965pt x 86.71768pt>
+<"Figure 6".png, id=1433, 151.77965pt x 86.71768pt>
 File: "Figure 6".png Graphic file (type png)
  <use "Figure 6".png>
 Package pdftex.def Info: "Figure 6".png used on input line 483.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[82] <"Figure 7".png, id=1433, 151.77965pt x 86.71768pt>
+[82] <"Figure 7".png, id=1438, 151.77965pt x 86.71768pt>
 File: "Figure 7".png Graphic file (type png)
  <use "Figure 7".png>
 Package pdftex.def Info: "Figure 7".png used on input line 494.
@@ -1456,59 +1456,59 @@ Package pdftex.def Info: "Figure 7".png used on input line 494.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 517.
  [85] [86]
-<"Figure 8".png, id=1470, 151.77965pt x 86.71768pt>
+<"Figure 8".png, id=1475, 151.77965pt x 86.71768pt>
 File: "Figure 8".png Graphic file (type png)
  <use "Figure 8".png>
 Package pdftex.def Info: "Figure 8".png used on input line 538.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[87 <./Figure 8.png>] <"Figure 9".png, id=1476, 151.77965pt x 86.71768pt>
+[87 <./Figure 8.png>] <"Figure 9".png, id=1481, 151.77965pt x 86.71768pt>
 File: "Figure 9".png Graphic file (type png)
 
 <use "Figure 9".png>
 Package pdftex.def Info: "Figure 9".png used on input line 659.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
- [88] <"Figure 10".png, id=1481, 151.77965pt x 86.71768pt>
+ [88] <"Figure 10".png, id=1486, 151.77965pt x 86.71768pt>
 File: "Figure 10".png Graphic file (type png)
 
 <use "Figure 10".png>
 Package pdftex.def Info: "Figure 10".png used on input line 672.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [89 <./Figure 9.png>] [90 <./Figure 10.png>]
-<"Figure 11".png, id=1500, 151.77965pt x 86.71768pt>
+<"Figure 11".png, id=1505, 151.77965pt x 86.71768pt>
 File: "Figure 11".png Graphic file (type png)
  <use "Figure 11".png>
 Package pdftex.def Info: "Figure 11".png used on input line 699.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
 [91] [92 <./Figure 11.png>]
-<"Figure 12".png, id=1511, 151.77965pt x 86.71768pt>
+<"Figure 12".png, id=1516, 151.77965pt x 86.71768pt>
 File: "Figure 12".png Graphic file (type png)
  <use "Figure 12".png>
 Package pdftex.def Info: "Figure 12".png used on input line 819.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[93] <"Figure 13".png, id=1516, 151.77965pt x 86.71768pt>
+[93] <"Figure 13".png, id=1521, 151.77965pt x 86.71768pt>
 File: "Figure 13".png Graphic file (type png)
 
 <use "Figure 13".png>
 Package pdftex.def Info: "Figure 13".png used on input line 832.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [94 <./Figure 12.png>] [95 <./Figure 13.png>] [96]
-<"Figure 14".png, id=1536, 151.77965pt x 86.71768pt>
+<"Figure 14".png, id=1541, 151.77965pt x 86.71768pt>
 File: "Figure 14".png Graphic file (type png)
  <use "Figure 14".png>
 Package pdftex.def Info: "Figure 14".png used on input line 860.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
 
-[97 <./Figure 14.png>] <"Figure 15".png, id=1542, 151.77965pt x 86.71768pt>
+[97 <./Figure 14.png>] <"Figure 15".png, id=1547, 151.77965pt x 86.71768pt>
 File: "Figure 15".png Graphic file (type png)
 
 <use "Figure 15".png>
 Package pdftex.def Info: "Figure 15".png used on input line 979.
 (pdftex.def)             Requested size: 346.89731pt x 198.2331pt.
  [98]
-<"Figure 16".png, id=1548, 151.77965pt x 86.71768pt>
+<"Figure 16".png, id=1553, 151.77965pt x 86.71768pt>
 File: "Figure 16".png Graphic file (type png)
  <use "Figure 16".png>
 Package pdftex.def Info: "Figure 16".png used on input line 991.
@@ -1561,128 +1561,128 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no — in font ptmr7t!
  [133] [134] [135] [136] [137] [138] [139] [140] [141] [142]
 [143] [144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154]
-[155] <"Fig. 1".png, id=1920, 702.625pt x 501.875pt>
+[155] <"Fig. 1".png, id=1925, 702.625pt x 501.875pt>
 File: "Fig. 1".png Graphic file (type png)
  <use "Fig. 1".png>
 Package pdftex.def Info: "Fig. 1".png used on input line 390.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-<"Fig. 2".png, id=1921, 702.625pt x 501.875pt>
+<"Fig. 2".png, id=1926, 702.625pt x 501.875pt>
 File: "Fig. 2".png Graphic file (type png)
  <use "Fig. 2".png>
 Package pdftex.def Info: "Fig. 2".png used on input line 400.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [156 <./Fig. 1.png>] <"Fig. 3".png, id=1927, 702.625pt x 501.875pt>
+ [156 <./Fig. 1.png>] <"Fig. 3".png, id=1932, 702.625pt x 501.875pt>
 File: "Fig. 3".png Graphic file (type png)
  <use "Fig. 3".png>
 Package pdftex.def Info: "Fig. 3".png used on input line 411.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-[157 <./Fig. 2.png>] <"Fig. 4".png, id=1933, 702.625pt x 501.875pt>
+[157 <./Fig. 2.png>] <"Fig. 4".png, id=1938, 702.625pt x 501.875pt>
 File: "Fig. 4".png Graphic file (type png)
 
 <use "Fig. 4".png>
 Package pdftex.def Info: "Fig. 4".png used on input line 422.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- <"Fig. 5".png, id=1934, 702.625pt x 501.875pt>
+ <"Fig. 5".png, id=1939, 702.625pt x 501.875pt>
 File: "Fig. 5".png Graphic file (type png)
 
 <use "Fig. 5".png>
 Package pdftex.def Info: "Fig. 5".png used on input line 433.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [158 <./Fig. 3.png> <./Fig. 4.png>]
-<"Fig. 6".png, id=1942, 702.625pt x 501.875pt>
+<"Fig. 6".png, id=1947, 702.625pt x 501.875pt>
 File: "Fig. 6".png Graphic file (type png)
  <use "Fig. 6".png>
 Package pdftex.def Info: "Fig. 6".png used on input line 444.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-<"Fig. 8".png, id=1943, 702.625pt x 501.875pt>
+<"Fig. 8".png, id=1948, 702.625pt x 501.875pt>
 File: "Fig. 8".png Graphic file (type png)
  <use "Fig. 8".png>
 Package pdftex.def Info: "Fig. 8".png used on input line 455.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [159 <./Fig. 5.png> <./Fig. 6.png>] <"Fig. 9".png, id=1950, 702.625pt x 501.87
+ [159 <./Fig. 5.png> <./Fig. 6.png>] <"Fig. 9".png, id=1955, 702.625pt x 501.87
 5pt>
 File: "Fig. 9".png Graphic file (type png)
 
 <use "Fig. 9".png>
 Package pdftex.def Info: "Fig. 9".png used on input line 466.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- <"Fig. 10".png, id=1951, 702.625pt x 501.875pt>
+ <"Fig. 10".png, id=1956, 702.625pt x 501.875pt>
 File: "Fig. 10".png Graphic file (type png)
 
 <use "Fig. 10".png>
 Package pdftex.def Info: "Fig. 10".png used on input line 477.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [160 <./Fig. 8.png> <./Fig. 9.png>]
-<"Fig. 11".png, id=1958, 702.625pt x 501.875pt>
+<"Fig. 11".png, id=1963, 702.625pt x 501.875pt>
 File: "Fig. 11".png Graphic file (type png)
  <use "Fig. 11".png>
 Package pdftex.def Info: "Fig. 11".png used on input line 488.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-<"Fig. 13".png, id=1959, 702.625pt x 501.875pt>
+<"Fig. 13".png, id=1964, 702.625pt x 501.875pt>
 File: "Fig. 13".png Graphic file (type png)
  <use "Fig. 13".png>
 Package pdftex.def Info: "Fig. 13".png used on input line 499.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [161 <./Fig. 10.png> <./Fig. 11.png>] <"Fig. 14".png, id=1966, 702.625pt x 501
+ [161 <./Fig. 10.png> <./Fig. 11.png>] <"Fig. 14".png, id=1971, 702.625pt x 501
 .875pt>
 File: "Fig. 14".png Graphic file (type png)
 
 <use "Fig. 14".png>
 Package pdftex.def Info: "Fig. 14".png used on input line 510.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- <"Fig. 15".png, id=1967, 702.625pt x 501.875pt>
+ <"Fig. 15".png, id=1972, 702.625pt x 501.875pt>
 File: "Fig. 15".png Graphic file (type png)
 
 <use "Fig. 15".png>
 Package pdftex.def Info: "Fig. 15".png used on input line 521.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [162 <./Fig. 13.png> <./Fig. 14.png>]
-<"Fig. 16".png, id=1974, 702.625pt x 501.875pt>
+<"Fig. 16".png, id=1979, 702.625pt x 501.875pt>
 File: "Fig. 16".png Graphic file (type png)
  <use "Fig. 16".png>
 Package pdftex.def Info: "Fig. 16".png used on input line 531.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [163 <./Fig. 15.png>] <"Fig. 17".png, id=1980, 702.625pt x 501.875pt>
+ [163 <./Fig. 15.png>] <"Fig. 17".png, id=1985, 702.625pt x 501.875pt>
 File: "Fig. 17".png Graphic file (type png)
  <use "Fig. 17".png>
 Package pdftex.def Info: "Fig. 17".png used on input line 541.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-[164 <./Fig. 16.png>] <"Fig. 18".png, id=1987, 702.625pt x 501.875pt>
+[164 <./Fig. 16.png>] <"Fig. 18".png, id=1993, 702.625pt x 501.875pt>
 File: "Fig. 18".png Graphic file (type png)
 
 <use "Fig. 18".png>
 Package pdftex.def Info: "Fig. 18".png used on input line 551.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [165 <./Fig. 17.png>]
-<"Fig. 19".png, id=1994, 702.625pt x 501.875pt>
+<"Fig. 19".png, id=1999, 702.625pt x 501.875pt>
 File: "Fig. 19".png Graphic file (type png)
  <use "Fig. 19".png>
 Package pdftex.def Info: "Fig. 19".png used on input line 561.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [166 <./Fig. 18.png>] <"Fig. 20".png, id=2000, 702.625pt x 501.875pt>
+ [166 <./Fig. 18.png>] <"Fig. 20".png, id=2005, 702.625pt x 501.875pt>
 File: "Fig. 20".png Graphic file (type png)
  <use "Fig. 20".png>
 Package pdftex.def Info: "Fig. 20".png used on input line 571.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
 
-[167 <./Fig. 19.png>] <"Fig. 21".png, id=2006, 702.625pt x 501.875pt>
+[167 <./Fig. 19.png>] <"Fig. 21".png, id=2011, 702.625pt x 501.875pt>
 File: "Fig. 21".png Graphic file (type png)
 
 <use "Fig. 21".png>
 Package pdftex.def Info: "Fig. 21".png used on input line 581.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [168 <./Fig. 20.png>]
-<"Fig. 22".png, id=2012, 702.625pt x 501.875pt>
+<"Fig. 22".png, id=2017, 702.625pt x 501.875pt>
 File: "Fig. 22".png Graphic file (type png)
  <use "Fig. 22".png>
 Package pdftex.def Info: "Fig. 22".png used on input line 591.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
- [169 <./Fig. 21.png>] <"Fig. 23".png, id=2018, 702.625pt x 501.875pt>
+ [169 <./Fig. 21.png>] <"Fig. 23".png, id=2023, 702.625pt x 501.875pt>
 File: "Fig. 23".png Graphic file (type png)
  <use "Fig. 23".png>
 Package pdftex.def Info: "Fig. 23".png used on input line 601.
@@ -1737,21 +1737,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
-[201] [202] [203] [204] <"Figure 1".jpg, id=2295, 702.625pt x 501.875pt>
+[201] [202] [203] [204] <"Figure 1".jpg, id=2300, 702.625pt x 501.875pt>
 File: "Figure 1".jpg Graphic file (type jpg)
 
 <use "Figure 1".jpg>
 Package pdftex.def Info: "Figure 1".jpg used on input line 129.
 (pdftex.def)             Requested size: 346.89731pt x 247.78944pt.
  [205] [206 <./Figure 1.jpg>]
-<"Figure 2".jpg, id=2315, 1679.27374pt x 1117.17375pt>
+<"Figure 2".jpg, id=2320, 1679.27374pt x 1117.17375pt>
 File: "Figure 2".jpg Graphic file (type jpg)
  <use "Figure 2".jpg>
 Package pdftex.def Info: "Figure 2".jpg used on input line 144.
 (pdftex.def)             Requested size: 346.89731pt x 230.77791pt.
 
 [207] [208 <./Figure 2.jpg>] [209]
-<"Figure 3".jpg, id=2335, 788.9475pt x 687.56876pt>
+<"Figure 3".jpg, id=2340, 788.9475pt x 687.56876pt>
 File: "Figure 3".jpg Graphic file (type jpg)
  <use "Figure 3".jpg>
 Package pdftex.def Info: "Figure 3".jpg used on input line 158.
@@ -1939,19 +1939,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ] [263] [264] [265]
 Appendix D.
-) [266
+[266
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
- (./PhD_00_Thesis.aux (./PhD_01_TitlePage.aux) (./Contributions.aux)
-(./PhD_02_Abstract.aux) (./PhD_04_Acknowledgements.aux) (./PhD_05_TOC.aux)
+]) [267]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+ (./PhD_00_Thesis.aux (./PhD_01_TitlePage.aux) (./Contributions.aux) (./PhD_02_
+Abstract.aux) (./PhD_04_Acknowledgements.aux) (./PhD_05_TOC.aux)
 (./PhD_Chapter2.aux) (./PhD_Chapter3.aux) (./PhD_Chapter4.aux)
 (./PhD_Chapter5.aux) (./PhD_Chapter6.aux) (./PhD_Appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `PhD_00_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 92FA378530CE97F4A2ECD0313C972391;6475.
+(rerunfilecheck)             Checksum: 989B715AAFA2E41731538A9393AEF895;6542.
 
 
 LaTeX Warning: There were undefined references.
@@ -1959,13 +1959,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 27363 strings out of 493014
- 533513 string characters out of 6133351
- 649972 words of memory out of 5000000
- 29517 multiletter control sequences out of 15000+600000
+ 27367 strings out of 493014
+ 533556 string characters out of 6133351
+ 650011 words of memory out of 5000000
+ 29519 multiletter control sequences out of 15000+600000
  84792 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,19n,92p,6752b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1985,15 +1985,16 @@ m/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
-rw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
-utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
-b>
-Output written on PhD_00_Thesis.pdf (277 pages, 25726165 bytes).
+dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on PhD_00_Thesis.pdf (278 pages, 25736098 bytes).
 PDF statistics:
- 2952 PDF objects out of 2984 (max. 8388607)
- 2541 compressed objects within 26 object streams
- 704 named destinations out of 1000 (max. 500000)
- 863 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2965 PDF objects out of 2984 (max. 8388607)
+ 2552 compressed objects within 26 object streams
+ 706 named destinations out of 1000 (max. 500000)
+ 871 words of extra memory for PDF output out of 10000 (max. 10000000)
 

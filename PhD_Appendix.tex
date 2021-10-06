@@ -72,9 +72,21 @@ N^*_{i+1} \pm z_{1-\frac{\alpha}{2}}\widehat{SE}[N^*_{i+1}] = N^*_{i+1} \pm z_{1
 
 \chapter{Proof of {\tt HACSim}'s Search Space Size (Equation 4.5)}
 
-The goal is to enumerate the number of ways to assign \textit{H}* haplotypes to $N$ specimens. The result can be proven using the "Stars and Bars" counting technique.
+\section{Combinatorial Proof}
 
-Here, each specimen is represented by a star (or other similar shape). It is necessary to
+The goal is to enumerate the number of ways to assign \textit{H}* haplotypes to $N$ specimens via a combinatorial argument. The result can be proven using the "Stars and Bars" counting technique. Clearly, $N \geq$ \textit{H}* and specimens can share haplotypes. 
+
+Here, each specimen is represented by a star (or other similar shape). It is now necessary to partition specimens into distinct haplotypes. To do so requires $H^* - 1$ bars (or dividers). 
+
+The proof is best motivated with an example.
+
+Suppose there are $N$ = 5 individuals represented by \textit{H}* = 5 haplotypes and that species' haplotypes are distributed uniformly such that each occurs with a frequency of \\ $\frac{1}{5}$ = 20\%. A possible permutation for this scenario is (2, 1, 1, 5, 2). Its ordered permutation is given by (1, 1, 2, 2, 5), which has the following stars-and-bars arrangement:
+
+\begin{center}
+$* * \mid * * \mid \mid \mid *$.
+\end{center}
+
+\noindent Above, there are a total of $N$ stars from which to place the $H^* - 1$ bars, giving $N + H^ - 1 = 9$ total symbols. Placement can be done in ${N + H^* - 1}\choose{H^* - 1}$ = ${9}\choose{4}$ = 126 ways. Due to the symmetry of binomial coefficients, using the fact that ${n}\choose{k}$ = ${n}\choose{n-k}$, alternatively, this can be thought of as the number of ways to arrange $N$ stars among the $N + H^* - 1$ positions, hence ${N + H^* - 1}\choose{N}$ = ${9}\choose{5}$ = 126. $\blacksquare$ 
 
 % more sections
 
