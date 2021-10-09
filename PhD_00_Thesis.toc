@@ -74,28 +74,29 @@
 \contentsline {subsection}{\numberline {5.3.2}Algorithm Runtimes}{148}{subsection.5.3.2}
 \contentsline {section}{\numberline {5.4}Conclusion}{149}{section.5.4}
 \contentsline {chapter}{\numberline {6}Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{180}{chapter.6}
-\contentsline {chapter}{Abstract}{181}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{183}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}DNA Barcoding: Historical Development}{183}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{186}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{190}{section.6.2}
-\contentsline {section}{\numberline {6.3}Case Study: DNA Barcoding of Pacific Canada's \\ Fishes}{193}{section.6.3}
-\contentsline {section}{\numberline {6.4}Evidence for the Lack of Statistical Rigor in DNA \\ Barcoding}{196}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Improper Allocation of Specimen Sampling Effort}{197}{subsection.6.4.1}
-\contentsline {subsubsection}{Estimating Intraspecific Specimen Sample Sizes with the R Package {\tt HACSim}}{199}{section*.78}
-\contentsline {subsection}{\numberline {6.4.2}Failing to Properly Visualize Intraspecific and Interspecific \\ Genetic Distances}{201}{subsection.6.4.2}
-\contentsline {subsubsection}{Circumventing the Problem with Histograms and Dotplots for Barcode Gap Display}{202}{section*.79}
-\contentsline {subsection}{\numberline {6.4.3}Inconsistent, Inappropriate Use, or Absence of Inferential \\ Statistical Procedures in DNA Barcoding}{211}{subsection.6.4.3}
-\contentsline {subsubsection}{Framing the DNA Barcode Gap as a Statistical Hypothesis}{216}{section*.83}
-\contentsline {subsubsection}{The Use of Nonparametric Bootstrapping to Estimate the DNA Barcode Gap}{218}{section*.84}
-\contentsline {section}{\numberline {6.5}Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{221}{section.6.5}
-\contentsline {section}{\numberline {6.6}New Avenues for Estimating the DNA Barcode Gap}{225}{section.6.6}
-\contentsline {section}{\numberline {6.7}Discussion and Concluding Remarks}{230}{section.6.7}
-\contentsline {chapter}{\numberline {7}Conclusion and Future Directions}{236}{chapter.7}
-\contentsline {section}{\numberline {7.1}Thesis Summary}{236}{section.7.1}
-\contentsline {chapter}{References}{240}{chapter*.89}
-\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{260}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{261}{appendix.B}
-\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{262}{appendix.C}
-\contentsline {chapter}{\numberline {D}Proof of {\tt HACSim}'s Search Space Size (Equation 4.5)}{266}{appendix.D}
-\contentsline {section}{\numberline {D.1}Combinatorial Proof}{266}{section.D.1}
+\contentsline {section}{\numberline {6.1}Prologue}{181}{section.6.1}
+\contentsline {chapter}{Abstract}{182}{section.6.1}
+\contentsline {section}{\numberline {6.2}Introduction}{184}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}DNA Barcoding: Historical Development}{184}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{187}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{191}{section.6.3}
+\contentsline {section}{\numberline {6.4}Case Study: DNA Barcoding of Pacific Canada's \\ Fishes}{194}{section.6.4}
+\contentsline {section}{\numberline {6.5}Evidence for the Lack of Statistical Rigor in DNA \\ Barcoding}{197}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Improper Allocation of Specimen Sampling Effort}{198}{subsection.6.5.1}
+\contentsline {subsubsection}{Estimating Intraspecific Specimen Sample Sizes with the R Package {\tt HACSim}}{200}{section*.78}
+\contentsline {subsection}{\numberline {6.5.2}Failing to Properly Visualize Intraspecific and Interspecific \\ Genetic Distances}{202}{subsection.6.5.2}
+\contentsline {subsubsection}{Circumventing the Problem with Histograms and Dotplots for Barcode Gap Display}{203}{section*.79}
+\contentsline {subsection}{\numberline {6.5.3}Inconsistent, Inappropriate Use, or Absence of Inferential \\ Statistical Procedures in DNA Barcoding}{212}{subsection.6.5.3}
+\contentsline {subsubsection}{Framing the DNA Barcode Gap as a Statistical Hypothesis}{217}{section*.83}
+\contentsline {subsubsection}{The Use of Nonparametric Bootstrapping to Estimate the DNA Barcode Gap}{219}{section*.84}
+\contentsline {section}{\numberline {6.6}Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{222}{section.6.6}
+\contentsline {section}{\numberline {6.7}New Avenues for Estimating the DNA Barcode Gap}{226}{section.6.7}
+\contentsline {section}{\numberline {6.8}Discussion and Concluding Remarks}{231}{section.6.8}
+\contentsline {chapter}{\numberline {7}Conclusion and Future Directions}{237}{chapter.7}
+\contentsline {section}{\numberline {7.1}Thesis Summary}{237}{section.7.1}
+\contentsline {chapter}{References}{241}{chapter*.89}
+\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{261}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{262}{appendix.B}
+\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{263}{appendix.C}
+\contentsline {chapter}{\numberline {D}Proof of {\tt HACSim}'s Search Space Size (Equation 4.5)}{267}{appendix.D}
+\contentsline {section}{\numberline {D.1}Combinatorial Proof}{267}{section.D.1}

@@ -58,24 +58,25 @@
 \BOOKMARK [2][-]{subsection.5.3.2}{Algorithm Runtimes}{section.5.3}% 58
 \BOOKMARK [1][-]{section.5.4}{Conclusion}{chapter.5}% 59
 \BOOKMARK [0][-]{chapter.6}{Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{}% 60
-\BOOKMARK [0][-]{chapter.6}{Abstract}{}% 61
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 62
-\BOOKMARK [2][-]{subsection.6.1.1}{DNA Barcoding: Historical Development}{section.6.1}% 63
-\BOOKMARK [2][-]{subsection.6.1.2}{DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{section.6.1}% 64
-\BOOKMARK [1][-]{section.6.2}{A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{chapter.6}% 65
-\BOOKMARK [1][-]{section.6.3}{Case Study: DNA Barcoding of Pacific Canada's \040Fishes}{chapter.6}% 66
-\BOOKMARK [1][-]{section.6.4}{Evidence for the Lack of Statistical Rigor in DNA \040Barcoding}{chapter.6}% 67
-\BOOKMARK [2][-]{subsection.6.4.1}{Improper Allocation of Specimen Sampling Effort}{section.6.4}% 68
-\BOOKMARK [2][-]{subsection.6.4.2}{Failing to Properly Visualize Intraspecific and Interspecific \040Genetic Distances}{section.6.4}% 69
-\BOOKMARK [2][-]{subsection.6.4.3}{Inconsistent, Inappropriate Use, or Absence of Inferential \040Statistical Procedures in DNA Barcoding}{section.6.4}% 70
-\BOOKMARK [1][-]{section.6.5}{Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{chapter.6}% 71
-\BOOKMARK [1][-]{section.6.6}{New Avenues for Estimating the DNA Barcode Gap}{chapter.6}% 72
-\BOOKMARK [1][-]{section.6.7}{Discussion and Concluding Remarks}{chapter.6}% 73
-\BOOKMARK [0][-]{chapter.7}{Conclusion and Future Directions}{}% 74
-\BOOKMARK [1][-]{section.7.1}{Thesis Summary}{chapter.7}% 75
-\BOOKMARK [0][-]{chapter*.89}{References}{}% 76
-\BOOKMARK [0][-]{appendix.A}{Additional Information Accompanying Chapter 3}{}% 77
-\BOOKMARK [0][-]{appendix.B}{Additional Information Accompanying Chapter 4}{}% 78
-\BOOKMARK [0][-]{appendix.C}{Derivation of Approximate Confidence Interval for Sampling Sufficiency \(\) \040\(Equation 3.3\)}{}% 79
-\BOOKMARK [0][-]{appendix.D}{Proof of HACSim's Search Space Size \(Equation 4.5\)}{}% 80
-\BOOKMARK [1][-]{section.D.1}{Combinatorial Proof}{appendix.D}% 81
+\BOOKMARK [1][-]{section.6.1}{Prologue}{chapter.6}% 61
+\BOOKMARK [0][-]{section.6.1}{Abstract}{}% 62
+\BOOKMARK [1][-]{section.6.2}{Introduction}{section.6.1}% 63
+\BOOKMARK [2][-]{subsection.6.2.1}{DNA Barcoding: Historical Development}{section.6.2}% 64
+\BOOKMARK [2][-]{subsection.6.2.2}{DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{section.6.2}% 65
+\BOOKMARK [1][-]{section.6.3}{A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{section.6.1}% 66
+\BOOKMARK [1][-]{section.6.4}{Case Study: DNA Barcoding of Pacific Canada's \040Fishes}{section.6.1}% 67
+\BOOKMARK [1][-]{section.6.5}{Evidence for the Lack of Statistical Rigor in DNA \040Barcoding}{section.6.1}% 68
+\BOOKMARK [2][-]{subsection.6.5.1}{Improper Allocation of Specimen Sampling Effort}{section.6.5}% 69
+\BOOKMARK [2][-]{subsection.6.5.2}{Failing to Properly Visualize Intraspecific and Interspecific \040Genetic Distances}{section.6.5}% 70
+\BOOKMARK [2][-]{subsection.6.5.3}{Inconsistent, Inappropriate Use, or Absence of Inferential \040Statistical Procedures in DNA Barcoding}{section.6.5}% 71
+\BOOKMARK [1][-]{section.6.6}{Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{section.6.1}% 72
+\BOOKMARK [1][-]{section.6.7}{New Avenues for Estimating the DNA Barcode Gap}{section.6.1}% 73
+\BOOKMARK [1][-]{section.6.8}{Discussion and Concluding Remarks}{section.6.1}% 74
+\BOOKMARK [0][-]{chapter.7}{Conclusion and Future Directions}{}% 75
+\BOOKMARK [1][-]{section.7.1}{Thesis Summary}{chapter.7}% 76
+\BOOKMARK [0][-]{chapter*.89}{References}{}% 77
+\BOOKMARK [0][-]{appendix.A}{Additional Information Accompanying Chapter 3}{}% 78
+\BOOKMARK [0][-]{appendix.B}{Additional Information Accompanying Chapter 4}{}% 79
+\BOOKMARK [0][-]{appendix.C}{Derivation of Approximate Confidence Interval for Sampling Sufficiency \(\) \040\(Equation 3.3\)}{}% 80
+\BOOKMARK [0][-]{appendix.D}{Proof of HACSim's Search Space Size \(Equation 4.5\)}{}% 81
+\BOOKMARK [1][-]{section.D.1}{Combinatorial Proof}{appendix.D}% 82
