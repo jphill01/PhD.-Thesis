@@ -100,3 +100,4 @@
 \contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{263}{appendix.C}
 \contentsline {chapter}{\numberline {D}Proof of {\tt HACSim}'s Search Space Size (Equation 4.5)}{267}{appendix.D}
 \contentsline {section}{\numberline {D.1}Combinatorial Proof}{267}{section.D.1}
+\contentsline {section}{\numberline {D.2}Proof by Mathematical Induction}{268}{section.D.2}
