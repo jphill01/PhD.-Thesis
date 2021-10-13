@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 OCT 2021 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 OCT 2021 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1941,13 +1941,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Appendix D.
 [267
 
-]) [268]
+] [268]) [269]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
- (./PhD_00_Thesis.aux (./PhD_01_TitlePage.aux) (./Contributions.aux) (./PhD_02_
-Abstract.aux) (./PhD_04_Acknowledgements.aux) (./PhD_05_TOC.aux)
-(./PhD_Chapter2.aux) (./PhD_Chapter3.aux) (./PhD_Chapter4.aux)
-(./PhD_Chapter5.aux) (./PhD_Chapter6.aux) (./PhD_Appendix.aux))
+ (./PhD_00_Thesis.aux (./PhD_01_TitlePage.aux)
+(./Contributions.aux) (./PhD_02_Abstract.aux) (./PhD_04_Acknowledgements.aux)
+(./PhD_05_TOC.aux) (./PhD_Chapter2.aux) (./PhD_Chapter3.aux)
+(./PhD_Chapter4.aux) (./PhD_Chapter5.aux) (./PhD_Chapter6.aux)
+(./PhD_Appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `PhD_00_Thesis.out' has not changed.
@@ -1962,8 +1963,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 27372 strings out of 493014
- 533612 string characters out of 6133351
+ 27373 strings out of 493014
+ 533620 string characters out of 6133351
  650014 words of memory out of 5000000
  29521 multiletter control sequences out of 15000+600000
  84792 words of font info for 136 fonts, out of 8000000 for 9000
@@ -1991,10 +1992,10 @@ nts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/time
 s/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PhD_00_Thesis.pdf (279 pages, 25760206 bytes).
+Output written on PhD_00_Thesis.pdf (280 pages, 25761421 bytes).
 PDF statistics:
- 2984 PDF objects out of 2984 (max. 8388607)
- 2569 compressed objects within 26 object streams
- 709 named destinations out of 1000 (max. 500000)
+ 2988 PDF objects out of 3580 (max. 8388607)
+ 2572 compressed objects within 26 object streams
+ 710 named destinations out of 1000 (max. 500000)
  887 words of extra memory for PDF output out of 10000 (max. 10000000)
 

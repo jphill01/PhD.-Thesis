@@ -90,16 +90,32 @@ $* * \mid * * \mid \mid \mid *$.
 
 \section{Proof by Mathematical Induction}
 
-Mathematical induction proceeds in two steps. First, the statement $P(n)$ to be proved is shown to be true for some base case $n$, where $n$ is a natural number (the basis step). Then, assuming the statement holds for some $n$ = $k$, that is $P(n)$ = $P(k)$, it remains to be demonstrated that the statement is also valid for some $k+1$, \textit{i.e.}, $P(k+1)$ (the inductive step or hypothesis).
+Mathematical induction proceeds in two steps. First, the statement $P(n)$ to be proved is shown to be true for some base case $n$, where $n$ is a natural number (the basis step). Then, assuming the statement holds for some $n$ = $k$, that is $P(n)$ = $P(k)$, it remains to be demonstrated that the statement is also valid for some $n$ = $k+1$, \textit{i.e.}, $P(n)$ = $P(k+1)$ (the inductive step or hypothesis).
 
 For the present problem, the base case establishes truth for $n$ = $k$ = 2, since it is required that both $N$ and \textit{H}* must be greater than or equal to two. Thus, it follows that
 
 \begin{align*}
-{2 + 2 - 1}\choose{2 - 1} &= {2 + 2 - 1}\choose{2} \\
-{3}\choose{1} &= {3}\choose{2} \\
+\binom{2 + 2 - 1}{2 - 1} &= \binom{2 + 2 - 1}{2} \\
+\binom{3}{1} &= \binom{3}{2} \\
+\frac{3!}{1!(3-1)!} &= \frac{3!}{2!(3-2)!} \\
+\frac{3!}{1!2!} &= \frac{3!}{2!1!} \\
 3 &= 3
 \end{align*}
 
+\noindent and the base case is proven.
+
+Next, assuming $n$ = $k$ holds,  $n$ = $k + 1$ immediately follows
+
+\begin{align*}
+\binom{(k + 1) + k - 1}{k - 1} &= \binom{(k + 1) + k - 1}{k + 1} \\
+\binom{2k}{k - 1} &= \binom{2k}{k + 1} \\
+\frac{(2k)!}{(k - 1)!(2k - (k - 1))!} &= \frac{(2k)!}{(k + 1)!(2k - (k + 1))!} \\
+\frac{(2k)!}{(k - 1)!(k + 1)!} &= \frac{(2k)!}{(k + 1)!(k - 1)!} \\
+\end{align*}
+
+\noindent and the inductive hypothesis is thus also proven.  
+
+Together the basis step and induction step prove the original claim. $\blacksquare$ 
 
 % more sections
 
