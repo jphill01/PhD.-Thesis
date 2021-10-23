@@ -94,10 +94,10 @@
 \contentsline {section}{\numberline {6.8}Discussion and Concluding Remarks}{231}{section.6.8}
 \contentsline {chapter}{\numberline {7}Conclusion and Future Directions}{237}{chapter.7}
 \contentsline {section}{\numberline {7.1}Thesis Summary}{237}{section.7.1}
-\contentsline {chapter}{References}{241}{chapter*.89}
-\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{261}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{262}{appendix.B}
-\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{263}{appendix.C}
-\contentsline {chapter}{\numberline {D}Proof of {\tt HACSim}'s Search Space Size (Equation 4.5)}{267}{appendix.D}
-\contentsline {section}{\numberline {D.1}Combinatorial Proof}{267}{section.D.1}
-\contentsline {section}{\numberline {D.2}Proof by Mathematical Induction}{268}{section.D.2}
+\contentsline {chapter}{References}{242}{chapter*.89}
+\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{262}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{263}{appendix.B}
+\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{264}{appendix.C}
+\contentsline {chapter}{\numberline {D}Proof of {\tt HACSim}'s Search Space Size (Equation 4.5)}{268}{appendix.D}
+\contentsline {section}{\numberline {D.1}Combinatorial Proof}{268}{section.D.1}
+\contentsline {section}{\numberline {D.2}Proof by Mathematical Induction}{269}{section.D.2}
