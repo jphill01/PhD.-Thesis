@@ -59,7 +59,7 @@
 \contentsline {subsection}{\numberline {5.1.2}Phillips \textit {et al.}'s (2020) Haplotype Sampling Model}{121}{subsection.5.1.2}
 \contentsline {subsection}{\numberline {5.1.3}Assessing the Computational and Statistical Performance of \\ {\tt HACSim}}{126}{subsection.5.1.3}
 \contentsline {subsubsection}{Background}{126}{section*.40}
-\contentsline {subsubsection}{Theory}{127}{section*.41}
+\contentsline {subsubsection}{Theory}{128}{section*.41}
 \contentsline {subsection}{\numberline {5.1.4}Outline of the Current Study}{132}{subsection.5.1.4}
 \contentsline {section}{\numberline {5.2}Methods}{133}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Hypothetical Species}{134}{subsection.5.2.1}
@@ -99,5 +99,6 @@
 \contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{263}{appendix.B}
 \contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{264}{appendix.C}
 \contentsline {chapter}{\numberline {D}Proof of {\tt HACSim}'s Search Space Size (Equation 4.5)}{268}{appendix.D}
-\contentsline {section}{\numberline {D.1}Combinatorial Proof}{268}{section.D.1}
-\contentsline {section}{\numberline {D.2}Proof by Mathematical Induction}{269}{section.D.2}
+\contentsline {section}{\numberline {D.1}Direct Algebraic Proof}{268}{section.D.1}
+\contentsline {section}{\numberline {D.2}Combinatorial Proof}{269}{section.D.2}
+\contentsline {section}{\numberline {D.3}Proof by Mathematical Induction}{270}{section.D.3}
