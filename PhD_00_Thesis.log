@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 NOV 2021 23:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 NOV 2021 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1360,55 +1360,25 @@ Missing character: There is no ™ in font ptmr7t!
 
  (./PhD_Chapter2.tex
 Chapter 2.
-
-Overfull \hbox (15.27142pt too wide) in paragraph at lines 13--14
-\OT1/ptm/m/n/12 bar-cod-ing and other closely-related DNA-based iden-ti-fi-ca-t
-ion tech-niques. This study pri-mar-ily|
- []
-
-
-Overfull \hbox (0.45139pt too wide) in paragraph at lines 13--14
-\OT1/ptm/m/n/12 touches on many im-por-tant con-sid-er-a-tions of rel-e-vance t
-o DNA bar-cod-ing of an-i-mal species|
- []
-
 [11
 
 
 
-] [12] [13] [14] [15]
-Overfull \hbox (11.46878pt too wide) in paragraph at lines 41--42
-\OT1/ptm/m/n/12 such schemes should be guided by ad-e-quate cov-er-age of both 
-the pu-ta-tive ge-o-graph-ic/e-co-logic|
- []
-
-
-Overfull \hbox (11.57483pt too wide) in paragraph at lines 41--42
-\OT1/ptm/m/n/12 ge-netic data, such as-sess-ments be-come prob-lem-atic un-less
- com-mu-nity stan-dards and prac-tices|
- []
-
-
-Overfull \hbox (9.30836pt too wide) in paragraph at lines 41--42
-\OT1/ptm/m/n/12 are im-proved [[], [], []]. Where this be-comes par-tic-u-larly
- im-por-tant is in the de-vel-op-ment|
- []
-
-[16] [17] [18]
+] [12] [13] [14] [15] [16] [17] [18]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
- [19] [20] <"Network".png, id=813, 413.545pt x 425.59pt>
+ [19] [20]
+<"Network".png, id=813, 413.545pt x 425.59pt>
 File: "Network".png Graphic file (type png)
-
-<use "Network".png>
+ <use "Network".png>
 Package pdftex.def Info: "Network".png used on input line 110.
 (pdftex.def)             Requested size: 216.81pt x 223.12637pt.
  [21] [22 <./Network.png>] [23] [24] [25]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
- [26] [27] [28]
-[29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39]
+ [26] [27] [28] [29] [30] [31] [32] [33] [34]
+[35] [36] [37] [38] [39]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 228.
  [40] [41] [42] [43]
@@ -1438,36 +1408,31 @@ File: "Figure 1".png Graphic file (type png)
 Package pdftex.def Info: "Figure 1".png used on input line 93.
 (pdftex.def)             Requested size: 346.89731pt x 347.0821pt.
 
-[64 <./Figure 1.png>] [65]
-Overfull \hbox (0.13977pt too wide) in paragraph at lines 108--109
-\OT1/ptm/m/n/12 the only method avail-able to gen-er-ate hap-lo-type ac-cu-mu-l
-a-tion curves in R be-cause \OT1/pcr/m/n/12 spider|
- []
-
-[66] [67
+[64 <./Figure 1.png>] [65] [66] [67
 
 ] [68
 
-] [69] [70] <"Figure 2".png, id=1384, 60.00371pt x 34.14331pt>
+] [69] [70]
+<"Figure 2".png, id=1384, 60.00371pt x 34.14331pt>
 File: "Figure 2".png Graphic file (type png)
-
-<use "Figure 2".png>
+ <use "Figure 2".png>
 Package pdftex.def Info: "Figure 2".png used on input line 182.
 (pdftex.def)             Requested size: 346.89731pt x 197.4029pt.
- [71 <./Figure 2.png>] [72]
-<"Figure 3".png, id=1396, 154.18233pt x 61.90056pt>
+
+[71 <./Figure 2.png>] [72] <"Figure 3".png, id=1396, 154.18233pt x 61.90056pt>
 File: "Figure 3".png Graphic file (type png)
- <use "Figure 3".png>
+
+<use "Figure 3".png>
 Package pdftex.def Info: "Figure 3".png used on input line 196.
 (pdftex.def)             Requested size: 346.89731pt x 139.29382pt.
-
-[73 <./Figure 3.png>] <"Figure 4".png, id=1404, 115.64464pt x 86.71768pt>
+ [73 <./Figure 3.png>]
+<"Figure 4".png, id=1404, 115.64464pt x 86.71768pt>
 File: "Figure 4".png Graphic file (type png)
-
-<use "Figure 4".png>
+ <use "Figure 4".png>
 Package pdftex.def Info: "Figure 4".png used on input line 230.
 (pdftex.def)             Requested size: 346.89731pt x 260.16827pt.
- [74] [75 <./Figure 4.png>] [76] [77] [78]
+
+[74] [75 <./Figure 4.png>] [76] [77] [78]
 <"Figure 5".png, id=1435, 151.77965pt x 86.71768pt>
 File: "Figure 5".png Graphic file (type png)
  <use "Figure 5".png>
@@ -1567,13 +1532,7 @@ Missing character: There is no ™ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-
-Overfull \hbox (25.65086pt too wide) in paragraph at lines 31--32
-\OT1/ptm/m/n/12 about how ge-netic vari-a-tion man-i-fests it-self in con-tem-p
-o-rary pat-terns of bi-o-log-i-cal di-ver-si-fi-ca-tion|
- []
-
-[115] [116] [117] [118]
+ [115] [116] [117] [118]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 56.
  [119] [120] [121] [122]
@@ -1582,7 +1541,24 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 87.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [123] [124]
+)
+Overfull \hbox (9.51234pt too wide) in paragraph at lines 90--91
+\OT1/ptm/m/n/12 of species' hap-lo-types found at each it-er-a-tion of \OT1/pcr
+/m/n/12 HACSim \OT1/ptm/m/n/12 may fluc-tu-ate ran-domly; even-tu-ally,|
+ []
+
+[123] [124]
+Overfull \hbox (1.59232pt too wide) in paragraph at lines 94--95
+\OT1/ptm/m/n/12 suc-ces-sively gen-er-at-ing \OT1/pcr/m/n/12 perms \OT1/ptm/m/n
+/12 ac-cu-mu-la-tion curves in-ter-nally and out-putting a mean curve|
+ []
+
+
+Overfull \hbox (3.63174pt too wide) in paragraph at lines 94--95
+\OT1/ptm/m/n/12 at each it-er-a-tion. Each suc-ces-sive it-er-a-tion within a s
+in-gle run of \OT1/pcr/m/n/12 HACSim \OT1/ptm/m/n/12 is an ex-trap-o-la-tion|
+ []
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 98.
@@ -1752,34 +1728,28 @@ Chapter 5.
 
 
 
-] [180] [181] [182]
-Overfull \hbox (3.84729pt too wide) in paragraph at lines 36--37
-\OT1/ptm/m/n/12 the above-men-tioned re-quire-ments [[]]. De-spite this, the at
--trac-tive-ness of DNA bar-cod-ing's|
- []
+] [180] [181] [182] [183]
 
-[183]
-
-LaTeX Warning: Citation `shehata2018dna' on page 184 undefined on input line 40
+LaTeX Warning: Citation `shehata2018dna' on page 184 undefined on input line 47
 .
 
 [184] [185] [186] [187] [188] [189] [190] [191] [192]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 72.
+(hyperref)                removing `\\' on input line 79.
 
 [193] [194] [195]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 86.
+(hyperref)                removing `\\' on input line 93.
 
 [196] [197] [198] [199] [200]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 117.
+(hyperref)                removing `\\' on input line 124.
 
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
 [201] [202] [203] [204]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 1.pdf): PDF inclusi
@@ -1787,7 +1757,7 @@ on: found PDF version <1.7>, but at most version <1.5> allowed
 <"Figure 1".pdf, id=2318, 526.96875pt x 376.40625pt>
 File: "Figure 1".pdf Graphic file (type pdf)
  <use "Figure 1".pdf>
-Package pdftex.def Info: "Figure 1".pdf used on input line 139.
+Package pdftex.def Info: "Figure 1".pdf used on input line 146.
 (pdftex.def)             Requested size: 346.89731pt x 247.7971pt.
 
 [205] [206 <./Figure 1.pdf>]
@@ -1797,7 +1767,7 @@ on: found PDF version <1.7>, but at most version <1.5> allowed
 <"Figure 2".pdf, id=2341, 845.50848pt x 562.49307pt>
 File: "Figure 2".pdf Graphic file (type pdf)
  <use "Figure 2".pdf>
-Package pdftex.def Info: "Figure 2".pdf used on input line 154.
+Package pdftex.def Info: "Figure 2".pdf used on input line 161.
 (pdftex.def)             Requested size: 346.89731pt x 230.77814pt.
 
 [207] [208 <./Figure 2.pdf>] [209]
@@ -1807,13 +1777,13 @@ on: found PDF version <1.7>, but at most version <1.5> allowed
 <"Figure 3".pdf, id=2364, 591.71063pt x 515.67656pt>
 File: "Figure 3".pdf Graphic file (type pdf)
  <use "Figure 3".pdf>
-Package pdftex.def Info: "Figure 3".pdf used on input line 168.
+Package pdftex.def Info: "Figure 3".pdf used on input line 175.
 (pdftex.def)             Requested size: 346.89731pt x 302.3266pt.
 
 [210 <./Figure 3.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 179.
+(hyperref)                removing `\\' on input line 186.
 
 [211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221] [222]
 [223] [224] [225] [226] [227] [228] [229] [230] [231] [232] [233] [234])
@@ -2005,7 +1975,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `PhD_00_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8B664B188F6E3210DB569BBB3FDECC61;6742.
+(rerunfilecheck)             Checksum: F890DE2D7884DB982961D338E75F70A6;6750.
 
 
 LaTeX Warning: There were undefined references.
@@ -2045,7 +2015,7 @@ nts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/time
 s/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PhD_00_Thesis.pdf (281 pages, 25763730 bytes).
+Output written on PhD_00_Thesis.pdf (281 pages, 25763736 bytes).
 PDF statistics:
  3009 PDF objects out of 3580 (max. 8388607)
  2589 compressed objects within 26 object streams

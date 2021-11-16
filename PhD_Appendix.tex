@@ -17,7 +17,7 @@ Internal R code for {\tt HACSim} can be found at https://github.com/jphill01/HAC
 
 Supplemental information can be found at https://github.com/jphill01/\\PhD-Thesis-Appendix.
 
-\chapter{Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta$) \\ (Equation 3.3)}
+\chapter{Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta$) \\ (Equation (3.3))}
 
 The Delta Method permits the approximation of the distribution of a function of a random variable provided said random variable is asymptotically normal.
 
@@ -86,7 +86,7 @@ N^*_{i+1} \pm z_{1-\frac{\alpha}{2}}\widehat{SE}[N^*_{i+1}] = N^*_{i+1} \pm z_{1
 \noindent where $z_{1-\frac{\alpha}{2}}$ is the $(1-\frac{\alpha}{2})100\%$ quantile of the Standard Normal distribution and $\hat{\sigma}_{H}$ is the estimated standard deviation for the number of haplotypes ($H$) found from sampling \textit{N}* specimens.  However, there are several issues with this approach. First, the resulting interval is symmetric and, while tight, is likely to be biased, as it is centered on the estimated required sample size (\textit{N}*). This is not altogether unexpected due to reliance on the Central Limit Theorem in obtaining an approximate confidence interval for $\theta$. In actuality, \textit{N}* would be expected to fall closer to either the lower or upper endpoint of the contructed CI compared to its centre as species' haplotype accumulation curves begin to saturate toward an asymptote (\textit{i.e.}, \textit{H}*). Second, the resulting confidence interval is calculated from only a single random sample (\textit{i.e.}, a single run of {\tt HACSim}); in reality, any interval estimate should be computed from multiple samples/runs whenever feasible. Methods for producing a non-symmetric interval are currently being investigated. Third, and perhaps most importantly, said confidence interval is unlikely to have desired nominal coverage probability of at least 
 ($1 - \alpha$)100\% (95\% say); a non-symmetric interval may be able to compensate for this discrepancy however. Regardless, calculation of interval estimates for $\theta$ is important given the substantial amount of resources (both cost and effort) required to retrieve additional specimens for a given species of interest.
 
-\chapter{Proof of {\tt HACSim}'s Search Space Size (Equation 4.5)}
+\chapter{Proof of {\tt HACSim}'s Search Space Size (Equation (4.5))}
 
 {\tt HACSim} has a large and rich search space which is given by
 

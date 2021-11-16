@@ -5,7 +5,7 @@
 \contentsline {chapter}{\numberline {1}General Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Problem}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Thesis Overview}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}Thesis Statement}{5}{section.1.3}
+\contentsline {section}{\numberline {1.3}Thesis Statement}{6}{section.1.3}
 \contentsline {section}{\numberline {1.4}Statement of Contributions}{6}{section.1.4}
 \contentsline {chapter}{\numberline {2}Incomplete estimates of genetic diversity within species: Implications for DNA barcoding}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Prologue}{12}{section.2.1}
@@ -59,7 +59,7 @@
 \contentsline {subsection}{\numberline {4.2.2}Phillips \textit {et al.}'s (2020) Haplotype Sampling Model}{120}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Assessing the Computational and Statistical Performance of \\ {\tt HACSim}}{125}{subsection.4.2.3}
 \contentsline {subsubsection}{Background}{125}{section*.40}
-\contentsline {subsubsection}{Theory}{127}{section*.41}
+\contentsline {subsubsection}{Theory}{126}{section*.41}
 \contentsline {subsection}{\numberline {4.2.4}Outline of the Current Study}{131}{subsection.4.2.4}
 \contentsline {section}{\numberline {4.3}Methods}{132}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Hypothetical Species}{133}{subsection.4.3.1}
@@ -97,8 +97,8 @@
 \contentsline {chapter}{References}{241}{chapter*.89}
 \contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{261}{appendix.A}
 \contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{262}{appendix.B}
-\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation 3.3)}{263}{appendix.C}
-\contentsline {chapter}{\numberline {D}Proof of {\tt HACSim}'s Search Space Size (Equation 4.5)}{267}{appendix.D}
+\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation (3.3))}{263}{appendix.C}
+\contentsline {chapter}{\numberline {D}Proof of {\tt HACSim}'s Search Space Size (Equation (4.5))}{267}{appendix.D}
 \contentsline {section}{\numberline {D.1}Direct Algebraic Proof}{267}{section.D.1}
 \contentsline {section}{\numberline {D.2}Combinatorial Proof}{268}{section.D.2}
 \contentsline {section}{\numberline {D.3}Proof by Mathematical Induction}{269}{section.D.3}
