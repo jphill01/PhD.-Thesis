@@ -41,39 +41,39 @@
 \BOOKMARK [2][-]{subsection.3.5.3}{Summary}{section.3.5}% 41
 \BOOKMARK [1][-]{section.3.6}{Conclusions}{section.3.1}% 42
 \BOOKMARK [0][-]{chapter.4}{Solving the genetic specimen sample size problem for DNA barcoding with a local search optimization algorithm}{}% 43
-\BOOKMARK [0][-]{chapter.5}{Prologue}{}% 44
-\BOOKMARK [0][-]{chapter.5}{Abstract}{}% 45
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 46
-\BOOKMARK [2][-]{subsection.5.1.1}{Background}{section.5.1}% 47
-\BOOKMARK [2][-]{subsection.5.1.2}{Phillips et al.'s \(2020\) Haplotype Sampling Model}{section.5.1}% 48
-\BOOKMARK [2][-]{subsection.5.1.3}{Assessing the Computational and Statistical Performance of \040HACSim}{section.5.1}% 49
-\BOOKMARK [2][-]{subsection.5.1.4}{Outline of the Current Study}{section.5.1}% 50
-\BOOKMARK [1][-]{section.5.2}{Methods}{chapter.5}% 51
-\BOOKMARK [2][-]{subsection.5.2.1}{Hypothetical Species}{section.5.2}% 52
-\BOOKMARK [2][-]{subsection.5.2.2}{Real Species}{section.5.2}% 53
-\BOOKMARK [2][-]{subsection.5.2.3}{Simulation Study}{section.5.2}% 54
-\BOOKMARK [2][-]{subsection.5.2.4}{Statistical Analysis}{section.5.2}% 55
-\BOOKMARK [1][-]{section.5.3}{Results and Discussion}{chapter.5}% 56
-\BOOKMARK [2][-]{subsection.5.3.1}{Effect of Population Size}{section.5.3}% 57
-\BOOKMARK [2][-]{subsection.5.3.2}{Algorithm Runtimes}{section.5.3}% 58
-\BOOKMARK [1][-]{section.5.4}{Conclusion}{chapter.5}% 59
-\BOOKMARK [0][-]{chapter.6}{Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{}% 60
-\BOOKMARK [1][-]{section.6.1}{Prologue}{chapter.6}% 61
-\BOOKMARK [0][-]{section.6.1}{Abstract}{}% 62
-\BOOKMARK [1][-]{section.6.2}{Introduction}{section.6.1}% 63
-\BOOKMARK [2][-]{subsection.6.2.1}{DNA Barcoding: Historical Development}{section.6.2}% 64
-\BOOKMARK [2][-]{subsection.6.2.2}{DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{section.6.2}% 65
-\BOOKMARK [1][-]{section.6.3}{A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{section.6.1}% 66
-\BOOKMARK [1][-]{section.6.4}{Case Study: DNA Barcoding of Pacific Canada's \040Fishes}{section.6.1}% 67
-\BOOKMARK [1][-]{section.6.5}{Evidence for the Lack of Statistical Rigor in DNA \040Barcoding}{section.6.1}% 68
-\BOOKMARK [2][-]{subsection.6.5.1}{Improper Allocation of Specimen Sampling Effort}{section.6.5}% 69
-\BOOKMARK [2][-]{subsection.6.5.2}{Failing to Properly Visualize Intraspecific and Interspecific \040Genetic Distances}{section.6.5}% 70
-\BOOKMARK [2][-]{subsection.6.5.3}{Inconsistent, Inappropriate Use, or Absence of Inferential \040Statistical Procedures in DNA Barcoding}{section.6.5}% 71
-\BOOKMARK [1][-]{section.6.6}{Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{section.6.1}% 72
-\BOOKMARK [1][-]{section.6.7}{New Avenues for Estimating the DNA Barcode Gap}{section.6.1}% 73
-\BOOKMARK [1][-]{section.6.8}{Discussion and Concluding Remarks}{section.6.1}% 74
-\BOOKMARK [0][-]{chapter.7}{Conclusion and Future Directions}{}% 75
-\BOOKMARK [1][-]{section.7.1}{Thesis Summary}{chapter.7}% 76
+\BOOKMARK [1][-]{section.4.1}{Prologue}{chapter.4}% 44
+\BOOKMARK [0][-]{section.4.1}{Abstract}{}% 45
+\BOOKMARK [1][-]{section.4.2}{Introduction}{section.4.1}% 46
+\BOOKMARK [2][-]{subsection.4.2.1}{Background}{section.4.2}% 47
+\BOOKMARK [2][-]{subsection.4.2.2}{Phillips et al.'s \(2020\) Haplotype Sampling Model}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.3}{Assessing the Computational and Statistical Performance of \040HACSim}{section.4.2}% 49
+\BOOKMARK [2][-]{subsection.4.2.4}{Outline of the Current Study}{section.4.2}% 50
+\BOOKMARK [1][-]{section.4.3}{Methods}{section.4.1}% 51
+\BOOKMARK [2][-]{subsection.4.3.1}{Hypothetical Species}{section.4.3}% 52
+\BOOKMARK [2][-]{subsection.4.3.2}{Real Species}{section.4.3}% 53
+\BOOKMARK [2][-]{subsection.4.3.3}{Simulation Study}{section.4.3}% 54
+\BOOKMARK [2][-]{subsection.4.3.4}{Statistical Analysis}{section.4.3}% 55
+\BOOKMARK [1][-]{section.4.4}{Results and Discussion}{section.4.1}% 56
+\BOOKMARK [2][-]{subsection.4.4.1}{Effect of Population Size}{section.4.4}% 57
+\BOOKMARK [2][-]{subsection.4.4.2}{Algorithm Runtimes}{section.4.4}% 58
+\BOOKMARK [1][-]{section.4.5}{Conclusion}{section.4.1}% 59
+\BOOKMARK [0][-]{chapter.5}{Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{}% 60
+\BOOKMARK [1][-]{section.5.1}{Prologue}{chapter.5}% 61
+\BOOKMARK [0][-]{section.5.1}{Abstract}{}% 62
+\BOOKMARK [1][-]{section.5.2}{Introduction}{section.5.1}% 63
+\BOOKMARK [2][-]{subsection.5.2.1}{DNA Barcoding: Historical Development}{section.5.2}% 64
+\BOOKMARK [2][-]{subsection.5.2.2}{DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{section.5.2}% 65
+\BOOKMARK [1][-]{section.5.3}{A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{section.5.1}% 66
+\BOOKMARK [1][-]{section.5.4}{Case Study: DNA Barcoding of Pacific Canada's \040Fishes}{section.5.1}% 67
+\BOOKMARK [1][-]{section.5.5}{Evidence for the Lack of Statistical Rigor in DNA \040Barcoding}{section.5.1}% 68
+\BOOKMARK [2][-]{subsection.5.5.1}{Improper Allocation of Specimen Sampling Effort}{section.5.5}% 69
+\BOOKMARK [2][-]{subsection.5.5.2}{Failing to Properly Visualize Intraspecific and Interspecific \040Genetic Distances}{section.5.5}% 70
+\BOOKMARK [2][-]{subsection.5.5.3}{Inconsistent, Inappropriate Use, or Absence of Inferential \040Statistical Procedures in DNA Barcoding}{section.5.5}% 71
+\BOOKMARK [1][-]{section.5.6}{Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{section.5.1}% 72
+\BOOKMARK [1][-]{section.5.7}{New Avenues for Estimating the DNA Barcode Gap}{section.5.1}% 73
+\BOOKMARK [1][-]{section.5.8}{Discussion and Concluding Remarks}{section.5.1}% 74
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Directions}{}% 75
+\BOOKMARK [1][-]{section.6.1}{Thesis Summary}{chapter.6}% 76
 \BOOKMARK [0][-]{chapter*.89}{References}{}% 77
 \BOOKMARK [0][-]{appendix.A}{Additional Information Accompanying Chapter 3}{}% 78
 \BOOKMARK [0][-]{appendix.B}{Additional Information Accompanying Chapter 4}{}% 79
