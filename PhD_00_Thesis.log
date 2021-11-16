@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 NOV 2021 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 NOV 2021 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1333,12 +1333,8 @@ r Com-mon mosquito (\OT1/ptm/m/it/12 Culex pip-i-ens\OT1/ptm/m/n/12 ).[] [][]
 
 ) [10] [11] (./PhD_Chapter1.tex
 Chapter 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 6.
-
 
 LaTeX Warning: Citation `shehata2018dna' on page 1 undefined on input line 12.
 
@@ -1364,8 +1360,6 @@ Missing character: There is no ™ in font ptmr7t!
 
  (./PhD_Chapter2.tex
 Chapter 2.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
 
 Overfull \hbox (15.27142pt too wide) in paragraph at lines 13--14
 \OT1/ptm/m/n/12 bar-cod-ing and other closely-related DNA-based iden-ti-fi-ca-t
@@ -1400,7 +1394,10 @@ Overfull \hbox (9.30836pt too wide) in paragraph at lines 41--42
  im-por-tant is in the de-vel-op-ment|
  []
 
-[16] [17] [18] [19] [20] <"Network".png, id=813, 413.545pt x 425.59pt>
+[16] [17] [18]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
+ [19] [20] <"Network".png, id=813, 413.545pt x 425.59pt>
 File: "Network".png Graphic file (type png)
 
 <use "Network".png>
@@ -1996,7 +1993,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `PhD_00_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0876405F6C09FA73F3A5DB33D345F803;6762.
+(rerunfilecheck)             Checksum: 37A0E82BC13ADCC47407BE5F4962A7EE;6721.
 
 
 LaTeX Warning: There were undefined references.
@@ -2008,8 +2005,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
  27378 strings out of 493014
- 533674 string characters out of 6133351
- 650014 words of memory out of 5000000
+ 533634 string characters out of 6133351
+ 650011 words of memory out of 5000000
  29522 multiletter control sequences out of 15000+600000
  84792 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2036,7 +2033,7 @@ nts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/time
 s/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PhD_00_Thesis.pdf (282 pages, 25764897 bytes).
+Output written on PhD_00_Thesis.pdf (282 pages, 25764864 bytes).
 PDF statistics:
  3004 PDF objects out of 3580 (max. 8388607)
  2586 compressed objects within 26 object streams
