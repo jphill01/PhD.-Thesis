@@ -59,7 +59,7 @@
 \contentsline {subsection}{\numberline {4.2.2}Phillips \textit {et al.}'s (2020) Haplotype Sampling Model}{120}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Assessing the Computational and Statistical Performance of \\ {\tt HACSim}}{125}{subsection.4.2.3}
 \contentsline {subsubsection}{Background}{125}{section*.40}
-\contentsline {subsubsection}{Theory}{126}{section*.41}
+\contentsline {subsubsection}{Theory}{127}{section*.41}
 \contentsline {subsection}{\numberline {4.2.4}Outline of the Current Study}{131}{subsection.4.2.4}
 \contentsline {section}{\numberline {4.3}Methods}{132}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Hypothetical Species}{133}{subsection.4.3.1}
@@ -68,7 +68,7 @@
 \contentsline {subsubsection}{Common Mosquito (\textit {Culex pipiens})}{136}{section*.43}
 \contentsline {subsubsection}{Gypsy Moth (\textit {Lymantria dispar})}{137}{section*.44}
 \contentsline {subsection}{\numberline {4.3.3}Simulation Study}{139}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Statistical Analysis}{140}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Statistical Analysis}{141}{subsection.4.3.4}
 \contentsline {section}{\numberline {4.4}Results and Discussion}{143}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Effect of Population Size}{143}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Algorithm Runtimes}{147}{subsection.4.4.2}
