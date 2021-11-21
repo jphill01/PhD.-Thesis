@@ -90,7 +90,7 @@
 \contentsline {subsubsection}{Framing the DNA Barcode Gap as a Statistical Hypothesis}{216}{section*.83}
 \contentsline {subsubsection}{The Use of Nonparametric Bootstrapping to Estimate the DNA Barcode Gap}{218}{section*.84}
 \contentsline {section}{\numberline {5.6}Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{221}{section.5.6}
-\contentsline {section}{\numberline {5.7}New Avenues for Estimating the DNA Barcode Gap}{225}{section.5.7}
+\contentsline {section}{\numberline {5.7}New Avenues for Estimating the DNA Barcode Gap}{226}{section.5.7}
 \contentsline {section}{\numberline {5.8}Discussion and Concluding Remarks}{230}{section.5.8}
 \contentsline {chapter}{\numberline {6}Conclusion and Future Directions}{236}{chapter.6}
 \contentsline {section}{\numberline {6.1}Thesis Summary}{236}{section.6.1}

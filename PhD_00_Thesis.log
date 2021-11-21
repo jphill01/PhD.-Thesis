@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 NOV 2021 15:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 NOV 2021 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1377,8 +1377,13 @@ Package pdftex.def Info: "Network".png used on input line 110.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
- [26] [27] [28] [29] [30] [31] [32] [33] [34]
-[35] [36] [37] [38] [39]
+ [26] [27] [28] [29] [30] [31] [32]
+Overfull \hbox (46.87927pt too wide) in paragraph at lines 208--209
+\OT1/ptm/m/n/12 place are by no means suf-fi-cient since species abun-dance is 
+of-ten skewed ge-o-graph-i-cal-ly/e-co-log-i-cally.|
+ []
+
+[33] [34] [35] [36] [37] [38] [39]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 228.
  [40] [41] [42] [43]
@@ -1408,31 +1413,36 @@ File: "Figure 1".png Graphic file (type png)
 Package pdftex.def Info: "Figure 1".png used on input line 93.
 (pdftex.def)             Requested size: 346.89731pt x 347.0821pt.
 
-[64 <./Figure 1.png>] [65] [66] [67
+[64 <./Figure 1.png>] [65]
+Overfull \hbox (0.25931pt too wide) in paragraph at lines 108--109
+\OT1/ptm/m/n/12 cur-rently the only method avail-able to gen-er-ate hap-lo-type
+ ac-cu-mu-la-tion curves in R be-cause |
+ []
+
+[66] [67
 
 ] [68
 
-] [69] [70]
-<"Figure 2".png, id=1384, 60.00371pt x 34.14331pt>
+] [69] [70] <"Figure 2".png, id=1384, 60.00371pt x 34.14331pt>
 File: "Figure 2".png Graphic file (type png)
- <use "Figure 2".png>
+
+<use "Figure 2".png>
 Package pdftex.def Info: "Figure 2".png used on input line 182.
 (pdftex.def)             Requested size: 346.89731pt x 197.4029pt.
-
-[71 <./Figure 2.png>] [72] <"Figure 3".png, id=1396, 154.18233pt x 61.90056pt>
+ [71 <./Figure 2.png>] [72]
+<"Figure 3".png, id=1396, 154.18233pt x 61.90056pt>
 File: "Figure 3".png Graphic file (type png)
-
-<use "Figure 3".png>
+ <use "Figure 3".png>
 Package pdftex.def Info: "Figure 3".png used on input line 196.
 (pdftex.def)             Requested size: 346.89731pt x 139.29382pt.
- [73 <./Figure 3.png>]
-<"Figure 4".png, id=1404, 115.64464pt x 86.71768pt>
+
+[73 <./Figure 3.png>] <"Figure 4".png, id=1404, 115.64464pt x 86.71768pt>
 File: "Figure 4".png Graphic file (type png)
- <use "Figure 4".png>
+
+<use "Figure 4".png>
 Package pdftex.def Info: "Figure 4".png used on input line 230.
 (pdftex.def)             Requested size: 346.89731pt x 260.16827pt.
-
-[74] [75 <./Figure 4.png>] [76] [77] [78]
+ [74] [75 <./Figure 4.png>] [76] [77] [78]
 <"Figure 5".png, id=1435, 151.77965pt x 86.71768pt>
 File: "Figure 5".png Graphic file (type png)
  <use "Figure 5".png>
@@ -1975,7 +1985,7 @@ Here is how much of TeX's memory you used:
  29522 multiletter control sequences out of 15000+600000
  84792 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,19n,92p,6749b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,92p,6799b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/loca
 l/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016
 /texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dis
@@ -1998,7 +2008,7 @@ nts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/time
 s/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PhD_00_Thesis.pdf (281 pages, 25763426 bytes).
+Output written on PhD_00_Thesis.pdf (281 pages, 25763493 bytes).
 PDF statistics:
  3009 PDF objects out of 3580 (max. 8388607)
  2589 compressed objects within 26 object streams
