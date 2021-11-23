@@ -8,14 +8,14 @@ A level-1 auxiliary file: PhD_02_Abstract.aux
 A level-1 auxiliary file: PhD_04_Acknowledgements.aux
 A level-1 auxiliary file: PhD_05_TOC.aux
 A level-1 auxiliary file: PhD_Chapter2.aux
+Case mismatch error between cite keys Shehata2018dna and shehata2018dna
+---line 20 of file PhD_Chapter2.aux
+ : \citation{Shehata2018dna
+ :                         }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: PhD_Chapter3.aux
 A level-1 auxiliary file: PhD_Chapter4.aux
 A level-1 auxiliary file: PhD_Chapter5.aux
-Case mismatch error between cite keys shehata2018dna and Shehata2018dna
----line 15 of file PhD_Chapter5.aux
- : \citation{shehata2018dna
- :                         }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: PhD_Chapter6.aux
 A level-1 auxiliary file: PhD_Appendix.aux
 Reallocated field_info (elt_size=4) to 10451 items from 5000.
@@ -23,7 +23,7 @@ Database file #1: PhD_Bibliography.bib
 Warning--empty journal in hanner2009data
 You've used 237 entries,
             2253 wiz_defined-function locations,
-            1745 strings with 47253 characters,
+            1744 strings with 47243 characters,
 and the built_in function-call counts, 83535 in all, are:
 = -- 7915
 > -- 4561

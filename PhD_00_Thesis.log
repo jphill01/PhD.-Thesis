@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 NOV 2021 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 NOV 2021 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1335,9 +1335,6 @@ r Com-mon mosquito (\OT1/ptm/m/it/12 Culex pip-i-ens\OT1/ptm/m/n/12 ).[] [][]
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-
-LaTeX Warning: Citation `shehata2018dna' on page 1 undefined on input line 12.
-
 [1
 
 
@@ -1364,20 +1361,26 @@ Chapter 2.
 
 
 
-] [12] [13] [14] [15] [16] [17] [18]
+] [12] [13] [14] [15]
+
+LaTeX Warning: Citation `Shehata2018dna' on page 16 undefined on input line 41.
+
+
+[16] [17] [18]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
- [19] [20]
-<"Network".png, id=813, 413.545pt x 425.59pt>
+ [19] [20] <"Network".png, id=813, 413.545pt x 425.59pt>
 File: "Network".png Graphic file (type png)
- <use "Network".png>
+
+<use "Network".png>
 Package pdftex.def Info: "Network".png used on input line 110.
 (pdftex.def)             Requested size: 216.81pt x 223.12637pt.
  [21] [22 <./Network.png>] [23] [24] [25]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
- [26] [27] [28] [29] [30] [31] [32]
+ [26] [27] [28]
+[29] [30] [31] [32]
 Overfull \hbox (46.87927pt too wide) in paragraph at lines 208--209
 \OT1/ptm/m/n/12 place are by no means suf-fi-cient since species abun-dance is 
 of-ten skewed ge-o-graph-i-cal-ly/e-co-log-i-cally.|
@@ -1721,12 +1724,8 @@ Chapter 5.
 
 
 
-] [180] [181] [182] [183]
-
-LaTeX Warning: Citation `shehata2018dna' on page 184 undefined on input line 43
-.
-
-[184] [185] [186] [187] [188] [189] [190] [191] [192]
+] [180] [181] [182] [183] [184] [185] [186] [187] [188] [189] [190]
+[191] [192]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 75.
@@ -1747,7 +1746,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 1.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 1".pdf, id=2318, 526.96875pt x 376.40625pt>
+<"Figure 1".pdf, id=2319, 526.96875pt x 376.40625pt>
 File: "Figure 1".pdf Graphic file (type pdf)
  <use "Figure 1".pdf>
 Package pdftex.def Info: "Figure 1".pdf used on input line 143.
@@ -1757,7 +1756,7 @@ Package pdftex.def Info: "Figure 1".pdf used on input line 143.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 2.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 2".pdf, id=2341, 845.50848pt x 562.49307pt>
+<"Figure 2".pdf, id=2342, 845.50848pt x 562.49307pt>
 File: "Figure 2".pdf Graphic file (type pdf)
  <use "Figure 2".pdf>
 Package pdftex.def Info: "Figure 2".pdf used on input line 158.
@@ -1767,7 +1766,7 @@ Package pdftex.def Info: "Figure 2".pdf used on input line 158.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 3.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 3".pdf, id=2364, 591.71063pt x 515.67656pt>
+<"Figure 3".pdf, id=2365, 591.71063pt x 515.67656pt>
 File: "Figure 3".pdf Graphic file (type pdf)
  <use "Figure 3".pdf>
 Package pdftex.def Info: "Figure 3".pdf used on input line 172.
@@ -2008,10 +2007,10 @@ nts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/time
 s/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PhD_00_Thesis.pdf (281 pages, 25763493 bytes).
+Output written on PhD_00_Thesis.pdf (281 pages, 25763586 bytes).
 PDF statistics:
- 3009 PDF objects out of 3580 (max. 8388607)
- 2589 compressed objects within 26 object streams
+ 3010 PDF objects out of 3580 (max. 8388607)
+ 2590 compressed objects within 26 object streams
  713 named destinations out of 1000 (max. 500000)
  895 words of extra memory for PDF output out of 10000 (max. 10000000)
 
