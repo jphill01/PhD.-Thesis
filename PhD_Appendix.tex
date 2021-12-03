@@ -83,90 +83,9 @@ Finally, a symmetric CI for $\theta$ can be constructed, leading to Equation (3.
 N^*_{i+1} \pm z_{1-\frac{\alpha}{2}}\widehat{SE}[N^*_{i+1}] = N^*_{i+1} \pm z_{1-\frac{\alpha}{2}}\left(\frac{\hat{\sigma}_{H_i}}{H_i}\sqrt{N^*_{i+1}}\right).
 \end{equation}
 
-\noindent where $z_{1-\frac{\alpha}{2}}$ is the $(1-\frac{\alpha}{2})100\%$ quantile of the Standard Normal distribution and $\hat{\sigma}_{H}$ is the estimated standard deviation for the number of haplotypes ($H$) found from sampling \textit{N}* specimens.  However, there are several issues with this approach. First, the resulting interval is symmetric and, while tight, is likely to be biased, as it is centered on the estimated required sample size (\textit{N}*). This is not altogether unexpected due to reliance on the Central Limit Theorem in obtaining an approximate confidence interval for $\theta$. In actuality, \textit{N}* would be expected to fall closer to either the lower or upper endpoint of the contructed CI compared to its centre as species' haplotype accumulation curves begin to saturate toward an asymptote (\textit{i.e.}, \textit{H}*). Second, the resulting confidence interval is calculated from only a single random sample (\textit{i.e.}, a single run of {\tt HACSim}); in reality, any interval estimate should be computed from multiple samples/runs whenever feasible. Methods for producing a non-symmetric interval are currently being investigated. Third, and perhaps most importantly, said confidence interval is unlikely to have desired nominal coverage probability of at least 
-($1 - \alpha$)100\% (95\% say); a non-symmetric interval may be able to compensate for this discrepancy however. Regardless, calculation of interval estimates for $\theta$ is important given the substantial amount of resources (both cost and effort) required to retrieve additional specimens for a given species of interest.
-
-\chapter{Proof of {\tt HACSim}'s Search Space Size (Equation (4.5))}
-
-{\tt HACSim} has a large and rich search space which is given by
-
-\begin{equation}
-|S| = \multichoose{H^*}{N} = {{N + H^* - 1}\choose{N}} = {{N + H^* - 1}\choose{H^* - 1}} = \frac{(N + H^* - 1)!}{N!(H^* - 1)!}.
-\end{equation}
-
-\noindent The above result can be proved in a number of ways, which are shown below.
-
-\section{Direct Algebraic Proof}
-
-Here, it simply remains to be shown that the two binomial coefficients given above are equal. 
-
-\vspace{5mm}
-
-\begin{align*}
-\binom{N + H^* - 1}{N} &= \binom{N + H^* - 1}{H^* - 1} \\
-\frac{(N + H^* - 1)!}{N!(H^* - 1)!} &= \frac{(N + H^* - 1)!}{(H^* - 1)!N!}  
-\end{align*} 
-
-Hence, the original statement is proved. $\blacksquare$ 
+\noindent where $z_{1-\frac{\alpha}{2}}$ is the $(1-\frac{\alpha}{2})100\%$ quantile of the Standard Normal distribution and $\hat{\sigma}_{H}$ is the estimated standard deviation for the number of haplotypes ($H$) found from sampling \textit{N}* specimens.  However, there are several issues with this approach. First, the resulting interval is symmetric and, while tight, is likely to be biased, as it is centered on the estimated required sample size (\textit{N}*). This is not altogether unexpected due to reliance on the Central Limit Theorem in obtaining an approximate confidence interval for $\theta$. In actuality, \textit{N}* would be expected to fall closer to either the lower or upper endpoint of the contructed CI compared to its centre as species' haplotype accumulation curves begin to saturate toward an asymptote (\textit{i.e.}, \textit{H}*). Second, the resulting confidence interval is calculated from only a single random sample (\textit{i.e.}, a single run of {\tt HACSim}); in reality, any interval estimate should be computed from multiple samples/runs whenever feasible. Methods for producing a non-symmetric interval are currently being investigated. Third, and perhaps most importantly, said confidence interval is unlikely to have desired nominal coverage probability of at least ($1 - \alpha$)100\% (95\% say); a non-symmetric interval may be able to compensate for this discrepancy however. Regardless, calculation of interval estimates for $\theta$ is important given the substantial amount of resources (both cost and effort) required to retrieve additional specimens for a given species of interest.
 
 
-
-\section{Combinatorial Proof}
-
-The goal is to enumerate the number of ways to assign \textit{H}* haplotypes to $N$ specimens via a combinatorial argument. The result can be proven using the ``Stars and Bars" counting technique. Clearly, $N \geq$ \textit{H}*, with both $N$, \textit{H}* $\geq$ 2 and specimens can share haplotypes.
-
-\vspace{5mm} 
-
-Here, each specimen is represented by a star (or other similar shape). It is now necessary to partition specimens into distinct haplotypes. To do so requires $H^* - 1$ bars (or dividers). 
-
-\vspace{5mm}
-
-The proof is best motivated with an example.
-
-\vspace{5mm}
-
-Suppose there are $N$ = 5 individuals represented by \textit{H}* = 5 haplotypes and that species' haplotypes are distributed uniformly such that each occurs with a frequency of \\ $\frac{1}{5}$ = 20\%. A possible permutation for this scenario is (2, 1, 1, 5, 2). Its ordered permutation is given by (1, 1, 2, 2, 5), which has the following stars-and-bars arrangement:
-
-\begin{center}
-$* * \mid * * \mid \mid \mid *$.
-\end{center}
-
-\noindent Above, there are a total of $N$ stars from which to place the $H^* - 1$ bars, giving $N + H^* - 1 = 9$ total symbols. Placement can be done in ${N + H^* - 1}\choose{H^* - 1}$ = ${9}\choose{4}$ = 126 ways. Due to the symmetry of binomial coefficients, using the elementary fact that ${n}\choose{k}$ = ${n}\choose{n-k}$, alternatively, this can be thought of as the number of ways to arrange $N$ stars among the $N + H^* - 1$ positions, hence ${N + H^* - 1}\choose{N}$ = ${9}\choose{5}$ = 126. $\blacksquare$ 
-
-\section{Proof by Mathematical Induction}
-
-Mathematical induction proceeds in three steps. First, the statement $P(n)$ to be proved is shown to be true for some base case $n$, where $n$ is a natural number. Then, it is assumed that the statement holds true for some $n$ = $k$, that is $P(n)$ = $P(k)$ (the inductive hypothesis). Third, it remains to be demonstrated that the statement is also valid for some $n$ = $k+1$, \textit{i.e.}, $P(n)$ = $P(k+1)$ (the inductive step).
-
-\vspace{5mm}
-
-For the present problem, the base case establishes truth for $n$ = $k$ = 2, since it is required that both $N$ and \textit{H}* must be greater than or equal to two. Let $n$ = $N$ and $k$ = \textit{H}*, Thus, it follows that
-
-\begin{align*}
-\binom{2 + 2 - 1}{2 - 1} &= \binom{2 + 2 - 1}{2} \\
-\binom{3}{1} &= \binom{3}{2} \\
-\frac{3!}{1!(3-1)!} &= \frac{3!}{2!(3-2)!} \\
-\frac{3!}{1!2!} &= \frac{3!}{2!1!} \\
-3 &= 3
-\end{align*}
-
-\noindent and the base case is proven.
-
-\vspace{5mm}
-
-Next, assuming $N$ = \textit{H}* holds,  $N$ = \textit{H}* + 1 immediately follows
-
-\begin{align*}
-\binom{(H^* + 1) + H^* - 1}{H^* - 1} &= \binom{(H^* + 1) + H^* - 1}{H^* + 1} \\
-\binom{2H^*}{H^* - 1} &= \binom{2H^*}{H^* + 1} \\
-\frac{(2H^*)!}{(H^* - 1)!(2H^* - (H^* - 1))!} &= \frac{(2H^*)!}{(H^* + 1)!(2H^* - (H^* + 1))!} \\
-\frac{(2H^*)!}{(H^* - 1)!(H^* + 1)!} &= \frac{(2H^*)!}{(H^* + 1)!(H^* - 1)!} \\
-\end{align*}
-
-\noindent and the induction step is thus also proven.
-
-\vspace{5mm}  
-
-Together the basis step and induction step prove the original claim. $\blacksquare$ 
 
 % more sections
 

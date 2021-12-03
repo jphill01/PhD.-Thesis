@@ -214,12 +214,6 @@
   structure of biological communities into sample-based rarefaction.
 \newblock {\em Community Ecology 10\/} (2009), 209--214.
 
-\bibitem{chopard2018metaheuristics}
-{\sc Chopard, B., and Tommasini, M.}
-\newblock Search {S}pace.
-\newblock In {\em An Introduction to Metaheuristics for Optimization}.
-  Springer, 2018.
-
 \bibitem{clare2011neotropical}
 {\sc Clare, E.~L., Lim, B.~K., Fenton, M.~B., and Hebert, P.~D.}
 \newblock Neotropical bats: estimating species diversity with {DNA} barcodes.
@@ -322,11 +316,6 @@
 \newblock A means of estimating the completeness of haplotype sampling using
   the {S}tirling probability distribution.
 \newblock {\em Molecular Ecology Notes 6}, 3 (2006), 650--652.
-
-\bibitem{dixon2003vegan}
-{\sc Dixon, P.}
-\newblock Vegan, a package of r functions for community ecology.
-\newblock {\em Journal of Vegetation Science 14}, 6 (2003), 927--930.
 
 \bibitem{dlugosch2015devil}
 {\sc Dlugosch, K., Anderson, S., Braasch, J., Cang, F., and Gillette, H.}

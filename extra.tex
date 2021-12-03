@@ -1,0 +1,212 @@
+Chapter 3
+
+
+For instance, due to evidence of sampling bias in otherwise densely-sampled taxa housed in BOLD (\textit{e.g.}, Lepidoptera), D'Ercole \textit{et al}. (J. D'Ercole, 2019, unpublished data) wished to assess whether or not intraspecific haplotype variation within butterfly species remains unsampled. To test this, the authors employed {\tt HACSim} to examine sampling comprehensiveness for species comprising a large barcode reference library for North American butterflies spanning 814 species and 14623 specimens.
+
+
+Chapter 4
+
+DNA barcoding \cite{hebert2003biological} employs short, universal regions of genomic DNA, such as the \textit{c.} 648 bp fragment taken from the 5' end of the cytochrome \textit{c}. oxidase subunit I (COI) gene for animals \cite{hebert2003barcoding}, to readily identify unknown specimens to known species by matching queries to reference sequences housed in barcode libraries such as those found in the Barcode of Life Data Systems (BOLD; \cite{ratnasingham2007bold}; http://www.boldsystems.org) and GenBank. Early on, when DNA barcoding was first proposed,  estimates of sufficient sample sizes needed to recover levels of standing genetic variation within species of interest were often quite low and rather arbitrary, typically 20 or fewer specimens per species \cite{phillips2019incomplete, phillips2020hacsim, phillips2015exploration}. Even some early studies have expressed the need for more comprehensive sampling efforts \cite{zhang2010estimating}, but until now, a systematic approach was not available to provide optimal specimen sample sizes to adequately capture intraspecific DNA sequence variation. Such a tool is promising since required specimen sample sizes will vary considerably based on evolutionary history and life history of the species under consideration. For instance, different genomic marker loci evolve at different rates; thus, more rapidly evolving genes will likely require larger sample sizes compared to more slowly-evolving molecular loci \cite{phillips2019incomplete}. 
+
+
+
+Recognizing this, in addition to plotting haplotype accumulation curves for a wide variety of ray-finned fishes (Chordata: Actinopterygii), \cite{phillips2015exploration} employed simple linear regression on the endpoints of accumulation curves to test the hypothesis that there was no evidence of additional haplotypes remaining to be sampled for a species. This was accomplished through testing that terminal curve slopes are equal to zero. Phillips \textit{et al.} \cite{phillips2015exploration} then calibrated their findings with a crude deterministic base model of likely required specimen sampling levels necessary to recover all estimated total haplotypes that might exist for a given species, grounded on the unrealistic assumption that species' haplotypes are sampled uniformly across known ecologic and geographic ranges. Estimates of \\ sampling sufficiency produced by Phillips \textit{et al.}'s \cite{phillips2015exploration} model are likely to be heavily biased due to the restrictive assumption of uniformity of species' haplotypes.
+
+
+Their approach employs an initial guess of sampling sufficiency ($N$) to iteratively propose improving estimates of sample size necessary to capture a predefined minimum cutoff ({\tt p}), typically 95\%, of observed haplotype diversity for both hypothetical and real species based on a species' haplotype frequency distribution ({\tt probs}), \\ representing the probability of occurrence of each haplotype in a randomly-collected \\ specimen sample. A user need only additionally supply the number of permutations \\ ({\tt perms}) to be employed in the search, which acts to control both the \textit{numerical} accuracy and precision of computed sample size estimates by increasing or decreasing the \\ smoothness of the generated accumulation curve. Note here that improving the \textit{statistical} accuracy/precision of said estimates would require more specimens to be sampled.  Each randomly generated permutation represents a plausible assignment of species haplotypes to every sampled specimen. In simulating hypothetical species, \textit{H}* must be less than or equal to $N$ (this constraint is always satisfied for real species). The case of \textit{N} = \textit{H}*  corresponds to encountering a new, previously unseen species' haplotype for every additional specimen that is collected. For real species, $N$, \textit{H}* and {\tt probs} are calculated automatically from an imported FASTA file of aligned and trimmed single-marker DNA sequences.
+
+Two important assumptions arise in considering the overall utility of {\tt HACSim} for assessing standing levels of genetic variation within species \cite{phillips2020hacsim}: 
+
+\begin{enumerate}
+\item that haplotypic variation observed in a randomly collected sample of specimens is representative of the true species' population (which is unknown \textit{a priori}); and,
+
+\item that unsampled haplotypes are rare in a species' population (\textit{i.e.}, haplotypes occur at low frequency, potentially found in only 1-2 individuals -- otherwise they would have already been sampled).
+\end{enumerate}
+
+\noindent Assumption 1 is a common one adopted in many statistical resampling procedures such as nonparametric bootstrapping and is equivalent to treating a randomly drawn sample as if it were in fact the population of interest. Implicit in the present haplotype sampling model is the fact a randomly drawn sample of individuals makes up only a small fraction of the total species' population size. Assumption 2 is a strong, yet unrealistic one that is necessary within the framework of the underlying model. Whereas the total number of expected haplotypes that might exist for a given species' is readily estimated from observed data (such as through the Chao1 abundance estimator \cite{chao1984nonparametric}), the probabilities associated with unseen haplotypes cannot be known with absolute certainty \cite{phillips2020hacsim}. Therefore, the number of observed unique haplotypes for a species serves as a reasonable proxy for the total number of haplotypes that might exist for said species. In the context of the GSSSP investigated herein, Assumptions 1 and 2 together amount to assuming that all genetic diversity observed in reference sequence databases such as BOLD and related repositories arise from a single \textit{infinitely-large} panmictic (\textit{i.e.}, randomly-mating) species' population of constant size from which individuals are randomly sampled without replacement \\ \cite{phillips2015exploration}. That is, the current model underlying {\tt HACSim} disregards both the contribution of genetic drift which acts to alter haplotype frequencies in small species populations, as well as spatial effects which arise as a result of population substructuring via gene flow \cite{phillips2019incomplete}. It is recognized that the abovementioned assumptions will likely not be met for most real species. Violations of stated assumptions can only be mitigated through more thorough specimen sampling, and therefore further sampling of standing intraspecific haplotype variation. Extensions to {\tt HACSim}'s underlying sampling algorithm to better reflect true evolutionary dynamics at both the population and species levels have yet to be fully investigated.
+
+When running simulations of real taxa obtained from reference sequence databases, the number of DNA sequences in a final single-species multiple sequence \\ alignment, the corresponding number of observed unique species' haplotypes, and the species' haplotype frequency distribution are all used for algorithm initialization. \\ Specifically, the iteration scheme used by {\tt HACSim} is
+
+\begin{equation}
+N^*_{i+1} = \frac{N_iH^*}{H_i}
+\end{equation}
+
+\noindent where $H_i$ is the cumulative mean number of observed unique species' haplotypes found from randomly sampling $N_i$ individuals at iteration $i$.
+
+ 
+
+Drawing on the field of evolutionary computation, which is loosely based on Darwinian theory, $H_i$ can be likened to a fitness function that is to be maximized across all sampled specimens. Specifically, the ``fitness" function being optimized above is expressed \\ mathematically as
+
+\begin{equation}
+H_i = \left(\dfrac{1}{{\tt perms}}\sum_{k}{x_{jk}}\right)_{k=N}
+\end{equation}
+
+\noindent where $x_{jk}$ is a {\tt perms} $\times$ $N$ array, $j \in \{1, ..., {\tt perms}\}$ denotes array rows and $k \in \{1,...N\}$ references array columns. The array generated internally by {\tt HACSim} consists of positive integers in the range [1, \textit{H}*] that are drawn randomly according to {\tt probs}, a sorted vector of decreasing values between 0 and 1, whose elements must sum to 1. The filled population array forms the representation of solutions encoding the algorithm's search space. Elements within each row of the filled array are sampled according to {\tt probs}. That is, if, say, there are $N$ = 100 individuals and Haplotype 1 occurs at 90\% frequency, then approximately 90 individuals would be randomly assigned a label of 1. This scheme then continues for all remaining haplotypes.  Accumulation of unique species' haplotypes is then carried out through randomly sampling individual specimens (columns) of said array across all permutations (array rows). Cumulative means of the number of haplotypes recovered for each specimen, as per Equation (4.2), are then computed across all sampled permutations. The last array column corresponds to sampling $N$ individuals for a given species in Equation (4.2). Equation (4.1) produces a \\ monotonically-increasing and convergent sequence of estimates for sampling sufficiency even though the average number of species' haplotypes found at each iteration of {\tt HACSim} may fluctuate randomly; eventually, $H_i$ will approach \textit{H}* and therefore $N_i$ approaches \textit{N}*. {\tt HACSim} terminates when the observed proportion of haplotypes retrieved (\textit{R = $\frac{H_i}{H^*}$}) is at least {\tt p}. The rate of convergence of outputted haplotype accumulation curves to an asymptote depends highly on the value of {\tt perms}. When {\tt perms} is set high enough, the endpoint of the resulting curve, generated at each iteration of the algorithm, will be close in magnitude to the maximum value of the cumulative mean calculated across all columns of the constructed array. This behaviour provides a clear rationale for selection of the objective function being optimized herein. Further, the inclusion of a larger number of permutations acts to incorporate more diverse solutions into the search, while at the same time permitting {\tt HACSim}'s iterative search to ``hone in" on promising solutions through \\ exploitation/intensification of the problem space. Such behaviour is in sharp contrast to setting {\tt perms} to a small value, where {\tt HACSim} is reduced to searching the space of potential solutions randomly, while simultaneously performing a much broader search through exploration/diversification. Striking a careful balance between \\ exploration/diversification and exploitation/intensification is key to avoiding premature \\ algorithmic convergence and search efficiency issues. 
+
+ 
+
+Estimates of sampling sufficiency ($\theta$) provided by {\tt HACSim} correspond to the point on the $x$-axis of haplotype accumulation curves where saturation of species genetic variation is likely to occur. Since one is interested in devising an optimal stopping rule for specimen sampling, it becomes necessary to closely monitor the endpoint of haplotype accumulation curves generated at each iteration of {\tt HACSim}'s run. A single run of {\tt HACSim} entails successively generating {\tt perms} accumulation curves internally and outputting a mean \\ curve at each iteration. Each successive iteration within a single run of {\tt HACSim} is an extrapolation of the curve generated in the preceeding iteration. The $x$-value corresponding to the point where the curve endpoint touches the horizontal line formed by the prespecified threshold for haplotype recovery is our best estimate of the sample size needed to fully characterize haplotype variation within a species, given current genomic data. 
+
+Further, while there are numerous parameters that can be tweaked within {\tt HACSim} itself, a careful parameter sensitivity analysis is not the goal of the present study. This is not to say that altering either the number of permutations or the proportion of observed haplotype diversity to recover will produce unpredictable results. Clearly, increasing (decreasing) {\tt perms} results in increased (decreased) numerical \\ accuracy/precision of model estimates and smoother (noisier) haplotype accumulation \\ curves, while leading to slow (fast) computation. Similarly, increasing (decreasing) {\tt p} leads to higher (lower) estimates of sampling sufficiency (\textit{N}*), since more (fewer) species' haplotypes (\textit{i.e.}, higher (lower) $H_i$) need to be captured. Additionally, since specimen sample sizes are presumed to be strongly taxon-specific, due to differences in evolutionary origins and life history traits among species, and because {\tt HACSim} is meant to be a general modelling framework, it is highly unlikely that a single combination of {\tt perms} and {\tt p} can be found that works for the majority of taxa. Nevertheless, this should be explored in future work.
+
+
+As such, this necessitates a brief discussion around {\tt HACSim}'s \textit{search space}.
+
+\vspace{5mm}
+
+\subsubsection{Theory}
+
+A search space encompasses the domain over which a function is to be optimized \\ (\textit{i.e.}, either minimized or maximized) and includes all plausible solutions to said search problem. The search space explored by stochastic optimization algorithms can be best framed in the context of a person attempting to ascend to the top of hill or mountain. Said hill (or mountain) contains numerous peaks, plateaus and valleys, each with varying levels of steepness that together form a fitness landscape. The hill's (or mountain's) terrain is analogous to local optima encountered in an algorithmic search problem. In general, solving the GSSSP through pure brute force (\textit{i.e.}, exhaustive search) or random search is difficult owing to the size of the search space that must be explored: both specimen- and haplotype-level information need to be taken into account. Here, a (partial) solution to the GSSSP corresponds to the generation of a permutation. In the present work, the notion of a ``permutation" is distinct from the traditional mathematical meaning of the term. Within the field of combinatorics, a permutation is any (re)ordering of elements contained in a set. Herein, a random permutation appearing in the array generated by {\tt HACSim} according to some underlying probability distribution may comprise elements which are different from those appearing in any other permutation. For instance, one permutation of five specimens drawn from a uniform distribution over observed species' haplotypes labels may be given by the tuple (2, 1, 1, 5, 2), while another may be (5, 1, 3, 4, 4). ``Permutation" is used here to simply emulate terminology used in similar R packages that construct haplotype (and species) accumulation curves such as {\tt spider} \cite{brown2012spider} and {\tt vegan} \cite{dixon2003vegan}. Since {\tt HACSim} can be considered a population-based metaheuristic, the state space size explored would be \cite{chopard2018metaheuristics}
+
+\begin{equation}
+|S| = (H^*)^N.
+\end{equation} 
+
+\noindent Equation (4.3) above denotes the number of ways of assigning \textit{H}* haplotypes to $N$ \\ individuals \textit{with} replacement (\textit{i.e.}, repetition is permitted), and where the order in which haplotypes are allocated to specimens is important. Thus, the probability of reaching the global optimum once across the entire fitness landscape under random search (that is, selecting a candidate solution uniformly at random) is approximately given by
+
+\begin{equation}
+P(G) = \frac{1}{(H^*)^N}
+\end{equation} 
+
+\noindent where $G$ is defined as the event ``reaching the global optimum". Even for a ``reasonable" number of specimens and observed species' haplotypes typical of many taxon-focused DNA barcoding studies, the search space can become prohibitively large due to \\ fundamental biological processes and mechanisms underpinning the evolution of species (\textit{e.g.}, mutation). Therefore, in the case of the GSSSP, the fitness landscape is not guaranteed to be defined by a strictly unimodal hill/mountain. Typically, in most optimization \\ problems, several different potential solutions are tried in a systematic way, making a given future observation more likely to be the global optimum compared to earlier ones. Hence, the fraction of {\tt HACSim}'s search space traversed is $\frac{{\tt perms}}{|S|}$. For instance, via Equation (4.3) and Equation (4.4), the search space characterizing a species represented by $N = 100$ individuals and \textit{H}* = 10 unique haplotypes would contain $|S| = 10^{100}$ potential solutions where the probability of finding the globally optimal solution is only $P(G) = 10^{-100}$. Moreover, as with many other stochastic optimization algorithms, the size of the search space actually explored in a given run of {\tt HACSim} is exceedingly small.
+
+\vspace{5mm}
+
+It is important to realize that sample size estimates provided by {\tt HACSim} are strongly affected by parameters specific to algorithm tuning, particularly {\tt perms}. That is, it should be stressed that while {\tt HACSim} does indeed provide a convergence guarantee, it provides no guarantee of global optimality; the tool merely computes a ``good enough" (\textit{i.e.}, locally optimal) solution in a finite amount of computation time. Thus, solution quality is entirely dependent on the number of permutations a user deems approropriate for their species of interest and is willing to employ given computational power constraints, as well as tests of researchers' patience and sanity. Within {\tt HACSim}, {\tt perms} must be at least two to allow calculation of confidence interval (CI) estimates for generated curves; however, such a \\ permutation size is not sufficient. In general, it is advised that {\tt perms} be set to a ``large" value to minimize the effects of Monte Carlo sampling error through reducing the variance in resulting haplotype accumulation curves and their associated ``measures of sampling \\ closeness", as well as ensuring the search does not become trapped in local optima. When too few permutations are employed, {\tt HACSim} will tend to return estimates (\textit{N}*) equal to, or too close to, the initial guess ($N$) for sampling sufficiency. To avoid such behaviour, typically {\tt perms} is set to 10000 or higher, but this strongly affects algorithm runtime since more candidate solutions in the search space need to be enumerated \cite{phillips2020hacsim}. Even with a permutation size of 10000, only $\frac{10000}{10^{100}} = 10^{-94}\%$ of the entire search space for the example above is actively explored.
+
+\vspace{5mm}
+
+While there are $|S| = (H^*)^N$ possible orderings (or resamples) of all observed species' haplotypes to each collected specimen, a number of such orderings are equivalent, and thus redundant, under the exchangeability property of random variables \cite{chernick2011bootstrap}. That is, given two sequences of random variables having the exact same elements in common, their joint probability distribution is unchanged whenever elements in either sequence are reordered.  Hence, here, ordering of haplotypes to individual specimens is irrelevant, and, without proof (though easily proved with a direct algebraic proof, a combinatorial proof or mathematical induction; see \textbf{Appendix D} for details), the search space is considerably reduced to a size of
+
+\begin{equation}
+|S| = \multichoose{H^*}{N} = {{N + H^* - 1}\choose{N}} = {{N + H^* - 1}\choose{H^* - 1}} = \frac{(N + H^* - 1)!}{N!(H^* - 1)!}
+\end{equation}
+
+\noindent where $n! = \prod_{i=1}^n{i}$ ($n!$ read as ``$n$ factorial") expresses the number of permutations of $n$ distinct objects, and ${n}\choose{k}$ = $\frac{n!}{k!(n-k)!}$ is the binomial coefficient, denoting the number of ways to select $k$ unique objects from a total of $n$ \textit{without} replacement, neglecting the order in which objects are sampled. The quantity $\multichoose{k}{n}$ (read as ``$k$ multichoose $n$") represents the number of $n$-element multisets on a $k$-element set. Equation (4.5) above expresses the total number of ways to assign $N$ indistinguishable specimens to \textit{H}* distinguishable haplotypes \textit{with} replacement when the order in which haplotypes are drawn is unimportant. Such a scheme closely mirrors a classic urn sampling process seen in population genetics \\ (specifically, Coalescent theory \cite{kingman1982coalescent}) whereby distinctly-coloured marbles (or another similar entity such as balls) representing individual alleles are picked at random one at a time from one or several identical urns. The probability of attaining the global optimum within the reduced space is now
+
+\begin{equation}
+P(G) = \frac{1}{\multichoose{H^*}{N}} = \frac{1}{{{N + H^* - 1}\choose{N}}} = \frac{1}{{{N + H^* - 1}\choose{H^* - 1}}} = \frac{N!(H^* - 1)!}{(N + H^* - 1)!}
+\end{equation}
+
+\noindent Here, employing the same example discussed previously, the search space now comprises only $|S| = \multichoose{10}{100} = {{100 + 10 - 1}\choose{100}} = {{100 + 10 - 1}\choose{10 - 1}} = 4.26 \times 10^{12}$ possible solutions, and thus the probability of locating the global optimum is significantly higher at \\ $P(G) = 2.35 \times 10^{-13}$. Hence, given a permutation size of 10000, approximately \\ $2.35 \times 10^{-7}\%$ of the search space is systematically explored. Yet, for most real species, the reduced search space is still far too large to blindly explore; that is, random specimen sampling is no longer a feasible option.
+
+
+
+
+The KW test extends the Mann-Whitney $U$ test (also known as the Wilcoxan Rank Sum test) to more than two groups. The $U$ test is the nonparametric version of the \\ two-independent-samples $t$ test. Performing successive pairwise $t$-tests on three or more groups is problematic. See the following paragraphs for more information. 
+
+
+
+A brief discussion here of the problem of testing multiple statistical inferences \\ simultaneously is necessary. The issue at hand is that such a procedure will tend to inflate the Family-wise Error Rate (FWER). The FWER corresponds the Type I error rate, that is, the probability of rejecting the null hypothesis of no significant difference between groups when one in fact exists, given the null hypothesis is true, can be quite high. Because one of the present goals of this study is to assess significance at the 5\% level ($\alpha$ = 0.05, 95\% confidence) for $n$ = 6 distinct pairwise comparisons, the probability of committing a Type I error is FWER = $1 - (1 - \alpha)^n = 1 - (1-0.05)^6 \approx 0.265$. The FWER increases with larger values of $\alpha$ (smaller confidence levels). Fortunately, various methods have been proposed for controlling the FWER.
+
+Herein, the Bonferroni correction is employed to minimize the risk of falsely rejecting a true null hypothesis. While conservative, Bonferroni's procedure is still quite popular due to its inherent simplicity when addressing the multiple comparisons problem. The procedure works by rejecting all hypotheses with $p$-values less than or equal to $\frac{\alpha}{n}$. Thus, for $\alpha$ = 0.05 with six comparisons, the null would be rejected whenever $p \leq \frac{0.05}{6} \approx 0.0083$. Employing a $p$-value cutoff of 0.83\% leads to a reduction in the Type I error rate of approximately 4.9\%.
+
+
+
+Another area worth exploring further is relaxing the assumption of panmixia within species. Most models in population genetics necessarily assume \textit{a priori} that species are panmictic across their entire geologic/ecologic range. This is obviously not an ideal scenario since in many cases, this assumption will not hold for many taxa. For example, genetic diversity within North American freshwater fishes, in contrast to marine species which tend to exhibit large dispersal abilities, exists in small localized patches consistent with glacial recession during the Pleistocene. As a result, subsequent colonization of refugia ensued, leading to high levels of cryptic speciation. Initially, Phillips \textit{et al.} \cite{phillips2019incomplete} envisaged a haplotype sampling model that would be able to accomodate elements of population structuring that are more apparent in real species. However, incorporation of such phenomena would be challenging to implement within the current local optimization \\ framework for two reasons. First, accurate estimation of population genetic parameters such as deme number and migration rates that are central to well-known models like Wright's island model \cite{wright1951genetical} and Kimura's stepping stone model \cite{kimura1964stepping} would prove difficult for most taxa without reliance on external software outside of R. The authors of {\tt HACSim} and its associated publication \cite{phillips2020hacsim} wished to develop a stand-alone R package that would make users' lives as stress-free as possible. This was partially achieved through {\tt HACSim}'s reliance on just one tuning parameter --- {\tt perms}, something that is rare in most other stochastic methods like evolutionary algorithms. Given that so much more is still to be investigated regarding {\tt HACSim}, introducing new functionality is easier said than done. Additionally, such capability would require further code optimization to ensure reasonable runtimes. Many stochastic optimization algorithms applied to large problems are \\ notoriously slow due to the size of the search space that needs to be explored. Due to the nature of the genetic specimen sample size problem, any proposed approach for estimating sample sizes needs to be fast and reliable. {\tt HACSim} seems to fit this requirement, at least for reasonably large values of $N$ and \textit{H}*.
+
+
+
+Yet a further aspect in need of future investigation concerns the {\tt HACSim} simulation study design itself. While the current simulation study was employed to test rigorousness of specimen sample sizes (\textit{N}*) proposed by {\tt HACSim}, it would be interesting to assess levels of current genetic diversity presently found in genomic sequence databases like BOLD. Theoretically, the proportion of haplotypes sampled from first iteration of a given run of {\tt HACSim} for a real species of interest would aid in accomplishing this goal. A path forward could entail successively drawing random subsamples of a given size from the population array generated by {\tt HACSim}. Unfortunately, such a scheme would likely involve many design considerations when it comes to algorithm tuning. Choosing an appropriate subsample size that leads to stable results is not obvious task, especially to biodiversity scientists inexperienced in parameter selection.   
+
+
+
+A noteworthy extension of {\tt HACSim} involves the simulation of DNA sequences \\ according to various models of nucleotide substitution. Such a function would allow users to provide the number of DNA sequences to simulate, the number of unique species' haplotypes, the basepair alignment length, the haplotype frequency distribution, the \\ nucleotide frequency distribution, the appropriate codon table to utilize, the desired DNA substitution model and the overall mutation rates. Such a capability would add an additional layer of biological realism on top of existing features offered by {\tt HACSim}.
+
+
+One element not explored in detail here is the potential effect of {\tt perms} on outputted results of {\tt HACSim}. Since computation time grows directly with permutation size, for large taxon datasets, that would otherwise take several hours to run, users can simply reduce {\tt perms} to a lower number, with the added caveat that obtained estimates will be much more variable (and hence, not as trusting) across runs. As a result, noisiness apparent in algorithm estimates and the generated species' haplotype accumulation curves can thus be attributed to ineffective traversal of the solution search space.
+
+
+Because researchers will most likely be more interested in simulating haplotype \\ accumulation curves for real species based on existing barcode data retrieved from \\ databases like BOLD, as opposed to hypothetical species, it becomes essential to further automate {\tt HACSim} for this task. Due to its iterative nature, parallelization \textit{within} a given run of {\tt HACSim} is likely to be challenging without switching entirely to a more powerful or efficient programming language like C++ or Julia; however, speeding up computations \textit{among} runs is a trivial fix. This becomes especially critical if and when sample size estimation is needed for species with very large numbers of representatives. For instance, within BOLD, humans (\textit{Homo sapiens}) comprise over 48000 barcode sequence records as of March 24, 2021, despite the majority originating from GenBank. 
+
+A key assumption of {\tt HACSim} is that it requires a good representation of within-species haplotype variation. As a result, {\tt HACSim} works best for already well-sampled species lineages. Any attempt to employ {\tt HACSim} on species with small numbers of specimens would likely lead to biases in outputted estimates of sample size and the proportion of recovered standing haplotype diversity.  This is clearly a necessary step since most DNA sequence data within BOLD originate from only a handful of \\ specimens.
+
+
+Next steps should be devoted to employing {\tt HACSim} on non-barcode genes such those for plants \\ (rbcL/matK) and fungi (ITS), provided existing reference sequence libraries are mature enough.
+
+
+Appendix
+
+\chapter{Proof of {\tt HACSim}'s Search Space Size (Equation (4.5))}
+
+{\tt HACSim} has a large and rich search space which is given by
+
+\begin{equation}
+|S| = \multichoose{H^*}{N} = {{N + H^* - 1}\choose{N}} = {{N + H^* - 1}\choose{H^* - 1}} = \frac{(N + H^* - 1)!}{N!(H^* - 1)!}.
+\end{equation}
+
+\noindent The above result can be proved in a number of ways, which are shown below.
+
+\section{Direct Algebraic Proof}
+
+Here, it simply remains to be shown that the two binomial coefficients given above are equal. 
+
+\vspace{5mm}
+
+\begin{align*}
+\binom{N + H^* - 1}{N} &= \binom{N + H^* - 1}{H^* - 1} \\
+\frac{(N + H^* - 1)!}{N!(H^* - 1)!} &= \frac{(N + H^* - 1)!}{(H^* - 1)!N!}  
+\end{align*} 
+
+Hence, the original statement is proved. $\blacksquare$ 
+
+
+
+\section{Combinatorial Proof}
+
+The goal is to enumerate the number of ways to assign \textit{H}* haplotypes to $N$ specimens via a combinatorial argument. The result can be proven using the ``Stars and Bars" counting technique. Clearly, $N \geq$ \textit{H}*, with both $N$, \textit{H}* $\geq$ 2 and specimens can share haplotypes.
+
+\vspace{5mm} 
+
+Here, each specimen is represented by a star (or other similar shape). It is now necessary to partition specimens into distinct haplotypes. To do so requires $H^* - 1$ bars (or dividers). 
+
+\vspace{5mm}
+
+The proof is best motivated with an example.
+
+\vspace{5mm}
+
+Suppose there are $N$ = 5 individuals represented by \textit{H}* = 5 haplotypes and that species' haplotypes are distributed uniformly such that each occurs with a frequency of \\ $\frac{1}{5}$ = 20\%. A possible permutation for this scenario is (2, 1, 1, 5, 2). Its ordered permutation is given by (1, 1, 2, 2, 5), which has the following stars-and-bars arrangement:
+
+\begin{center}
+$* * \mid * * \mid \mid \mid *$.
+\end{center}
+
+\noindent Above, there are a total of $N$ stars from which to place the $H^* - 1$ bars, giving $N + H^* - 1 = 9$ total symbols. Placement can be done in ${N + H^* - 1}\choose{H^* - 1}$ = ${9}\choose{4}$ = 126 ways. Due to the symmetry of binomial coefficients, using the elementary fact that ${n}\choose{k}$ = ${n}\choose{n-k}$, alternatively, this can be thought of as the number of ways to arrange $N$ stars among the $N + H^* - 1$ positions, hence ${N + H^* - 1}\choose{N}$ = ${9}\choose{5}$ = 126. $\blacksquare$ 
+
+\section{Proof by Mathematical Induction}
+
+Mathematical induction proceeds in three steps. First, the statement $P(n)$ to be proved is shown to be true for some base case $n$, where $n$ is a natural number. Then, it is assumed that the statement holds true for some $n$ = $k$, that is $P(n)$ = $P(k)$ (the inductive hypothesis). Third, it remains to be demonstrated that the statement is also valid for some $n$ = $k+1$, \textit{i.e.}, $P(n)$ = $P(k+1)$ (the inductive step).
+
+\vspace{5mm}
+
+For the present problem, the base case establishes truth for $n$ = $k$ = 2, since it is required that both $N$ and \textit{H}* must be greater than or equal to two. Let $n$ = $N$ and $k$ = \textit{H}*, Thus, it follows that
+
+\begin{align*}
+\binom{2 + 2 - 1}{2 - 1} &= \binom{2 + 2 - 1}{2} \\
+\binom{3}{1} &= \binom{3}{2} \\
+\frac{3!}{1!(3-1)!} &= \frac{3!}{2!(3-2)!} \\
+\frac{3!}{1!2!} &= \frac{3!}{2!1!} \\
+3 &= 3
+\end{align*}
+
+\noindent and the base case is proven.
+
+\vspace{5mm}
+
+Next, assuming $N$ = \textit{H}* holds,  $N$ = \textit{H}* + 1 immediately follows
+
+\begin{align*}
+\binom{(H^* + 1) + H^* - 1}{H^* - 1} &= \binom{(H^* + 1) + H^* - 1}{H^* + 1} \\
+\binom{2H^*}{H^* - 1} &= \binom{2H^*}{H^* + 1} \\
+\frac{(2H^*)!}{(H^* - 1)!(2H^* - (H^* - 1))!} &= \frac{(2H^*)!}{(H^* + 1)!(2H^* - (H^* + 1))!} \\
+\frac{(2H^*)!}{(H^* - 1)!(H^* + 1)!} &= \frac{(2H^*)!}{(H^* + 1)!(H^* - 1)!} \\
+\end{align*}
+
+\noindent and the induction step is thus also proven.
+
+\vspace{5mm}  
+
+Together the basis step and induction step prove the original claim. $\blacksquare$ 
+
+% more sections
