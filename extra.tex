@@ -1,7 +1,275 @@
+Chapter 2
+
+\subsection{Consideration of Species' Life Histories}
+
+Life history traits, particularly those pertaining to reproductive strategies and sex \\ determination, in well-studied metazoan taxa such as fishes, insects and herpetofauna, are presumed to play a significant role in observed patterns of mtDNA barcode sequence variation at the species level. For instance, the high occurrence of haplodiploidy, a mode of inheritance whereby females develop from fertilized eggs (hence are diploid), while males arise from unfertilized eggs (therefore are haploid), is common across many insect orders such as Hymenoptera, and may explain the large abundances and varying (effective) population sizes seen in representative species that ultimately drives speciation and \\ hybridization \cite{hebert2016counting}. Similar ``exceptions to the rule", such as (asexual) modes of \\ parthenogenesis (\textit{e.g.}, unfertilized eggs producing female-only offspring in Squamata such as species of whiptail lizards), or paternal/biparental organelle inheritance in bivalve \\ molluscs (\textit{e.g.}, mussels of the genus \textit{Mytilus}), will likely help inform researchers on the required level of sampling depth needed to fully characterize broad ranges of COI haplotype diversity in taxa that do not otherwise conform to traditional mtDNA inheritance patterning (\textit{i.e.}, strictly maternal lineage), and thus prevent the na\"ive implementation of \\ recommendations of any one statistical approach employed in the calculation of \\ intraspecific sample sizes for accurate specimen assignment and rapid species delineation. As an example, because parthenogenetic species display lower standing genetic diversity compared to fully sexually-reproducing species (as a result of being exact clones of their parent due to lack of chromosomal recombination) \cite{bengtsson2003genetic}, haplotype frequencies aside, the observation of the faster approach of haplotype accumulation curves to an asymptote is expected. Thus, species exhibiting such mechanisms will require reduced levels of \\ sampling effort. Such a result can be invoked through consideration of Muller's ratchet, as the irreparable accumulation of deleterious mutations that are fixed by genetic drift within asexual genomes directly limits the ability of a species to survive and reproduce \cite{felenstein1974evolutionary, muller1964relation}. 
+
+
+\section{Case Study: Phillips \textit{et al.} (2015)}
+
+Phillips \textit{et al.} \cite{phillips2015exploration} wished to estimate \textit{sampling sufficiency} ($\theta$) \textemdash \hspace{1mm} the sample size at which accuracy is maximized and above which no additional sampling information is likely to be gained. This was applied in the context of haplotype accumulation curves to determine the point on the \textit{x}-axis where curve saturation first becomes evident. If such an estimate exists, it would provide a useful stopping rule for specimen sampling \cite{phillips2015exploration}. That is, if a lower bound for specimen sample size exists, then it would provide the best estimate of sampling sufficiency for a given species.
+
+
+
+\subsection{Model Assumptions}
+
+In developing their sampling model, Phillips \textit{et al.} \cite{phillips2015exploration} made several important \\ assumptions, which together form a baseline ``perfect-world" scenario for further \\ exploration of specimen/haplotype sampling. These are:
+
+\begin{itemize}
+
+\item that specimen sampling is carried out randomly and without replacement from an infinitely large, panmictic population with constant size
+
+\vspace{1mm}
+
+\item that species haplotypes are both biologically real and unique; and
+
+\vspace{1mm}
+
+\item that species haplotypes occur with equal frequency.
+
+\end{itemize}
+
+
+
+In the first assumption, the contribution of genetic drift is presumed to be negligible and it is assumed that population structure is absent. Luo \textit{et al.} \cite{luo2015simulation} presumed a constant population size, as well as an absence of natural selection, when calculating intraspecific sample sizes for their simulation study. The argument was that a limited number of \\ individuals would be available in species populations undergoing contraction and that \\ coalescence may not be evident. With regard to the second assumption, DNA barcodes are presumed to be of sufficiently high quality such that they are free of both ambiguous and missing nucleotide bases, which can lead to overestimation of observed and total haplotype numbers through creating artificial haplotype variation within species \cite{athey2013assessing, dasmahapatra2010mitochondrial, phillips2015exploration, stoeckle2012frequency, stoeckle2014dna}.
+
+
+
+Assumptions 1 and 3 were employed by Dixon \cite{dixon2006means} in proposing a method to assess the extent of haplotype sampling completeness utilizing a Bayesian statistical framework based on the use of Stirling numbers. It was noted that the probability of all haplotypes being observed for a species becomes less accurate if the assumptions of random sampling and equal haplotype frequencies are not met and that the presence of rare species haplotypes will lead to overestimation of overall sampling completeness. Similarly, Phillips \textit{et al}. \cite{phillips2015exploration} hypothesized that the presence of rare haplotypes within species will lead to inflation of total sample sizes. Further, as noted by Dixon \cite{dixon2006means}, evolutionary mechanisms such as isolation-by-distance, which describes the variation in genetic composition of species populations with increasing geographic distance, will likely cause the true extent of \\ sampling effort to be overestimated. In exploring coalescent simulations, Luo \textit{et al}. \cite{luo2015simulation} treated barcode sequences as panmictic. In this way, all specimens can be regarded as being sampled from a single geographic region. Such an assumption is not uncommon within DNA barcoding studies, which are often geographically-focused \cite{collins2013seven}. While Luo \textit{et al}. \cite{luo2015simulation} did not consider spatial heterogeneity within their simulation study, it was proposed that stratified sampling, where individuals are repetitively sampled without replacement from a pre-selected number of strata, can be employed, with the added assumption that gene flow can largely be ignored.
+
+
+
+\subsection{Mathematical Details}
+
+Phillips \textit{et al.} \cite{phillips2015exploration} derived a simple Method of Moments \cite{pearson1894contributions} estimator to predict adequate specimen sample sizes necessary to uncover the majority of cytochrome \textit{c} oxidase subunit I (COI) DNA barcode haplotype diversity existing within animal species according to the equation 
+
+\begin{equation}
+N\mbox{*} = \ceil*{\frac{NH\mbox{*}}{H}}.
+\label{eqn}
+\end{equation}
+
+
+
+Above, \textit{N}* is considered an estimate of $\theta$, the true sampling sufficiency, which, under the Frequentist statistical paradigm, is a fixed but unknown parameter. The quantity $\ceil*{\frac{N}{H}}$ is the number of specimens represented by each haplotype ($\ceil{x}$ is the ceiling function applied to a number $x$, evaluated by rounding up to the nearest integer). Since haplotypes are assumed to be sampled with equal frequency from a species population, in a sample of \\ \textit{N} = 100 sequences comprising \textit{H} = 10 distinct haplotypes, it is expected that each haplotype is represented by 10 specimens \cite{phillips2015exploration}. \textit{H}* is found using the equation
+
+\begin{equation}
+H\mbox{*}=\sum_{i=1}^H i = \frac{H(H+1)}{2}
+\label{eqn}
+\end{equation}
+
+\vspace{1mm}
+
+\noindent where \textit{N} is the number of DNA sequences observed for a given species, \textit{H} is the number of observed haplotypes and \textit{H}* is the estimated total number of haplotypes (both observed and unobserved) for a species. The above estimator is similar to estimators of total species richness used widely in ecological settings (\textit{e.g}, the Chao1 estimator of abundance \cite{chao1984nonparametric}). The central idea around the above estimator is that the majority of haplotypes within a species are rare, being represented by only one (singleton) individual. Thus, once such haplotypes have been accounted for in a species sample, few additional unduplicated \\ haplotypes are likely to be observed, since the majority of remaining haplotypes will be dominant (duplicates) in the population (\textit{i.e.} being represented by two or more specimens); thus, species comprising many singleton haplotypes should be expected to require larger sample sizes to capture most of the existing genetic variation for a given species of interest \cite{phillips2015exploration, williams2016early}.
+
+
+  
+Phillips \textit{et al.} \cite{phillips2015exploration} also proposed both absolute and relative ``measures of sampling closeness'' to quantify the extent of specimen and haplotype sampling effort. These \\ quantities are as follows:
+
+\begin{itemize}
+
+\item Mean number of haplotypes sampled: $H$
+
+\vspace{1mm}
+
+\item Mean number of haplotypes not sampled: \textit{H}* $-$ \textit{H}
+
+\vspace{1mm}
+
+\item Proportion of haplotypes sampled: $\dfrac{H}{H^*}$
+
+\vspace{1mm}
+
+\item Proportion of haplotypes not sampled: $\dfrac{H^*-H}{H^*}$
+
+\vspace{1mm}
+
+\item Mean number of individuals not sampled: \textit{N}* $-$ \textit{N}
+
+\end{itemize}
+
+\vspace{1mm}
+
+\noindent The above equations, which are central to Phillips \textit{et al}.'s \cite{phillips2015exploration} sampling model, can be depicted graphically as follows (\textbf{Figure 2.2}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{Graph}
+\caption[Visualization of Phillips \textit{et al.}'s \cite{phillips2015exploration} sampling model.]{Graphical depiction of Phillips \textit{et al.}'s \cite{phillips2015exploration} sampling model as described in detail within the main text. The \textit{x}-axis is meant to depict the number of specimens sampled, whereas the \textit{y}-axis is meant to convey the cumulative number of unique haplotypes uncovered for every additional individual that is randomly sampled. $N$ and $H$ refer to specimen and haplotype numbers that are observed for a given species. \textit{N}* is the total sample size that is needed to capture all \textit{H}* haplotypes that exist for a species.}
+\end{figure}
+
+
+\noindent \textbf{Figure 2.2} resembles the general shape of a saturated haplotype accumulation curve for a hypothetically well-sampled species. The point labelled ($N$, $H$) on the curve reflects the current level of sampling effort that has been expended for a given species (\textit{i.e.}, as found in BOLD). The goal is to extrapolate the curve to the point ($N^*$, $H^*$) to observe the value on the \textit{x}-axis (\textit{i.e., N}*) at which levelling off toward an asymptote (on the \textit{y}-axis) first becomes evident (\textit{i.e.}, at the value of \textit{H}*). Here, $N^*-N$ is the number of additional specimens that must be randomly sampled to observe $H^*-H$ additional haplotypes for a given species. If $H$ is equal to \textit{H}*, then \textit{N}* will be equal to $N$, and no further sampling is necessary; otherwise, if $H$ is less than \textit{H}*, then \textit{N}* will be greater than $N$, and additional sampling will be required.  The curve in \textbf{Figure 2.2} passes through the point (1, 1), which is due to the fact that the sampling of a single individual of a given species corresponds to observing one unique haplotype for that species.
+
+
+
+\subsection{Application to Ray-finned Fishes}
+
+Phillips \textit{et al.} \cite{phillips2015exploration} investigated levels of existing COI haplotype variation in 18 species of ray-finned fishes (Chordata: Actinopterygii) represented by a minimum of 60 individuals in accordance with Grewe \textit{et al.} \cite{grewe1993mitochondrial}. Results showed that 147-5379 specimens likely must be randomly sampled to uncover all predicted haplotype diversity in the selected species (between 3-528 total haplotypes) \cite{phillips2015exploration}. Sample size estimates obtained by Phillips \textit{et al.} \cite{phillips2015exploration} are comparable in magnitude to those of Zhang \textit{et al.} \cite{zhang2010estimating}, but not in the case of Luo \textit{et al.} \cite{luo2015simulation}, which are closer to practical sample sizes for DNA barcoding. Further, haplotype accumulation curves displayed evidence of reaching an asymptote for only 3/18 examined species: Chinook salmon (\textit{Oncorhynchus tshawytscha}), Rockfish (\textit{Sebastes} sp.) and Siamese fighting fish (\textit{Betta splendens}) based on significance testing of curve slopes with a one-sided \textit{t}-test using the last 10 points on the end of accumulation curves \cite{phillips2015exploration}. Of note is the haplotype accumulation curve for Chinook salmon, which appeared to show premature saturation despite only 12 out of an estimated total of 78 haplotypes being found for the species. At the time of publication of Phillips \textit{et al.}'s \cite{phillips2015exploration} study, \textit{Sebastes} sp. was linked to a single BIN. The BIN system is inherently dynamic: as more sequences are added within BOLD, specimens assigned to a single BIN may be allocated to multiple BINs or multiple existing BINs may be coalesced into a single BIN. This is especially the case as species boundaries become clearer or taxonomic revisions are made. As an example, the genus \textit{Sebastes} is a highly speciose group, thought to have undergone an adaptive radiation as recently as 8-9 million years ago \cite{steinke2009dna}. This fact could explain the low haplotype diversity observed for this species (two haplotypes across 98 individuals). Such findings may be due to the underlying assumptions of the model, which are likely to be over-simplistic, particularly that of equality of intraspecific haplotype frequencies. Further, the proposed estimator for the calculation of total haplotype diversity (\textit{H}*) (Equation 6) may be a gross overestimate. Despite not being realistic for populations of real species, the reason for adopting a uniform distribution of haplotypes was due to mathematical convenience, to make calculations of sample size as simple and as straightforward as possible. This is commonly done in practice, since determining the true distribution of species haplotypes is likely strongly dependent on species under study. Thus, values of \textit{N}* are likely overestimates of the true number of specimens that must be randomly sampled to observe most haplotype variation that exists for a species \cite{phillips2015exploration}. Phillips \textit{et al.} \cite{phillips2015exploration} argue that the use of a limited number of points in the calculation of curve slopes may not be adequate; the authors argue that a fixed proportion of curve points should instead be used. Further, through successively targeting the last 20-15\%, 15-10\% and the last 10\% of species haplotype accumulation curves, to observe a statistically-significant change in slope values, the precise point of saturation can be localized \cite{phillips2015exploration}.
+
+
+
+Determining the precise point corresponding to haplotype accumulation curves \\ reaching an asymptote (\textit{i.e.}, having a slope near zero) is difficult. One way this can be accomplished is through employing numerical techniques, specifically iteration. Such methods work by repeatedly recycling computed values into an algorithm; that is, current values are used as starting values to the next iteration until convergence to a solution is achieved. One way this can be realized is through iterating Equation (7) along with the equations for the ``measures of sampling closeness'' proposed by Phillips \textit{et al.} \cite{phillips2015exploration}. This seems to be the most logical way forward in better ascertaining at what level specimen sampling is deemed sufficient and thus, when further collection of specimens should be ceased.
+
+\section{Future Prospects}
+
+
+This chapter explores the issue of sampling in DNA barcoding from the perspective of computational and statistical methodologies. Key sample size studies in the barcoding literature were examined in detail. A lack of consensus exists in the most appropriate number of specimens that must be targeted to uncover the majority of haplotype diversity that exists at the species level for a variety of taxa. This question is similar to the problem of calculating species divergence thresholds for taxon delimitation and is strongly dependent on species abundances, life histories and geographic coverage. To date, few studies \\ exploring sample sizes for DNA barcoding have been conducted. Existing studies (\cite{phillips2015exploration, zhang2010estimating}) appear to point to the comprehensive sampling of hundreds to thousands of specimens to capture a wide range of standing genetic variation for a given species based on \\ asymptotic behaviour of haplotype accumulation curves.
+
+
+
+To thoroughly examine the issue of determining specimen sample sizes that are \\ necessary for full assessment of COI DNA barcode haplotype sampling completeness \\ within animal species, relaxation of assumptions inherent in Phillips \textit{et al.}'s \cite{phillips2015exploration} sampling model is necessary. Specifically, subsequent approaches should investigate the following:
+
+\begin{enumerate}
+
+\item relaxing the assumption of uniformity of species haplotype frequencies;
+
+\vspace{1mm}
+
+\item loosening the assumption of panmixia within species; and,
+
+\vspace{1mm}
+
+\item testing both above assumptions in tandem.
+
+\end{enumerate}
+
+\noindent The incorporation of population structure into models of haplotype sampling is not \\ straightforward, as sampling strategies for DNA barcoding are quite variable and highly dependent on the taxa under study. Thus, this necessitates the introduction of a more spatially-explicit systematic sampling (\textit{e.g.}, phylogeographic) of species genetic variation across distinct taxon boundaries and along phenotypic gradients (\textit{i.e.}, clines). The view of DNA barcoding metaphorically as a ``molecular transect", along which a wide range of intraspecific haplotype diversity can be uncovered, is fitting. Within-species genetic variation has been limited to over-representation of deep sampling of a single or a few populations. If the ultimate goal is to account for levels of standing genetic variation with species, then constraining taxon sampling to narrow geographic regions is not ideal, as this can be considered a form of pseudo-replication. This seems to be an issue of nestedness in sampling and while some depth of sampling within a population is certainly warranted, it cannot be conflated with depth of sampling across populations within a species. In addition, future research should aim to answer the question: is there an optimal threshold for specimen sampling above which no new DNA barcode haplotype variation is likely to be observed for a species? While it should be possible to find this limit for already well-sampled taxa based on trends seen in haplotype accumulation curves, the use of haplotype accumulation curves to estimate sample sizes that are required for full \\ assessment of COI DNA barcode haplotype sampling completeness has only been tested in one previous study (Zhang \textit{et al.} \cite{zhang2010estimating}). Phillips \textit{et al.} \cite{phillips2015exploration} expanded on previous studies through proposing a simple and easily implemented method to estimate specimen sample sizes for a number of ray-finned fish species, which are among the most densely sampled to date within BOLD. Sample size optimization for the identification of animal species across wide-ranging geographic scales is key since intraspecific variation within DNA barcodes is not easy to measure, and obtaining large numbers of barcodes that reflect a wide range of intraspecific genetic divergence is sometimes challenging \cite{bertolazzi2009learning}. In addition to being able to report likely required specimen sample sizes necessary to achieve saturation in species haplotype curves, it would be ideal if DNA barcoding studies could also provide a global measure of geographic dispersion to reliably test for cases of isolation-by-distance within species. Unfortunately, no such measure yet exists in this regard, making these kinds of analyses problematic. While model estimates may not be practical, having such a framework at hand that easily allows for the calculation of lower bounds for sample size offers researchers a glimpse into the most appropriate taxon sample sizes to target, and potentially where those taxa should be sampled. More crucially, the present simulation proposed herein can be employed to best determine the proper allocation of sampling effort, time and resources \cite{hortal2005ed}. Such work finds application in studies of metabarcoding \cite{wares2015can} as well as more broadly to global climate change \cite{pfenninger2012methodological}.
+
+
+
+
+
 Chapter 3
+
+Earth is in the midst of its sixth mass extinction event and global biodiversity is \\ declining at an unprecedented rate \cite{ceballos2015accelerated}. It is therefore important that species genetic \\ diversity be catalogued and preserved. One solution to address this mounting crisis in a systematic, yet rapid way is DNA barcoding \cite{hebert2003biological}. DNA barcoding relies on variability within a small gene fragment from standardized regions of the genome to identify species, based on the fact that most species exhibit a unique array of barcode haplotypes that are more similar to each other than those of other species (\textit{e.g.}, a barcode ``gap"). In animals, the DNA barcode region corresponds to a 648 bp fragment of the 5' terminus of the cytochrome \textit{c} oxidase subunit I (COI) mitochondrial marker \cite{hebert2003biological, hebert2003barcoding}. A critical problem since the inception of DNA barcoding involves determining appropriate sample sizes necessary to capture the majority of existing intraspecific haplotype variation for major animal taxa \cite{hebert2004identification, meyer2005dna, ward2005dna}. Taxon sample sizes currently employed in practice for rapid assignment of a species name to a specimen, have ranged anywhere from 1-15 specimens per species \cite{goodall2012comparison, jin2012simple, matz2005likelihood, ross2008testing, yao2017evaluating}; however, oftentimes only 1-2 individuals are actually collected. This trend is clearly reflected within the Barcode of Life Data Systems (\href{http://www.boldsystems.org}{BOLD}) \cite{ratnasingham2007bold}, where an overwhelming number of taxa have only a single record and sequence.
+
+ 
+
+A fitting comparison to the issue of adequacy of specimen sample sizes can be made to the challenge of determining suitable taxon distance thresholds for species separation on the basis of the DNA barcode gap \cite{meyer2005dna}. It has been widely demonstrated that certain taxonomic groups, such as Lepidoptera (butterflies/moths), are able to be readily separated into distinct clusters largely reflective of species boundaries derived using morphology \cite{candek2015dna}. However, adoption of a fixed limit of 2\% difference between maximum intraspecific distance and minimum interspecific (\textit{i.e}, nearest-neighbour) divergence is infeasible across all taxa \cite{collins2013seven, hebert2003barcoding}. Species divergence thresholds should be calculated from available \\ sequence data obtained through deep sampling of taxa across their entire geographic ranges whenever possible \cite{young2017barcode}. There is a clear relationship between specimen sample sizes and observed barcoding gaps: sampling too few individuals can give the impression of taxon separation, when in fact none exists \cite{candek2015dna, dasmahapatra2010mitochondrial, hickerson2006dna, meyer2005dna, wiemers2007does}, inevitably leading to erroneous conclusions \cite{collins2013seven}. It is thus imperative that barcode gap analyses be based on adequate sample sizes to minimize the presence of false positives. Introducing greater statistical rigour into DNA barcoding appears to be the clear way forward in this respect \cite{candek2015dna, luo2015simulation, nielsen2006statistical, phillips2019incomplete}. The introduction of computational approaches for automated species delimitation such as Generalized Mixed Yule Coalescent (GMYC) \cite{fujisawa2013delimiting, monaghan2009accelerated, pons2006sequence}, Automatic Barcode Gap Discovery (ABGD) \cite{puillandre2011abgd} and Poisson Tree Processes (PTP; \cite{zhang2013general}) has greatly \\ contributed to this endeavour in the form of web servers (\href{https://species.h-its.org/gmyc/}{GMYC}, \href{http://wwwabi.snv.jussieu.fr/public/abgd/abgdweb.html}{ABGD}, \href{https://species.h-its.org/ptp/}{PTP}) and R packages (GMYC: Species' LImits by Threshold Statistics, \href{https://r-forge.r-project.org/projects/splits/}{\tt splits} \cite{ezard2017splits}).
+
+
+
+Various statistical resampling and population genetic methods, in particular coalescent simulations, for the estimation of sample sizes, have been applied to Lepidoptera (Costa Rican skipper butterflies (\textit{Astraptes fulgerator})) \cite{zhang2010estimating} and European diving beetles (\textit{Agabus bipustulatus}) \cite{bergsten2012effect}. Using Wright's equilibrium island model \cite{wright1951genetical} and Kimura's stepping stone model \cite{kimura1964stepping} under varying effective population sizes and migration rates, Zhang \textit{et al.} \cite{zhang2010estimating} found that between 156-1985 specimens per species were necessary to observe 95\% of all estimated COI variation for simulated specimens of \textit{A. fulgerator}. Conversely, real species data showed that a sample size of 250-1188 individuals is probably needed to capture the majority of COI haplotype variation existing for this species \cite{zhang2010estimating}. A subsequent investigation carried out by Bergsten \textit{et al.} \cite{bergsten2012effect} found that a random sample of 250 individuals was required to uncover 95\% COI diversity in \textit{A. bipustulatus}; whereas, a much smaller sample size of 70 specimens was necessary when geographic separation between two randomly selected individuals was maximized.
+
+ 
+
+Others have employed more general statistical approaches. Based on extensive \\ simulation experiments, through employing the Central Limit Theorem (CLT), Luo \textit{et al.} \cite{luo2015simulation} suggested that no fewer than 20 individuals per species be sampled. Conversely, using an estimator of sample size based on the Method of Moments, an approach to parameter estimation relying on the Weak Law of Large Numbers \cite{pearson1894contributions}, sample sizes ranging from 150-5400 individuals across 18 species of ray-finned fishes (Chordata: Actinopterygii) were found by Phillips \textit{et al.} \cite{phillips2015exploration}.
+
+
+
+Haplotype accumulation curves paint a picture of observed standing genetic variation that exists at the species level as a function of expended sampling effort \cite{phillips2019incomplete, phillips2015exploration}. \\ Haplotype sampling completeness can then be gauged through measuring the slope of the curve, which gives an indication of the number of new haplotypes likely to be uncovered with additional specimens collected. For instance, a haplotype accumulation curve for a hypothetical species having a slope of 0.01 suggests that only one previously unseen haplotype will be captured for every 100 individuals found. This is strong evidence that the haplotype diversity for this species has been adequately sampled. Thus, further recovery of specimens of such species provide limited returns on the time and money invested to sequence them. Trends observed from generated haplotype accumulation curves for the 18 actinopterygian species assessed by Phillips \textit{et al.} \cite{phillips2015exploration}, which were far from reaching an asymptote, corroborated the finding that the majority of intraspecific haplotypes remain largely unsampled in Actinopterygii for even the best-represented species in BOLD. \\ Estimates obtained from each of these studies stand in sharp contrast to sample sizes typically reported within DNA barcoding studies. 
+
+
 
 
 For instance, due to evidence of sampling bias in otherwise densely-sampled taxa housed in BOLD (\textit{e.g.}, Lepidoptera), D'Ercole \textit{et al}. (J. D'Ercole, 2019, unpublished data) wished to assess whether or not intraspecific haplotype variation within butterfly species remains unsampled. To test this, the authors employed {\tt HACSim} to examine sampling comprehensiveness for species comprising a large barcode reference library for North American butterflies spanning 814 species and 14623 specimens.
+
+\section{Discussion}
+
+\subsection{Initializing {\tt HACSim} and Overall Algorithm Behaviour}
+
+The overall stochastic behaviour of {\tt HACSim} is highly dependent on the number of \\ permutations used upon algorithm initialization. Provided that the value assigned to the {\tt  perms} argument is set high enough, numerical results ouputted by {\tt HACSim} will be found to be quite consistent between consecutive runs whenever all remaining parameter values remain unchanged. It is crucial that {\tt perms} not be set to too low a value to prevent the algorithm from getting stuck at local maxima and returning suboptimal solutions. This is a common situation with popular optimization algorithms such as hill-climbing. Attention therfore must be paid to avoid making generalizations based on algorithm performance and obtained simulation results \cite{spall2012stochastic}.
+
+
+
+In applying the present method to simulated species data, it is important that selected simulation parameters are adequately reflective of those observed for real species. Thus, initial sample sizes should be chosen to cover a wide range of values based on those currently observed within BOLD. Such information can be gauged through examining species lists associated with BOLD records, which are readily accessible through Linnean search queries within the Taxonomy browser.
+
+
+
+As with any iterative numerical algorithm, selecting good starting guesses for \\ initialization is key. While {\tt HACSim} is globally convergent (\textit{i.e.}, convergence is guaranteed for any value of $N \geq$ \textit{H}*), a good strategy when simulating hypothetical species is to start the algorithm by setting $N$ = \textit{H}*. In this way, the observed fraction of haplotypes found, $R$, will not exceed the desired level of haplotype recovery $p$, and therefore lead to overestimation of likely required specimen sample sizes. Setting $N$ high enough will almost surely result in $R$ exceeding $p$. Thus, arbitrarily large values of $N$ may not be biologically meaningful or practical. However, in the case of hypothetical species \\ simulation, should initial sample sizes be set too high, such that $R > p$, a straightforward workaround is to observe where the dashed horizontal line intersects the final haplotype accumulation curve (\textit{i.e.}, not the line the touches the curve endpoint). The resulting value of $N$ at this point will correspond with $p$ quite closely. This can be seen in \textbf{Fig. 5}, where an eyeball guess just over \textit{N}* = 20 individuals is necessary to recover $p$ = 95\% haplotype variation. A more reliable estimate can be obtained through examining the dataframe ``d'' outputted once the algorithm has halted (via {\tt envr\$d}). In this situation, simply look in the row corresponding to $p$\textit{H}* $\geq$ 0.95(10) $\geq$ 9.5. The required sample size is the value given in the first column ({\tt specs}). This is accomplished via the R code \\ {\tt envr\$d[which(envr\$d\$means $>=$ envr\$p * envr\$Hstar), ][1, 1]}.
+
+
+
+The novelty of {\tt HACSim} is that it offers a systematic means of estimating likely \\ specimen sample sizes required to assess intraspecific haplotype diversity for taxa within large-scale genomic databases like GenBank and BOLD. Estimates of sufficient sampling suggested by our algorithm can be employed to assess barcode coverage within existing reference sequence libraries and campaign projects found in BOLD. Because  our method is the first to estimate likely required specimen sample sizes for species of interest, it is not yet possible to compare it to other algorithms meant for this purpose. Despite this, we anticipate that {\tt HACSim} will nevertheless provide regulatory applications with an unprecedented view and greater understanding of the state of standing genetic diversity (or lack thereof) within species.    
+
+
+
+\subsection{Additional Capabilities and Extending Functionality of \tt{HACSim}}
+
+In this chapter, we illustrate the application of haplotype accumulation curves to the broad assessment of species-level genetic variation. However, {\tt HACSim} is quite flexible in that one can easily explore likely required sample sizes at higher taxonomic levels (\textit{e.g.} order, family, genus) or specific geographic regions (\textit{e.g.}, salmonids of the Great Lakes) with ease. Such applicability will undoubtedly be of interest at larger scales (\textit{i.e.}. entire genomic sequence libraries). 
+
+
+
+We foresee use of {\tt HACSim} being widespread within the DNA barcoding community. As such, improvements to existing code in terms of further optimization and algorithm runtime, as well as implementation of new methods by experienced R programmers in the space of DNA-based taxonomic identification, seems bright.
+
+
+
+Potential extensions of our algorithm include support for the exploration of genetic variation at the Barcode Index Number (BIN) level \cite{ratnasingham2013dna}, as well as high-throughput sequencing (HTS) data for metabarcoding and environmental DNA (eDNA) applications. Such capabilities are likely to be challenging to implement at this stage until robust \\ operational taxonomic unit (OTU) clustering algorithms are developed (preferably in R). One promising tool in this regard for barcoding of bulk samples of real species and mock communities of known species composition is JAMP (\textbf{J}ust \textbf{A}nother \textbf{M}etabarcoding \\ \textbf{P}ipeline) devised for use in R by Elbrecht and colleagues \cite{elbrecht2018estimating}. JAMP includes a sequence read denoising tool that can be used to obtain haplotype numbers and frequency information (\textit{H}* and {\tt probs}). However, because JAMP relies on third-party software (particularly USEARCH \cite{edgar2010search} and VSEARCH \cite{rognes2016versatile}), it cannot be integrated within {\tt HACSim} itself and will thus have to be used externally. In extending {\tt HACSim} to next-generation space, two issues arise. First, it is not immediately clear how the argument $N$, is to be handled since multiple reads could be associated with single individuals. That is, unlike in traditional Sanger-based sequencing, there is not a one-to-one correspondence between specimen and sequence \cite{adams2019beyond, wares2015can}. Second, obtaining reliable haplotype information from noisy HTS datasets is challenging without first having strict quality filtering criteria in place to \\ minimize the occurrence of rare, low-copy sequence variants which may reflect artifacts stemming from the Polymerase Chain Reaction (PCR) amplification step or sequencing process \cite{braukmann2019metabarcoding, elbrecht2018estimating, turon2019metaphylogeography}. Turning to molecular population genetics theory might be the answer \cite{adams2019beyond}. Wares and Pappalardo \cite{wares2015can} suggest three different approaches to estimating the number of specimens of a species that may have contributed to a metabarcoding sample: (1) use of prior estimates of haplotype diversity, together with observed number of haplotypes; (2) usage of Ewens' sampling formula \cite{ewens1972sampling} along with estimates of Watterson's $\theta$ (not to be confused with the $\theta$ denoting true sampling sufficency herein) \cite{watterson1975segregating}, as well as total number of sampled haplotypes; and (3) employment of an estimate of $\theta$ and the number of observed variable sites ($S$) within a multiple sequence alignment. A direct solution we propose might be to use sequencing coverage/depth (\textit{i.e.}, the number of sequence reads) as a proxy for number of individuals. The outcome of this would be an estimate of the mean/total number of sequence reads required for maximal haplotype recovery. However, the use of read count as a stand-in for number of specimens sampled would require the unrealistic assumption that all individuals (\textit{i.e.}, both alive and dead) shed DNA into their environment at equal rates. The obvious issue with extending {\tt HACSim} to handle HTS data is computing power, as such data typically consists of millions of reads spanning multiple gigabytes of computer memory.
+
+
+
+\subsection{Summary}
+
+Here, we introduced a new statistical approach to assess specimen sampling depth within species based on existing gene marker variation found in public sequence databanks such as BOLD and GenBank. {\tt HACSim} is both computationally efficient and easy to use. We show utility of our proposed algorithm through both hypothetical and real species genomic sequence data. For real species (here, lake whitefish, deer tick and scalloped hammerhead), results from {\tt HACSim} suggest that comprehensive sampling for species comprising large barcode libraries within BOLD, such as Actinopterygii, Arachnida and Elasmobranchii is far from complete. With the availability of {\tt HACSim}, appropriate \\ sampling guidelines based on the amount of potential error one is willing to tolerate can now be established. For the purpose of addressing basic questions in biodiversity science, the employment of small taxon sample sizes may be adequate; however, this is not the case for regulatory applications, where greater than 95\% coverage of intraspecific haplotype variation is needed to provide high confidence in sequence matches defensible in a court of law.
+
+     
+
+Of immediate interest is the application of our method to other ray-finned fishes, as well as other species from deeply inventoried taxonomic groups such as Elasmobranchii (\textit{e.g.} sharks), Insecta (\textit{e.g.} Lepidoptera, Culicidae (mosquitoes)), Arachnida (\textit{e.g.}, ticks) and Chiroptera (bats) that are of high conservation, medical and/or socioeconomic importance. Although we explicitly demonstrate the use of {\tt HACSim} through employing COI, it would be interesting to extend usage to other barcode markers such as the \\ ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) and maturase K \\ (matK) chloroplast genes for land plants, as well as the nuclear internal transcribed spacer (ITS) marker regions for fungi. The application of our method to non-barcode genes routinely employed in specimen identification like mitochondrial cytochrome \textit{b} (cyt\textit{b}) in birds for instance \cite{baker2009countering, lavinia2016calibrating}, nuclear rhodopsin (rho) for marine fishes \cite{hanner2011dna} or the \\ phosphoenolpyruvate carboxykinase (PEPCK) nuclear gene for bumblebees \cite{williams2015genes} is also likely to yield interesting results since sequencing numerous individuals at several different genomic markers can often reveal evolutionary patterns not otherwise seen from employing a single-gene approach (\textit{e.g.}, resolution of cryptic species or confirmation/revision of \\ established taxonomic placements) \cite{williams2015genes}. 
+
+
+
+While it is reasonable that {\tt HACSim} can be applied to genomic regions besides 5'-COI, careful consideration of varying rates of molecular evolution within rapidly-evolving gene markers and the effect on downsteam inferences is paramount, as is sequence quality. Previous work in plants (Genus: \textit{Taxus}) by Liu \textit{et al.} \cite{liu2012sampling} has found evidence of a \\ correlation between mutation rate and required specimen sampling depth: genes evolving at faster rates will likely require larger sample sizes to estimate haplotype diversity compared to slowly-evolving genomic loci. We simply focused on 5'-COI because it is by far the most widely sequenced mitochondrial locus for specimen identification, owing to its desirable biological properties as a DNA barcode for animal taxa and because it has an associated data standard to help filter out poor-quality data \cite{phillips2019incomplete}. However, it should be noted that species diagnosis using COI and other barcode markers is not without its challenges. While COI accumulates variation at an appreciable rate, certain taxonomic groups are not readily distinguished on the basis of their DNA barcodes (\textit{e.g.}, the so-called ``problem children'', such as Cnidaria, which tend to lack adequate sequence divergence \cite{bucklin2011dna}). Other taxa, like Mollusca, are known to harbour indel mutations \cite{layton2014patterns}. Introns within Fungi greatly complicate sequence alignment \cite{min2007assessing}. Thus, users of {\tt HACSim} must exercise caution in interpreting end results with other markers, particularly those which are not protein-coding.
+
+
+
+It is necessary to consider the importance of sampling sufficiency as it pertains to \\ the myriad regulatory applications of specimen identification  established using DNA \\ barcoding (\textit{e.g.}, combatting food fraud) in recent years. It since has become apparent that the success of such endeavours is complicated by the ever-evolving state of public reference sequence libraries such as those found within BOLD, in addition to the the inclusion of questionable sequences and lack of sufficent metadata for validation purposes in other genomic databases like GenBank (\textit{e.g.}, \cite{harris2003can}). Dynamic DNA-based identification systems may produce multiple conflicting hits to otherwise corresponding submissions over time. This unwanted behaviour has led to a number of regulatory agencies creating their own \textit{static} repositories populated with expertly-identified sequence records tied to known voucher specimens deemed fit-for-purpose for molecular species diagnosis and forensic compliance (\textit{e.g.} the United States Food and Drug Administration (USFDA)'s Reference Standard Sequence Library (\href{https://www.accessdata.fda.gov/scripts/fdcc/?set=seafood_barcode_data}{RSSL}) employed to identify unknown seafood samples from species of high socioeconomic value). While such a move has partially solved the problem of dynamism inherent in global sequence databases, there still remains the issue of low sample sizes that can greatly inflate the perception of barcode gaps between species. \\ Obtaining adequate representation of standing genetic variation, both within and between species, is therefore essential to mitigating false assignments using DNA barcodes. To this end, we propose the use of {\tt HACSim} to assess the degree of saturation of haplotype accumulation curves to aid regulatory scientists in rapidly and reliably projecting likely sufficient specimen sample sizes required for accurate matching of unknown queries to known Linnean names.
+
+
+
+A defining characteristic of {\tt HACSim} is its convergence behaviour: the method \\ converges to the desired level of haplotype recovery $p$ for any initial guess $N$ specified by the user. Based on examples explored herein, it appears likely that already-sampled species within repositories like BOLD are far from being fully characterized on the basis of existing haplotype variation. In addition to this, it is important to consider the current limitations of our algorithm. We can think of only one: it must be stressed that appropriate sample size trajectories are not possible for species with only single representatives within public DNA sequence databases because haplotype accumulation is unachievable with only one DNA sequence and/or a single sampled haplotype. Hence, {\tt HACSim} can only be applied to species with at least two sampled specimens. Thus, application of our method to assess necessary sample sizes for full capture of extant haplotype variation in exceedingly rare or highly elusive taxa is not feasible. Despite this, we feel that {\tt HACSim} can greatly aid in accurate and rapid barcode library construction necessary to thoroughly appreciate the diversity of life on Earth.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Chapter 4

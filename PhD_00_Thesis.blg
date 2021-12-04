@@ -18,48 +18,47 @@ A level-1 auxiliary file: PhD_Chapter4.aux
 A level-1 auxiliary file: PhD_Chapter5.aux
 A level-1 auxiliary file: PhD_Chapter6.aux
 A level-1 auxiliary file: PhD_Appendix.aux
-Reallocated field_info (elt_size=4) to 10405 items from 5000.
 Database file #1: PhD_Bibliography.bib
 Warning--empty journal in hanner2009data
-You've used 235 entries,
+You've used 213 entries,
             2253 wiz_defined-function locations,
-            1735 strings with 47016 characters,
-and the built_in function-call counts, 82963 in all, are:
-= -- 7859
-> -- 4542
+            1631 strings with 43477 characters,
+and the built_in function-call counts, 75525 in all, are:
+= -- 7164
+> -- 4123
 < -- 0
-+ -- 1899
-- -- 1625
-* -- 7549
-:= -- 13923
-add.period$ -- 706
-call.type$ -- 235
-change.case$ -- 1497
++ -- 1724
+- -- 1475
+* -- 6881
+:= -- 12654
+add.period$ -- 640
+call.type$ -- 213
+change.case$ -- 1356
 chr.to.int$ -- 0
-cite$ -- 236
-duplicate$ -- 2163
-empty$ -- 6167
-format.name$ -- 1625
-if$ -- 16666
+cite$ -- 214
+duplicate$ -- 1965
+empty$ -- 5622
+format.name$ -- 1475
+if$ -- 15180
 int.to.chr$ -- 0
-int.to.str$ -- 235
-missing$ -- 236
-newline$ -- 1176
-num.names$ -- 476
-pop$ -- 1110
+int.to.str$ -- 213
+missing$ -- 215
+newline$ -- 1066
+num.names$ -- 432
+pop$ -- 1011
 preamble$ -- 1
-purify$ -- 1269
+purify$ -- 1150
 quote$ -- 0
-skip$ -- 1214
+skip$ -- 1100
 stack$ -- 0
-substring$ -- 5811
-swap$ -- 470
+substring$ -- 5349
+swap$ -- 427
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 926
+type$ -- 838
 warning$ -- 1
-while$ -- 757
-width$ -- 238
-write$ -- 2351
+while$ -- 689
+width$ -- 216
+write$ -- 2131
 (There was 1 error message)

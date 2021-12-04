@@ -6,13 +6,6 @@
   method to assign genes to preexisting species groups.
 \newblock {\em Systematic Biology 56}, 1 (2007), 44--56.
 
-\bibitem{adams2019beyond}
-{\sc Adams, C., Knapp, M., Gemmell, N., Jeunen, G.-J., Bunce, M., Lamare, M.,
-  and Taylor, H.}
-\newblock Beyond biodiversity: Can environmental {DNA} (e{DNA}) cut it as a
-  population genetics tool?
-\newblock {\em Genes 10}, 192 (2019), 1.
-
 \bibitem{adcock1997sample}
 {\sc Adcock, C.}
 \newblock Sample size determination: A review.
@@ -44,11 +37,6 @@
 \newblock {\em Proceedings of the National Academy of Sciences 108}, 26 (2011),
   10602--10607.
 
-\bibitem{athey2013assessing}
-{\sc Athey, T.}
-\newblock Assessing {E}rrors in {DNA} {B}arcode {S}equence {R}ecords.
-\newblock Master's thesis, University of Guelph, 2013.
-
 \bibitem{austerlitz2009dna}
 {\sc Austerlitz, F., David, O., Schaeffer, B., Bleakley, K., Olteanu, M.,
   Leblois, R., Veuille, M., and Laredo, C.}
@@ -63,12 +51,6 @@
   population genetics and systematics.
 \newblock {\em Annual Review of Ecology and Systematics 18}, 1 (1987),
   489--522.
-
-\bibitem{baker2009countering}
-{\sc Baker, A., Sendra~Tavares, E., and Elbourne, R.}
-\newblock Countering criticisms of single mitochondrial {DNA} gene barcoding in
-  birds.
-\newblock {\em Molecular Ecology Resources\/} (2009), 257--268.
 
 \bibitem{barbera2019epang}
 {\sc Barbera, P., Kozlov, A., Czech, L., Morel, B., Darriba, D., Flouri, T.,
@@ -87,21 +69,11 @@
 \newblock {DNA} barcoding mosquitoes: {A}dvice for potential prospectors.
 \newblock {\em Parasitology 145}, 5 (2018), 622--633.
 
-\bibitem{bengtsson2003genetic}
-{\sc Bengtsson, B.}
-\newblock Genetic variation in organisms with sexual and asexual reproduction.
-\newblock {\em Journal of Evolutionary Biology 16\/} (2003), 189.
-
 \bibitem{bergsten2012effect}
 {\sc Bergsten, J., Bilton, D.~T., Fujisawa, T., Elliott, M., Monaghan, M.~T.,
   Balke, M., Hendrich, L., Geijer, J., Herrmann, J., Foster, G.~N., et~al.}
 \newblock The effect of geographical scale of sampling on {DNA} barcoding.
 \newblock {\em Systematic Biology\/} (2012), sys037.
-
-\bibitem{bertolazzi2009learning}
-{\sc Bertolazzi, P., Felici, G., and Weitschek, E.}
-\newblock Learning to classify species with barcodes.
-\newblock {\em BMC Bioinformatics 10}, 14 (2009), S7.
 
 \bibitem{bevilacqua2017approach}
 {\sc Bevilacqua, S., Ugland, K.~I., Plicanti, A., Scuderi, D., and Terlizzi,
@@ -134,12 +106,6 @@
 \newblock Using population genetic theory and {DNA} sequences for species
   detection and identification in asexual organisms.
 \newblock {\em PLOS One 5}, 5 (2010), e10609.
-
-\bibitem{braukmann2019metabarcoding}
-{\sc Braukmann, T., Ivanova, N., Prosser, S., Elbrecht, V., Steinke, D.,
-  Ratnasingham, S., de~Waard, J., Sones, J., Zakharov, E., and Hebert, P.}
-\newblock Metabarcoding a diverse arthropod mock community.
-\newblock {\em Molecular Ecology Resources\/} (2019), 711--727.
 
 \bibitem{brown2012spider}
 {\sc Brown, S.~D., Collins, R.~A., Boyer, S., Lefort, M.-C., Malumbres-Olarte,
@@ -352,11 +318,6 @@
 \newblock {\em Computational Statistics and Data Analysis 71\/} (2014),
   1054--1063.
 
-\bibitem{edgar2010search}
-{\sc Edgar, R.~C.}
-\newblock Search and clustering orders of magnitude faster than {BLAST}.
-\newblock {\em Bioinformatics 26}, 19 (2010), 2460--2461.
-
 \bibitem{efron1979boot}
 {\sc Efron, B.}
 \newblock Bootstrap methods: Another look at the jackknife.
@@ -367,26 +328,10 @@
 \newblock Bootstrap confidence levels for phylogenetic trees.
 \newblock {\em PNAS 93}, 23 (1996), 13429--13434.
 
-\bibitem{elbrecht2018estimating}
-{\sc Elbrecht, V., Vamos, E.~E., Steinke, D., and Leese, F.}
-\newblock Estimating intraspecific genetic diversity from community {DNA}
-  metabarcoding data.
-\newblock {\em Peer{J} 6\/} (2018), e4644.
-
-\bibitem{ewens1972sampling}
-{\sc Ewens, W.~J.}
-\newblock The sampling theory of selectively neutral alleles.
-\newblock {\em Theoretical Population Biology 3}, 1 (1972), 87--112.
-
 \bibitem{ezard2017splits}
 {\sc Ezard, T., Fujisawa, T., and Barraclough, T.}
 \newblock {\em splits: SPecies' LImits by Threshold Statistics}, 2017.
 \newblock R package version 1.0-19/r52.
-
-\bibitem{felenstein1974evolutionary}
-{\sc Felenstein, J.}
-\newblock The evolutionary advantage of recombination.
-\newblock {\em Genetics 78}, 2 (1974), 737--756.
 
 \bibitem{felenstein1985confidence}
 {\sc Felenstein, J.}
@@ -529,11 +474,6 @@
 \newblock In {\em Seafood Authenticity and Traceability: A DNA-based
   Perspective}, A.~M. Naaum and R.~H. Hanner, Eds., 1~ed. Academic Press, 2016.
 
-\bibitem{harris2003can}
-{\sc Harris, D.~J.}
-\newblock Can you bank on {G}en{B}ank?
-\newblock {\em Trends in Ecology \& Evolution 18}, 7 (2003), 317--319.
-
 \bibitem{hart2007things}
 {\sc Hart, M.~W., and Sunday, J.}
 \newblock Things fall apart: biological species form unconnected parsimony
@@ -566,12 +506,6 @@
   among closely related species.
 \newblock {\em Proceedings of the Royal Society of London B: Biological
   Sciences 270}, Suppl 1 (2003), S96--S99.
-
-\bibitem{hebert2016counting}
-{\sc Hebert, P.~D., Ratnasingham, S., and Zakharov, E.}
-\newblock Counting animal species with dna barcodes: Canadian insects.
-\newblock {\em Philosophical Transactions of the Royal Society B 371\/} (2016),
-  20150333.
 
 \bibitem{hebert2004identification}
 {\sc Hebert, P.~D., Stoeckle, M.~Y., Zemlak, T.~S., and Francis, C.~M.}
@@ -720,17 +654,6 @@
 \newblock Does a global barcoding gap exist in {A}nnelida?
 \newblock {\em Mitochondrial {DNA} Part A\/} (2017), 2241--2252.
 
-\bibitem{lavinia2016calibrating}
-{\sc Lavinia, P., Kerr, K., Tubaro, P., Hebert, P., and Lijtmaer, D.}
-\newblock Calibrating the molecular clock beyond cytochrome b: assessing the
-  evolutionary rate of {COI} in birds.
-\newblock {\em Journal of Avian Biology 47\/} (2016), 86--91.
-
-\bibitem{layton2014patterns}
-{\sc Layton, K., Martel, A., and Hebert, P.}
-\newblock Patterns of {DNA} barcode variation in {C}anadian marine molluscs.
-\newblock {\em PLOS ONE 9}, 4 (2014), e95003.
-
 \bibitem{lee2019towards}
 {\sc Lee, T., Anderson, S., Tran-Nguyen, L., Sallam, N., Le~Ru, B., Conlong,
   D., Powell, K., Ward, A., and Mitchell, A.}
@@ -845,12 +768,6 @@
 \newblock {DNA} barcoding and the renaissance of taxonomy.
 \newblock {\em PNAS 104}, 12 (2007), 4775--4776.
 
-\bibitem{min2007assessing}
-{\sc Min, X., and Hickey, D.}
-\newblock Assessing the effect of varying sequence length on {DNA} barcoding of
-  fungi.
-\newblock {\em Molecular Ecology Notes 7\/} (2007), 365--373.
-
 \bibitem{monaghan2009accelerated}
 {\sc Monaghan, M., Wild, R., Elliot, M., et~al.}
 \newblock Accelerated species inventory on madagascar using coalescent-based
@@ -868,11 +785,6 @@
 \newblock Identifying the source of species invasions: sampling intensity vs.
   genetic diversity.
 \newblock {\em Molecular Ecology 17}, 4 (2008), 1020--1035.
-
-\bibitem{muller1964relation}
-{\sc Muller, H.}
-\newblock The relation of recombination to mutational advance.
-\newblock {\em Mutation Research 1}, 1 (1964), 2--9.
 
 \bibitem{mutanen2016species}
 {\sc Mutanen, M., Kivel{\"a}, S.~M., Vos, R.~A., Doorenweerd, C., Ratnasingham,
@@ -988,12 +900,6 @@
   identification success and unusually deep interspecific divergences.
 \newblock {\em PLOS ONE 9}, 9 (2014), e108651.
 
-\bibitem{pfenninger2012methodological}
-{\sc Pfenninger, M., B\'{a}lint, M., and Pauls, S.}
-\newblock Methodological framework for projecting the potential loss of
-  intraspecific genetic diversity due to global climate change.
-\newblock {\em BMC Evolutionary Biology 12}, 224 (2012), 1--13.
-
 \bibitem{phillips2019incomplete}
 {\sc Phillips, J.~D., Gillis, D.~J., and Hanner, R.~H.}
 \newblock Incomplete estimates of genetic diversity within species:
@@ -1064,11 +970,6 @@
   delimitation: a {B}ayesian implementation of the general mixed
   yule-coalescent model.
 \newblock {\em BMC Evolutionary Biology 12\/} (2012), 196.
-
-\bibitem{rognes2016versatile}
-{\sc Rognes, T., Flouri, T., Nichols, B., Quince, C., and Mah\'{e}, F.}
-\newblock {VSEARCH}: a versatile open source tool for metagenomics.
-\newblock {\em Peer{J} 4\/} (2016), e2584.
 
 \bibitem{rosenberg2002genealogical}
 {\sc Rosenberg, N., and Nordborg, M.}
@@ -1245,12 +1146,6 @@
   models.
 \newblock {\em Journal of Biogeography 30}, 6 (2003), 827--835.
 
-\bibitem{turon2019metaphylogeography}
-{\sc Turon, X., Antich, A., Palacin, C., Pr{\ae}bel, K., and Wangersteen, O.}
-\newblock From metabarcoding to metaphylogeography: separating the wheat from
-  the chaff.
-\newblock {\em bioRxiv\/} (2019).
-
 \bibitem{vanvelzen2012dna}
 {\sc van Velzen, R., Weitschek, E., Felici, G., and Bakker, F.}
 \newblock {DNA} barcoding of recently diverged species: {R}elative performance
@@ -1279,12 +1174,6 @@
 \newblock Moving to a world beyond ``p $\mathbf{<}$ 0.05".
 \newblock {\em The American Statistician 73}, 51 (2019), 1--19.
 
-\bibitem{watterson1975segregating}
-{\sc Watterson, G.}
-\newblock On the number of segregating sites in genetical models without
-  recombination.
-\newblock {\em Theoretical Population Biology 7}, 2 (1975), 256--276.
-
 \bibitem{wickham2016ggplot2}
 {\sc Wickham, H.}
 \newblock {\em ggplot2: Elegant Graphics for Data Analysis}.
@@ -1307,20 +1196,6 @@
 {\sc Will, K., Mishler, B., and Wheeler, Q.}
 \newblock The perils of {DNA} barcoding and the need for integrative taxonomy.
 \newblock {\em Systematic Biology 54}, 5 (2005), 844--851.
-
-\bibitem{williams2015genes}
-{\sc Williams, P., Byvaltsev, A., Cederberg, B., Berezin, M., {\O}degaard, F.,
-  Rasmussen, C., Richardson, L., Huang, J., Sheffield, C., and Williams, S.}
-\newblock Genes suggest ancestral colour polymorphisms are shared across
-  morphologically cryptic species in arctic bumblebees.
-\newblock {\em PLOS ONE 10}, 12 (2015), e0144544.
-
-\bibitem{williams2016early}
-{\sc Williams, P.~H., Huang, J., Rasmont, P., and An, J.}
-\newblock Early-diverging bumblebees from across the roof of the world: the
-  high-mountain subgenus {M}endacibombus revised from species’ gene
-  coalescents and morphology ({H}ymenoptera, {A}pidae).
-\newblock {\em Zootaxa 4204}, 1 (2016), 1--72.
 
 \bibitem{wong2009identifying}
 {\sc Wong, E. H.-K., Shivji, M.~S., and Hanner, R.~H.}
