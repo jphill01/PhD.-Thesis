@@ -75,6 +75,11 @@
 \newblock The effect of geographical scale of sampling on {DNA} barcoding.
 \newblock {\em Systematic Biology\/} (2012), sys037.
 
+\bibitem{bertolazzi2009learning}
+{\sc Bertolazzi, P., Felici, G., and Weitschek, E.}
+\newblock Learning to classify species with barcodes.
+\newblock {\em BMC Bioinformatics 10}, 14 (2009), S7.
+
 \bibitem{bevilacqua2017approach}
 {\sc Bevilacqua, S., Ugland, K.~I., Plicanti, A., Scuderi, D., and Terlizzi,
   A.}
@@ -144,13 +149,6 @@
 {\sc Casella, G., and Berger, R.}
 \newblock {\em Statistical {I}nference}.
 \newblock Duxbury Thomson Learning, 2002.
-
-\bibitem{ceballos2015accelerated}
-{\sc Ceballos, G., Ehrlich, P.~R., Barnosky, A.~D., Garc{\'\i}a, A., Pringle,
-  R.~M., and Palmer, T.~M.}
-\newblock Accelerated modern human--induced species losses: Entering the sixth
-  mass extinction.
-\newblock {\em Science Advances 1}, 5 (2015), e1400253.
 
 \bibitem{chao1984nonparametric}
 {\sc Chao, A.}
@@ -662,11 +660,6 @@
   pests.
 \newblock {\em Scientific Reports 9\/} (2019), 7039.
 
-\bibitem{leigh2015popart}
-{\sc Leigh, J.~W., and Bryant, D.}
-\newblock {POPART}: full-feature software for haplotype network construction.
-\newblock {\em Methods in Ecology and Evolution 6}, 9 (2015), 1110--1116.
-
 \bibitem{lenth2001some}
 {\sc Lenth, R.~V.}
 \newblock Some practical guidelines for effective sample size determination.
@@ -888,17 +881,17 @@
 \newblock On estimation of a probability density function and mode.
 \newblock {\em The Annals of Mathematical Statistics 33}, 3 (1962), 1065--1076.
 
-\bibitem{pearson1894contributions}
-{\sc Pearson, K.}
-\newblock Contributions to the mathematical theory of evolution.
-\newblock {\em Philosophical Transactions of the Royal Society of London. A
-  185\/} (1894), 71--110.
-
 \bibitem{pentinsaari2014barcoding}
 {\sc Pentinsaari, M., Hebert, P.~D., and Mutanen, M.}
 \newblock Barcoding beetles: a regional survey of 1872 species reveals high
   identification success and unusually deep interspecific divergences.
 \newblock {\em PLOS ONE 9}, 9 (2014), e108651.
+
+\bibitem{pfenninger2012methodological}
+{\sc Pfenninger, M., B\'{a}lint, M., and Pauls, S.}
+\newblock Methodological framework for projecting the potential loss of
+  intraspecific genetic diversity due to global climate change.
+\newblock {\em BMC Evolutionary Biology 12}, 224 (2012), 1--13.
 
 \bibitem{phillips2019incomplete}
 {\sc Phillips, J.~D., Gillis, D.~J., and Hanner, R.~H.}

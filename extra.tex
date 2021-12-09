@@ -1,4 +1,33 @@
+Chapter 1
+
+\section{Abstract}
+
+, with specific application to ray-\\finned fishes (Chordata: Actinopterygii)
+
+A case study on ray-finned fishes retrieved from the Barcode of Life Data Systems \cite{ratnasingham2007bold} clearly highlights this shortcoming, along with the need to develop approaches which incorporate more species-level \\ information. 
+
+A case study on DNA \\ barcoding of ray-finned fishes is then used to illustrate the need for new methods that incorporate more genomic information. Finally, qualities that a new method should possess are proposed. 
+
 Chapter 2
+
+\section{Haplotype Networks}
+
+, such as the one shown in \textbf{Figure 2.1}, 
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.5\textwidth]{"Network".png}
+
+\caption[Labelled haplotype network showing a skewed distribution of haplotypes for Longfin damselfish (\textit{Stegastes diencaeus}).]{Longfin damselfish (\textit{Stegastes diencaeus}) TCS \cite{templeton1992cladistic} haplotype network depicting an overall skewed distribution of observed haplotypes. Sizes of circles reflect the number of DNA sequences contained within each vertex. Tick marks indicate the number of mutational differences separating sampled haplotypes. DNA barcode sequence data used in the generation of the network were taken from supplemental material accompanying Phillips \textit{et al.} \cite{phillips2015exploration}. The software PopArt \cite{leigh2015popart} was used to create the haplotype network.}
+
+\end{figure}
+
+\section{Past Studies}}
+
+a mathematically equivalent approach to Holt \textit{et al.}'s \cite{holt2007experimental} study through utilizing
+
 
 \subsection{Consideration of Species' Life Histories}
 
@@ -9,6 +38,7 @@ Life history traits, particularly those pertaining to reproductive strategies an
 
 Phillips \textit{et al.} \cite{phillips2015exploration} wished to estimate \textit{sampling sufficiency} ($\theta$) \textemdash \hspace{1mm} the sample size at which accuracy is maximized and above which no additional sampling information is likely to be gained. This was applied in the context of haplotype accumulation curves to determine the point on the \textit{x}-axis where curve saturation first becomes evident. If such an estimate exists, it would provide a useful stopping rule for specimen sampling \cite{phillips2015exploration}. That is, if a lower bound for specimen sample size exists, then it would provide the best estimate of sampling sufficiency for a given species.
 
+ Such findings may be due to the underlying assumptions of the model, which are likely to be over-simplistic, particularly that of equality of intraspecific haplotype frequencies. Further, the proposed estimator for the calculation of total haplotype diversity (\textit{H}*) (Equation 6) may be a gross overestimate. Despite not being realistic for populations of real species, the reason for adopting a uniform distribution of haplotypes was due to mathematical convenience, to make calculations of sample size as simple and as straightforward as possible. This is commonly done in practice, since determining the true distribution of species haplotypes is likely strongly dependent on species under study. Thus, values of \textit{N}* are likely overestimates of the true number of specimens that must be randomly sampled to observe most haplotype variation that exists for a species \cite{phillips2015exploration}. Phillips \textit{et al.} \cite{phillips2015exploration} argue that the use of a limited number of points in the calculation of curve slopes may not be adequate; the authors argue that a fixed proportion of curve points should instead be used. Further, through successively targeting the last 20-15\%, 15-10\% and the last 10\% of species haplotype accumulation curves, to observe a statistically-significant change in slope values, the precise point of saturation can be localized \cite{phillips2015exploration}.
 
 
 \subsection{Model Assumptions}
@@ -136,7 +166,23 @@ To thoroughly examine the issue of determining specimen sample sizes that are \\
 \noindent The incorporation of population structure into models of haplotype sampling is not \\ straightforward, as sampling strategies for DNA barcoding are quite variable and highly dependent on the taxa under study. Thus, this necessitates the introduction of a more spatially-explicit systematic sampling (\textit{e.g.}, phylogeographic) of species genetic variation across distinct taxon boundaries and along phenotypic gradients (\textit{i.e.}, clines). The view of DNA barcoding metaphorically as a ``molecular transect", along which a wide range of intraspecific haplotype diversity can be uncovered, is fitting. Within-species genetic variation has been limited to over-representation of deep sampling of a single or a few populations. If the ultimate goal is to account for levels of standing genetic variation with species, then constraining taxon sampling to narrow geographic regions is not ideal, as this can be considered a form of pseudo-replication. This seems to be an issue of nestedness in sampling and while some depth of sampling within a population is certainly warranted, it cannot be conflated with depth of sampling across populations within a species. In addition, future research should aim to answer the question: is there an optimal threshold for specimen sampling above which no new DNA barcode haplotype variation is likely to be observed for a species? While it should be possible to find this limit for already well-sampled taxa based on trends seen in haplotype accumulation curves, the use of haplotype accumulation curves to estimate sample sizes that are required for full \\ assessment of COI DNA barcode haplotype sampling completeness has only been tested in one previous study (Zhang \textit{et al.} \cite{zhang2010estimating}). Phillips \textit{et al.} \cite{phillips2015exploration} expanded on previous studies through proposing a simple and easily implemented method to estimate specimen sample sizes for a number of ray-finned fish species, which are among the most densely sampled to date within BOLD. Sample size optimization for the identification of animal species across wide-ranging geographic scales is key since intraspecific variation within DNA barcodes is not easy to measure, and obtaining large numbers of barcodes that reflect a wide range of intraspecific genetic divergence is sometimes challenging \cite{bertolazzi2009learning}. In addition to being able to report likely required specimen sample sizes necessary to achieve saturation in species haplotype curves, it would be ideal if DNA barcoding studies could also provide a global measure of geographic dispersion to reliably test for cases of isolation-by-distance within species. Unfortunately, no such measure yet exists in this regard, making these kinds of analyses problematic. While model estimates may not be practical, having such a framework at hand that easily allows for the calculation of lower bounds for sample size offers researchers a glimpse into the most appropriate taxon sample sizes to target, and potentially where those taxa should be sampled. More crucially, the present simulation proposed herein can be employed to best determine the proper allocation of sampling effort, time and resources \cite{hortal2005ed}. Such work finds application in studies of metabarcoding \cite{wares2015can} as well as more broadly to global climate change \cite{pfenninger2012methodological}.
 
 
+To thoroughly examine the issue of determining specimen sample sizes that are \\ necessary for full assessment of COI DNA barcode haplotype sampling completeness \\ within animal species, relaxation of assumptions inherent in Phillips \textit{et al.}'s \cite{phillips2015exploration} sampling model is necessary. Specifically, subsequent approaches should investigate the following:
 
+\begin{enumerate}
+
+\item relaxing the assumption of uniformity of species haplotype frequencies;
+
+\vspace{1mm}
+
+\item loosening the assumption of panmixia within species; and,
+
+\vspace{1mm}
+
+\item testing both above assumptions in tandem.
+
+\end{enumerate}
+
+\noindent The incorporation of population structure into models of haplotype sampling is not \\ straightforward, as sampling strategies for DNA barcoding are quite variable and highly dependent on the taxa under study. Thus, this necessitates the introduction of a more spatially-explicit systematic sampling (\textit{e.g.}, phylogeographic) of species genetic variation across distinct taxon boundaries and along phenotypic gradients (\textit{i.e.}, clines). The view of DNA barcoding metaphorically as a ``molecular transect", along which a wide range of intraspecific haplotype diversity can be uncovered, is fitting. Within-species genetic variation has been limited to over-representation of deep sampling of a single or a few populations. If the ultimate goal is to account for levels of standing genetic variation with species, then constraining taxon sampling to narrow geographic regions is not ideal, as this can be considered a form of pseudo-replication. This seems to be an issue of nestedness in sampling and while some depth of sampling within a population is certainly warranted, it cannot be conflated with depth of sampling across populations within a species. In addition,
 
 
 Chapter 3
@@ -391,6 +437,10 @@ A key assumption of {\tt HACSim} is that it requires a good representation of wi
 
 
 Next steps should be devoted to employing {\tt HACSim} on non-barcode genes such those for plants \\ (rbcL/matK) and fungi (ITS), provided existing reference sequence libraries are mature enough.
+
+\section{Conclusion}
+
+using ray-finned fishes as a prime example
 
 
 Appendix
