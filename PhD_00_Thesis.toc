@@ -17,74 +17,73 @@
 \contentsline {subsubsection}{Haplotype Networks}{20}{section*.5}
 \contentsline {subsubsection}{Haplotype Accumulation Curves}{21}{section*.6}
 \contentsline {subsection}{\numberline {2.3.2}Sampling Models for Genetic Diversity Prediction}{23}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}DNA Barcoding}{25}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}The Importance of Sampling to DNA Barcoding}{27}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Key Findings}{31}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}DNA Barcoding and Sample Size: Past Studies}{31}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Application to Ray-finned Fishes}{37}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Future Prospects}{39}{section.2.5}
-\contentsline {chapter}{\numberline {3}{\tt HACSim}: An R package to estimate intraspecific sample sizes for genetic \\ diversity assessment using haplotype accumulation curves}{44}{chapter.3}
-\contentsline {section}{\numberline {3.1}Prologue}{45}{section.3.1}
-\contentsline {chapter}{Abstract}{46}{section.3.1}
-\contentsline {section}{\numberline {3.2}Introduction}{48}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Background}{48}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Motivation}{49}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Methods}{50}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Haplotype Accumulation Curve Simulation Algorithm}{50}{subsection.3.3.1}
-\contentsline {subsubsection}{Algorithm Functions}{50}{section*.10}
-\contentsline {subsubsection}{Algorithm Parameters}{53}{section*.12}
-\contentsline {subsubsection}{How Does HACSim Work?}{58}{section*.14}
-\contentsline {section}{\numberline {3.4}Results}{65}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Application of {\tt HACSim} to Hypothetical Species}{66}{subsection.3.4.1}
-\contentsline {subsubsection}{Equal Haplotype Frequencies}{66}{section*.18}
-\contentsline {subsubsection}{Unequal Haplotype Frequencies}{68}{section*.21}
-\contentsline {subsection}{\numberline {3.4.2}Application of {\tt HACSim} to Real Species}{71}{subsection.3.4.2}
-\contentsline {subsubsection}{Lake Whitefish (\textit {Coregonus clupeaformis})}{72}{section*.25}
-\contentsline {subsubsection}{Deer Tick (\textit {Ixodes scapularis})}{77}{section*.30}
-\contentsline {subsubsection}{Scalloped Hammerhead (\textit {Sphyrna lewini})}{82}{section*.35}
-\contentsline {section}{\numberline {3.5}Conclusions}{86}{section.3.5}
-\contentsline {chapter}{\numberline {4}Solving the genetic specimen sample size problem for DNA barcoding with a local search optimization algorithm}{90}{chapter.4}
-\contentsline {section}{\numberline {4.1}Prologue}{91}{section.4.1}
-\contentsline {chapter}{Abstract}{92}{section.4.1}
-\contentsline {section}{\numberline {4.2}Introduction}{94}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Background}{94}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Phillips \textit {et al.}'s (2020) Haplotype Sampling Model}{95}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Assessing the Computational and Statistical Performance of \\ {\tt HACSim}}{97}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Outline of the Current Study}{98}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Methods}{99}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Hypothetical Species}{100}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Real Species}{101}{subsection.4.3.2}
-\contentsline {subsubsection}{Pea Aphid (\textit {Acyrthosiphon pisum})}{102}{section*.43}
-\contentsline {subsubsection}{Common Mosquito (\textit {Culex pipiens})}{103}{section*.44}
-\contentsline {subsubsection}{Gypsy Moth (\textit {Lymantria dispar})}{104}{section*.45}
-\contentsline {subsection}{\numberline {4.3.3}Simulation Study}{105}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Statistical Analysis}{107}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Results and Discussion}{108}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Effect of Population Size}{108}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Algorithm Runtimes}{112}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Conclusion}{113}{section.4.5}
-\contentsline {chapter}{\numberline {5}Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{140}{chapter.5}
-\contentsline {section}{\numberline {5.1}Prologue}{141}{section.5.1}
-\contentsline {chapter}{Abstract}{142}{section.5.1}
-\contentsline {section}{\numberline {5.2}Introduction}{144}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}DNA Barcoding: Historical Development}{144}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{147}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{151}{section.5.3}
-\contentsline {section}{\numberline {5.4}Case Study: DNA Barcoding of Pacific Canada's \\ Fishes}{154}{section.5.4}
-\contentsline {section}{\numberline {5.5}Evidence for the Lack of Statistical Rigor in DNA \\ Barcoding}{157}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Improper Allocation of Specimen Sampling Effort}{158}{subsection.5.5.1}
-\contentsline {subsubsection}{Estimating Intraspecific Specimen Sample Sizes with the R Package {\tt HACSim}}{160}{section*.79}
-\contentsline {subsection}{\numberline {5.5.2}Failing to Properly Visualize Intraspecific and Interspecific \\ Genetic Distances}{162}{subsection.5.5.2}
-\contentsline {subsubsection}{Circumventing the Problem with Histograms and Dotplots for Barcode Gap Display}{162}{section*.80}
-\contentsline {subsection}{\numberline {5.5.3}Inconsistent, Inappropriate Use, or Absence of Inferential \\ Statistical Procedures in DNA Barcoding}{172}{subsection.5.5.3}
-\contentsline {subsubsection}{Framing the DNA Barcode Gap as a Statistical Hypothesis}{177}{section*.84}
-\contentsline {subsubsection}{The Use of Nonparametric Bootstrapping to Estimate the DNA Barcode Gap}{179}{section*.85}
-\contentsline {section}{\numberline {5.6}Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{182}{section.5.6}
-\contentsline {section}{\numberline {5.7}New Avenues for Estimating the DNA Barcode Gap}{186}{section.5.7}
-\contentsline {section}{\numberline {5.8}Discussion and Concluding Remarks}{190}{section.5.8}
-\contentsline {chapter}{\numberline {6}Conclusion and Future Directions}{196}{chapter.6}
-\contentsline {section}{\numberline {6.1}Thesis Summary}{196}{section.6.1}
-\contentsline {chapter}{References}{201}{chapter*.90}
-\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{219}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{220}{appendix.B}
-\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation (3.3))}{221}{appendix.C}
+\contentsline {subsection}{\numberline {2.3.3}The Importance of Sampling to DNA Barcoding}{25}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Key Findings}{30}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}DNA Barcoding and Sample Size: Past Studies}{30}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Application to Ray-finned Fishes}{36}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Future Prospects}{38}{section.2.5}
+\contentsline {chapter}{\numberline {3}{\tt HACSim}: An R package to estimate intraspecific sample sizes for genetic \\ diversity assessment using haplotype accumulation curves}{43}{chapter.3}
+\contentsline {section}{\numberline {3.1}Prologue}{44}{section.3.1}
+\contentsline {chapter}{Abstract}{45}{section.3.1}
+\contentsline {section}{\numberline {3.2}Introduction}{47}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Background}{47}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Motivation}{48}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Methods}{49}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Haplotype Accumulation Curve Simulation Algorithm}{49}{subsection.3.3.1}
+\contentsline {subsubsection}{Algorithm Functions}{49}{section*.10}
+\contentsline {subsubsection}{Algorithm Parameters}{52}{section*.12}
+\contentsline {subsubsection}{How Does HACSim Work?}{57}{section*.14}
+\contentsline {section}{\numberline {3.4}Results}{64}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Application of {\tt HACSim} to Hypothetical Species}{65}{subsection.3.4.1}
+\contentsline {subsubsection}{Equal Haplotype Frequencies}{65}{section*.18}
+\contentsline {subsubsection}{Unequal Haplotype Frequencies}{67}{section*.21}
+\contentsline {subsection}{\numberline {3.4.2}Application of {\tt HACSim} to Real Species}{70}{subsection.3.4.2}
+\contentsline {subsubsection}{Lake Whitefish (\textit {Coregonus clupeaformis})}{71}{section*.25}
+\contentsline {subsubsection}{Deer Tick (\textit {Ixodes scapularis})}{76}{section*.30}
+\contentsline {subsubsection}{Scalloped Hammerhead (\textit {Sphyrna lewini})}{81}{section*.35}
+\contentsline {section}{\numberline {3.5}Conclusions}{85}{section.3.5}
+\contentsline {chapter}{\numberline {4}Solving the genetic specimen sample size problem for DNA barcoding with a local search optimization algorithm}{89}{chapter.4}
+\contentsline {section}{\numberline {4.1}Prologue}{90}{section.4.1}
+\contentsline {chapter}{Abstract}{91}{section.4.1}
+\contentsline {section}{\numberline {4.2}Introduction}{93}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Background}{93}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Phillips \textit {et al.}'s (2020) Haplotype Sampling Model}{94}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Assessing the Computational and Statistical Performance of \\ {\tt HACSim}}{96}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Outline of the Current Study}{97}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Methods}{98}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Hypothetical Species}{99}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Real Species}{100}{subsection.4.3.2}
+\contentsline {subsubsection}{Pea Aphid (\textit {Acyrthosiphon pisum})}{101}{section*.43}
+\contentsline {subsubsection}{Common Mosquito (\textit {Culex pipiens})}{102}{section*.44}
+\contentsline {subsubsection}{Gypsy Moth (\textit {Lymantria dispar})}{103}{section*.45}
+\contentsline {subsection}{\numberline {4.3.3}Simulation Study}{104}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Statistical Analysis}{106}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Results and Discussion}{107}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Effect of Population Size}{107}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Algorithm Runtimes}{111}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Conclusion}{112}{section.4.5}
+\contentsline {chapter}{\numberline {5}Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{139}{chapter.5}
+\contentsline {section}{\numberline {5.1}Prologue}{140}{section.5.1}
+\contentsline {chapter}{Abstract}{141}{section.5.1}
+\contentsline {section}{\numberline {5.2}Introduction}{143}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}DNA Barcoding: Historical Development}{143}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{146}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{150}{section.5.3}
+\contentsline {section}{\numberline {5.4}Case Study: DNA Barcoding of Pacific Canada's \\ Fishes}{153}{section.5.4}
+\contentsline {section}{\numberline {5.5}Evidence for the Lack of Statistical Rigor in DNA \\ Barcoding}{156}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Improper Allocation of Specimen Sampling Effort}{157}{subsection.5.5.1}
+\contentsline {subsubsection}{Estimating Intraspecific Specimen Sample Sizes with the R Package {\tt HACSim}}{159}{section*.79}
+\contentsline {subsection}{\numberline {5.5.2}Failing to Properly Visualize Intraspecific and Interspecific \\ Genetic Distances}{161}{subsection.5.5.2}
+\contentsline {subsubsection}{Circumventing the Problem with Histograms and Dotplots for Barcode Gap Display}{161}{section*.80}
+\contentsline {subsection}{\numberline {5.5.3}Inconsistent, Inappropriate Use, or Absence of Inferential \\ Statistical Procedures in DNA Barcoding}{171}{subsection.5.5.3}
+\contentsline {subsubsection}{Framing the DNA Barcode Gap as a Statistical Hypothesis}{176}{section*.84}
+\contentsline {subsubsection}{The Use of Nonparametric Bootstrapping to Estimate the DNA Barcode Gap}{178}{section*.85}
+\contentsline {section}{\numberline {5.6}Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{181}{section.5.6}
+\contentsline {section}{\numberline {5.7}New Avenues for Estimating the DNA Barcode Gap}{185}{section.5.7}
+\contentsline {section}{\numberline {5.8}Discussion and Concluding Remarks}{189}{section.5.8}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Directions}{195}{chapter.6}
+\contentsline {section}{\numberline {6.1}Thesis Summary}{195}{section.6.1}
+\contentsline {chapter}{References}{200}{chapter*.90}
+\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{218}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{219}{appendix.B}
+\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation (3.3))}{220}{appendix.C}
