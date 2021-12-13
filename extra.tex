@@ -218,6 +218,459 @@ Haplotype accumulation curves paint a picture of observed standing genetic varia
 
 For instance, due to evidence of sampling bias in otherwise densely-sampled taxa housed in BOLD (\textit{e.g.}, Lepidoptera), D'Ercole \textit{et al}. (J. D'Ercole, 2019, unpublished data) wished to assess whether or not intraspecific haplotype variation within butterfly species remains unsampled. To test this, the authors employed {\tt HACSim} to examine sampling comprehensiveness for species comprising a large barcode reference library for North American butterflies spanning 814 species and 14623 specimens.
 
+\section{Results}
+
+(\textbf{Fig. 3.8}). 
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 8".png}
+
+\caption[Haplotype frequency barplot for Lake whitefish (\textit{Coregonus clupeaformis}.]{Initial haplotype frequency distribution for $N$ = 235 high-quality lake whitefish (\textit{Coregonus clupeaformis}) COI barcode sequences obtained from BOLD. This species displays a highly-skewed pattern of observed haplotype variation, with Haplotype 1 accounting for \textit{c.} 91.5\% (215/235) of all sampled records.}
+
+\end{figure}
+
+\textbf{Fig. 3.11}). 
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 11".png}
+
+\caption[Haplotype frequency distribution for Deer tick (\textit{Ixodes scapularis}).]{Initial haplotype frequency distribution for $N$ = 349 high-quality deer tick (\textit{Ixodes scapularis}) COI barcode sequences obtained from BOLD. In this species, Haplotypes 1-8 account for \textit{c.} 51.3\% (179/349) of all sampled records.}
+
+
+\end{figure}
+
+
+\textbf{Fig. 3.14}).
+
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Figure 14".png}
+
+\caption[Haplotype frequency distribution for Scalloped hammerhead (\textit{Sphyrna lewini}).]{Initial haplotype frequency distribution for $N$ = 171 high-quality scalloped hammerhead (\textit{Sphyrna lewini}) COI barcode sequences obtained from BOLD. In this species, Haplotypes 1-3 account for \textit{c.} 87.7\% (150/171) of all sampled records.}
+
+
+\end{figure}
+ 
+
+Algorithm output is shown below. 
+
+
+\vspace{3mm}
+
+\begin{figure}[H]
+
+{\scriptsize \tt
+
+\vspace{2mm}
+
+{\noindent \#\# Set parameters for hypothetical species \#\#}
+
+\vspace{1mm}
+
+{\noindent > N <- 100 \# total number of sampled individuals} \\
+{> Hstar <- 10 \# total number of haplotypes} \\
+{> probs <- rep(1/Hstar, Hstar) \# equal haplotype frequency}
+
+\vspace{2mm}
+
+{\noindent \#\#\# Run simulations \#\#\#}
+
+\vspace{1mm}
+
+{\noindent > HACSObj <- HACHypothetical(N = N, Hstar = Hstar, probs = probs) \# call helper function}
+
+\vspace{1mm}
+
+{\noindent \# set seed here if desired, e.g., set.seed(12345)} \\
+{> HAC.simrep(HACSObj)} 
+
+\noindent Simulating haplotype accumulation...
+
+\vspace{2mm}
+ 
+\noindent |==============================================================================| 100\%
+  
+\vspace{3mm}
+ 
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled:  10 \\
+Mean number of haplotypes not sampled:  0 \\
+Proportion of haplotypes sampled:  1 \\
+Proportion of haplotypes not sampled:  0
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*:  100 \\
+Mean number of specimens not sampled:  0
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has been reached 
+
+\vspace{3mm}
+
+\noindent ---------- Finished. ----------
+        
+\noindent The initial guess for sampling sufficiency was N = 100 individuals
+ 
+\noindent The algorithm converged after 1 iterations and took 3.637 s
+ 
+\noindent The estimate of sampling sufficiency for p = 95\% haplotype recovery is N* = 100 \\ individuals ( 95\% CI: 100-100 )
+ 
+\noindent The number of additional specimens required to be sampled for p = 95\% haplotype recovery \\ is N* - N = 0 individuals 
+
+}
+
+\end{figure}
+
+
+\noindent The output of {\tt HACSim} is displayed below. 
+
+\vspace{3mm}
+
+\begin{figure}[H]
+
+{\scriptsize \tt
+
+{\noindent \#\#\# Run simulations \#\#\#}
+
+\vspace{1mm}
+
+{\noindent > HACSObj <- HACReal()}
+
+\vspace{1mm}
+
+{\noindent > HAC.simrep(HACSObj)} 
+
+\vspace{1mm}
+
+\noindent Simulating haplotype accumulation...
+
+\vspace{2mm}
+ 
+\noindent |==============================================================================| 100\%
+  
+\vspace{3mm}
+ 
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 11.0705  \\
+Mean number of haplotypes not sampled: 3.9295 \\
+Proportion of haplotypes sampled: 0.7380333 \\
+Proportion of haplotypes not sampled: 0.2619667   
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 318.4138 \\
+Mean number of specimens not sampled: 83.4138
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached 
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 13.8705  \\
+Mean number of haplotypes not sampled: 1.1295 \\
+Proportion of haplotypes sampled: 0.9247 \\
+Proportion of haplotypes not sampled: 0.0753    
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 603.439 \\
+Mean number of specimens not sampled: 45.43895
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 14.3708  \\
+Mean number of haplotypes not sampled: 0.6292  \\
+Proportion of haplotypes sampled:  0.9580533  \\
+Proportion of haplotypes not sampled: 0.04194667    
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 630.4451  \\
+Mean number of specimens not sampled: 26.44507
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has been reached
+
+\vspace{2mm}
+
+\noindent ---------- Finished. ----------
+        
+\noindent The initial guess for sampling sufficiency was N = 235 individuals
+ 
+\noindent The algorithm converged after 8 iterations and took 241.235 s 
+ 
+\noindent The estimate of sampling sufficiency for p = 95\% haplotype recovery is N* = 604 \\ individuals ( 95\% CI: 601.504-606.496 )
+
+\noindent The number of additional specimens required to be sampled for p = 95\% haplotype recovery \\ is N* - N = 369 individuals
+
+}
+
+\end{figure}
+
+
+
+\noindent Simulation output of {\tt HACSim} is depicted below.
+
+\vspace{3mm}
+
+\begin{figure}[H]
+
+{\scriptsize \tt
+
+{\noindent \#\#\# Run simulations \#\#\#}
+
+\vspace{1mm}
+
+{\noindent > HACSObj <- HACReal()}
+
+\vspace{1mm}
+
+{\noindent > HAC.simrep(HACSObj)} 
+
+\vspace{1mm}
+
+\noindent Simulating haplotype accumulation...
+
+\vspace{2mm}
+ 
+\noindent |==============================================================================| 100\%
+  
+\vspace{3mm}
+ 
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 65.3514  \\
+Mean number of haplotypes not sampled: 17.6486   \\
+Proportion of haplotypes sampled: 0.7873663 \\
+Proportion of haplotypes not sampled: 0.2126337   
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 443.2499  \\
+Mean number of specimens not sampled: 94.24988
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached 
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 78.3713 \\
+Mean number of haplotypes not sampled: 4.6287  \\
+Proportion of haplotypes sampled: 0.9442325  \\
+Proportion of haplotypes not sampled: 0.05576747     
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 802.7684  \\
+Mean number of specimens not sampled: 44.76836
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 79.2147  \\
+Mean number of haplotypes not sampled: 3.7853 \\
+Proportion of haplotypes sampled: 0.954394 \\
+Proportion of haplotypes not sampled: 0.04560602  
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 841.3716 \\
+Mean number of specimens not sampled: 38.37161 
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has been reached
+
+\vspace{2mm}
+
+\noindent ---------- Finished. ----------
+        
+\noindent The initial guess for sampling sufficiency was N = 349 individuals
+ 
+\noindent The algorithm converged after 8 iterations and took 1116.468 s 
+ 
+\noindent The estimate of sampling sufficiency for p = 95\% haplotype recovery is N* = 803 \\ individuals ( 95\% CI: 801.551-804.449 )
+
+\noindent The number of additional specimens required to be sampled for p = 95\% haplotype recovery \\ is N* - N = 454 individuals
+
+}
+
+\end{figure}
+
+
+\noindent {\tt HACSim} results are displayed below.
+
+\vspace{3mm}
+
+\begin{figure}[H]
+
+{\scriptsize \tt
+
+{\noindent \#\#\# Run simulations \#\#\#}
+
+\vspace{1mm}
+
+{\noindent > HACSObj <- HACReal()}
+
+\vspace{1mm}
+
+{\noindent > HAC.simrep(HACSObj)} 
+
+\vspace{1mm}
+
+\noindent Simulating haplotype accumulation...
+
+\vspace{2mm}
+ 
+\noindent |==============================================================================| 100\%
+  
+\vspace{3mm}
+ 
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 9.9099  \\
+Mean number of haplotypes not sampled: 2.0901  \\
+Proportion of haplotypes sampled: 0.825825 \\
+Proportion of haplotypes not sampled: 0.174175     
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 207.0657  \\
+Mean number of specimens not sampled: 36.06566
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached 
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 11.3231  \\
+Mean number of haplotypes not sampled: 0.6769  \\
+Proportion of haplotypes sampled: 0.9435917  \\
+Proportion of haplotypes not sampled: 0.05640833      
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 413.3144 \\
+Mean number of specimens not sampled: 23.31438
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has not yet been reached
+
+\vspace{2mm}
+
+\noindent |==============================================================================| 100\%
+
+\vspace{3mm}
+
+\noindent --- Measures of Sampling Closeness ---
+
+\vspace{2mm} 
+ 
+\noindent Mean number of haplotypes sampled: 11.4769  \\
+Mean number of haplotypes not sampled: 0.5231  \\
+Proportion of haplotypes sampled: 0.9564083 \\
+Proportion of haplotypes not sampled: 0.04359167    
+
+\vspace{2mm} 
+ 
+\noindent Mean value of N*: 432.8695 \\
+Mean number of specimens not sampled: 18.8695 
+
+\vspace{3mm}
+ 
+\noindent Desired level of haplotype recovery has been reached
+
+\vspace{2mm}
+
+\noindent ---------- Finished. ----------
+        
+\noindent The initial guess for sampling sufficiency was N = 171 individuals
+ 
+\noindent The algorithm converged after 9 iterations and took 174.215 s 
+ 
+\noindent The estimate of sampling sufficiency for p = 95\% haplotype recovery is N* = 414 \\ individuals ( 95\% CI: 411.937-416.063 )
+
+\noindent The number of additional specimens required to be sampled for p = 95\% haplotype recovery \\ is N* - N = 243 individuals
+
+}
+
+\end{figure}
+
 \section{Discussion}
 
 \subsection{Initializing {\tt HACSim} and Overall Algorithm Behaviour}
@@ -275,8 +728,39 @@ A defining characteristic of {\tt HACSim} is its convergence behaviour: the meth
 
 
 
+\section{Chapter 4}
+
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Fig. 1".png}
+
+\caption[Initial haplotype frequency distribution for Pea aphid (\textit{Acyrthosiphon pisum}).]{Initial haplotype frequency distribution for $N$ = 356 high-quality Pea aphid (\textit{Acyrthosiphon pisum}) COI barcode sequences obtained from BOLD. This species displays a highly-skewed pattern of observed haplotype variation, Haplotype 1 accounts for \textit{c.} 96.6\% (344/356) of all sampled records.}
+
+\end{figure}
+ 
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Fig. 2".png}
+
+\caption[Initial haplotype frequency distribution for Common mosquito (\textit{Culex pipiens}).]{Initial haplotype frequency distribution for $N$ = 217 high-quality Common mosquito (\textit{Culex pipiens}) COI barcode sequences obtained from BOLD. In this species, Haplotype 1 accounts for \textit{c.} 84.3\% (183/217) of all sampled records.}
+
+\end{figure}
 
 
+\begin{figure}[H]
+
+\centering
+
+\includegraphics[width=0.80\textwidth]{"Fig. 3".png}
+
+\caption[Initial haplotype frequency distribution for Gypsy moth (\textit{Lymantria dispar}).]{Initial haplotype frequency distribution for $N$ = 365 high-quality Gypsy moth (\textit{Lymantria dispar}) COI barcode sequences obtained from BOLD. In this species, Haplotypes 1-5 account for \textit{c.} 70.4\% (257/365) of all sampled records.}
+
+
+\end{figure}
 
 
 
