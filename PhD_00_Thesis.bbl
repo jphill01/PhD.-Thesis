@@ -140,6 +140,12 @@
   morphological and geographical scales.
 \newblock {\em Molecular Ecology Resources 15}, 2 (2015), 268--277.
 
+\bibitem{cao2016rapid}
+{\sc Cao, X., Liu, J., Zheng, G., Kuntner, M., and Agnarsson, I.}
+\newblock Rapid dissemination of taxonomic discoveries based on dna barcoding
+  and morphology.
+\newblock {\em Scientific Reports 6\/} (2016), 1--13.
+
 \bibitem{carstens2013fail}
 {\sc Carstens, B., Pelletier, T., Reid, N., and Satlet, J.}
 \newblock How to fail at species delimitation.
@@ -222,6 +228,12 @@
 \newblock Mitochondrial {DNA} barcoding detects some species that are real, and
   some that are not.
 \newblock {\em Molecular Ecology Resources 10}, 2 (2010), 264--273.
+
+\bibitem{dayrat2005towards}
+{\sc Dayrat, B.}
+\newblock Towards integrative taxonomy.
+\newblock {\em Biological Journal of the Linnean Society 85}, 3 (2005),
+  407--415.
 
 \bibitem{dellicour2015delimiting}
 {\sc Dellicour, S., and Flot, J.-F.}
@@ -331,8 +343,8 @@
 \newblock {\em splits: SPecies' LImits by Threshold Statistics}, 2017.
 \newblock R package version 1.0-19/r52.
 
-\bibitem{felenstein1985confidence}
-{\sc Felenstein, J.}
+\bibitem{felsenstein1985confidence}
+{\sc Felsenstein, J.}
 \newblock Confidence {L}imits on {P}hylogenies: {A}n {A}pproach {U}sing the
   {B}ootstrap.
 \newblock {\em Evolution 39}, 4 (1985), 783--791.
@@ -520,19 +532,6 @@
 \newblock {DNA} barcoding will often fail to discover new animal species over
   broad parameter space.
 \newblock {\em Systematic Biology 55}, 5 (2006), 729--739.
-
-\bibitem{hobern2020bioscan}
-{\sc Hobern, D.}
-\newblock {BIOSCAN}: {DNA} barcoding to accelerate taxonomy and biogeography
-  for conservation and sustainability.
-\newblock {\em Genome\/} (2020), 1--4.
-
-\bibitem{hobern2019bioscan}
-{\sc Hobern, D., and Hebert, P.}
-\newblock {BIOSCAN} - revealing eukaryote diversity, dynamics, and
-  interactions.
-\newblock {\em Biodiversity Information Science and Standards 3\/} (2019),
-  e37333.
 
 \bibitem{holt2007experimental}
 {\sc Holt, J.~A., Stoneberg~Holt, S.~D., and Bure{\v{s}}, P.}
@@ -1126,12 +1125,6 @@
 \newblock Species-accumulation curves and taxonomic surrogates: an integrated
   approach for estimation of regional species richnesss.
 \newblock {\em Diversity and Distributions 20\/} (2014), 356--368.
-
-\bibitem{thomsen2015environmental}
-{\sc Thomsen, P., and Willersley, E.}
-\newblock Environmental dna ? an emerging tool in conservation for monitoring
-  past and present biodiversity.
-\newblock {\em Biological Conservation 183\/} (2015), 4--18.
 
 \bibitem{tjorve2003shapes}
 {\sc Tj{\o}rve, E.}
