@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 DEC 2021 21:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 DEC 2021 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1693,17 +1693,18 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 180.
 
 [158] [159] [160] [161] [162] [163] [164] [165] [166] [167] [168] [169]
-[170] [171] [172] [173] [174] [175] [176] [177]) [178]
+[170] [171] [172] [173] [174] [175] [176] [177]) [178] [179]
 \openout2 = `PhD_Chapter6.aux'.
 
- (./PhD_Chapter6.tex
+
+(./PhD_Chapter6.tex
 Chapter 6.
-[179
+[180
 
 
 
 
-] [180] [181] [182]) [183] (./PhD_00_Thesis.bbl
+] [181] [182] [183]) [184] (./PhD_00_Thesis.bbl
 Underfull \hbox (badness 2351) in paragraph at lines 34--39
 [][][]\OT1/ptm/m/sc/12 April, J., May-den, R. L., Han-ner, R. H., and Bernatche
 z, L.
@@ -1715,7 +1716,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 41--46
 i-ca-tion meth-ods.  \OT1/ptm/m/it/12 BMC
  []
 
-[184
+[185
 
 
 
@@ -1725,13 +1726,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--121
 [][][]\OT1/ptm/m/sc/12 Brown, S. D., Collins, R. A., Boyer, S., Lefort, M.-C.,
  []
 
-[185] [186] [187]
+[186] [187] [188]
 Underfull \hbox (badness 1210) in paragraph at lines 364--368
 [][][]\OT1/ptm/m/sc/12 Foottit, R., Maw, H., Von Dohlen, D., and Hebert, P.  \O
 T1/ptm/m/n/12 Species
  []
 
-[188] [189]
+[189] [190]
 Underfull \hbox (badness 3601) in paragraph at lines 465--470
 [][][]\OT1/ptm/m/sc/12 Hale, M. L., Burg, T. M., and Steeves, T. E.  \OT1/ptm/m
 /n/12 Sam-pling for
@@ -1743,7 +1744,7 @@ Underfull \hbox (badness 2818) in paragraph at lines 487--492
 /m/n/12 Con-clu-sion:
  []
 
-[190] [191]
+[191] [192]
 Underfull \hbox (badness 1789) in paragraph at lines 589--594
 [][][]\OT1/ptm/m/sc/12 Jin, Q., He, L.-J., and Zhang, A.-B.  \OT1/ptm/m/n/12 A 
 sim-ple 2D non-parametric
@@ -1767,7 +1768,7 @@ Underfull \hbox (badness 1902) in paragraph at lines 638--642
 ef-er-ence databases.
  []
 
-[192] [193]
+[193] [194]
 Underfull \hbox (badness 4531) in paragraph at lines 788--794
 [][][]\OT1/ptm/m/sc/12 Mutanen, M., Kivel[]a, S. M., Vos, R. A., Dooren-weerd, 
 C.,
@@ -1779,7 +1780,7 @@ Underfull \hbox (badness 2932) in paragraph at lines 788--794
 van
  []
 
-[194] [195]
+[195] [196]
 Underfull \hbox (badness 3965) in paragraph at lines 868--872
 [][][]\OT1/ptm/m/sc/12 Paradis, E.  \OT1/ptm/m/n/12 pe-gas: an R pack-age for p
 op-u-la-tion ge-net-ics with an
@@ -1791,33 +1792,33 @@ Underfull \hbox (badness 1377) in paragraph at lines 914--919
 an-ner,
  []
 
-[196] [197]
+[197] [198]
 Underfull \hbox (badness 1184) in paragraph at lines 1080--1083
 [][][]\OT1/ptm/m/sc/12 Steinke, D., and Han-ner, R.  \OT1/ptm/m/n/12 The FISH-B
 OL col-lab-o-ra-tors' pro-to-col.
  []
 
-[198]
+[199]
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
- [199] [200]
+ [200] [201]
 Underfull \hbox (badness 1152) in paragraph at lines 1256--1259
 \OT1/ptm/m/n/12 Es-ti-mat-ing sam-ple sizes for DNA bar-cod-ing.  \OT1/ptm/m/it
 /12 Molec-u-lar Phy-lo-ge-net-ics and
  []
 
-) [201]
+) [202]
 \openout2 = `PhD_Appendix.aux'.
 
  (./PhD_Appendix.tex
 Appendix A.
-[202
+[203
 
 
 
 ]
 Appendix B.
-[203
+[204
 
 ]
 Appendix C.
@@ -1843,9 +1844,9 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 20.
-[204
+[205
 
-] [205] [206]) [207]
+] [206] [207]) [208]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
  (./PhD_00_Thesis.aux (./PhD_01_TitlePage.aux)
@@ -1867,8 +1868,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 27165 strings out of 493014
- 530492 string characters out of 6133351
+ 27166 strings out of 493014
+ 530500 string characters out of 6133351
  648900 words of memory out of 5000000
  29446 multiletter control sequences out of 15000+600000
  83163 words of font info for 134 fonts, out of 8000000 for 9000
@@ -1895,10 +1896,10 @@ s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on PhD_00_Thesis.pdf (217 pages, 22039474 bytes).
+Output written on PhD_00_Thesis.pdf (218 pages, 22040051 bytes).
 PDF statistics:
- 2413 PDF objects out of 2487 (max. 8388607)
- 2080 compressed objects within 21 object streams
- 578 named destinations out of 1000 (max. 500000)
+ 2417 PDF objects out of 2487 (max. 8388607)
+ 2083 compressed objects within 21 object streams
+ 579 named destinations out of 1000 (max. 500000)
  759 words of extra memory for PDF output out of 10000 (max. 10000000)
 

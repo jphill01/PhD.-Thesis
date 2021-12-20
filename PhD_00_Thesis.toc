@@ -82,9 +82,9 @@
 \contentsline {section}{\numberline {5.6}Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{168}{section.5.6}
 \contentsline {section}{\numberline {5.7}New Avenues for Estimating the DNA Barcode Gap}{172}{section.5.7}
 \contentsline {section}{\numberline {5.8}Discussion and Concluding Remarks}{176}{section.5.8}
-\contentsline {chapter}{\numberline {6}Conclusion and Future Directions}{179}{chapter.6}
-\contentsline {section}{\numberline {6.1}Thesis Summary}{179}{section.6.1}
-\contentsline {chapter}{References}{184}{chapter*.66}
-\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{202}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{203}{appendix.B}
-\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation (3.3))}{204}{appendix.C}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Directions}{180}{chapter.6}
+\contentsline {section}{\numberline {6.1}Thesis Summary}{180}{section.6.1}
+\contentsline {chapter}{References}{185}{chapter*.66}
+\contentsline {chapter}{\numberline {A}Additional Information Accompanying Chapter 3}{203}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information Accompanying Chapter 4}{204}{appendix.B}
+\contentsline {chapter}{\numberline {C}Derivation of Approximate Confidence Interval for Sampling Sufficiency ($\theta $) \\ (Equation (3.3))}{205}{appendix.C}
