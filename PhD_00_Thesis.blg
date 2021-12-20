@@ -20,45 +20,45 @@ A level-1 auxiliary file: PhD_Chapter6.aux
 A level-1 auxiliary file: PhD_Appendix.aux
 Database file #1: PhD_Bibliography.bib
 Warning--empty journal in hanner2009data
-You've used 212 entries,
+You've used 213 entries,
             2253 wiz_defined-function locations,
-            1623 strings with 43234 characters,
-and the built_in function-call counts, 75311 in all, are:
-= -- 7134
-> -- 4136
+            1628 strings with 43429 characters,
+and the built_in function-call counts, 75664 in all, are:
+= -- 7166
+> -- 4158
 < -- 0
-+ -- 1729
-- -- 1481
-* -- 6872
-:= -- 12626
-add.period$ -- 637
-call.type$ -- 212
-change.case$ -- 1356
++ -- 1738
+- -- 1489
+* -- 6904
+:= -- 12687
+add.period$ -- 640
+call.type$ -- 213
+change.case$ -- 1363
 chr.to.int$ -- 0
-cite$ -- 213
-duplicate$ -- 1956
-empty$ -- 5590
-format.name$ -- 1481
-if$ -- 15132
+cite$ -- 214
+duplicate$ -- 1965
+empty$ -- 5615
+format.name$ -- 1489
+if$ -- 15202
 int.to.chr$ -- 0
-int.to.str$ -- 212
-missing$ -- 214
-newline$ -- 1061
-num.names$ -- 430
-pop$ -- 1013
+int.to.str$ -- 213
+missing$ -- 215
+newline$ -- 1066
+num.names$ -- 432
+pop$ -- 1018
 preamble$ -- 1
-purify$ -- 1151
+purify$ -- 1157
 quote$ -- 0
-skip$ -- 1094
+skip$ -- 1099
 stack$ -- 0
-substring$ -- 5300
-swap$ -- 425
+substring$ -- 5320
+swap$ -- 427
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 834
+type$ -- 838
 warning$ -- 1
-while$ -- 684
-width$ -- 215
-write$ -- 2121
+while$ -- 687
+width$ -- 216
+write$ -- 2131
 (There was 1 error message)

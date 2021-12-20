@@ -338,6 +338,12 @@
 \newblock Bootstrap confidence levels for phylogenetic trees.
 \newblock {\em PNAS 93}, 23 (1996), 13429--13434.
 
+\bibitem{elbrecht2018estimating}
+{\sc Elbrecht, V., Vamos, E.~E., Steinke, D., and Leese, F.}
+\newblock Estimating intraspecific genetic diversity from community {DNA}
+  metabarcoding data.
+\newblock {\em Peer{J} 6\/} (2018), e4644.
+
 \bibitem{ezard2017splits}
 {\sc Ezard, T., Fujisawa, T., and Barraclough, T.}
 \newblock {\em splits: SPecies' LImits by Threshold Statistics}, 2017.

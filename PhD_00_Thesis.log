@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 DEC 2021 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 DEC 2021 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1661,7 +1661,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 1.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 1".pdf, id=1795, 526.96875pt x 376.40625pt>
+<"Figure 1".pdf, id=1797, 526.96875pt x 376.40625pt>
 File: "Figure 1".pdf Graphic file (type pdf)
  <use "Figure 1".pdf>
 Package pdftex.def Info: "Figure 1".pdf used on input line 142.
@@ -1671,7 +1671,7 @@ Package pdftex.def Info: "Figure 1".pdf used on input line 142.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 2.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 2".pdf, id=1818, 845.50848pt x 562.49307pt>
+<"Figure 2".pdf, id=1820, 845.50848pt x 562.49307pt>
 File: "Figure 2".pdf Graphic file (type pdf)
  <use "Figure 2".pdf>
 Package pdftex.def Info: "Figure 2".pdf used on input line 155.
@@ -1681,7 +1681,7 @@ Package pdftex.def Info: "Figure 2".pdf used on input line 155.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 3.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 3".pdf, id=1837, 591.71063pt x 515.67656pt>
+<"Figure 3".pdf, id=1839, 591.71063pt x 515.67656pt>
 File: "Figure 3".pdf Graphic file (type pdf)
  <use "Figure 3".pdf>
 Package pdftex.def Info: "Figure 3".pdf used on input line 169.
@@ -1726,81 +1726,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--121
  []
 
 [185] [186] [187]
-Underfull \hbox (badness 1210) in paragraph at lines 358--362
+Underfull \hbox (badness 1210) in paragraph at lines 364--368
 [][][]\OT1/ptm/m/sc/12 Foottit, R., Maw, H., Von Dohlen, D., and Hebert, P.  \O
 T1/ptm/m/n/12 Species
  []
 
 [188] [189]
-Underfull \hbox (badness 3601) in paragraph at lines 459--464
+Underfull \hbox (badness 3601) in paragraph at lines 465--470
 [][][]\OT1/ptm/m/sc/12 Hale, M. L., Burg, T. M., and Steeves, T. E.  \OT1/ptm/m
 /n/12 Sam-pling for
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 481--486
+Underfull \hbox (badness 2818) in paragraph at lines 487--492
 [][][]\OT1/ptm/m/sc/12 Hanner, R. H., Naaum, A. M., and Shivji, M. S.  \OT1/ptm
 /m/n/12 Con-clu-sion:
  []
 
-[190]
-Underfull \hbox (badness 1789) in paragraph at lines 583--588
+[190] [191]
+Underfull \hbox (badness 1789) in paragraph at lines 589--594
 [][][]\OT1/ptm/m/sc/12 Jin, Q., He, L.-J., and Zhang, A.-B.  \OT1/ptm/m/n/12 A 
 sim-ple 2D non-parametric
  []
 
-[191]
-Underfull \hbox (badness 3601) in paragraph at lines 601--606
+
+Underfull \hbox (badness 3601) in paragraph at lines 607--612
 [][][]\OT1/ptm/m/sc/12 Kapli, P., Lut-teropp, S., Zhang, J., Kobert, K., Pavlid
 is, P.,
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 601--606
+Underfull \hbox (badness 1024) in paragraph at lines 607--612
 \OT1/ptm/m/sc/12 Sta-matakis, A., and Flouri, T.  \OT1/ptm/m/n/12 Multi-rate Po
 is-son tree pro-cesses for
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 632--636
+Underfull \hbox (badness 1902) in paragraph at lines 638--642
 \OT1/ptm/m/n/12 marker-specific ef-forts to es-tab-lish more com-pre-hen-sive r
 ef-er-ence databases.
  []
 
 [192] [193]
-Underfull \hbox (badness 4531) in paragraph at lines 782--788
+Underfull \hbox (badness 4531) in paragraph at lines 788--794
 [][][]\OT1/ptm/m/sc/12 Mutanen, M., Kivel[]a, S. M., Vos, R. A., Dooren-weerd, 
 C.,
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 782--788
+Underfull \hbox (badness 2932) in paragraph at lines 788--794
 \OT1/ptm/m/sc/12 Rat-nas-ing-ham, S., Haus-mann, A., Hue-mer, P., Dinc[]a, V., 
 van
  []
 
-[194]
-Underfull \hbox (badness 3965) in paragraph at lines 862--866
+[194] [195]
+Underfull \hbox (badness 3965) in paragraph at lines 868--872
 [][][]\OT1/ptm/m/sc/12 Paradis, E.  \OT1/ptm/m/n/12 pe-gas: an R pack-age for p
 op-u-la-tion ge-net-ics with an
  []
 
-[195]
-Underfull \hbox (badness 1377) in paragraph at lines 908--913
+
+Underfull \hbox (badness 1377) in paragraph at lines 914--919
 [][][]\OT1/ptm/m/sc/12 Phillips, J. D., Gwiaz-dowski, R. A., Ashlock, D., and H
 an-ner,
  []
 
 [196] [197]
-Underfull \hbox (badness 1184) in paragraph at lines 1074--1077
+Underfull \hbox (badness 1184) in paragraph at lines 1080--1083
 [][][]\OT1/ptm/m/sc/12 Steinke, D., and Han-ner, R.  \OT1/ptm/m/n/12 The FISH-B
 OL col-lab-o-ra-tors' pro-to-col.
  []
 
+[198]
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-[198] [199] [200]
-Underfull \hbox (badness 1152) in paragraph at lines 1250--1253
+ [199] [200]
+Underfull \hbox (badness 1152) in paragraph at lines 1256--1259
 \OT1/ptm/m/n/12 Es-ti-mat-ing sam-ple sizes for DNA bar-cod-ing.  \OT1/ptm/m/it
 /12 Molec-u-lar Phy-lo-ge-net-ics and
  []
@@ -1866,10 +1867,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 27163 strings out of 493014
- 530441 string characters out of 6133351
- 648854 words of memory out of 5000000
- 29445 multiletter control sequences out of 15000+600000
+ 27165 strings out of 493014
+ 530492 string characters out of 6133351
+ 648900 words of memory out of 5000000
+ 29446 multiletter control sequences out of 15000+600000
  83163 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,19n,92p,6775b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1894,10 +1895,10 @@ s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on PhD_00_Thesis.pdf (217 pages, 22039599 bytes).
+Output written on PhD_00_Thesis.pdf (217 pages, 22039408 bytes).
 PDF statistics:
- 2411 PDF objects out of 2487 (max. 8388607)
- 2078 compressed objects within 21 object streams
- 577 named destinations out of 1000 (max. 500000)
+ 2413 PDF objects out of 2487 (max. 8388607)
+ 2080 compressed objects within 21 object streams
+ 578 named destinations out of 1000 (max. 500000)
  759 words of extra memory for PDF output out of 10000 (max. 10000000)
 
