@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 DEC 2021 15:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 DEC 2021 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1640,22 +1640,20 @@ Chapter 5.
 
 
 ] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
-[138]
+
+LaTeX Warning: Citation `meier2008ue' on page 138 undefined on input line 68.
+
+[138] [139]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 72.
 
-[139] [140] [141]
+[140] [141] [142]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 86.
 
-[142] [143] [144] [145] [146]
-
-LaTeX Warning: Citation `deiner2017long' on page 147 undefined on input line 11
-3.
-
-[147]
+[143] [144] [145] [146] [147]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 117.
@@ -1666,7 +1664,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 1.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 1".pdf, id=1797, 526.96875pt x 376.40625pt>
+<"Figure 1".pdf, id=1800, 526.96875pt x 376.40625pt>
 File: "Figure 1".pdf Graphic file (type pdf)
  <use "Figure 1".pdf>
 Package pdftex.def Info: "Figure 1".pdf used on input line 140.
@@ -1676,7 +1674,7 @@ Package pdftex.def Info: "Figure 1".pdf used on input line 140.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 2.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 2".pdf, id=1820, 845.50848pt x 562.49307pt>
+<"Figure 2".pdf, id=1823, 845.50848pt x 562.49307pt>
 File: "Figure 2".pdf Graphic file (type pdf)
  <use "Figure 2".pdf>
 Package pdftex.def Info: "Figure 2".pdf used on input line 153.
@@ -1686,7 +1684,7 @@ Package pdftex.def Info: "Figure 2".pdf used on input line 153.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figure 3.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<"Figure 3".pdf, id=1839, 591.71063pt x 515.67656pt>
+<"Figure 3".pdf, id=1842, 591.71063pt x 515.67656pt>
 File: "Figure 3".pdf Graphic file (type pdf)
  <use "Figure 3".pdf>
 Package pdftex.def Info: "Figure 3".pdf used on input line 167.
@@ -1696,6 +1694,12 @@ Package pdftex.def Info: "Figure 3".pdf used on input line 167.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 178.
+
+
+Overfull \hbox (3.34315pt too wide) in paragraph at lines 184--185
+\OT1/ptm/m/n/12 in-ter-est such as stan-dard er-rors and con-fi-dence in-ter-va
+ls. In essence, the strong math-e-mat-i-cal|
+ []
 
 [158] [159] [160] [161] [162] [163] [164] [165] [166] [167] [168] [169]
 [170] [171] [172] [173] [174] [175] [176] [177]
@@ -1877,10 +1881,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 27168 strings out of 493014
- 530535 string characters out of 6133351
- 648900 words of memory out of 5000000
- 29447 multiletter control sequences out of 15000+600000
+ 27169 strings out of 493014
+ 530548 string characters out of 6133351
+ 648938 words of memory out of 5000000
+ 29448 multiletter control sequences out of 15000+600000
  83163 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,19n,92p,6775b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1905,10 +1909,10 @@ s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on PhD_00_Thesis.pdf (218 pages, 22040620 bytes).
+Output written on PhD_00_Thesis.pdf (218 pages, 22041046 bytes).
 PDF statistics:
- 2419 PDF objects out of 2487 (max. 8388607)
- 2085 compressed objects within 21 object streams
+ 2421 PDF objects out of 2487 (max. 8388607)
+ 2087 compressed objects within 21 object streams
  580 named destinations out of 1000 (max. 500000)
  759 words of extra memory for PDF output out of 10000 (max. 10000000)
 
