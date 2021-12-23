@@ -19,46 +19,47 @@ A level-1 auxiliary file: PhD_Chapter5.aux
 A level-1 auxiliary file: PhD_Chapter6.aux
 A level-1 auxiliary file: PhD_Appendix.aux
 Database file #1: PhD_Bibliography.bib
+Warning--I didn't find a database entry for "meier2008ue"
 Warning--empty journal in hanner2009data
-You've used 214 entries,
+You've used 216 entries,
             2253 wiz_defined-function locations,
-            1632 strings with 43614 characters,
-and the built_in function-call counts, 76120 in all, are:
-= -- 7207
-> -- 4190
+            1642 strings with 43991 characters,
+and the built_in function-call counts, 76806 in all, are:
+= -- 7273
+> -- 4224
 < -- 0
-+ -- 1751
-- -- 1501
-* -- 6950
-:= -- 12764
-add.period$ -- 643
-call.type$ -- 214
-change.case$ -- 1372
++ -- 1765
+- -- 1513
+* -- 7010
+:= -- 12878
+add.period$ -- 649
+call.type$ -- 216
+change.case$ -- 1384
 chr.to.int$ -- 0
-cite$ -- 215
-duplicate$ -- 1974
-empty$ -- 5644
-format.name$ -- 1501
-if$ -- 15292
+cite$ -- 217
+duplicate$ -- 1992
+empty$ -- 5698
+format.name$ -- 1513
+if$ -- 15434
 int.to.chr$ -- 0
-int.to.str$ -- 214
-missing$ -- 216
-newline$ -- 1071
-num.names$ -- 434
-pop$ -- 1025
+int.to.str$ -- 216
+missing$ -- 218
+newline$ -- 1081
+num.names$ -- 438
+pop$ -- 1033
 preamble$ -- 1
-purify$ -- 1165
+purify$ -- 1175
 quote$ -- 0
-skip$ -- 1104
+skip$ -- 1114
 stack$ -- 0
-substring$ -- 5352
-swap$ -- 429
+substring$ -- 5404
+swap$ -- 433
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 842
+type$ -- 850
 warning$ -- 1
-while$ -- 690
-width$ -- 217
-write$ -- 2141
+while$ -- 696
+width$ -- 219
+write$ -- 2161
 (There was 1 error message)

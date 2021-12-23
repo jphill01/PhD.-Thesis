@@ -204,6 +204,12 @@
 \newblock From barcodes to genomes: extending the concep of dna barcoding.
 \newblock {\em Molecular Ecology 25\/} (2016), 1423--1428.
 
+\bibitem{collins2012barcoding}
+{\sc Collins, R., Boykin, L., Cruickshank, R., and Armstrong, K.}
+\newblock Barcoding's next top model: an evaluation of nucleotide substitution
+  models for specimen identification.
+\newblock {\em Methods in Ecology and Evolution 3\/} (2012), 457--465.
+
 \bibitem{collins2013seven}
 {\sc Collins, R., and Cruickshank, R.}
 \newblock The seven deadly sins of {DNA} barcoding.
@@ -1066,6 +1072,12 @@
 \newblock The practical evaluation of {DNA} barcode efficacy.
 \newblock In {\em DNA Barcodes: Methods and Protocols}, W.~Kress and
   D.~Erickson, Eds., 1~ed. Springer, 2012.
+
+\bibitem{srivathsan2012inappropriate}
+{\sc Srivathsan, A., and Meier, R.}
+\newblock On the inappropriate use of {K}imura-2-parameter ({K2P}) divergences
+  in the {DNA}-barcoding literature.
+\newblock {\em Cladistics 28\/} (2012), 190--194.
 
 \bibitem{stein2014is}
 {\sc Stein, E.~D., Martinez, M.~C., Stiles, S., Miller, P.~E., and Zakharov,
