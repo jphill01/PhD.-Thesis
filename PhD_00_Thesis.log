@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 DEC 2021 19:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 DEC 2021 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1368,14 +1368,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 
-] [42] [43] [44] [45]
-Overfull \hbox (18.05353pt too wide) in paragraph at lines 55--56
-[][][]\OT1/ptm/m/n/12 The na[]^^Pve ap-proach (adopted by Phillips \OT1/ptm/m/i
-t/12 et al. \OT1/ptm/m/n/12 [[]]) would be to ig-nore rel-a-tive fre-quen-cies|
-
- []
-
-[46] <"Figure 1".png, id=1023, 34.14331pt x 34.14331pt>
+] [42] [43] [44] [45] [46]
+<"Figure 1".png, id=1023, 34.14331pt x 34.14331pt>
 File: "Figure 1".png Graphic file (type png)
  <use "Figure 1".png>
 Package pdftex.def Info: "Figure 1".png used on input line 73.
@@ -1696,29 +1690,12 @@ Package pdftex.def Info: "Figure 3".pdf used on input line 167.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 178.
 
-
-Overfull \hbox (3.34315pt too wide) in paragraph at lines 184--185
-\OT1/ptm/m/n/12 in-ter-est such as stan-dard er-rors and con-fi-dence in-ter-va
-ls. In essence, the strong math-e-mat-i-cal|
- []
-
 [158] [159] [160] [161] [162] [163] [164] [165] [166] [167] [168] [169]
-[170] [171] [172] [173] [174] [175] [176] [177]
-Overfull \hbox (4.32944pt too wide) in paragraph at lines 294--295
-\OT1/ptm/m/n/12 can-not rea-son-ably be ex-pected to work well in the case of "
-known un-knowns" and ``un-known|
- []
-
-
-Overfull \hbox (27.72693pt too wide) in paragraph at lines 294--295
-\OT1/ptm/m/n/12 un-knowns" since DNA bar-codes within ref-er-ence se-quence li-
-braries will be largely un-der-sam-pled|
- []
-
-[178]) [179]
+[170] [171] [172] [173] [174] [175] [176] [177] [178]) [179]
 \openout2 = `PhD_Chapter6.aux'.
 
- (./PhD_Chapter6.tex
+
+(./PhD_Chapter6.tex
 Chapter 6.
 [180
 
@@ -1900,7 +1877,7 @@ Here is how much of TeX's memory you used:
  29450 multiletter control sequences out of 15000+600000
  83163 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,19n,92p,6775b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,92p,6772b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/te
 xmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/f
@@ -1922,10 +1899,10 @@ s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on PhD_00_Thesis.pdf (219 pages, 22042881 bytes).
+Output written on PhD_00_Thesis.pdf (219 pages, 22042960 bytes).
 PDF statistics:
- 2431 PDF objects out of 2487 (max. 8388607)
- 2096 compressed objects within 21 object streams
+ 2432 PDF objects out of 2487 (max. 8388607)
+ 2097 compressed objects within 21 object streams
  583 named destinations out of 1000 (max. 500000)
  759 words of extra memory for PDF output out of 10000 (max. 10000000)
 

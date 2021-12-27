@@ -81,7 +81,7 @@
 \contentsline {subsubsection}{The Use of Nonparametric Bootstrapping to Estimate the DNA Barcode Gap}{165}{section*.65}
 \contentsline {section}{\numberline {5.6}Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{168}{section.5.6}
 \contentsline {section}{\numberline {5.7}New Avenues for Estimating the DNA Barcode Gap}{172}{section.5.7}
-\contentsline {section}{\numberline {5.8}Discussion and Concluding Remarks}{176}{section.5.8}
+\contentsline {section}{\numberline {5.8}Discussion and Concluding Remarks}{177}{section.5.8}
 \contentsline {chapter}{\numberline {6}Conclusion and Future Directions}{180}{chapter.6}
 \contentsline {section}{\numberline {6.1}Thesis Summary}{180}{section.6.1}
 \contentsline {chapter}{References}{185}{chapter*.66}
