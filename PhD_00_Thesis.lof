@@ -1,42 +1,42 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Modified haplotype network from Phillips \textit {et al.}\nobreakspace {}\cite {phillips2019incomplete}.}}{48}{figure.caption.8}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Infographic of the inner workings of {\tt HACSim} using {\tt Nstar = Hstar = perms = 5} as a hypothetical example.}}{55}{figure.caption.12}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces {\tt HACSim} algorithm pseudocode.}}{57}{figure.caption.13}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Visual depiction of {\tt HACSim} sampling model.}}{59}{figure.caption.14}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Outputted haplotype accumulation curve and haplotype frequency barplot for equal haplotype frequencies.}}{63}{figure.caption.16}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Initially outputted haplotype accumulation curve and haplotype frequency barplot for unequal haplotype frequencies (three dominant haplotypes).}}{66}{figure.caption.19}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Final outputted haplotype accumulation curve and haplotype frequency barplot for unequal haplotype frequencies (three dominant haplotypes).}}{66}{figure.caption.20}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Initially outputted haplotype accumulation curve and haplotype frequency barplot for Lake whitefish (\textit {C. clupeaformis}.}}{70}{figure.caption.22}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Final outputted haplotype accumulation curve and haplotype frequency barplot for Lake whitefish (\textit {C. clupeaformis}.}}{71}{figure.caption.23}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Initially outputted haplotype accumulation curve and haplotype frequency barplot for Deer tick (\textit {I. scapularis}).}}{73}{figure.caption.25}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Final outputted haplotype accumulation curve and haplotype frequency barplot for Deer tick (\textit {I. scapularis}).}}{74}{figure.caption.26}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Initially outputted haplotype accumulation curve and haplotype frequency barplot for Scalloped hammerhead (\textit {S. lewini}).}}{76}{figure.caption.28}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Final outputted haplotype accumulation curve and haplotype frequency barplot for Scalloped hammerhead (\textit {S. lewini}).}}{77}{figure.caption.29}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Modified haplotype network from Phillips \textit {et al.}\nobreakspace {}\cite {phillips2019incomplete}.}}{47}{figure.caption.8}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Infographic of the inner workings of {\tt HACSim} using {\tt Nstar = Hstar = perms = 5} as a hypothetical example.}}{54}{figure.caption.12}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces {\tt HACSim} algorithm pseudocode.}}{56}{figure.caption.13}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Visual depiction of {\tt HACSim} sampling model.}}{58}{figure.caption.14}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Outputted haplotype accumulation curve and haplotype frequency barplot for equal haplotype frequencies.}}{62}{figure.caption.16}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Initially outputted haplotype accumulation curve and haplotype frequency barplot for unequal haplotype frequencies (three dominant haplotypes).}}{65}{figure.caption.19}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Final outputted haplotype accumulation curve and haplotype frequency barplot for unequal haplotype frequencies (three dominant haplotypes).}}{65}{figure.caption.20}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Initially outputted haplotype accumulation curve and haplotype frequency barplot for Lake whitefish (\textit {C. clupeaformis}.}}{69}{figure.caption.22}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Final outputted haplotype accumulation curve and haplotype frequency barplot for Lake whitefish (\textit {C. clupeaformis}.}}{70}{figure.caption.23}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Initially outputted haplotype accumulation curve and haplotype frequency barplot for Deer tick (\textit {I. scapularis}).}}{72}{figure.caption.25}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Final outputted haplotype accumulation curve and haplotype frequency barplot for Deer tick (\textit {I. scapularis}).}}{73}{figure.caption.26}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Initially outputted haplotype accumulation curve and haplotype frequency barplot for Scalloped hammerhead (\textit {S. lewini}).}}{75}{figure.caption.28}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Final outputted haplotype accumulation curve and haplotype frequency barplot for Scalloped hammerhead (\textit {S. lewini}).}}{76}{figure.caption.29}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Local optima for Scenario II (1 dominant haplotype) for a population size of 10000.\relax }}{105}{figure.caption.33}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Local optima for Scenario III (2 dominant haplotypes) for a population size of 10000.\relax }}{105}{figure.caption.34}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Local optima for Scenario IV (3 dominant haplotypes) for a population size of 10000.\relax }}{106}{figure.caption.35}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Local optima for Pea aphid (\textit {A. pisum}) for a population size of 10000.\relax }}{106}{figure.caption.36}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Local optima for Lake whitefish (\textit {C. clupeaformis}) for a population size of 10000.\relax }}{107}{figure.caption.37}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Local optima for Common mosquito (\textit {C. pipiens}) for a population size of 10000.\relax }}{107}{figure.caption.38}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Local optima for Deer tick (\textit {I. scapularis}) for a population size of 10000.\relax }}{108}{figure.caption.39}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Local optima for Gypsy moth (\textit {L. dispar}) for a population size of 10000.\relax }}{108}{figure.caption.40}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Local optima for Scalloped hammerhead shark (\textit {S. lewini}) for a population size of 10000.\relax }}{109}{figure.caption.41}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Scenario II (1 dominant haplotype).}}{110}{figure.caption.42}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Scenario III (2 dominant haplotypes).}}{111}{figure.caption.43}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Scenario IV (3 dominant haplotypes).}}{112}{figure.caption.44}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Pea aphid (\textit {Acyrthosiphon pisum}).}}{113}{figure.caption.45}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Lake whitefish (\textit {Coregonus clupeaformis}).}}{114}{figure.caption.46}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Common mosquito (\textit {Culex pipiens}).}}{115}{figure.caption.47}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Deer tick (\textit {Ixodes scapularis}).}}{116}{figure.caption.48}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Gypsy moth (\textit {Lymantria dispar}).}}{117}{figure.caption.49}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Scalloped hammerhead shark (\textit {Sphyrna lewini}).}}{118}{figure.caption.50}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Local optima for Scenario II (1 dominant haplotype) for a population size of 10000.\relax }}{104}{figure.caption.33}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Local optima for Scenario III (2 dominant haplotypes) for a population size of 10000.\relax }}{104}{figure.caption.34}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Local optima for Scenario IV (3 dominant haplotypes) for a population size of 10000.\relax }}{105}{figure.caption.35}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Local optima for Pea aphid (\textit {A. pisum}) for a population size of 10000.\relax }}{105}{figure.caption.36}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Local optima for Lake whitefish (\textit {C. clupeaformis}) for a population size of 10000.\relax }}{106}{figure.caption.37}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Local optima for Common mosquito (\textit {C. pipiens}) for a population size of 10000.\relax }}{106}{figure.caption.38}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Local optima for Deer tick (\textit {I. scapularis}) for a population size of 10000.\relax }}{107}{figure.caption.39}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Local optima for Gypsy moth (\textit {L. dispar}) for a population size of 10000.\relax }}{107}{figure.caption.40}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Local optima for Scalloped hammerhead shark (\textit {S. lewini}) for a population size of 10000.\relax }}{108}{figure.caption.41}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Scenario II (1 dominant haplotype).}}{109}{figure.caption.42}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Scenario III (2 dominant haplotypes).}}{110}{figure.caption.43}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Scenario IV (3 dominant haplotypes).}}{111}{figure.caption.44}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Pea aphid (\textit {Acyrthosiphon pisum}).}}{112}{figure.caption.45}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Lake whitefish (\textit {Coregonus clupeaformis}).}}{113}{figure.caption.46}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Common mosquito (\textit {Culex pipiens}).}}{114}{figure.caption.47}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Deer tick (\textit {Ixodes scapularis}).}}{115}{figure.caption.48}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Gypsy moth (\textit {Lymantria dispar}).}}{116}{figure.caption.49}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Frequency plot showing all located local optima and the number of times each was found by {\tt HACSim} for Scalloped hammerhead shark (\textit {Sphyrna lewini}).}}{117}{figure.caption.50}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Depiction of the DNA barcode gap as a traditional dotpot for Canadian Pacific fishes assessed by Steinke \textit {et al.}\nobreakspace {} \cite {steinke2009dna}.}}{153}{figure.caption.61}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Depiction of intraspecific and interspecific genetic distances as a modified dotplot for Canadian Pacific fishes assessed by Steinke \textit {et al.}\nobreakspace {}\cite {steinke2009dna}.}}{155}{figure.caption.62}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Depiction of species' genetic distances as an altered quadrant plot taken from Hubert and Hanner \cite {hubert2015dna}.}}{157}{figure.caption.63}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Depiction of the DNA barcode gap as a traditional dotpot for Canadian Pacific fishes assessed by Steinke \textit {et al.}\nobreakspace {} \cite {steinke2009dna}.}}{152}{figure.caption.61}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Depiction of intraspecific and interspecific genetic distances as a modified dotplot for Canadian Pacific fishes assessed by Steinke \textit {et al.}\nobreakspace {}\cite {steinke2009dna}.}}{154}{figure.caption.62}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Depiction of species' genetic distances as an altered quadrant plot taken from Hubert and Hanner \cite {hubert2015dna}.}}{156}{figure.caption.63}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
