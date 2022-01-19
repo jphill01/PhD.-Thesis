@@ -658,6 +658,11 @@
   sequences for {O}donata: {C}lose, but no cigar.
 \newblock {\em Mitochondrial DNA 29}, 5 (2018), 765--771.
 
+\bibitem{kullback1951information}
+{\sc Kullback, S., and Leibler, R.}
+\newblock On information and sufficiency.
+\newblock {\em Annals of Mathematical Statistics 22\/} (1951), 49--86.
+
 \bibitem{kumar2016mega7}
 {\sc Kumar, S., Stecher, G., and Tamura, K.}
 \newblock {MEGA7}: Molecular evolutionary genetics analysis version 7.0 for

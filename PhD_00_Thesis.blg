@@ -8,58 +8,52 @@ A level-1 auxiliary file: PhD_02_Abstract.aux
 A level-1 auxiliary file: PhD_04_Acknowledgements.aux
 A level-1 auxiliary file: PhD_05_TOC.aux
 A level-1 auxiliary file: PhD_Chapter2.aux
-Case mismatch error between cite keys Shehata2018dna and shehata2018dna
----line 20 of file PhD_Chapter2.aux
- : \citation{Shehata2018dna
- :                         }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: PhD_Chapter3.aux
 A level-1 auxiliary file: PhD_Chapter4.aux
 A level-1 auxiliary file: PhD_Chapter5.aux
 A level-1 auxiliary file: PhD_Chapter6.aux
 A level-1 auxiliary file: PhD_Appendix.aux
 Database file #1: PhD_Bibliography.bib
-Warning--I didn't find a database entry for "meier2008ue"
 Warning--empty journal in hanner2009data
-You've used 216 entries,
+You've used 217 entries,
             2253 wiz_defined-function locations,
-            1642 strings with 43991 characters,
-and the built_in function-call counts, 76806 in all, are:
-= -- 7273
-> -- 4224
+            1646 strings with 44098 characters,
+and the built_in function-call counts, 77100 in all, are:
+= -- 7302
+> -- 4236
 < -- 0
-+ -- 1765
-- -- 1513
-* -- 7010
-:= -- 12878
-add.period$ -- 649
-call.type$ -- 216
-change.case$ -- 1384
++ -- 1770
+- -- 1517
+* -- 7034
+:= -- 12927
+add.period$ -- 652
+call.type$ -- 217
+change.case$ -- 1389
 chr.to.int$ -- 0
-cite$ -- 217
-duplicate$ -- 1992
-empty$ -- 5698
-format.name$ -- 1513
-if$ -- 15434
+cite$ -- 218
+duplicate$ -- 2001
+empty$ -- 5723
+format.name$ -- 1517
+if$ -- 15496
 int.to.chr$ -- 0
-int.to.str$ -- 216
-missing$ -- 218
-newline$ -- 1081
-num.names$ -- 438
-pop$ -- 1033
+int.to.str$ -- 217
+missing$ -- 219
+newline$ -- 1086
+num.names$ -- 440
+pop$ -- 1036
 preamble$ -- 1
-purify$ -- 1175
+purify$ -- 1179
 quote$ -- 0
-skip$ -- 1114
+skip$ -- 1119
 stack$ -- 0
-substring$ -- 5404
-swap$ -- 433
+substring$ -- 5424
+swap$ -- 435
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 850
+type$ -- 854
 warning$ -- 1
-while$ -- 696
-width$ -- 219
-write$ -- 2161
-(There was 1 error message)
+while$ -- 699
+width$ -- 220
+write$ -- 2171
+(There was 1 warning)
