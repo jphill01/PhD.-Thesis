@@ -1,72 +1,72 @@
-\BOOKMARK [0][-]{Doc-Start}{Abstract}{}% 1
-\BOOKMARK [0][-]{Doc-Start}{Acknowledgements}{}% 2
-\BOOKMARK [0][-]{chapter*.2}{List of Tables}{}% 3
-\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 4
-\BOOKMARK [0][-]{chapter.1}{General Introduction}{}% 5
-\BOOKMARK [1][-]{section.1.1}{The Problem}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.2}{Thesis Overview}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.3}{Thesis Statement}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.4}{Statement of Contributions}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.5}{Territorial Acknowledgement}{chapter.1}% 10
-\BOOKMARK [0][-]{chapter.2}{Incomplete estimates of genetic diversity within species: Implications for DNA barcoding}{}% 11
-\BOOKMARK [1][-]{section.2.1}{Prologue}{chapter.2}% 12
-\BOOKMARK [0][-]{section.2.1}{Abstract}{}% 13
-\BOOKMARK [1][-]{section.2.2}{Introduction}{section.2.1}% 14
-\BOOKMARK [1][-]{section.2.3}{Current Methods}{section.2.1}% 15
-\BOOKMARK [2][-]{subsection.2.3.1}{Methods to Assess Haplotype Variation}{section.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.3.2}{Sampling Models for Genetic Diversity Prediction}{section.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.3.3}{The Importance of Sampling to DNA Barcoding}{section.2.3}% 18
-\BOOKMARK [1][-]{section.2.4}{Key Findings}{section.2.1}% 19
-\BOOKMARK [2][-]{subsection.2.4.1}{DNA Barcoding and Sample Size: Past Studies}{section.2.4}% 20
-\BOOKMARK [2][-]{subsection.2.4.2}{Application to Ray-finned Fishes}{section.2.4}% 21
-\BOOKMARK [1][-]{section.2.5}{Future Prospects}{section.2.1}% 22
-\BOOKMARK [0][-]{chapter.3}{HACSim: An R package to estimate intraspecific sample sizes for genetic \040diversity assessment using haplotype accumulation curves}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Prologue}{chapter.3}% 24
-\BOOKMARK [0][-]{section.3.1}{Abstract}{}% 25
-\BOOKMARK [1][-]{section.3.2}{Introduction}{section.3.1}% 26
-\BOOKMARK [2][-]{subsection.3.2.1}{Background}{section.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.2.2}{Motivation}{section.3.2}% 28
-\BOOKMARK [1][-]{section.3.3}{Methods}{section.3.1}% 29
-\BOOKMARK [2][-]{subsection.3.3.1}{Haplotype Accumulation Curve Simulation Algorithm}{section.3.3}% 30
-\BOOKMARK [1][-]{section.3.4}{Results}{section.3.1}% 31
-\BOOKMARK [2][-]{subsection.3.4.1}{Application of HACSim to Hypothetical Species}{section.3.4}% 32
-\BOOKMARK [2][-]{subsection.3.4.2}{Application of HACSim to Real Species}{section.3.4}% 33
-\BOOKMARK [1][-]{section.3.5}{Conclusions}{section.3.1}% 34
-\BOOKMARK [0][-]{chapter.4}{Solving the genetic specimen sample size problem for DNA barcoding with a local search optimization algorithm}{}% 35
-\BOOKMARK [1][-]{section.4.1}{Prologue}{chapter.4}% 36
-\BOOKMARK [0][-]{section.4.1}{Abstract}{}% 37
-\BOOKMARK [1][-]{section.4.2}{Introduction}{section.4.1}% 38
-\BOOKMARK [2][-]{subsection.4.2.1}{Background}{section.4.2}% 39
-\BOOKMARK [2][-]{subsection.4.2.2}{Phillips et al.'s \(2020\) Haplotype Sampling Model}{section.4.2}% 40
-\BOOKMARK [2][-]{subsection.4.2.3}{Assessing the Computational and Statistical Performance of \040HACSim}{section.4.2}% 41
-\BOOKMARK [2][-]{subsection.4.2.4}{Outline of the Current Study}{section.4.2}% 42
-\BOOKMARK [1][-]{section.4.3}{Methods}{section.4.1}% 43
-\BOOKMARK [2][-]{subsection.4.3.1}{Hypothetical Species}{section.4.3}% 44
-\BOOKMARK [2][-]{subsection.4.3.2}{Real Species}{section.4.3}% 45
-\BOOKMARK [2][-]{subsection.4.3.3}{Simulation Study}{section.4.3}% 46
-\BOOKMARK [2][-]{subsection.4.3.4}{Statistical Analysis}{section.4.3}% 47
-\BOOKMARK [1][-]{section.4.4}{Results and Discussion}{section.4.1}% 48
-\BOOKMARK [2][-]{subsection.4.4.1}{Effect of Population Size}{section.4.4}% 49
-\BOOKMARK [2][-]{subsection.4.4.2}{Algorithm Runtimes}{section.4.4}% 50
-\BOOKMARK [1][-]{section.4.5}{Conclusion}{section.4.1}% 51
-\BOOKMARK [0][-]{chapter.5}{Lack of statistical rigor in DNA barcoding likely invalidates the presence of a true species' barcode gap}{}% 52
-\BOOKMARK [1][-]{section.5.1}{Prologue}{chapter.5}% 53
-\BOOKMARK [0][-]{section.5.1}{Abstract}{}% 54
-\BOOKMARK [1][-]{section.5.2}{Introduction}{section.5.1}% 55
-\BOOKMARK [2][-]{subsection.5.2.1}{DNA Barcoding: Historical Development}{section.5.2}% 56
-\BOOKMARK [2][-]{subsection.5.2.2}{DNA Barcoding and the Barcode Gap: A Perfect Harmony?}{section.5.2}% 57
-\BOOKMARK [1][-]{section.5.3}{A Need to Improve and Maintain Statistical Rigor in DNA Barcoding Studies}{section.5.1}% 58
-\BOOKMARK [1][-]{section.5.4}{Case Study: DNA Barcoding of Pacific Canada's \040Fishes}{section.5.1}% 59
-\BOOKMARK [1][-]{section.5.5}{Highlighting the Lack of Statistical Rigor in DNA \040Barcoding}{section.5.1}% 60
-\BOOKMARK [2][-]{subsection.5.5.1}{Improper Allocation of Specimen Sampling Effort}{section.5.5}% 61
-\BOOKMARK [2][-]{subsection.5.5.2}{Failing to Properly Visualize Intraspecific and Interspecific \040Genetic Distances}{section.5.5}% 62
-\BOOKMARK [2][-]{subsection.5.5.3}{Inconsistent, Inappropriate Use, or Absence of Inferential \040Statistical Procedures in DNA Barcoding}{section.5.5}% 63
-\BOOKMARK [1][-]{section.5.6}{Critically Evaluating the Concept of the DNA Barcode Gap in Conservation and Regulatory Contexts}{section.5.1}% 64
-\BOOKMARK [1][-]{section.5.7}{New Avenues for Estimating the DNA Barcode Gap}{section.5.1}% 65
-\BOOKMARK [1][-]{section.5.8}{Discussion and Concluding Remarks}{section.5.1}% 66
-\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Directions}{}% 67
-\BOOKMARK [1][-]{section.6.1}{Thesis Summary}{chapter.6}% 68
-\BOOKMARK [0][-]{chapter*.66}{References}{}% 69
-\BOOKMARK [0][-]{appendix.A}{Additional Information Accompanying Chapter 3}{}% 70
-\BOOKMARK [0][-]{appendix.B}{Additional Information Accompanying Chapter 4}{}% 71
-\BOOKMARK [0][-]{appendix.C}{Derivation of Approximate Confidence Interval for Sampling Sufficiency \(\) \040\(Equation \(3.3\)\)}{}% 72
+\BOOKMARK [0][-]{Doc-Start}{\376\377\000A\000b\000s\000t\000r\000a\000c\000t}{}% 1
+\BOOKMARK [0][-]{Doc-Start}{\376\377\000A\000c\000k\000n\000o\000w\000l\000e\000d\000g\000e\000m\000e\000n\000t\000s}{}% 2
+\BOOKMARK [0][-]{chapter*.2}{\376\377\000L\000i\000s\000t\000\040\000o\000f\000\040\000T\000a\000b\000l\000e\000s}{}% 3
+\BOOKMARK [0][-]{chapter*.3}{\376\377\000L\000i\000s\000t\000\040\000o\000f\000\040\000F\000i\000g\000u\000r\000e\000s}{}% 4
+\BOOKMARK [0][-]{chapter.1}{\376\377\000G\000e\000n\000e\000r\000a\000l\000\040\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{}% 5
+\BOOKMARK [1][-]{section.1.1}{\376\377\000T\000h\000e\000\040\000P\000r\000o\000b\000l\000e\000m}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{\376\377\000T\000h\000e\000s\000i\000s\000\040\000O\000v\000e\000r\000v\000i\000e\000w}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{\376\377\000T\000h\000e\000s\000i\000s\000\040\000S\000t\000a\000t\000e\000m\000e\000n\000t}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{\376\377\000S\000t\000a\000t\000e\000m\000e\000n\000t\000\040\000o\000f\000\040\000C\000o\000n\000t\000r\000i\000b\000u\000t\000i\000o\000n\000s}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.5}{\376\377\000T\000e\000r\000r\000i\000t\000o\000r\000i\000a\000l\000\040\000A\000c\000k\000n\000o\000w\000l\000e\000d\000g\000e\000m\000e\000n\000t}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{\376\377\000I\000n\000c\000o\000m\000p\000l\000e\000t\000e\000\040\000e\000s\000t\000i\000m\000a\000t\000e\000s\000\040\000o\000f\000\040\000g\000e\000n\000e\000t\000i\000c\000\040\000d\000i\000v\000e\000r\000s\000i\000t\000y\000\040\000w\000i\000t\000h\000i\000n\000\040\000s\000p\000e\000c\000i\000e\000s\000:\000\040\000I\000m\000p\000l\000i\000c\000a\000t\000i\000o\000n\000s\000\040\000f\000o\000r\000\040\000D\000N\000A\000\040\000b\000a\000r\000c\000o\000d\000i\000n\000g}{}% 11
+\BOOKMARK [1][-]{section.2.1}{\376\377\000P\000r\000o\000l\000o\000g\000u\000e}{chapter.2}% 12
+\BOOKMARK [0][-]{section.2.1}{\376\377\000A\000b\000s\000t\000r\000a\000c\000t}{}% 13
+\BOOKMARK [1][-]{section.2.2}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{section.2.1}% 14
+\BOOKMARK [1][-]{section.2.3}{\376\377\000C\000u\000r\000r\000e\000n\000t\000\040\000M\000e\000t\000h\000o\000d\000s}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.3.1}{\376\377\000M\000e\000t\000h\000o\000d\000s\000\040\000t\000o\000\040\000A\000s\000s\000e\000s\000s\000\040\000H\000a\000p\000l\000o\000t\000y\000p\000e\000\040\000V\000a\000r\000i\000a\000t\000i\000o\000n}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.2}{\376\377\000S\000a\000m\000p\000l\000i\000n\000g\000\040\000M\000o\000d\000e\000l\000s\000\040\000f\000o\000r\000\040\000G\000e\000n\000e\000t\000i\000c\000\040\000D\000i\000v\000e\000r\000s\000i\000t\000y\000\040\000P\000r\000e\000d\000i\000c\000t\000i\000o\000n}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.3}{\376\377\000T\000h\000e\000\040\000I\000m\000p\000o\000r\000t\000a\000n\000c\000e\000\040\000o\000f\000\040\000S\000a\000m\000p\000l\000i\000n\000g\000\040\000t\000o\000\040\000D\000N\000A\000\040\000B\000a\000r\000c\000o\000d\000i\000n\000g}{section.2.3}% 18
+\BOOKMARK [1][-]{section.2.4}{\376\377\000K\000e\000y\000\040\000F\000i\000n\000d\000i\000n\000g\000s}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.4.1}{\376\377\000D\000N\000A\000\040\000B\000a\000r\000c\000o\000d\000i\000n\000g\000\040\000a\000n\000d\000\040\000S\000a\000m\000p\000l\000e\000\040\000S\000i\000z\000e\000:\000\040\000P\000a\000s\000t\000\040\000S\000t\000u\000d\000i\000e\000s}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.2}{\376\377\000A\000p\000p\000l\000i\000c\000a\000t\000i\000o\000n\000\040\000t\000o\000\040\000R\000a\000y\000-\000f\000i\000n\000n\000e\000d\000\040\000F\000i\000s\000h\000e\000s}{section.2.4}% 21
+\BOOKMARK [1][-]{section.2.5}{\376\377\000F\000u\000t\000u\000r\000e\000\040\000P\000r\000o\000s\000p\000e\000c\000t\000s}{section.2.1}% 22
+\BOOKMARK [0][-]{chapter.3}{\376\377\000H\000A\000C\000S\000i\000m\000:\000\040\000A\000n\000\040\000R\000\040\000p\000a\000c\000k\000a\000g\000e\000\040\000t\000o\000\040\000e\000s\000t\000i\000m\000a\000t\000e\000\040\000i\000n\000t\000r\000a\000s\000p\000e\000c\000i\000f\000i\000c\000\040\000s\000a\000m\000p\000l\000e\000\040\000s\000i\000z\000e\000s\000\040\000f\000o\000r\000\040\000g\000e\000n\000e\000t\000i\000c\000\040\000\040\000d\000i\000v\000e\000r\000s\000i\000t\000y\000\040\000a\000s\000s\000e\000s\000s\000m\000e\000n\000t\000\040\000u\000s\000i\000n\000g\000\040\000h\000a\000p\000l\000o\000t\000y\000p\000e\000\040\000a\000c\000c\000u\000m\000u\000l\000a\000t\000i\000o\000n\000\040\000c\000u\000r\000v\000e\000s}{}% 23
+\BOOKMARK [1][-]{section.3.1}{\376\377\000P\000r\000o\000l\000o\000g\000u\000e}{chapter.3}% 24
+\BOOKMARK [0][-]{section.3.1}{\376\377\000A\000b\000s\000t\000r\000a\000c\000t}{}% 25
+\BOOKMARK [1][-]{section.3.2}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.2.1}{\376\377\000B\000a\000c\000k\000g\000r\000o\000u\000n\000d}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.2}{\376\377\000M\000o\000t\000i\000v\000a\000t\000i\000o\000n}{section.3.2}% 28
+\BOOKMARK [1][-]{section.3.3}{\376\377\000M\000e\000t\000h\000o\000d\000s}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.3.1}{\376\377\000H\000a\000p\000l\000o\000t\000y\000p\000e\000\040\000A\000c\000c\000u\000m\000u\000l\000a\000t\000i\000o\000n\000\040\000C\000u\000r\000v\000e\000\040\000S\000i\000m\000u\000l\000a\000t\000i\000o\000n\000\040\000A\000l\000g\000o\000r\000i\000t\000h\000m}{section.3.3}% 30
+\BOOKMARK [1][-]{section.3.4}{\376\377\000R\000e\000s\000u\000l\000t\000s}{section.3.1}% 31
+\BOOKMARK [2][-]{subsection.3.4.1}{\376\377\000A\000p\000p\000l\000i\000c\000a\000t\000i\000o\000n\000\040\000o\000f\000\040\000H\000A\000C\000S\000i\000m\000\040\000t\000o\000\040\000H\000y\000p\000o\000t\000h\000e\000t\000i\000c\000a\000l\000\040\000S\000p\000e\000c\000i\000e\000s}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.2}{\376\377\000A\000p\000p\000l\000i\000c\000a\000t\000i\000o\000n\000\040\000o\000f\000\040\000H\000A\000C\000S\000i\000m\000\040\000t\000o\000\040\000R\000e\000a\000l\000\040\000S\000p\000e\000c\000i\000e\000s}{section.3.4}% 33
+\BOOKMARK [1][-]{section.3.5}{\376\377\000C\000o\000n\000c\000l\000u\000s\000i\000o\000n\000s}{section.3.1}% 34
+\BOOKMARK [0][-]{chapter.4}{\376\377\000S\000o\000l\000v\000i\000n\000g\000\040\000t\000h\000e\000\040\000g\000e\000n\000e\000t\000i\000c\000\040\000s\000p\000e\000c\000i\000m\000e\000n\000\040\000s\000a\000m\000p\000l\000e\000\040\000s\000i\000z\000e\000\040\000p\000r\000o\000b\000l\000e\000m\000\040\000f\000o\000r\000\040\000D\000N\000A\000\040\000b\000a\000r\000c\000o\000d\000i\000n\000g\000\040\000w\000i\000t\000h\000\040\000a\000\040\000l\000o\000c\000a\000l\000\040\000s\000e\000a\000r\000c\000h\000\040\000o\000p\000t\000i\000m\000i\000z\000a\000t\000i\000o\000n\000\040\000a\000l\000g\000o\000r\000i\000t\000h\000m}{}% 35
+\BOOKMARK [1][-]{section.4.1}{\376\377\000P\000r\000o\000l\000o\000g\000u\000e}{chapter.4}% 36
+\BOOKMARK [0][-]{section.4.1}{\376\377\000A\000b\000s\000t\000r\000a\000c\000t}{}% 37
+\BOOKMARK [1][-]{section.4.2}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{section.4.1}% 38
+\BOOKMARK [2][-]{subsection.4.2.1}{\376\377\000B\000a\000c\000k\000g\000r\000o\000u\000n\000d}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.2}{\376\377\000P\000h\000i\000l\000l\000i\000p\000s\000\040\000e\000t\000\040\000a\000l\000.\000'\000s\000\040\000\050\0002\0000\0002\0000\000\051\000\040\000H\000a\000p\000l\000o\000t\000y\000p\000e\000\040\000S\000a\000m\000p\000l\000i\000n\000g\000\040\000M\000o\000d\000e\000l}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.3}{\376\377\000A\000s\000s\000e\000s\000s\000i\000n\000g\000\040\000t\000h\000e\000\040\000C\000o\000m\000p\000u\000t\000a\000t\000i\000o\000n\000a\000l\000\040\000a\000n\000d\000\040\000S\000t\000a\000t\000i\000s\000t\000i\000c\000a\000l\000\040\000P\000e\000r\000f\000o\000r\000m\000a\000n\000c\000e\000\040\000o\000f\000\040\000\040\000H\000A\000C\000S\000i\000m}{section.4.2}% 41
+\BOOKMARK [2][-]{subsection.4.2.4}{\376\377\000O\000u\000t\000l\000i\000n\000e\000\040\000o\000f\000\040\000t\000h\000e\000\040\000C\000u\000r\000r\000e\000n\000t\000\040\000S\000t\000u\000d\000y}{section.4.2}% 42
+\BOOKMARK [1][-]{section.4.3}{\376\377\000M\000e\000t\000h\000o\000d\000s}{section.4.1}% 43
+\BOOKMARK [2][-]{subsection.4.3.1}{\376\377\000H\000y\000p\000o\000t\000h\000e\000t\000i\000c\000a\000l\000\040\000S\000p\000e\000c\000i\000e\000s}{section.4.3}% 44
+\BOOKMARK [2][-]{subsection.4.3.2}{\376\377\000R\000e\000a\000l\000\040\000S\000p\000e\000c\000i\000e\000s}{section.4.3}% 45
+\BOOKMARK [2][-]{subsection.4.3.3}{\376\377\000S\000i\000m\000u\000l\000a\000t\000i\000o\000n\000\040\000S\000t\000u\000d\000y}{section.4.3}% 46
+\BOOKMARK [2][-]{subsection.4.3.4}{\376\377\000S\000t\000a\000t\000i\000s\000t\000i\000c\000a\000l\000\040\000A\000n\000a\000l\000y\000s\000i\000s}{section.4.3}% 47
+\BOOKMARK [1][-]{section.4.4}{\376\377\000R\000e\000s\000u\000l\000t\000s\000\040\000a\000n\000d\000\040\000D\000i\000s\000c\000u\000s\000s\000i\000o\000n}{section.4.1}% 48
+\BOOKMARK [2][-]{subsection.4.4.1}{\376\377\000E\000f\000f\000e\000c\000t\000\040\000o\000f\000\040\000P\000o\000p\000u\000l\000a\000t\000i\000o\000n\000\040\000S\000i\000z\000e}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.2}{\376\377\000A\000l\000g\000o\000r\000i\000t\000h\000m\000\040\000R\000u\000n\000t\000i\000m\000e\000s}{section.4.4}% 50
+\BOOKMARK [1][-]{section.4.5}{\376\377\000C\000o\000n\000c\000l\000u\000s\000i\000o\000n}{section.4.1}% 51
+\BOOKMARK [0][-]{chapter.5}{\376\377\000L\000a\000c\000k\000\040\000o\000f\000\040\000s\000t\000a\000t\000i\000s\000t\000i\000c\000a\000l\000\040\000r\000i\000g\000o\000r\000\040\000i\000n\000\040\000D\000N\000A\000\040\000b\000a\000r\000c\000o\000d\000i\000n\000g\000\040\000l\000i\000k\000e\000l\000y\000\040\000i\000n\000v\000a\000l\000i\000d\000a\000t\000e\000s\000\040\000t\000h\000e\000\040\000p\000r\000e\000s\000e\000n\000c\000e\000\040\000o\000f\000\040\000a\000\040\000t\000r\000u\000e\000\040\000s\000p\000e\000c\000i\000e\000s\000'\000\040\000b\000a\000r\000c\000o\000d\000e\000\040\000g\000a\000p}{}% 52
+\BOOKMARK [1][-]{section.5.1}{\376\377\000P\000r\000o\000l\000o\000g\000u\000e}{chapter.5}% 53
+\BOOKMARK [0][-]{section.5.1}{\376\377\000A\000b\000s\000t\000r\000a\000c\000t}{}% 54
+\BOOKMARK [1][-]{section.5.2}{\376\377\000T\000h\000e\000\040\000M\000a\000n\000y\000\040\000F\000a\000c\000e\000s\000\040\000o\000f\000\040\000D\000N\000A\000\040\000B\000a\000r\000c\000o\000d\000i\000n\000g}{section.5.1}% 55
+\BOOKMARK [2][-]{subsection.5.2.1}{\376\377\000D\000N\000A\000\040\000B\000a\000r\000c\000o\000d\000i\000n\000g\000:\000\040\000H\000i\000s\000t\000o\000r\000i\000c\000a\000l\000\040\000D\000e\000v\000e\000l\000o\000p\000m\000e\000n\000t}{section.5.2}% 56
+\BOOKMARK [2][-]{subsection.5.2.2}{\376\377\000D\000N\000A\000\040\000B\000a\000r\000c\000o\000d\000i\000n\000g\000\040\000a\000n\000d\000\040\000t\000h\000e\000\040\000B\000a\000r\000c\000o\000d\000e\000\040\000G\000a\000p\000:\000\040\000A\000\040\000P\000e\000r\000f\000e\000c\000t\000\040\000H\000a\000r\000m\000o\000n\000y\000?}{section.5.2}% 57
+\BOOKMARK [1][-]{section.5.3}{\376\377\000A\000\040\000N\000e\000e\000d\000\040\000t\000o\000\040\000I\000m\000p\000r\000o\000v\000e\000\040\000a\000n\000d\000\040\000M\000a\000i\000n\000t\000a\000i\000n\000\040\000S\000t\000a\000t\000i\000s\000t\000i\000c\000a\000l\000\040\000R\000i\000g\000o\000r\000\040\000i\000n\000\040\000D\000N\000A\000\040\000B\000a\000r\000c\000o\000d\000i\000n\000g\000\040\000S\000t\000u\000d\000i\000e\000s}{section.5.1}% 58
+\BOOKMARK [1][-]{section.5.4}{\376\377\000C\000a\000s\000e\000\040\000S\000t\000u\000d\000y\000:\000\040\000D\000N\000A\000\040\000B\000a\000r\000c\000o\000d\000i\000n\000g\000\040\000o\000f\000\040\000P\000a\000c\000i\000f\000i\000c\000\040\000C\000a\000n\000a\000d\000a\000'\000s\000\040\000\040\000F\000i\000s\000h\000e\000s}{section.5.1}% 59
+\BOOKMARK [1][-]{section.5.5}{\376\377\000H\000i\000g\000h\000l\000i\000g\000h\000t\000i\000n\000g\000\040\000t\000h\000e\000\040\000L\000a\000c\000k\000\040\000o\000f\000\040\000S\000t\000a\000t\000i\000s\000t\000i\000c\000a\000l\000\040\000R\000i\000g\000o\000r\000\040\000i\000n\000\040\000D\000N\000A\000\040\000\040\000B\000a\000r\000c\000o\000d\000i\000n\000g}{section.5.1}% 60
+\BOOKMARK [2][-]{subsection.5.5.1}{\376\377\000B\000a\000l\000a\000n\000c\000i\000n\000g\000\040\000A\000l\000l\000o\000c\000a\000t\000i\000o\000n\000\040\000o\000f\000\040\000S\000p\000e\000c\000i\000m\000e\000n\000\040\000S\000a\000m\000p\000l\000i\000n\000g\000\040\000E\000f\000f\000o\000r\000t}{section.5.5}% 61
+\BOOKMARK [2][-]{subsection.5.5.2}{\376\377\000V\000i\000s\000u\000a\000l\000i\000z\000a\000t\000i\000o\000n\000\040\000o\000f\000\040\000I\000n\000t\000r\000a\000s\000p\000e\000c\000i\000f\000i\000c\000\040\000a\000n\000d\000\040\000I\000n\000t\000e\000r\000s\000p\000e\000c\000i\000f\000i\000c\000\040\000\040\000G\000e\000n\000e\000t\000i\000c\000\040\000D\000i\000s\000t\000a\000n\000c\000e\000s}{section.5.5}% 62
+\BOOKMARK [2][-]{subsection.5.5.3}{\376\377\000I\000n\000c\000o\000n\000s\000i\000s\000t\000e\000n\000t\000,\000\040\000I\000n\000a\000p\000p\000r\000o\000p\000r\000i\000a\000t\000e\000\040\000U\000s\000e\000,\000\040\000o\000r\000\040\000A\000b\000s\000e\000n\000c\000e\000\040\000o\000f\000\040\000I\000n\000f\000e\000r\000e\000n\000t\000i\000a\000l\000\040\000\040\000S\000t\000a\000t\000i\000s\000t\000i\000c\000a\000l\000\040\000P\000r\000o\000c\000e\000d\000u\000r\000e\000s\000\040\000i\000n\000\040\000D\000N\000A\000\040\000B\000a\000r\000c\000o\000d\000i\000n\000g}{section.5.5}% 63
+\BOOKMARK [1][-]{section.5.6}{\376\377\000C\000r\000i\000t\000i\000c\000a\000l\000l\000y\000\040\000E\000v\000a\000l\000u\000a\000t\000i\000n\000g\000\040\000t\000h\000e\000\040\000C\000o\000n\000c\000e\000p\000t\000\040\000o\000f\000\040\000t\000h\000e\000\040\000D\000N\000A\000\040\000B\000a\000r\000c\000o\000d\000e\000\040\000G\000a\000p\000\040\000i\000n\000\040\000C\000o\000n\000s\000e\000r\000v\000a\000t\000i\000o\000n\000\040\000a\000n\000d\000\040\000R\000e\000g\000u\000l\000a\000t\000o\000r\000y\000\040\000C\000o\000n\000t\000e\000x\000t\000s}{section.5.1}% 64
+\BOOKMARK [1][-]{section.5.7}{\376\377\000N\000e\000w\000\040\000A\000v\000e\000n\000u\000e\000s\000\040\000f\000o\000r\000\040\000E\000s\000t\000i\000m\000a\000t\000i\000n\000g\000\040\000t\000h\000e\000\040\000D\000N\000A\000\040\000B\000a\000r\000c\000o\000d\000e\000\040\000G\000a\000p}{section.5.1}% 65
+\BOOKMARK [1][-]{section.5.8}{\376\377\000C\000o\000n\000c\000l\000u\000d\000i\000n\000g\000\040\000R\000e\000m\000a\000r\000k\000s}{section.5.1}% 66
+\BOOKMARK [0][-]{chapter.6}{\376\377\000C\000o\000n\000c\000l\000u\000s\000i\000o\000n\000\040\000a\000n\000d\000\040\000F\000u\000t\000u\000r\000e\000\040\000D\000i\000r\000e\000c\000t\000i\000o\000n\000s}{}% 67
+\BOOKMARK [1][-]{section.6.1}{\376\377\000T\000h\000e\000s\000i\000s\000\040\000S\000u\000m\000m\000a\000r\000y}{chapter.6}% 68
+\BOOKMARK [0][-]{chapter*.66}{\376\377\000R\000e\000f\000e\000r\000e\000n\000c\000e\000s}{}% 69
+\BOOKMARK [0][-]{appendix.A}{\376\377\000A\000d\000d\000i\000t\000i\000o\000n\000a\000l\000\040\000I\000n\000f\000o\000r\000m\000a\000t\000i\000o\000n\000\040\000A\000c\000c\000o\000m\000p\000a\000n\000y\000i\000n\000g\000\040\000C\000h\000a\000p\000t\000e\000r\000\040\0003}{}% 70
+\BOOKMARK [0][-]{appendix.B}{\376\377\000A\000d\000d\000i\000t\000i\000o\000n\000a\000l\000\040\000I\000n\000f\000o\000r\000m\000a\000t\000i\000o\000n\000\040\000A\000c\000c\000o\000m\000p\000a\000n\000y\000i\000n\000g\000\040\000C\000h\000a\000p\000t\000e\000r\000\040\0004}{}% 71
+\BOOKMARK [0][-]{appendix.C}{\376\377\000D\000e\000r\000i\000v\000a\000t\000i\000o\000n\000\040\000o\000f\000\040\000A\000p\000p\000r\000o\000x\000i\000m\000a\000t\000e\000\040\000C\000o\000n\000f\000i\000d\000e\000n\000c\000e\000\040\000I\000n\000t\000e\000r\000v\000a\000l\000\040\000f\000o\000r\000\040\000S\000a\000m\000p\000l\000i\000n\000g\000\040\000S\000u\000f\000f\000i\000c\000i\000e\000n\000c\000y\000\040\000\050\000\051\000\040\000\040\000\050\000E\000q\000u\000a\000t\000i\000o\000n\000\040\000\050\0003\000.\0003\000\051\000\051}{}% 72
