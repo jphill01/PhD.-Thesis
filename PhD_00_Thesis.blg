@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: PhD_00_Thesis.aux
 The style file: acm.bst
 A level-1 auxiliary file: PhD_01_TitlePage.aux
@@ -13,47 +13,48 @@ A level-1 auxiliary file: PhD_Chapter4.aux
 A level-1 auxiliary file: PhD_Chapter5.aux
 A level-1 auxiliary file: PhD_Chapter6.aux
 A level-1 auxiliary file: PhD_Appendix.aux
+Reallocated field_info (elt_size=4) to 10014 items from 5000.
 Database file #1: PhD_Bibliography.bib
 Warning--empty journal in hanner2009data
-You've used 217 entries,
+You've used 218 entries,
             2253 wiz_defined-function locations,
-            1646 strings with 44098 characters,
-and the built_in function-call counts, 77100 in all, are:
-= -- 7302
-> -- 4236
+            1651 strings with 44257 characters,
+and the built_in function-call counts, 77354 in all, are:
+= -- 7327
+> -- 4243
 < -- 0
-+ -- 1770
-- -- 1517
-* -- 7034
-:= -- 12927
-add.period$ -- 652
-call.type$ -- 217
-change.case$ -- 1389
++ -- 1773
+- -- 1519
+* -- 7055
+:= -- 12969
+add.period$ -- 655
+call.type$ -- 218
+change.case$ -- 1393
 chr.to.int$ -- 0
-cite$ -- 218
-duplicate$ -- 2001
-empty$ -- 5723
-format.name$ -- 1517
-if$ -- 15496
+cite$ -- 219
+duplicate$ -- 2010
+empty$ -- 5747
+format.name$ -- 1519
+if$ -- 15550
 int.to.chr$ -- 0
-int.to.str$ -- 217
-missing$ -- 219
-newline$ -- 1086
-num.names$ -- 440
-pop$ -- 1036
+int.to.str$ -- 218
+missing$ -- 220
+newline$ -- 1091
+num.names$ -- 442
+pop$ -- 1038
 preamble$ -- 1
-purify$ -- 1179
+purify$ -- 1182
 quote$ -- 0
-skip$ -- 1119
+skip$ -- 1124
 stack$ -- 0
-substring$ -- 5424
-swap$ -- 435
+substring$ -- 5441
+swap$ -- 437
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 854
+type$ -- 858
 warning$ -- 1
-while$ -- 699
-width$ -- 220
-write$ -- 2171
+while$ -- 702
+width$ -- 221
+write$ -- 2181
 (There was 1 warning)

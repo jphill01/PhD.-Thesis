@@ -68,8 +68,11 @@
 
 \newcommand{\multichoose} [2] {\left(\!\genfrac{(}{)}{0pt}{0}{ #1 }{ #2 } \!\right)}
 
+\usepackage{array,ragged2e}
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
 
-\overfullrule 5pt
+
+%\overfullrule 5pt
 \include{com}
 \setlength{\paperheight}{11in}
 %*****************************************************
